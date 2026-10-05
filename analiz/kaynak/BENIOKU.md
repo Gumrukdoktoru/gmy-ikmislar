@@ -9,6 +9,7 @@ python3 parse.py                        # 5 × 100 soruyu ve doğru cevapları a
 python3 kokcheck.py 2021 2022 2023 2024 2025   # soru kalıbı sınıflandırmasını metin kalıbıyla çapraz kontrol eder
 python3 make_insights.py                # yıl yorumları, tekrar eden kalıplar ve sonuç metinleri (insights.json)
 python3 build.py . ..                   # CSV/JSON, grafikler, README.md ve GMY_Soru_Atlasi.html
+node pdf.js ../GMY_Soru_Atlasi.html ../GMY_Soru_Atlasi.pdf   # A4 PDF (Playwright gerekir)
 ```
 
 - `TAKSONOMI.md`: konu, soru kalıbı, soru tipi ve mevzuat kodlarının tanımları.

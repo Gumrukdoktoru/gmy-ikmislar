@@ -14,7 +14,7 @@ ins["years"] = {
  "Sınav <b>Kaçakçılık bloğuyla</b> açıldı (21–27, 7 soru). Ardından <b>özet beyan, geçici depolama, beyan ve muayene</b> (7) ile <b>GK idari para cezaları ve itiraz</b> (6) geliyor.",
  "<b>Olumsuz kök oranı %42</b> ile beş yılın en yüksek değeri. \"Hangisi yanlıştır / değildir\" kalıbı her 5 sorudan 2'sinde var.",
  "2009/15481 Karar'dan 5 soru geldi (hediyelik eşya limiti 150/430 Avro, taşıt muafiyeti, kişisel/şahsi eşya). Ayrıca o yıla ait <b>241/1 usulsüzlük cezası tutarı</b> (235 TL) soruldu; güncel tutarlar takip edilmeli.",
- "Matematik okul düzeyinde temel işlemdi (denklem, bileşik kesir, üslü sayılar, bölünebilme). 7 ve 8. sorular PDF'te görsel olduğu için sayfa görüntüsünden doğrulandı."
+ "Matematik okul düzeyinde temel işlemdi (denklem, bileşik kesir, üslü sayılar, bölünebilme)."
 ],
 "2023": [
  "<b>Kanun'un genel hükümleri yılı</b>: <b>Temel Kavramlar</b> (11) ve <b>Özet Beyan / Beyan & Muayene</b> (11) birlikte gümrük sorularının %27,5'ini oluşturuyor. Gümrük idaresi, gümrük statüsü, yükümlü, Türkiye Gümrük Bölgesi, Kanun'un amacı ve brüt ağırlık tanımları soruldu.",

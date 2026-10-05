@@ -206,7 +206,7 @@ flowchart LR
 - Sınav Kaçakçılık bloğuyla açıldı (21–27, 7 soru). Ardından özet beyan, geçici depolama, beyan ve muayene (7) ile GK idari para cezaları ve itiraz (6) geliyor.
 - Olumsuz kök oranı %42 ile beş yılın en yüksek değeri. "Hangisi yanlıştır / değildir" kalıbı her 5 sorudan 2'sinde var.
 - 2009/15481 Karar'dan 5 soru geldi (hediyelik eşya limiti 150/430 Avro, taşıt muafiyeti, kişisel/şahsi eşya). Ayrıca o yıla ait 241/1 usulsüzlük cezası tutarı (235 TL) soruldu; güncel tutarlar takip edilmeli.
-- Matematik okul düzeyinde temel işlemdi (denklem, bileşik kesir, üslü sayılar, bölünebilme). 7 ve 8. sorular PDF'te görsel olduğu için sayfa görüntüsünden doğrulandı.
+- Matematik okul düzeyinde temel işlemdi (denklem, bileşik kesir, üslü sayılar, bölünebilme).
 
 ![2022 gümrük konuları](grafikler/2022_1_gumruk_konulari.png)
 
@@ -945,6 +945,7 @@ Kaynak, depodaki beş A kitapçığı PDF'i: 2021 (Ankara Üniversitesi ASYM), 2
 | Dosya | İçerik |
 |---|---|
 | `GMY_Soru_Atlasi.html` | Etkileşimli rapor: optik form şeması, yıl sekmeleri, filtrelenebilir soru listesi, ısı haritaları |
+| `GMY_Soru_Atlasi.pdf` | Raporun yazdırılabilir A4 sürümü: beş yılın analizi ve soru listeleri art arda |
 | `gmy_soru_siniflandirma.csv` | 500 sorunun tamamı: konu, alt konu, kalıp, tip, mevzuat, zorluk, özet, öğrenilecek bilgi (Excel'de açılır) |
 | `gmy_soru_siniflandirma.json` | Aynı veri, JSON |
 | `grafikler/` | Bu rapordaki PNG grafikler |

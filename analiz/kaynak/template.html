@@ -16,7 +16,7 @@
   --h-ink-lo:#0f1720; --h-ink-hi:#ffffff;
   --rise:#006300; --fall:#b3261e;
 }
-@media (prefers-color-scheme: dark){
+@media screen and (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0e0f10; --surface:#1a1a19; --surface-2:#232422; --ink:#f3f4f5; --ink-2:#c3c2b7; --muted:#8f938f;
     --line:#2c2c2a; --axis:#383835; --accent:#7fb0f0; --accent-ink:#0e0f10; --stamp:#ef6b62;
@@ -28,7 +28,7 @@
     color-scheme:dark;
   }
 }
-:root[data-theme="dark"]{
+@media screen{:root[data-theme="dark"]{
   --bg:#0e0f10; --surface:#1a1a19; --surface-2:#232422; --ink:#f3f4f5; --ink-2:#c3c2b7; --muted:#8f938f;
   --line:#2c2c2a; --axis:#383835; --accent:#7fb0f0; --accent-ink:#0e0f10; --stamp:#ef6b62;
   --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
@@ -37,7 +37,7 @@
   --h-ink-lo:#f3f4f5; --h-ink-hi:#0e0f10;
   --rise:#0ca30c; --fall:#ef6b62;
   color-scheme:dark;
-}
+}}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body);margin:0}
 .wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 64px;display:flex;flex-direction:column;gap:40px}
@@ -156,6 +156,31 @@ td.c,th.c{text-align:center}
 .tip{position:fixed;pointer-events:none;z-index:50;background:var(--ink);color:var(--bg);font:12.5px/1.4 var(--f-body);padding:7px 10px;border-radius:6px;max-width:320px;opacity:0;transition:opacity .08s}
 .tip.on{opacity:1}
 .foot{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.print-only{display:none}
+.yprint{display:flex;flex-direction:column;gap:16px}
+.pyh{border-top:2px solid var(--ink);padding-top:12px}
+@media print{
+  @page{size:A4;margin:10mm}
+  html,body{background:#fff}
+  body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding-block:0;gap:28px}
+  .screen-only,.tip{display:none!important}
+  p.print-only{display:block}
+  div.print-only{display:flex;flex-direction:column;gap:28px}
+  #karsilastirma,#sonuc{break-before:page}
+  .yprint+.yprint{break-before:page}
+  #mm svg{max-height:400px;width:auto!important;max-width:100%!important;height:auto}
+  .qt{table-layout:fixed}
+  .qt col.c-n{width:5%}.qt col.c-k{width:52%}.qt col.c-a{width:5%}.qt col.c-b{width:38%}
+  .qt td,.qt th{padding:4px 6px}
+  .qt td{font-size:12px;line-height:1.4}
+  .qt .tag{font-size:9.5px;padding:0 4px;margin:1px 3px 0 0}
+  .card,.callout,.kpi,.tier,tr{break-inside:avoid}
+  .card.qcard{break-inside:auto;border:0;padding:0;background:none}
+  .qscroll,.tblwrap,.optik{max-height:none;overflow:visible}
+  th{position:static}
+  h2,h3{break-after:avoid}
+}
 pre.mermaid{background:transparent;border:0;padding:0;overflow-x:auto;margin:0;text-align:center;font-family:var(--f-body)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -190,9 +215,11 @@ pre.mermaid{background:transparent;border:0;padding:0;overflow-x:auto;margin:0;t
 
   <section id="yillar">
     <div class="sec-head"><span class="eyebrow">Bölüm 2 · Yıl yıl analiz</span><h2>Her sınavın kendi profili</h2>
-      <p class="lede">Bir yıl seçin. Grafikler, yorumlar ve soru listesi o yılın sınavına göre güncellenir.</p></div>
-    <div class="tabs" role="tablist" id="ytabs"></div>
-    <div id="ypanel" style="display:flex;flex-direction:column;gap:16px"></div>
+      <p class="lede screen-only">Bir yıl seçin. Grafikler, yorumlar ve soru listesi o yılın sınavına göre güncellenir.</p>
+      <p class="lede print-only">Her yılın grafikleri, yorumu ve soru listesi aşağıda 2021'den 2025'e sırayla yer alıyor.</p></div>
+    <div class="tabs screen-only" role="tablist" id="ytabs"></div>
+    <div id="ypanel" class="screen-only" style="display:flex;flex-direction:column;gap:16px"></div>
+    <div id="ypanel-all" class="print-only"></div>
   </section>
 
   <section id="karsilastirma">
@@ -224,10 +251,6 @@ pre.mermaid{background:transparent;border:0;padding:0;overflow-x:auto;margin:0;t
     <div class="tiers" id="tiers"></div>
   </section>
 
-  <footer class="foot">
-    <span class="eyebrow">Yöntem</span>
-    <p id="yontem"></p>
-  </footer>
 </div>
 <div class="tip" id="tip" role="tooltip"></div>
 
@@ -314,15 +337,14 @@ const NONG={TURKCE:"Türkçe",MATEMATIK:"Matematik",TARIH:"Tarih",ANAYASA:"Anaya
 })();
 
 /* yıl sekmeleri */
-function renderYear(y){
+function renderYear(y,p=$("#ypanel"),pr=false){
   const qs=byYear(y), g=qs.filter(q=>q.bolum==="GUMRUK");
   const kc=count(g,"konu"), kok=count(qs,"kok"), tc=count(g,"tip"), mc=count(g,"mevzuat"), zc=count(qs,"zorluk"), ac=count(qs,"cevap");
   const topK=Object.entries(kc).sort((a,b)=>b[1]-a[1]);
   const grpC={};g.forEach(q=>{const gg=L.konu2grup[q.konu];grpC[gg]=(grpC[gg]||0)+1});
   const topG=Object.entries(grpC).sort((a,b)=>b[1]-a[1])[0];
   const ins=(INS.years&&INS.years[y])||[];
-  const p=$("#ypanel");
-  p.innerHTML=`
+  p.innerHTML=`${pr?`<h2 class="pyh">${y} sınavı</h2>`:""}
   <div class="kpis k4">
     <div class="kpi"><span class="v">${topK[0][1]}<small> soru</small></span><span class="l">en çok: ${esc(L.konu[topK[0][0]])}</span></div>
     <div class="kpi"><span class="v">${topG[1]}<small>/80</small></span><span class="l">en baskın grup: ${esc(topG[0])}</span></div>
@@ -331,36 +353,36 @@ function renderYear(y){
   </div>
   <div class="callout"><h3 style="margin-bottom:6px">${y} sınavı yorumu</h3><ul class="notes">${ins.map(t=>`<li>${t}</li>`).join("")}</ul></div>
   <div class="grid2">
-    <div class="card"><h3>Gümrük konuları (${y}, 80 soru)</h3><div id="y-konu"></div></div>
-    <div class="card" style="gap:16px"><div style="display:flex;flex-direction:column;gap:10px"><h3>Soru kalıbı (100 soru)</h3><div id="y-kok"></div></div>
-      <div style="display:flex;flex-direction:column;gap:10px"><h3>Soru tipi (gümrük, 80 soru)</h3><div id="y-tip"></div></div></div>
+    <div class="card"><h3>Gümrük konuları (${y}, 80 soru)</h3><div class="y-konu"></div></div>
+    <div class="card" style="gap:16px"><div style="display:flex;flex-direction:column;gap:10px"><h3>Soru kalıbı (100 soru)</h3><div class="y-kok"></div></div>
+      <div style="display:flex;flex-direction:column;gap:10px"><h3>Soru tipi (gümrük, 80 soru)</h3><div class="y-tip"></div></div></div>
   </div>
   <div class="grid3">
-    <div class="card"><h3>Mevzuat kaynağı</h3><div id="y-mev"></div></div>
-    <div class="card"><h3>Genel yetenek & kültür</h3><div id="y-gk"></div></div>
-    <div class="card"><h3>Zorluk ve doğru şık</h3><div id="y-zor"></div><div id="y-sik"></div></div>
+    <div class="card"><h3>Mevzuat kaynağı</h3><div class="y-mev"></div></div>
+    <div class="card"><h3>Genel yetenek & kültür</h3><div class="y-gk"></div></div>
+    <div class="card"><h3>Zorluk ve doğru şık</h3><div class="y-zor"></div><div class="y-sik"></div></div>
   </div>
-  <div class="card"><h3>${y} soru listesi</h3>
-    <div class="qtools"><input id="qs" type="search" placeholder="Soru içinde ara: özet beyan, antrepo, 15 gün…" aria-label="Soru listesinde ara">
+  <div class="card qcard"><h3>${y} soru listesi</h3>
+    ${pr?"":`<div class="qtools"><input id="qs" type="search" placeholder="Soru içinde ara: özet beyan, antrepo, 15 gün…" aria-label="Soru listesinde ara">
       <select id="qb" aria-label="Bölüm filtresi"><option value="">Tüm bölümler</option>${L.bolum_order.map(b=>`<option value="${b}">${L.bolum[b]}</option>`).join("")}</select>
-      <select id="qk" aria-label="Soru kalıbı filtresi"><option value="">Tüm kalıplar</option>${L.kok_order.map(b=>`<option value="${b}">${L.kok[b]}</option>`).join("")}</select></div>
-    <div class="tblwrap qscroll"><table class="qt"><thead><tr><th>No</th><th>Konu / soru</th><th class="c">Cvp</th><th>Öğrenilecek bilgi</th></tr></thead><tbody id="qbody"></tbody></table></div>
+      <select id="qk" aria-label="Soru kalıbı filtresi"><option value="">Tüm kalıplar</option>${L.kok_order.map(b=>`<option value="${b}">${L.kok[b]}</option>`).join("")}</select></div>`}
+    <div class="tblwrap qscroll"><table class="qt"><colgroup><col class="c-n"><col class="c-k"><col class="c-a"><col class="c-b"></colgroup><thead><tr><th>No</th><th>Konu / soru</th><th class="c">Cvp</th><th>Öğrenilecek bilgi</th></tr></thead><tbody class="qbody"></tbody></table></div>
   </div>`;
-  hbars($("#y-konu"),topK.map(([k,v])=>({l:L.konu[k],v,tip:`<b>${esc(L.konu[k])}</b><br>${v} soru · soru no: ${g.filter(q=>q.konu===k).map(q=>q.n).join(", ")}`})),{lw:"58%"});
-  hbars($("#y-kok"),L.kok_order.filter(k=>kok[k]).map((k,i)=>({l:L.kok[k],v:kok[k],c:SER[L.kok_order.indexOf(k)]})),{lw:"52%"});
-  hbars($("#y-tip"),Object.entries(tc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({l:L.tip[k],v})),{lw:"52%"});
-  hbars($("#y-mev"),Object.entries(mc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({l:L.mevzuat[k],v})),{lw:"55%"});
+  hbars(p.querySelector(".y-konu"),topK.map(([k,v])=>({l:L.konu[k],v,tip:`<b>${esc(L.konu[k])}</b><br>${v} soru · soru no: ${g.filter(q=>q.konu===k).map(q=>q.n).join(", ")}`})),{lw:"58%"});
+  hbars(p.querySelector(".y-kok"),L.kok_order.filter(k=>kok[k]).map((k,i)=>({l:L.kok[k],v:kok[k],c:SER[L.kok_order.indexOf(k)]})),{lw:"52%"});
+  hbars(p.querySelector(".y-tip"),Object.entries(tc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({l:L.tip[k],v})),{lw:"52%"});
+  hbars(p.querySelector(".y-mev"),Object.entries(mc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({l:L.mevzuat[k],v})),{lw:"55%"});
   const nong=qs.filter(q=>q.bolum!=="GUMRUK");
-  $("#y-gk").innerHTML=`<div class="tblwrap"><table><tbody>${["TURKCE","MATEMATIK","TARIH","ANAYASA"].map(b=>{const c=count(nong.filter(q=>q.bolum===b),"konu");return `<tr class="grp"><td colspan="2">${L.bolum[b]}</td></tr>`+Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<tr><td>${esc(L.konu[k])}</td><td class="c mono">${v}</td></tr>`).join("")}).join("")}</tbody></table></div>`;
-  hbars($("#y-zor"),["KOLAY","ORTA","ZOR"].map((k,i)=>({l:L.zorluk[k],v:zc[k]||0,c:["var(--h3)","var(--h5)","var(--h7)"][i]})),{lw:"30%",max:100});
-  $("#y-sik").innerHTML=`<p class="cap" style="margin-top:8px">Doğru şık dağılımı: ${["A","B","C","D","E"].map(s=>`<b class="mono">${s}</b> ${ac[s]||0}`).join(" · ")}</p>`;
-  const body=$("#qbody");
+  p.querySelector(".y-gk").innerHTML=`<div class="tblwrap"><table><tbody>${["TURKCE","MATEMATIK","TARIH","ANAYASA"].map(b=>{const c=count(nong.filter(q=>q.bolum===b),"konu");return `<tr class="grp"><td colspan="2">${L.bolum[b]}</td></tr>`+Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<tr><td>${esc(L.konu[k])}</td><td class="c mono">${v}</td></tr>`).join("")}).join("")}</tbody></table></div>`;
+  hbars(p.querySelector(".y-zor"),["KOLAY","ORTA","ZOR"].map((k,i)=>({l:L.zorluk[k],v:zc[k]||0,c:["var(--h3)","var(--h5)","var(--h7)"][i]})),{lw:"30%",max:100});
+  p.querySelector(".y-sik").innerHTML=`<p class="cap" style="margin-top:8px">Doğru şık dağılımı: ${["A","B","C","D","E"].map(s=>`<b class="mono">${s}</b> ${ac[s]||0}`).join(" · ")}</p>`;
+  const body=p.querySelector(".qbody");
   function draw(){
-    const s=$("#qs").value.trim().toLocaleLowerCase("tr"),b=$("#qb").value,k=$("#qk").value;
+    const s=pr?"":$("#qs").value.trim().toLocaleLowerCase("tr"),b=pr?"":$("#qb").value,k=pr?"":$("#qk").value;
     const rows=qs.filter(q=>(!b||q.bolum===b)&&(!k||q.kok===k)&&(!s||(q.ozet+" "+q.alt_konu+" "+q.anahtar_bilgi+" "+L.konu[q.konu]).toLocaleLowerCase("tr").includes(s))).sort((a,b)=>a.n-b.n);
     body.innerHTML=rows.map(q=>`<tr><td class="n">${q.n}</td><td><b>${esc(L.konu[q.konu])}</b> · ${esc(q.alt_konu)}<br><span class="kb">${esc(q.ozet)}</span><br><span class="tag">${esc(L.kok[q.kok])}</span><span class="tag">${esc(L.tip[q.tip])}</span>${q.mevzuat!=="YOK"?`<span class="tag">${esc(L.mevzuat[q.mevzuat])}</span>`:""}<span class="tag">${esc(L.zorluk[q.zorluk])}</span></td><td class="ans">${q.cevap}</td><td class="kb">${esc(q.anahtar_bilgi)}</td></tr>`).join("")||`<tr><td colspan="4">Bu filtreyle eşleşen soru yok. Arama kelimesini kısaltmayı deneyin.</td></tr>`;
   }
-  ["#qs","#qb","#qk"].forEach(id=>$(id).addEventListener("input",draw));draw();
+  if(!pr)["#qs","#qb","#qk"].forEach(id=>$(id).addEventListener("input",draw));draw();
 }
 (function(){
   const tabs=$("#ytabs");
@@ -369,6 +391,7 @@ function renderYear(y){
   let start=Y[Y.length-1];try{const s=+localStorage.getItem("gmy-yil");if(Y.includes(s))start=s}catch(_){}
   tabs.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected",+t.dataset.y===start));
   renderYear(start);
+  Y.forEach(y=>{const d=document.createElement("div");d.className="yprint";$("#ypanel-all").appendChild(d);renderYear(y,d,true)});
 })();
 
 /* karşılaştırma */
@@ -412,6 +435,5 @@ function renderYear(y){
   const t1=stat.filter(r=>r.avg>=4),t2=stat.filter(r=>r.avg>=2&&r.avg<4),t3=stat.filter(r=>r.avg<2);
   const tier=(c,t,s,arr)=>`<div class="tier" style="--c:${c}"><span class="pill ${t}">${s.badge}</span><h3>${s.title}</h3><span class="sub">${s.sub}</span><ol>${arr.map(r=>`<li>${esc(r.l)} <span class="mono" style="color:var(--muted)">${fmt(r.avg)}/yıl</span></li>`).join("")}</ol></div>`;
   $("#tiers").innerHTML=tier("var(--stamp)","p1",{badge:"ÖNCELİK 1",title:"Her yıl çok soru",sub:"Yılda ortalama 4 ve üzeri soru"},t1)+tier("var(--accent)","p2",{badge:"ÖNCELİK 2",title:"Düzenli gelen",sub:"Yılda ortalama 2–4 soru"},t2)+tier("var(--neutral-mark)","p3",{badge:"ÖNCELİK 3",title:"Ara sıra",sub:"Yılda ortalama 2'den az"},t3);
-  $("#yontem").innerHTML=INS.yontem||"";
 })();
 </script>

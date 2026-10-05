@@ -368,6 +368,7 @@ md.append("## 5. Yöntem ve dosyalar\n")
 md.append(re.sub(r"<[^>]+>", "", ins["yontem"]) + "\n")
 md.append(md_table(["Dosya", "İçerik"], [
     ["`GMY_Soru_Atlasi.html`", "Etkileşimli rapor: optik form şeması, yıl sekmeleri, filtrelenebilir soru listesi, ısı haritaları"],
+    ["`GMY_Soru_Atlasi.pdf`", "Raporun yazdırılabilir A4 sürümü: beş yılın analizi ve soru listeleri art arda"],
     ["`gmy_soru_siniflandirma.csv`", "500 sorunun tamamı: konu, alt konu, kalıp, tip, mevzuat, zorluk, özet, öğrenilecek bilgi (Excel'de açılır)"],
     ["`gmy_soru_siniflandirma.json`", "Aynı veri, JSON"],
     ["`grafikler/`", "Bu rapordaki PNG grafikler"],
@@ -379,7 +380,8 @@ open(os.path.join(OUT, "README.md"), "w", encoding="utf-8").write("\n".join(md))
 labels = dict(bolum=BOLUM, bolum_order=BOLUM_ORDER, konu=KONU, grup=GRUP, konu2grup=KONU2GRUP, kok=KOK,
               kok_order=KOK_ORDER, tip=TIP, tip_order=TIP_ORDER, mevzuat=MEVZUAT, mevzuat_order=MEVZUAT_ORDER,
               zorluk=ZORLUK)
-data = dict(labels=labels, years=YEARS, questions=[{k: q[k] for k in FIELDS} for q in Q], insights=ins)
+data = dict(labels=labels, years=YEARS, questions=[{k: q[k] for k in FIELDS} for q in Q],
+            insights={k: v for k, v in ins.items() if k != "yontem"})
 tpl = open(os.path.join(WORK, "template.html"), encoding="utf-8").read()
 payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 page = tpl.replace("/*__DATA__*/null", payload).replace('<pre class="mermaid" id="mm"></pre>',
