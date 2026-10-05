@@ -310,7 +310,7 @@ md.append(f"![Optik form şeması]({imgs['optik']})\n")
 
 md.append("## 2. Yıl yıl analiz\n")
 for y in YEARS:
-    qs, g = by_year(y), by_year(y, GK)
+    g = by_year(y, GK)
     md.append(f"### {y}\n")
     for t in ins["years"][str(y)]:
         md.append(f"- {re.sub(r'<[^>]+>', '', t).replace('&nbsp;', ' ')}")
@@ -321,11 +321,6 @@ for y in YEARS:
     md.append("<details><summary>Konu tablosu ve soru numaraları</summary>\n")
     md.append(md_table(["Konu", "Soru", "Soru numaraları"],
                        [[KONU[k], v, ", ".join(str(q["n"]) for q in g if q["konu"] == k)] for k, v in kc]))
-    md.append("\n</details>\n")
-    md.append("<details><summary>Tüm sorular: konu, kalıp, tip ve öğrenilecek bilgi</summary>\n")
-    md.append(md_table(["No", "Cvp", "Konu / alt konu", "Kalıp", "Tip", "Öğrenilecek bilgi"],
-                       [[q["n"], q["cevap"], f"{KONU[q['konu']]} · {q['alt_konu']}", KOK[q["kok"]], TIP[q["tip"]],
-                         q["anahtar_bilgi"].replace("|", "/")] for q in qs]))
     md.append("\n</details>\n")
 
 md.append("## 3. Yılların karşılaştırması\n")
@@ -367,8 +362,8 @@ for title, lo, hi in (("Öncelik 1 — yılda ort. 4+ soru", 4, 99), ("Öncelik 
 md.append("## 5. Yöntem ve dosyalar\n")
 md.append(re.sub(r"<[^>]+>", "", ins["yontem"]) + "\n")
 md.append(md_table(["Dosya", "İçerik"], [
-    ["`GMY_Soru_Atlasi.html`", "Etkileşimli rapor: optik form şeması, yıl sekmeleri, filtrelenebilir soru listesi, ısı haritaları"],
-    ["`GMY_Soru_Atlasi.pdf`", "Raporun yazdırılabilir A4 sürümü: beş yılın analizi ve soru listeleri art arda"],
+    ["`GMY_Soru_Atlasi.html`", "Etkileşimli rapor: optik form şeması, yıl sekmeleri, ısı haritaları, tekrar eden soru kalıpları"],
+    ["`GMY_Soru_Atlasi.pdf`", "Raporun yazdırılabilir A4 sürümü: beş yılın analizi art arda, ardından karşılaştırma ve sonuç"],
     ["`gmy_soru_siniflandirma.csv`", "500 sorunun tamamı: konu, alt konu, kalıp, tip, mevzuat, zorluk, özet, öğrenilecek bilgi (Excel'de açılır)"],
     ["`gmy_soru_siniflandirma.json`", "Aynı veri, JSON"],
     ["`grafikler/`", "Bu rapordaki PNG grafikler"],

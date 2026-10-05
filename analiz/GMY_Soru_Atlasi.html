@@ -138,15 +138,6 @@ td.c,th.c{text-align:center}
 .trend.up{color:var(--rise)}.trend.dn{color:var(--fall)}.trend.eq{color:var(--muted)}
 
 /* question table */
-.qtools{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.qtools input,.qtools select{font:14px var(--f-body);padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);min-width:0}
-.qtools input{flex:1 1 220px}
-.qt td{font-size:13px}
-.qt td.n{font:600 12.5px var(--f-mono);white-space:nowrap}
-.qt td.ans{font:700 13px var(--f-mono);text-align:center;color:var(--stamp)}
-.qt .kb{color:var(--ink-2)}
-.qt .tag{display:inline-block;font:500 11px var(--f-mono);color:var(--ink-2);background:var(--surface-2);border-radius:3px;padding:1px 5px;margin:2px 3px 0 0;white-space:nowrap}
-.qscroll{max-height:560px;overflow:auto}
 
 /* notes */
 .notes{display:flex;flex-direction:column;gap:8px;margin:0;padding-left:20px}
@@ -175,14 +166,8 @@ td.c,th.c{text-align:center}
   #karsilastirma,#sonuc{break-before:page}
   .yprint+.yprint{break-before:page}
   #mm svg{max-height:400px;width:auto!important;max-width:100%!important;height:auto}
-  .qt{table-layout:fixed}
-  .qt col.c-n{width:5%}.qt col.c-k{width:52%}.qt col.c-a{width:5%}.qt col.c-b{width:38%}
-  .qt td,.qt th{padding:4px 6px}
-  .qt td{font-size:12px;line-height:1.4}
-  .qt .tag{font-size:9.5px;padding:0 4px;margin:1px 3px 0 0}
   .card,.callout,.kpi,.tier,tr{break-inside:avoid}
-  .card.qcard{break-inside:auto;border:0;padding:0;background:none}
-  .qscroll,.tblwrap,.optik{max-height:none;overflow:visible}
+  .tblwrap,.optik{max-height:none;overflow:visible}
   th{position:static}
   h2,h3{break-after:avoid}
 }
@@ -238,8 +223,8 @@ pre.mermaid{background:transparent;border:0;padding:0;overflow-x:auto;margin:0;t
 
   <section id="yillar">
     <div class="sec-head"><span class="eyebrow">Bölüm 2 · Yıl yıl analiz</span><h2>Her sınavın kendi profili</h2>
-      <p class="lede screen-only">Bir yıl seçin. Grafikler, yorumlar ve soru listesi o yılın sınavına göre güncellenir.</p>
-      <p class="lede print-only">Her yılın grafikleri, yorumu ve soru listesi aşağıda 2021'den 2025'e sırayla yer alıyor.</p></div>
+      <p class="lede screen-only">Bir yıl seçin. Grafikler ve yorumlar o yılın sınavına göre güncellenir.</p>
+      <p class="lede print-only">Her yılın grafikleri ve yorumu aşağıda 2021'den 2025'e sırayla yer alıyor.</p></div>
     <div class="tabs screen-only" role="tablist" id="ytabs"></div>
     <div id="ypanel" class="screen-only" style="display:flex;flex-direction:column;gap:16px"></div>
     <div id="ypanel-all" class="print-only"></div>
@@ -385,12 +370,7 @@ function renderYear(y,p=$("#ypanel"),pr=false){
     <div class="card"><h3>Genel yetenek & kültür</h3><div class="y-gk"></div></div>
     <div class="card"><h3>Zorluk ve doğru şık</h3><div class="y-zor"></div><div class="y-sik"></div></div>
   </div>
-  <div class="card qcard"><h3>${y} soru listesi</h3>
-    ${pr?"":`<div class="qtools"><input id="qs" type="search" placeholder="Soru içinde ara: özet beyan, antrepo, 15 gün…" aria-label="Soru listesinde ara">
-      <select id="qb" aria-label="Bölüm filtresi"><option value="">Tüm bölümler</option>${L.bolum_order.map(b=>`<option value="${b}">${L.bolum[b]}</option>`).join("")}</select>
-      <select id="qk" aria-label="Soru kalıbı filtresi"><option value="">Tüm kalıplar</option>${L.kok_order.map(b=>`<option value="${b}">${L.kok[b]}</option>`).join("")}</select></div>`}
-    <div class="tblwrap qscroll"><table class="qt"><colgroup><col class="c-n"><col class="c-k"><col class="c-a"><col class="c-b"></colgroup><thead><tr><th>No</th><th>Konu / soru</th><th class="c">Cvp</th><th>Öğrenilecek bilgi</th></tr></thead><tbody class="qbody"></tbody></table></div>
-  </div>`;
+`;
   hbars(p.querySelector(".y-konu"),topK.map(([k,v])=>({l:L.konu[k],v,tip:`<b>${esc(L.konu[k])}</b><br>${v} soru · soru no: ${g.filter(q=>q.konu===k).map(q=>q.n).join(", ")}`})),{lw:"58%"});
   hbars(p.querySelector(".y-kok"),L.kok_order.filter(k=>kok[k]).map((k,i)=>({l:L.kok[k],v:kok[k],c:SER[L.kok_order.indexOf(k)]})),{lw:"52%"});
   hbars(p.querySelector(".y-tip"),Object.entries(tc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({l:L.tip[k],v})),{lw:"52%"});
@@ -399,13 +379,6 @@ function renderYear(y,p=$("#ypanel"),pr=false){
   p.querySelector(".y-gk").innerHTML=`<div class="tblwrap"><table><tbody>${["TURKCE","MATEMATIK","TARIH","ANAYASA"].map(b=>{const c=count(nong.filter(q=>q.bolum===b),"konu");return `<tr class="grp"><td colspan="2">${L.bolum[b]}</td></tr>`+Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<tr><td>${esc(L.konu[k])}</td><td class="c mono">${v}</td></tr>`).join("")}).join("")}</tbody></table></div>`;
   hbars(p.querySelector(".y-zor"),["KOLAY","ORTA","ZOR"].map((k,i)=>({l:L.zorluk[k],v:zc[k]||0,c:["var(--h3)","var(--h5)","var(--h7)"][i]})),{lw:"30%",max:100});
   p.querySelector(".y-sik").innerHTML=`<p class="cap" style="margin-top:8px">Doğru şık dağılımı: ${["A","B","C","D","E"].map(s=>`<b class="mono">${s}</b> ${ac[s]||0}`).join(" · ")}</p>`;
-  const body=p.querySelector(".qbody");
-  function draw(){
-    const s=pr?"":$("#qs").value.trim().toLocaleLowerCase("tr"),b=pr?"":$("#qb").value,k=pr?"":$("#qk").value;
-    const rows=qs.filter(q=>(!b||q.bolum===b)&&(!k||q.kok===k)&&(!s||(q.ozet+" "+q.alt_konu+" "+q.anahtar_bilgi+" "+L.konu[q.konu]).toLocaleLowerCase("tr").includes(s))).sort((a,b)=>a.n-b.n);
-    body.innerHTML=rows.map(q=>`<tr><td class="n">${q.n}</td><td><b>${esc(L.konu[q.konu])}</b> · ${esc(q.alt_konu)}<br><span class="kb">${esc(q.ozet)}</span><br><span class="tag">${esc(L.kok[q.kok])}</span><span class="tag">${esc(L.tip[q.tip])}</span>${q.mevzuat!=="YOK"?`<span class="tag">${esc(L.mevzuat[q.mevzuat])}</span>`:""}<span class="tag">${esc(L.zorluk[q.zorluk])}</span></td><td class="ans">${q.cevap}</td><td class="kb">${esc(q.anahtar_bilgi)}</td></tr>`).join("")||`<tr><td colspan="4">Bu filtreyle eşleşen soru yok. Arama kelimesini kısaltmayı deneyin.</td></tr>`;
-  }
-  if(!pr)["#qs","#qb","#qk"].forEach(id=>$(id).addEventListener("input",draw));draw();
 }
 (function(){
   const tabs=$("#ytabs");
