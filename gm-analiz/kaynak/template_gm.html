@@ -1,0 +1,460 @@
+<title>GM Soru Atlası 2021–2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: belge-rapor; üstte özet + optik form şeması, ardından yıl sekmeleri, karşılaştırma ve strateji. Tek sütun, 1120px tavan. */
+:root{
+  --bg:#f4f5f6; --surface:#fcfcfb; --surface-2:#eef0f2; --ink:#0f1720; --ink-2:#4a525c; --muted:#7d848c;
+  --line:#dfe2e6; --axis:#c3c7cc; --accent:#1f4e8c; --accent-ink:#ffffff; --stamp:#b3261e;
+  --f-display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300; --s7:#4a3aa7; --s8:#e34948;
+  --neutral-mark:#b9bec4;
+  --h0:#f0efec; --h1:#cde2fb; --h2:#9ec5f4; --h3:#6da7ec; --h4:#3987e5; --h5:#256abf; --h6:#184f95; --h7:#0d366b;
+  --h-ink-lo:#0f1720; --h-ink-hi:#ffffff;
+  --rise:#006300; --fall:#b3261e;
+}
+@media screen and (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e0f10; --surface:#1a1a19; --surface-2:#232422; --ink:#f3f4f5; --ink-2:#c3c2b7; --muted:#8f938f;
+    --line:#2c2c2a; --axis:#383835; --accent:#7fb0f0; --accent-ink:#0e0f10; --stamp:#ef6b62;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+    --neutral-mark:#4a4c4e;
+    --h0:#262624; --h1:#17263a; --h2:#1c3555; --h3:#1c4a80; --h4:#256abf; --h5:#3987e5; --h6:#6da7ec; --h7:#9ec5f4;
+    --h-ink-lo:#f3f4f5; --h-ink-hi:#0e0f10;
+    --rise:#0ca30c; --fall:#ef6b62;
+    color-scheme:dark;
+  }
+}
+@media screen{:root[data-theme="dark"]{
+  --bg:#0e0f10; --surface:#1a1a19; --surface-2:#232422; --ink:#f3f4f5; --ink-2:#c3c2b7; --muted:#8f938f;
+  --line:#2c2c2a; --axis:#383835; --accent:#7fb0f0; --accent-ink:#0e0f10; --stamp:#ef6b62;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+  --neutral-mark:#4a4c4e;
+  --h0:#262624; --h1:#17263a; --h2:#1c3555; --h3:#1c4a80; --h4:#256abf; --h5:#3987e5; --h6:#6da7ec; --h7:#9ec5f4;
+  --h-ink-lo:#f3f4f5; --h-ink-hi:#0e0f10;
+  --rise:#0ca30c; --fall:#ef6b62;
+  color-scheme:dark;
+}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 64px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:-0.01em}
+h1{font-size:clamp(30px,5vw,50px);font-stretch:78%;font-weight:800;line-height:1.02}
+h2{font-size:clamp(22px,3vw,30px);font-stretch:85%;font-weight:750;line-height:1.1}
+h3{font-size:17px;font-stretch:95%;font-weight:700;line-height:1.25}
+p{margin:0;max-width:72ch}
+.eyebrow{font:500 11.5px/1.2 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--ink-2);font-size:16.5px;max-width:70ch}
+.mono{font-family:var(--f-mono)}
+.num{font-variant-numeric:tabular-nums}
+section{display:flex;flex-direction:column;gap:18px}
+.sec-head{display:flex;flex-direction:column;gap:6px;border-top:2px solid var(--ink);padding-top:14px}
+.sec-head .eyebrow{color:var(--stamp)}
+
+/* header */
+header.top{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:end}
+.stamp{border:2px solid var(--stamp);color:var(--stamp);font:600 12px/1.25 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:8px 12px;transform:rotate(-3deg);border-radius:3px;text-align:center;white-space:nowrap}
+.stamp b{display:block;font-size:20px;font-family:var(--f-display);font-stretch:80%;letter-spacing:.02em}
+@media (max-width:640px){header.top{grid-template-columns:1fr}.stamp{justify-self:start}}
+
+/* KPI */
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.kpis.k4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:960px){.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:720px){.kpis.k4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi .v{font:800 30px/1.05 var(--f-display);font-stretch:82%}
+.kpi .l{font-size:13px;color:var(--ink-2)}
+.kpi .v small{font-size:15px;font-weight:600;color:var(--ink-2)}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card .cap{font-size:13px;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:860px){.grid2,.grid3{grid-template-columns:minmax(0,1fr)}}
+
+/* optik form şeması */
+.optik{display:flex;flex-direction:column;gap:6px;overflow-x:auto;padding-bottom:4px}
+.orow{display:grid;grid-template-columns:44px repeat(100,minmax(7px,1fr));gap:2px;align-items:center;min-width:760px}
+.orow .yl{font:500 12px var(--f-mono);color:var(--ink-2)}
+.ob{aspect-ratio:1;border-radius:50%;background:var(--neutral-mark);cursor:default;outline-offset:1px}
+.ob:hover,.ob:focus-visible{outline:2px solid var(--ink)}
+.oaxis{display:grid;grid-template-columns:44px repeat(100,minmax(7px,1fr));gap:2px;min-width:760px;font:400 10px var(--f-mono);color:var(--muted)}
+.oaxis span{text-align:center;overflow:visible;white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12.5px;color:var(--ink-2)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.legend .sq i{border-radius:2px}
+
+/* tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:6px}
+.tab{font:600 14px var(--f-body);background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:7px 16px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* bars */
+.hb{display:grid;grid-template-columns:minmax(0,var(--lw,46%)) minmax(0,1fr) 3.2em;gap:6px 10px;align-items:center;font-size:13px}
+.hb .lab{color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hb .trk{height:14px;position:relative}
+.hb .bar{height:100%;border-radius:0 4px 4px 0;background:var(--s1);min-width:2px}
+.hb .val{font:500 12.5px var(--f-mono);color:var(--ink-2);text-align:right;font-variant-numeric:tabular-nums}
+.hb .row{display:contents}
+.hb .row:hover .lab{text-decoration:underline}
+@media (max-width:520px){.hb{--lw:52%}}
+
+.stk{display:flex;flex-direction:column;gap:8px}
+.stk .r{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;align-items:center}
+.stk .yl{font:500 12.5px var(--f-mono);color:var(--ink-2)}
+.stk .seg-wrap{display:flex;height:26px;gap:2px}
+.stk .seg{height:100%;display:flex;align-items:center;justify-content:center;font:600 11.5px var(--f-mono);color:#fff;overflow:hidden;white-space:nowrap;min-width:0}
+.stk .seg:first-child{border-radius:4px 0 0 4px}.stk .seg:last-child{border-radius:0 4px 4px 0}
+.stk .seg.dk{color:#0f1720}
+
+/* heatmap table */
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 11.5px var(--f-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);background:var(--surface-2);position:sticky;top:0}
+td.c,th.c{text-align:center}
+.hm td.cell{text-align:center;font:500 12.5px var(--f-mono);font-variant-numeric:tabular-nums;border:2px solid var(--surface);min-width:34px;padding:6px 4px}
+.hm td.rl{font-weight:500;min-width:130px}
+.hm th{padding:6px 4px}
+.hm td.tot{text-align:right;font:600 12.5px var(--f-mono);font-variant-numeric:tabular-nums}
+.hm tr:hover td.rl{text-decoration:underline}
+.h0{background:var(--h0);color:var(--muted)}.h1{background:var(--h1);color:var(--h-ink-lo)}.h2{background:var(--h2);color:var(--h-ink-lo)}.h3{background:var(--h3);color:var(--h-ink-lo)}
+.h4{background:var(--h4);color:var(--h-ink-hi)}.h5{background:var(--h5);color:var(--h-ink-hi)}.h6{background:var(--h6);color:var(--h-ink-hi)}.h7{background:var(--h7);color:var(--h-ink-hi)}
+.grp td{background:var(--surface-2);font:600 11.5px var(--f-mono);letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2)}
+.pill{display:inline-block;align-self:flex-start;font:600 10.5px var(--f-mono);letter-spacing:.04em;padding:2px 7px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.pill.p1{color:var(--stamp)}.pill.p2{color:var(--accent)}.pill.p3{color:var(--muted)}
+.trend{font:600 12px var(--f-mono)}
+.trend.up{color:var(--rise)}.trend.dn{color:var(--fall)}.trend.eq{color:var(--muted)}
+
+/* question table */
+
+/* notes */
+.notes{display:flex;flex-direction:column;gap:8px;margin:0;padding-left:20px}
+.notes li{max-width:80ch}
+.callout{border-left:3px solid var(--accent);background:var(--surface);padding:12px 16px;border-radius:0 6px 6px 0}
+.tiers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:860px){.tiers{grid-template-columns:minmax(0,1fr)}}
+.tier{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.tier ol{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction:column;gap:3px}
+.tier .sub{font-size:12.5px;color:var(--muted)}
+.dumb svg{width:100%;height:auto;display:block}
+.tip{position:fixed;pointer-events:none;z-index:50;background:var(--ink);color:var(--bg);font:12.5px/1.4 var(--f-body);padding:7px 10px;border-radius:6px;max-width:320px;opacity:0;transition:opacity .08s}
+.tip.on{opacity:1}
+.foot{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.print-only{display:none}
+.yprint{display:flex;flex-direction:column;gap:16px}
+.pyh{border-top:2px solid var(--ink);padding-top:12px}
+@media print{
+  @page{size:A4;margin:10mm}
+  html,body{background:#fff}
+  body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding-block:0;gap:28px}
+  .screen-only,.tip{display:none!important}
+  p.print-only{display:block}
+  div.print-only{display:flex;flex-direction:column;gap:28px}
+  #karsilastirma,#derin,#sonuc{break-before:page}
+  .yprint+.yprint{break-before:page}
+  #mm svg{max-height:400px;width:auto!important;max-width:100%!important;height:auto}
+  .card,.callout,.kpi,.tier,tr{break-inside:avoid}
+  .tblwrap,.optik{max-height:none;overflow:visible}
+  th{position:static}
+  h2,h3{break-after:avoid}
+}
+pre.mermaid{background:transparent;border:0;padding:0;overflow-x:auto;margin:0;text-align:center;font-family:var(--f-body)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<style>
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:500 12px var(--f-mono);background:var(--surface-2);border:1px solid var(--line);border-radius:4px;padding:2px 7px;color:var(--ink)}
+.chip b{color:var(--accent);margin-left:3px;font-weight:600}
+.cmp{display:grid;grid-template-columns:minmax(0,36%) minmax(0,1fr) 8.5em;gap:9px 12px;align-items:center;font-size:13px}
+.cmp .cr{display:contents}
+.cmp .bars{display:flex;flex-direction:column;gap:3px}
+.cmp .b1,.cmp .b2{display:block;height:9px;border-radius:0 4px 4px 0;min-width:2px}
+.cmp .b1{background:var(--s1)}.cmp .b2{background:var(--s2)}
+.cmp .val{font:500 12px var(--f-mono);color:var(--ink-2);text-align:right;font-variant-numeric:tabular-nums}
+@media (max-width:560px){.cmp{grid-template-columns:minmax(0,1fr) 7.5em}.cmp .bars{grid-column:1/-1}}
+.st{table-layout:fixed}.st th:first-child{width:22%}.st th:last-child{width:86px}
+.st td{font-size:13px}.st td.sv{font:600 12.5px var(--f-mono);color:var(--accent);overflow-wrap:anywhere}
+.kb{color:var(--ink-2)}
+.orow .yl sup{font-size:9px;color:var(--stamp);margin-left:2px}
+.fcols{columns:3 290px;column-gap:20px}
+.fg{break-inside:avoid;margin:0 0 14px;display:flex;flex-direction:column;gap:4px}
+.fgl{font:600 11px var(--f-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2)}
+.fgt{border:1px solid var(--line);border-radius:6px}
+.fgt th{padding:4px 2px;font-size:10.5px}
+.fgt td.rl{min-width:44px;font:600 12.5px var(--f-mono)}
+.fgt td.cell{min-width:30px;padding:4px 2px}
+.fgt td.tot{padding:4px 6px}
+</style>
+<div class="wrap">
+  <header class="top">
+    <div style="display:flex;flex-direction:column;gap:12px;min-width:0">
+      <span class="eyebrow">T.C. Ticaret Bakanlığı · Gümrük Müşavirliği Sınavı · 2021–2025</span>
+      <h1>GM Soru Atlası<br>2021–2025</h1>
+      <p class="lede">Beş Gümrük Müşavirliği sınavının 500 sorusu konu, soru kalıbı, soru tipi, dayandığı mevzuat, tarife faslı ve hesap türüne göre sınıflandırıldı. Önce her yıl ayrı ayrı incelenir, sonra yıllar karşılaştırılır; en çok soru gelen konular, soru tipleri ve sınavın değişen yönü ortaya konur.</p>
+    </div>
+    <div class="stamp">İncelendi<b>500 SORU</b>5 sınav · 2021–2025</div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section id="iskelet">
+    <div class="sec-head"><span class="eyebrow">Bölüm 1 · Şema</span><h2>Sınavın iskeleti: 100 sorunun tamamı mesleki</h2>
+      <p class="lede">GM sınavında genel yetenek ve genel kültür sorusu yok; 100 sorunun hepsi gümrük ve dış ticaret mevzuatından. Optik form şemasında her daire bir soru, renk sorunun konu grubunu gösterir. Sorular konu bloklarına göre dizilmiştir; tarife ve hesap blokları her yıl kolayca seçilir. 2022 dosyası B kitapçığı olduğu için o yılın sıralaması A kitapçığından farklıdır.</p></div>
+    <div class="card">
+      <div class="optik" id="optik"></div>
+      <div class="legend" id="optik-legend"></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Konu gruplarına yılda düşen soru</h3><div id="grp-avg"></div>
+        <p class="cap">5 yılın ortalaması; renkler optik form şemasıyla aynı.</p></div>
+      <div class="card"><h3>Sınavda öne çıkan üç blok</h3><div id="bloklar"></div></div>
+    </div>
+    <div class="card"><h3>Konu ağacı</h3><pre class="mermaid" id="mm"></pre></div>
+  </section>
+
+  <section id="yillar">
+    <div class="sec-head"><span class="eyebrow">Bölüm 2 · Yıl yıl analiz</span><h2>Her sınavın kendi profili</h2>
+      <p class="lede screen-only">Bir yıl seçin. Grafikler ve yorumlar o yılın sınavına göre güncellenir.</p>
+      <p class="lede print-only">Her yılın grafikleri ve yorumu aşağıda 2021'den 2025'e sırayla yer alıyor.</p></div>
+    <div class="tabs screen-only" role="tablist" id="ytabs"></div>
+    <div id="ypanel" class="screen-only" style="display:flex;flex-direction:column;gap:16px"></div>
+    <div id="ypanel-all" class="print-only"></div>
+  </section>
+
+  <section id="karsilastirma">
+    <div class="sec-head"><span class="eyebrow">Bölüm 3 · Karşılaştırma</span><h2>Beş yılın karşılaştırması</h2>
+      <p class="lede">500 soru konu, konu grubu, soru kalıbı, soru tipi ve mevzuat kaynağına göre yıllar arasında karşılaştırıldı. Isı haritalarında renk koyulaştıkça soru sayısı artar.</p></div>
+    <div class="card"><h3>Konular × yıl</h3><p class="cap">5 yıllık toplama göre sıralı. "Yıl" sütunu konunun kaç sınavda çıktığını, "Eğilim" son iki yılın ortalamasını ilk iki yılınkiyle kıyaslar.</p><div id="hm-konu"></div></div>
+    <div class="grid2">
+      <div class="card"><h3>En çok soru gelen 15 konu (5 yıl toplam)</h3><div id="top-konu"></div></div>
+      <div class="card"><h3>Konu grubu payları, yıla göre</h3><div id="stk-grup"></div><div class="legend sq" id="lg-grup"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Soru kalıbı (kök yapısı), yıla göre</h3><div id="stk-kok"></div><div class="legend sq" id="lg-kok"></div></div>
+      <div class="card"><h3>Soru tipi × yıl</h3><div id="hm-tip"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Dayanılan mevzuat × yıl</h3><div id="hm-mev"></div></div>
+      <div class="card"><h3>Yükselen ve düşen konular</h3><p class="cap">2021–22 ortalaması (açık nokta) → 2024–25 ortalaması (koyu nokta), yıllık soru sayısı.</p><div class="dumb" id="dumb"></div></div>
+    </div>
+    <div class="card"><h3>Zorluk ve doğru şık dağılımı</h3><div class="grid2"><div><div id="stk-zor"></div><div class="legend sq" id="lg-zor" style="margin-top:8px"></div></div><div id="hm-sik"></div></div></div>
+  </section>
+
+  <section id="derin">
+    <div class="sec-head"><span class="eyebrow">Bölüm 4 · Derinlemesine</span><h2>Tarife, hesap ve sayısal bilgiler</h2>
+      <p class="lede">GM sınavını GMY'den ayıran üç alan: tarife sınıflandırma, kıymet ve vergi hesapları ve mevzuattaki süre-oran bilgileri. Ayrıca GM ile GMY sınavlarının konu ağırlıkları karşılaştırılır.</p></div>
+    <div class="card"><h3>Sorulan fasıllar × yıl</h3><p class="cap">Tarife sınıflandırma ve tarife pozisyonu geçen sorulardaki fasıllar, TGTC bölümlerine göre gruplu. Hücredeki sayı o yıl o fasıldan gelen soru sayısıdır; Σ 5 yıllık toplamdır.</p><div class="fcols" id="hm-fasil"></div></div>
+    <div class="grid2">
+      <div class="card"><h3>Bölümlere göre tarife soruları (5 yıl)</h3><div id="bolum-bar"></div></div>
+      <div class="card"><div class="callout" id="tarife-not"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Hesap soruları: ne hesaplatılıyor?</h3><div id="hm-hesap"></div></div>
+      <div class="card"><div class="callout" id="hesap-not"></div></div>
+    </div>
+    <div class="card"><h3>GM ve GMY'de konu ağırlıkları</h3><p class="cap">Aynı 5 yılda GM'nin 500 sorusu ile GMY'nin gümrük bölümündeki 400 sorunun ortak alanlara göre payı.</p><div id="gmy-cmp"></div></div>
+    <div class="card"><h3>Sınavda sorulan süre, oran ve tutarlar</h3><p class="cap">Doğru cevabı bir süre, oran veya sayı olan sorular, konuya göre. Değerler cevap anahtarına dayanır; mevzuat değişikliklerine karşı güncel metinden kontrol edilmelidir.</p><div id="sayisal"></div></div>
+    <div class="card"><h3>Tekrar eden soru kalıpları</h3><p class="cap">Farklı yıllarda neredeyse aynı bilgiyi soran sorular.</p><div id="tekrar"></div></div>
+  </section>
+
+  <section id="sonuc">
+    <div class="sec-head"><span class="eyebrow">Bölüm 5 · Sonuç</span><h2>En çok neyden, nasıl soruluyor?</h2></div>
+    <div id="sonuc-body" style="display:flex;flex-direction:column;gap:16px"></div>
+    <div class="tiers" id="tiers"></div>
+  </section>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+<script>
+const DATA = /*__DATA__*/null;
+const L = DATA.labels, Q = DATA.questions, Y = DATA.years, INS = DATA.insights;
+const $ = s=>document.querySelector(s);
+const esc = s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SER = ["--s1","--s2","--s3","--s4","--s5","--s6","--s7","--s8"].map(v=>`var(${v})`);
+const DARKTXT = new Set([2,3,4]);
+const fmt = n=> (Math.round(n*10)/10).toLocaleString("tr-TR");
+const pct = (a,b)=> b? Math.round(a*100/b):0;
+function count(arr,key){const m={};arr.forEach(x=>{m[x[key]]=(m[x[key]]||0)+1});return m}
+function byYear(y,arr=Q){return arr.filter(q=>q.yil===y)}
+
+/* tooltip */
+const tip=$("#tip");
+document.addEventListener("mouseover",e=>{const t=e.target.closest("[data-tip]");if(!t){tip.classList.remove("on");return}tip.innerHTML=t.dataset.tip;tip.classList.add("on")});
+document.addEventListener("mousemove",e=>{if(!tip.classList.contains("on"))return;const w=tip.offsetWidth,h=tip.offsetHeight;let x=e.clientX+14,y=e.clientY+14;if(x+w>innerWidth-8)x=e.clientX-w-14;if(y+h>innerHeight-8)y=e.clientY-h-14;tip.style.left=x+"px";tip.style.top=y+"px"});
+document.addEventListener("focusin",e=>{const t=e.target.closest("[data-tip]");if(!t)return;tip.innerHTML=t.dataset.tip;const r=t.getBoundingClientRect();tip.style.left=Math.min(r.left,innerWidth-330)+"px";tip.style.top=(r.bottom+8)+"px";tip.classList.add("on")});
+document.addEventListener("focusout",()=>tip.classList.remove("on"));
+
+/* components */
+function hbars(el,items,{color="var(--s1)",max=null,lw=null,unit=""}={}){
+  const m=max??Math.max(...items.map(i=>i.v),1);
+  el.innerHTML=`<div class="hb" ${lw?`style="--lw:${lw}"`:""}>${items.map(i=>`<div class="row" data-tip="${esc(i.tip||`<b>${esc(i.l)}</b><br>${i.v}${unit}`)}"><span class="lab" title="${esc(i.l)}">${esc(i.l)}</span><span class="trk"><span class="bar" style="display:block;width:${(i.v/m*100).toFixed(1)}%;background:${i.c||color}"></span></span><span class="val">${i.vl??i.v}</span></div>`).join("")}</div>`;
+}
+function stack100(el,rows,keys,names,lgEl,{colors=SER,dark=DARKTXT,inks=null}={}){
+  el.innerHTML=`<div class="stk">${rows.map(r=>{const tot=keys.reduce((s,k)=>s+(r.m[k]||0),0);return `<div class="r"><span class="yl">${r.l}</span><div class="seg-wrap">${keys.map((k,i)=>{const v=r.m[k]||0;if(!v)return"";const p=v/tot*100;return `<span class="seg ${dark.has(i)?"dk":""}" style="width:${p}%;background:${colors[i]}${inks?";color:"+inks[i]:""}" data-tip="<b>${r.l} · ${esc(names[k])}</b><br>${v} soru (%${Math.round(p)})">${p>=9?"%"+Math.round(p):""}</span>`}).join("")}</div></div>`}).join("")}</div>`;
+  if(lgEl) lgEl.innerHTML=keys.map((k,i)=>`<span><i style="background:${colors[i]}"></i>${esc(names[k])}</span>`).join("");
+}
+function hcls(v,max){if(!v)return"h0";const r=v/max;return "h"+Math.min(7,Math.max(1,Math.ceil(r*7)))}
+function heat(el,rows,{cols=Y,colLabel=c=>c,extra=null,rowHead="Konu",max=null,groupBy=null}={}){
+  const mx=max??Math.max(1,...rows.flatMap(r=>cols.map(c=>r.m[c]||0)));
+  let html=`<div class="tblwrap"><table class="hm"><thead><tr><th>${rowHead}</th>${cols.map(c=>`<th class="c">${colLabel(c)}</th>`).join("")}${extra?extra.head:""}</tr></thead><tbody>`;
+  let lastG=null;
+  rows.forEach(r=>{
+    if(groupBy&&r.g!==lastG){lastG=r.g;html+=`<tr class="grp"><td colspan="${cols.length+1+(extra?extra.n:0)}">${esc(r.g)}</td></tr>`}
+    html+=`<tr><td class="rl">${esc(r.l)}</td>${cols.map(c=>{const v=r.m[c]||0;return `<td class="cell ${hcls(v,mx)}" data-tip="<b>${esc(r.l)}</b><br>${colLabel(c)}: ${v} soru${r.tipx?r.tipx(c):""}">${v||"·"}</td>`}).join("")}${extra?extra.row(r):""}</tr>`;
+  });
+  el.innerHTML=html+"</tbody></table></div>";
+}
+
+
+/* KPIs */
+const GRUPLAR=Object.keys(L.grup);
+const GCOL=g=>SER[GRUPLAR.indexOf(g)];
+(function(){
+  const kc=count(Q,"konu");const top=Object.entries(kc).sort((a,b)=>b[1]-a[1])[0];
+  const kok=count(Q,"kok"), tc=count(Q,"tip"), mv=count(Q,"mevzuat");
+  const tar=Q.filter(q=>q.konu==="GM_TARIFE_SINIF").length, hes=Q.filter(q=>q.tip==="HESAPLAMA").length;
+  const k=[
+    {v:"500",l:"soru, 5 sınav (2021–2025), tamamı mesleki"},
+    {v:`${top[1]}<small> soru</small>`,l:`en çok soru gelen konu: ${L.konu[top[0]]}`},
+    {v:`%${pct(tar,Q.length)}`,l:`tarife sınıflandırma sorusu (${tar} soru)`},
+    {v:`%${pct(hes,Q.length)}`,l:`hesap sorusu: kıymet, KDV, ÖTV, ceza (${hes} soru)`},
+    {v:`%${pct(kok.OLUMSUZ||0,Q.length)}`,l:`olumsuz köklü soru ("değildir / yanlıştır")`},
+    {v:`%${pct(mv.GK_4458||0,Q.length)}`,l:"doğrudan Gümrük Kanunu'na dayanan soru; ağırlık yönetmelik ve tebliğlerde"},
+  ];
+  $("#kpis").innerHTML=k.map(x=>`<div class="kpi"><span class="v">${x.v}</span><span class="l">${esc(x.l)}</span></div>`).join("");
+})();
+
+/* optik form */
+(function(){
+  let h=`<div class="oaxis"><span></span>${Array.from({length:100},(_,i)=>`<span${i===99?' style="text-align:right;direction:rtl"':""}>${(i+1)%10===1&&i<91||i===99?i+1:""}</span>`).join("")}</div>`;
+  Y.forEach(y=>{
+    const qs=byYear(y).sort((a,b)=>a.n-b.n);
+    h+=`<div class="orow"><span class="yl">${y}${y===2022?"<sup>B</sup>":""}</span>${qs.map(q=>{const g=L.konu2grup[q.konu];
+      return `<span class="ob" tabindex="0" style="background:${GCOL(g)}" data-tip="<b>${y} · Soru ${q.n}</b> (cevap ${q.cevap})<br>${esc(g)} › ${esc(L.konu[q.konu])}<br><span style='opacity:.8'>${esc(q.alt_konu)}</span>"></span>`}).join("")}</div>`;
+  });
+  $("#optik").innerHTML=h;
+  $("#optik-legend").innerHTML=GRUPLAR.map((g,i)=>`<span><i style="background:${SER[i]}"></i>${esc(g)}</span>`).join("");
+  const gc={};Q.forEach(q=>{const g=L.konu2grup[q.konu];gc[g]=(gc[g]||0)+1});
+  hbars($("#grp-avg"),GRUPLAR.map(g=>({l:g,v:gc[g]/Y.length,vl:fmt(gc[g]/Y.length),c:GCOL(g),tip:`<b>${esc(g)}</b><br>5 yılda ${gc[g]} soru · yılda ort. ${fmt(gc[g]/Y.length)}<br>${L.grup[g].map(k=>esc(L.konu[k])).join(", ")}`})).sort((a,b)=>b.v-a.v),{lw:"58%"});
+  const blok=[
+    {l:"Tarife sınıflandırma",f:q=>q.konu==="GM_TARIFE_SINIF"},
+    {l:"Hesap soruları",f:q=>q.tip==="HESAPLAMA"},
+    {l:"İç vergiler, kambiyo & fonlar",f:q=>L.konu2grup[q.konu]==="İç Vergiler, Kambiyo & Fonlar"},
+  ].map(b=>({l:b.l,m:Object.fromEntries(Y.map(y=>[y,byYear(y).filter(b.f).length]))}));
+  heat($("#bloklar"),blok,{rowHead:"Blok",max:20,extra:{n:1,head:`<th class="c">Ort.</th>`,row:r=>`<td class="tot">${fmt(Y.reduce((s,y)=>s+r.m[y],0)/Y.length)}</td>`}});
+  $("#bloklar").insertAdjacentHTML("beforeend",`<p class="cap">Her yıl 100 sorunun yaklaşık üçte biri bu üç bloktan geliyor. GMY sınavında bu alanlar neredeyse hiç sorulmuyor.</p>`);
+})();
+
+/* yıl panelleri */
+function renderYear(y,p=$("#ypanel"),pr=false){
+  const qs=byYear(y);
+  const kc=count(qs,"konu"), kok=count(qs,"kok"), tc=count(qs,"tip"), mc=count(qs,"mevzuat"), zc=count(qs,"zorluk"), ac=count(qs,"cevap");
+  const topK=Object.entries(kc).sort((a,b)=>b[1]-a[1]);
+  const tar=qs.filter(q=>q.konu==="GM_TARIFE_SINIF"), hes=qs.filter(q=>q.tip==="HESAPLAMA");
+  const fas={};qs.forEach(q=>(q.fasil||[]).forEach(f=>fas[f]=(fas[f]||0)+1));
+  const hc=count(hes,"hesap");
+  const ins=(INS.years&&INS.years[y])||[];
+  p.innerHTML=`${pr?`<h2 class="pyh">${y} sınavı${y===2022?" (B kitapçığı)":""}</h2>`:""}
+  <div class="kpis k4">
+    <div class="kpi"><span class="v">${topK[0][1]}<small> soru</small></span><span class="l">en çok: ${esc(L.konu[topK[0][0]])}</span></div>
+    <div class="kpi"><span class="v">${tar.length}<small> soru</small></span><span class="l">tarife sınıflandırma · ${Object.keys(fas).length} farklı fasıl</span></div>
+    <div class="kpi"><span class="v">${hes.length}<small> soru</small></span><span class="l">hesap sorusu</span></div>
+    <div class="kpi"><span class="v">%${pct(kok.OLUMSUZ||0,100)}</span><span class="l">olumsuz kök · öncüllü ${kok.ONCULLU||0} soru</span></div>
+  </div>
+  <div class="callout"><h3 style="margin-bottom:6px">${y} sınavı yorumu</h3><ul class="notes">${ins.map(t=>`<li>${t}</li>`).join("")}</ul></div>
+  <div class="grid2">
+    <div class="card"><h3>Konular (${y}, 100 soru)</h3><div class="y-konu"></div></div>
+    <div class="card" style="gap:16px"><div style="display:flex;flex-direction:column;gap:10px"><h3>Soru kalıbı</h3><div class="y-kok"></div></div>
+      <div style="display:flex;flex-direction:column;gap:10px"><h3>Soru tipi</h3><div class="y-tip"></div></div></div>
+  </div>
+  <div class="grid3">
+    <div class="card"><h3>Mevzuat kaynağı</h3><div class="y-mev"></div></div>
+    <div class="card"><h3>Fasıllar ve hesaplar</h3><div class="y-fas"></div></div>
+    <div class="card"><h3>Zorluk ve doğru şık</h3><div class="y-zor"></div><div class="y-sik"></div></div>
+  </div>`;
+  hbars(p.querySelector(".y-konu"),topK.map(([k,v])=>({l:L.konu[k],v,c:GCOL(L.konu2grup[k]),tip:`<b>${esc(L.konu[k])}</b><br>${v} soru · soru no: ${qs.filter(q=>q.konu===k).map(q=>q.n).join(", ")}`})),{lw:"58%"});
+  hbars(p.querySelector(".y-kok"),L.kok_order.filter(k=>kok[k]).map(k=>({l:L.kok[k],v:kok[k],c:SER[L.kok_order.indexOf(k)]})),{lw:"52%"});
+  hbars(p.querySelector(".y-tip"),Object.entries(tc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({l:L.tip[k],v})),{lw:"52%"});
+  hbars(p.querySelector(".y-mev"),Object.entries(mc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({l:L.mevzuat[k],v})),{lw:"55%"});
+  const fl=Object.keys(fas).sort((a,b)=>a-b);
+  p.querySelector(".y-fas").innerHTML=`<p class="cap" style="margin:0">Sorulan fasıllar</p><div class="chips">${fl.map(f=>`<span class="chip" data-tip="Fasıl ${f}: ${fas[f]} soru">${f}${fas[f]>1?`<b>×${fas[f]}</b>`:""}</span>`).join("")||"—"}</div>
+    <p class="cap" style="margin:10px 0 0">Hesap türleri</p><div class="chips">${Object.entries(hc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<span class="chip">${esc(L.hesap[k]||k)} <b>×${v}</b></span>`).join("")||"—"}</div>`;
+  hbars(p.querySelector(".y-zor"),["KOLAY","ORTA","ZOR"].map((k,i)=>({l:L.zorluk[k],v:zc[k]||0,c:["var(--h3)","var(--h5)","var(--h7)"][i]})),{lw:"30%",max:100});
+  p.querySelector(".y-sik").innerHTML=`<p class="cap" style="margin-top:8px">Doğru şık dağılımı: ${["A","B","C","D","E"].map(s=>`<b class="mono">${s}</b> ${ac[s]||0}`).join(" · ")}</p>`;
+}
+(function(){
+  const tabs=$("#ytabs");
+  tabs.innerHTML=Y.map((y,i)=>`<button class="tab" role="tab" id="t${y}" aria-selected="${i===Y.length-1}" data-y="${y}">${y}</button>`).join("");
+  tabs.addEventListener("click",e=>{const b=e.target.closest(".tab");if(!b)return;tabs.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected",t===b));renderYear(+b.dataset.y);try{localStorage.setItem("gm-yil",b.dataset.y)}catch(_){}} );
+  let start=Y[Y.length-1];try{const s=+localStorage.getItem("gm-yil");if(Y.includes(s))start=s}catch(_){}
+  tabs.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected",+t.dataset.y===start));
+  renderYear(start);
+  Y.forEach(y=>{const d=document.createElement("div");d.className="yprint";$("#ypanel-all").appendChild(d);renderYear(y,d,true)});
+})();
+
+/* karşılaştırma */
+(function(){
+  const stat=Object.keys(L.konu).map(k=>{const m={};Y.forEach(y=>m[y]=Q.filter(q=>q.yil===y&&q.konu===k).length);const tot=Y.reduce((s,y)=>s+m[y],0);const early=(m[Y[0]]+m[Y[1]])/2,late=(m[Y[3]]+m[Y[4]])/2;return {k,l:L.konu[k],m,tot,avg:tot/Y.length,yrs:Y.filter(y=>m[y]>0).length,early,late,g:L.konu2grup[k]}}).filter(r=>r.tot>0).sort((a,b)=>b.tot-a.tot||a.l.localeCompare(b.l,"tr"));
+  DATA._stat=stat;
+  heat($("#hm-konu"),stat,{extra:{n:4,head:`<th class="c">Toplam</th><th class="c">Ort./yıl</th><th class="c">Yıl</th><th class="c">Eğilim</th>`,row:r=>{const d=r.late-r.early;const cls=d>=1?"up":d<=-1?"dn":"eq";const sym=d>=1?"▲":d<=-1?"▼":"■";return `<td class="tot">${r.tot}</td><td class="tot">${fmt(r.avg)}</td><td class="tot">${r.yrs}/5</td><td class="c"><span class="trend ${cls}" data-tip="2021–22 ort. ${fmt(r.early)} → 2024–25 ort. ${fmt(r.late)}">${sym} ${d>0?"+":""}${fmt(d)}</span></td>`}}});
+  hbars($("#top-konu"),stat.slice(0,15).map(r=>({l:r.l,v:r.tot,c:GCOL(r.g),tip:`<b>${esc(r.l)}</b><br>5 yılda ${r.tot} soru · yılda ort. ${fmt(r.avg)}<br>${Y.map(y=>y+": "+r.m[y]).join(" · ")}`})),{lw:"56%"});
+  const grows=Y.map(y=>{const m={};byYear(y).forEach(q=>{const g=L.konu2grup[q.konu];m[g]=(m[g]||0)+1});return {l:y,m}});
+  stack100($("#stk-grup"),grows,GRUPLAR,Object.fromEntries(GRUPLAR.map(g=>[g,g])),$("#lg-grup"));
+  stack100($("#stk-kok"),Y.map(y=>({l:y,m:count(byYear(y),"kok")})),L.kok_order,L.kok,$("#lg-kok"));
+  const sorted=(keys,field,names)=>keys.filter(k=>Q.some(q=>q[field]===k)).map(k=>({l:names[k],m:Object.fromEntries(Y.map(y=>[y,byYear(y).filter(q=>q[field]===k).length]))})).sort((a,b)=>Y.reduce((s,y)=>s+b.m[y],0)-Y.reduce((s,y)=>s+a.m[y],0));
+  const tot={n:1,head:`<th class="c">Toplam</th>`,row:r=>`<td class="tot">${Y.reduce((s,y)=>s+r.m[y],0)}</td>`};
+  heat($("#hm-tip"),sorted(L.tip_order,"tip",L.tip),{rowHead:"Tip",extra:tot});
+  heat($("#hm-mev"),sorted(L.mevzuat_order,"mevzuat",L.mevzuat),{rowHead:"Mevzuat",extra:tot});
+  stack100($("#stk-zor"),Y.map(y=>({l:y,m:count(byYear(y),"zorluk")})),["KOLAY","ORTA","ZOR"],L.zorluk,$("#lg-zor"),{colors:["var(--h3)","var(--h5)","var(--h7)"],inks:["var(--h-ink-lo)","var(--h-ink-hi)","var(--h-ink-hi)"]});
+  heat($("#hm-sik"),["A","B","C","D","E"].map(s=>({l:"Şık "+s,m:Object.fromEntries(Y.map(y=>[y,byYear(y).filter(q=>q.cevap===s).length]))})),{rowHead:"Doğru şık",max:30});
+  const dd=stat.filter(r=>Math.abs(r.late-r.early)>=1).sort((a,b)=>(b.late-b.early)-(a.late-a.early));
+  const W=580,rowH=26,top=26,left=262,right=24,H=top+dd.length*rowH+10;const mx=Math.max(...dd.flatMap(r=>[r.early,r.late]),1);
+  const x=v=>left+(W-left-right)*v/Math.ceil(mx);
+  let svg=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Yükselen ve düşen konular">`;
+  for(let t=0;t<=Math.ceil(mx);t+=Math.ceil(mx)>12?2:1){svg+=`<line x1="${x(t)}" x2="${x(t)}" y1="${top-6}" y2="${H-6}" stroke="var(--line)" stroke-width="1"/><text x="${x(t)}" y="${top-12}" fill="var(--muted)" font-size="11" font-family="IBM Plex Mono,monospace" text-anchor="middle">${t}</text>`}
+  dd.forEach((r,i)=>{const yy=top+i*rowH+rowH/2;const col=r.late>r.early?"var(--rise)":"var(--fall)";
+    svg+=`<g data-tip="<b>${esc(r.l)}</b><br>2021–22 ort. ${fmt(r.early)} → 2024–25 ort. ${fmt(r.late)}"><rect x="0" y="${yy-rowH/2}" width="${W}" height="${rowH}" fill="transparent"/><text x="${left-10}" y="${yy+4}" fill="var(--ink)" font-size="12" text-anchor="end" font-family="IBM Plex Sans,system-ui,sans-serif">${esc(r.l.length>36?r.l.slice(0,35)+"…":r.l)}</text><line x1="${x(r.early)}" x2="${x(r.late)}" y1="${yy}" y2="${yy}" stroke="${col}" stroke-width="2"/><circle cx="${x(r.early)}" cy="${yy}" r="5" fill="var(--surface)" stroke="${col}" stroke-width="2"/><circle cx="${x(r.late)}" cy="${yy}" r="5.5" fill="${col}" stroke="var(--surface)" stroke-width="2"/></g>`});
+  $("#dumb").innerHTML=svg+"</svg>";
+})();
+
+/* derinlemesine */
+(function(){
+  const fasRows=[];const fasAll={};
+  Q.forEach(q=>(q.fasil||[]).forEach(f=>{fasAll[f]=fasAll[f]||{};fasAll[f][q.yil]=(fasAll[f][q.yil]||0)+1}));
+  const bolumOf=f=>{const n=+f;const b=L.bolumler.find(b=>n>=b[2]&&n<=b[3]);return b?`${b[0]} · ${b[1]}`:"?"};
+  Object.keys(fasAll).sort((a,b)=>a-b).forEach(f=>fasRows.push({g:bolumOf(f),l:"Fasıl "+f,m:fasAll[f]}));
+  const fgs=[];fasRows.forEach(r=>{let g=fgs.find(x=>x.g===r.g);if(!g)fgs.push(g={g:r.g,rows:[]});g.rows.push(r)});
+  $("#hm-fasil").innerHTML=fgs.map(g=>`<div class="fg"><div class="fgl">${esc(g.g)}</div><table class="hm fgt"><thead><tr><th>Fasıl</th>${Y.map(y=>`<th class="c">${String(y).slice(2)}</th>`).join("")}<th class="c">Σ</th></tr></thead><tbody>${g.rows.map(r=>`<tr><td class="rl">${esc(r.l.replace("Fasıl ",""))}</td>${Y.map(y=>{const v=r.m[y]||0;return `<td class="cell ${hcls(v,4)}" data-tip="<b>${esc(r.l)}</b><br>${y}: ${v} soru">${v||"·"}</td>`}).join("")}<td class="tot">${Y.reduce((s,y)=>s+(r.m[y]||0),0)}</td></tr>`).join("")}</tbody></table></div>`).join("");
+  const bc={};fasRows.forEach(r=>{bc[r.g]=(bc[r.g]||0)+Y.reduce((s,y)=>s+(r.m[y]||0),0)});
+  hbars($("#bolum-bar"),Object.entries(bc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({l:k,v,c:GCOL("Tarife & Sınıflandırma")})),{lw:"62%"});
+  $("#tarife-not").innerHTML=INS.tarife_not||"";
+  const hes=Q.filter(q=>q.tip==="HESAPLAMA");
+  heat($("#hm-hesap"),Object.keys(L.hesap).filter(k=>hes.some(q=>q.hesap===k)).map(k=>({l:L.hesap[k],m:Object.fromEntries(Y.map(y=>[y,hes.filter(q=>q.yil===y&&q.hesap===k).length]))})).sort((a,b)=>Y.reduce((s,y)=>s+b.m[y],0)-Y.reduce((s,y)=>s+a.m[y],0)),{rowHead:"Hesaplanan",extra:{n:1,head:`<th class="c">Toplam</th>`,row:r=>`<td class="tot">${Y.reduce((s,y)=>s+r.m[y],0)}</td>`}});
+  $("#hesap-not").innerHTML=INS.hesap_not||"";
+  const C=DATA.gmy_cmp||[];const cm=Math.max(...C.flatMap(r=>[r.gm,r.gmy]),1);
+  $("#gmy-cmp").innerHTML=`<div class="legend sq" style="margin-bottom:8px"><span><i style="background:var(--s1)"></i>GM (500 soru)</span><span><i style="background:var(--s2)"></i>GMY gümrük bölümü (400 soru)</span></div><div class="cmp">${C.map(r=>`<div class="cr" data-tip="<b>${esc(r.alan)}</b><br>GM: %${fmt(r.gm)} (${r.gm_n} soru)<br>GMY: %${fmt(r.gmy)} (${r.gmy_n} soru)"><span class="lab">${esc(r.alan)}</span><span class="bars"><span class="b1" style="width:${r.gm/cm*100}%"></span><span class="b2" style="width:${r.gmy/cm*100}%"></span></span><span class="val">%${fmt(r.gm)} · %${fmt(r.gmy)}</span></div>`).join("")}</div>`;
+  const S=Q.filter(q=>q.tip==="SAYISAL"&&q.sayisal).sort((a,b)=>GRUPLAR.indexOf(L.konu2grup[a.konu])-GRUPLAR.indexOf(L.konu2grup[b.konu])||L.konu[a.konu].localeCompare(L.konu[b.konu],"tr")||a.yil-b.yil);
+  let last=null;
+  $("#sayisal").innerHTML=`<div class="tblwrap"><table class="st"><thead><tr><th>Değer</th><th>Bilgi</th><th class="c">Yıl/Soru</th></tr></thead><tbody>${S.map(q=>{let h="";if(q.konu!==last){last=q.konu;h=`<tr class="grp"><td colspan="3">${esc(L.konu[q.konu])}</td></tr>`}return h+`<tr><td class="sv">${esc(q.sayisal)}</td><td><b>${esc(q.alt_konu)}</b> · <span class="kb">${esc(q.anahtar_bilgi)}</span></td><td class="c mono">${q.yil}/${q.n}</td></tr>`}).join("")}</tbody></table></div>`;
+  const T=INS.tekrar||[];
+  $("#tekrar").innerHTML=`<div class="tblwrap"><table><thead><tr><th>Soru kalıbı</th><th>Konu</th>${Y.map(y=>`<th class="c">${y}</th>`).join("")}<th>Doğru bilgi</th></tr></thead><tbody>${T.map(t=>`<tr><td><b>${esc(t.kalip)}</b></td><td>${esc(L.konu[t.konu]||t.konu)}</td>${Y.map(y=>{const v=(t.sorular[y]||[]);return `<td class="c mono">${v.length?v.join(", "):"·"}</td>`}).join("")}<td class="kb">${esc(t.bilgi)}</td></tr>`).join("")}</tbody></table></div>`;
+})();
+
+/* sonuç */
+(function(){
+  const S=INS.sonuc||{};
+  $("#sonuc-body").innerHTML=(S.paragraflar||[]).map(p=>`<div class="callout"><h3 style="margin-bottom:6px">${p.baslik}</h3><ul class="notes">${p.maddeler.map(m=>`<li>${m}</li>`).join("")}</ul></div>`).join("");
+  const stat=DATA._stat;
+  const t1=stat.filter(r=>r.avg>=5),t2=stat.filter(r=>r.avg>=2&&r.avg<5),t3=stat.filter(r=>r.avg<2);
+  const tier=(c,t,s,arr)=>`<div class="tier" style="--c:${c}"><span class="pill ${t}">${s.badge}</span><h3>${s.title}</h3><span class="sub">${s.sub}</span><ol>${arr.map(r=>`<li>${esc(r.l)} <span class="mono" style="color:var(--muted)">${fmt(r.avg)}/yıl</span></li>`).join("")}</ol></div>`;
+  $("#tiers").innerHTML=tier("var(--stamp)","p1",{badge:"ÖNCELİK 1",title:"Her yıl çok soru",sub:"Yılda ortalama 5 ve üzeri soru"},t1)+tier("var(--accent)","p2",{badge:"ÖNCELİK 2",title:"Düzenli gelen",sub:"Yılda ortalama 2–5 soru"},t2)+tier("var(--neutral-mark)","p3",{badge:"ÖNCELİK 3",title:"Ara sıra",sub:"Yılda ortalama 2'den az"},t3);
+})();
+</script>

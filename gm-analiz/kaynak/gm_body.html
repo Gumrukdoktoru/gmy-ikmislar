@@ -1,0 +1,79 @@
+<div class="wrap">
+  <header class="top">
+    <div style="display:flex;flex-direction:column;gap:12px;min-width:0">
+      <span class="eyebrow">T.C. Ticaret Bakanlığı · Gümrük Müşavirliği Sınavı · 2021–2025</span>
+      <h1>GM Soru Atlası<br>2021–2025</h1>
+      <p class="lede">Beş Gümrük Müşavirliği sınavının 500 sorusu konu, soru kalıbı, soru tipi, dayandığı mevzuat, tarife faslı ve hesap türüne göre sınıflandırıldı. Önce her yıl ayrı ayrı incelenir, sonra yıllar karşılaştırılır; en çok soru gelen konular, soru tipleri ve sınavın değişen yönü ortaya konur.</p>
+    </div>
+    <div class="stamp">İncelendi<b>500 SORU</b>5 sınav · 2021–2025</div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section id="iskelet">
+    <div class="sec-head"><span class="eyebrow">Bölüm 1 · Şema</span><h2>Sınavın iskeleti: 100 sorunun tamamı mesleki</h2>
+      <p class="lede">GM sınavında genel yetenek ve genel kültür sorusu yok; 100 sorunun hepsi gümrük ve dış ticaret mevzuatından. Optik form şemasında her daire bir soru, renk sorunun konu grubunu gösterir. Sorular konu bloklarına göre dizilmiştir; tarife ve hesap blokları her yıl kolayca seçilir. 2022 dosyası B kitapçığı olduğu için o yılın sıralaması A kitapçığından farklıdır.</p></div>
+    <div class="card">
+      <div class="optik" id="optik"></div>
+      <div class="legend" id="optik-legend"></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Konu gruplarına yılda düşen soru</h3><div id="grp-avg"></div>
+        <p class="cap">5 yılın ortalaması; renkler optik form şemasıyla aynı.</p></div>
+      <div class="card"><h3>Sınavda öne çıkan üç blok</h3><div id="bloklar"></div></div>
+    </div>
+    <div class="card"><h3>Konu ağacı</h3><pre class="mermaid" id="mm"></pre></div>
+  </section>
+
+  <section id="yillar">
+    <div class="sec-head"><span class="eyebrow">Bölüm 2 · Yıl yıl analiz</span><h2>Her sınavın kendi profili</h2>
+      <p class="lede screen-only">Bir yıl seçin. Grafikler ve yorumlar o yılın sınavına göre güncellenir.</p>
+      <p class="lede print-only">Her yılın grafikleri ve yorumu aşağıda 2021'den 2025'e sırayla yer alıyor.</p></div>
+    <div class="tabs screen-only" role="tablist" id="ytabs"></div>
+    <div id="ypanel" class="screen-only" style="display:flex;flex-direction:column;gap:16px"></div>
+    <div id="ypanel-all" class="print-only"></div>
+  </section>
+
+  <section id="karsilastirma">
+    <div class="sec-head"><span class="eyebrow">Bölüm 3 · Karşılaştırma</span><h2>Beş yılın karşılaştırması</h2>
+      <p class="lede">500 soru konu, konu grubu, soru kalıbı, soru tipi ve mevzuat kaynağına göre yıllar arasında karşılaştırıldı. Isı haritalarında renk koyulaştıkça soru sayısı artar.</p></div>
+    <div class="card"><h3>Konular × yıl</h3><p class="cap">5 yıllık toplama göre sıralı. "Yıl" sütunu konunun kaç sınavda çıktığını, "Eğilim" son iki yılın ortalamasını ilk iki yılınkiyle kıyaslar.</p><div id="hm-konu"></div></div>
+    <div class="grid2">
+      <div class="card"><h3>En çok soru gelen 15 konu (5 yıl toplam)</h3><div id="top-konu"></div></div>
+      <div class="card"><h3>Konu grubu payları, yıla göre</h3><div id="stk-grup"></div><div class="legend sq" id="lg-grup"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Soru kalıbı (kök yapısı), yıla göre</h3><div id="stk-kok"></div><div class="legend sq" id="lg-kok"></div></div>
+      <div class="card"><h3>Soru tipi × yıl</h3><div id="hm-tip"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Dayanılan mevzuat × yıl</h3><div id="hm-mev"></div></div>
+      <div class="card"><h3>Yükselen ve düşen konular</h3><p class="cap">2021–22 ortalaması (açık nokta) → 2024–25 ortalaması (koyu nokta), yıllık soru sayısı.</p><div class="dumb" id="dumb"></div></div>
+    </div>
+    <div class="card"><h3>Zorluk ve doğru şık dağılımı</h3><div class="grid2"><div><div id="stk-zor"></div><div class="legend sq" id="lg-zor" style="margin-top:8px"></div></div><div id="hm-sik"></div></div></div>
+  </section>
+
+  <section id="derin">
+    <div class="sec-head"><span class="eyebrow">Bölüm 4 · Derinlemesine</span><h2>Tarife, hesap ve sayısal bilgiler</h2>
+      <p class="lede">GM sınavını GMY'den ayıran üç alan: tarife sınıflandırma, kıymet ve vergi hesapları ve mevzuattaki süre-oran bilgileri. Ayrıca GM ile GMY sınavlarının konu ağırlıkları karşılaştırılır.</p></div>
+    <div class="card"><h3>Sorulan fasıllar × yıl</h3><p class="cap">Tarife sınıflandırma ve tarife pozisyonu geçen sorulardaki fasıllar, TGTC bölümlerine göre gruplu. Hücredeki sayı o yıl o fasıldan gelen soru sayısıdır; Σ 5 yıllık toplamdır.</p><div class="fcols" id="hm-fasil"></div></div>
+    <div class="grid2">
+      <div class="card"><h3>Bölümlere göre tarife soruları (5 yıl)</h3><div id="bolum-bar"></div></div>
+      <div class="card"><div class="callout" id="tarife-not"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Hesap soruları: ne hesaplatılıyor?</h3><div id="hm-hesap"></div></div>
+      <div class="card"><div class="callout" id="hesap-not"></div></div>
+    </div>
+    <div class="card"><h3>GM ve GMY'de konu ağırlıkları</h3><p class="cap">Aynı 5 yılda GM'nin 500 sorusu ile GMY'nin gümrük bölümündeki 400 sorunun ortak alanlara göre payı.</p><div id="gmy-cmp"></div></div>
+    <div class="card"><h3>Sınavda sorulan süre, oran ve tutarlar</h3><p class="cap">Doğru cevabı bir süre, oran veya sayı olan sorular, konuya göre. Değerler cevap anahtarına dayanır; mevzuat değişikliklerine karşı güncel metinden kontrol edilmelidir.</p><div id="sayisal"></div></div>
+    <div class="card"><h3>Tekrar eden soru kalıpları</h3><p class="cap">Farklı yıllarda neredeyse aynı bilgiyi soran sorular.</p><div id="tekrar"></div></div>
+  </section>
+
+  <section id="sonuc">
+    <div class="sec-head"><span class="eyebrow">Bölüm 5 · Sonuç</span><h2>En çok neyden, nasıl soruluyor?</h2></div>
+    <div id="sonuc-body" style="display:flex;flex-direction:column;gap:16px"></div>
+    <div class="tiers" id="tiers"></div>
+  </section>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>

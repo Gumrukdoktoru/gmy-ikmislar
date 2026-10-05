@@ -1,0 +1,618 @@
+{
+ "years": {
+  "2021": [
+   "Sınav konu bloklarıyla kurulmuş: 1–40 genel hükümler, beyan ve muafiyetler; <b>41–50 tamamen kaçakçılık</b> (5607 ve akaryakıt/elkonulan eşya yönetmelikleri); 51–80 dış ticaret, kambiyo ve rejimler; <b>81–90 hesap bloğu</b>; <b>91–100 tarife sınıflandırma</b>.",
+   "En çok soru <b>Kaçakçılık (10)</b> ve <b>Tarife Sınıflandırma (10)</b> konularından geldi; ardından Gümrük Kıymeti (8) ve Özet Beyan–Geçici Depolama (8) var. Kaçakçılığa 10 soru ayrılan tek yıl bu; sonraki yıllarda 2–4 soruya iniyor.",
+   "Genel hükümler ve tanımlar (7 soru: risk, gizlilik, çalışma saatleri, gümrük vergileri tanımı) bu yıl belirgin; 2023'ten itibaren bu başlıkta hiç soru yok. <b>STA ve tercihli menşe belgelerinden hiç soru gelmedi</b>; sonraki dört yılda yılda 5–8 soru çıkıyor.",
+   "Soru kalıbında <b>olumsuz kök %56</b> ile beş yılın en yüksek oranında; öncüllü (I-II-III) soru yalnızca 4. Doğrudan 4458 sayılı Kanun'a dayanan 36 soru da beş yılın zirvesi: 2021 sınavı kanun metnini ölçen, en klasik sınav.",
+   "Hesap bloğu 10 soru: kıymet 5, KDV matrahı 3, uzlaşma ve ceza 1'er. Kültür fonunun uzlaşmaya konu olmaması (82) ve lisans ücretinde 3 yıllık zamanaşımı (83) gibi ayrıntılar hesapla birlikte soruluyor.",
+   "Beş yılın en kolay sınavı: 26 kolay, 54 orta, 20 zor. Tarife soruları 13 farklı fasıla yayılıyor; 96. fasıl 3 soruyla öne çıkıyor."
+  ],
+  "2022": [
+   "Elimizdeki dosya <b>B kitapçığı</b>; sorular A kitapçığına göre karışık sıralandığından optik formda blok yapısı daha az belirgin. Yine de tarife soruları 75–88, hesap soruları 89–100 aralığında toplanıyor.",
+   "En çok soru <b>Tarife Sınıflandırma (12)</b> ve <b>Gümrük Kıymeti (11)</b> konularından geldi. Arkasından STA–menşe belgeleri, transit ve ÖTV (5) geliyor.",
+   "<b>Dış ticaret politikası grubu 21 soruyla</b> beş yılın zirvesinde: ihracat mevzuatı (konsinye, bedelsiz ihracat, 96/31 yasak mallar), ithalat rejimi ve ek mali yükümlülük, teknik düzenlemeler (4), damping ve sınır ticareti. Dayanak olarak dış ticaret mevzuatı (15 soru) ilk kez Gümrük Kanunu'nu (11) geçiyor.",
+   "Hesap soruları 13'e çıktı: kıymet 6, ÖTV 2 (sigarada nispi/maktu vergi), asgari–azami gümrük vergisi, antrepo götürü teminatı ve kendiliğinden bildirimde ceza. 94. sorunun cevap anahtarı (466.200 TL) standart hesapla elde edilemiyor; standart kurgu 452.000 TL (B) veriyor.",
+   "Kalıp değişimi bu yıl başlıyor: <b>öncüllü soru 15</b> (2021'de 4), olumsuz kök %34. Zor soru sayısı 22.",
+   "Tarifede HS 2022 değişiklikleri doğrudan soruldu: yenilebilir böcekler (04.10) ve elektronik sigara–24.04 ayrımı. Balina (01.06) ve ortopedik ayakkabı (90.21) gibi \"fasıl dışı\" tuzaklar bu yıl başlıyor ve sonraki yıllarda tekrarlanıyor."
+  ],
+  "2023": [
+   "<b>Tarife bloğu sınavın başına alındı (4–21) ve 18 soruya çıktı</b>: beş yılın en yüksek tarife payı (2024'le birlikte). 84. fasıl tek başına 6 soru getirdi (kültivatör, conta takımı, cep hesap makinesi, lehim makinesi, ısı değiştirici).",
+   "<b>Hesap ağırlığı zirvede: 16 hesap sorusu</b>, çoğu 66–84 aralığında. Bunların 9'u kıymet hesabı. 72–73. sorular ortak senaryolu; 72'de şıklar metindeki tutarların 10 katıyla kurulmuş, 73'te anahtar (D) test ücretini de KDV matrahına katıyor, standart hesap C (5.085.000) veriyor.",
+   "STA–menşe belgeleri (7), transit (86–93 bloğu, 7 soru) ve kambiyo (5: ihracat bedellerinin yurda getirilmesi, kıymetli maden ithali) güçlendi. Gemi–uçak, ihrakiye ve kumanya (4) bu yıl en çok soru aldığı seviyede.",
+   "<b>Kolay soru yalnızca 6</b>, zor soru 27: beş yılın en az kolay soru içeren sınavı. Olumlu kök 51'e çıktı, öncüllü soru 16, vaka/senaryo sorusu 5.",
+   "Uluslararası anlaşmalara dayanan soru 13'e yükseldi (TIR, CISG, Gümrük Kıymeti Komitesi, 1/95 OKK, TPS-OIC). Bu eğilim 2024 ve 2025'te de sürüyor."
+  ],
+  "2024": [
+   "<b>Tarife 18 soru (çoğu 44–60 aralığında)</b> ve <b>26 farklı fasıl</b>: beş yılın en geniş fasıl yayılımı. 85. fasıl 4 soru (düz panel ekran modülü, LED, akıllı kart); kauçuk–silikon, ayakkabı aksamı, römorkör ve buz pisti makinesi gibi tek tek eşya soruları ağırlıkta.",
+   "<b>Gümrük rejimleri grubu 24 soruyla</b> öne çıktı: transit 7 (TIR karnesi, kefil, LRN), antrepo 6 (götürü teminat, kapatma, geri gönderme), DİR 4 ve geçici ithalat 3.",
+   "Kıymet (10) ve hesap (11) soruları bu kez sınavın başında, 9–29 aralığında. Royalti–lisans (13, 15, 23), satın alma komisyonu, kullanılmış taşıt amortismanı ve gözetim farkı KDV'si soruldu.",
+   "<b>Beş yılın en zor sınavı: 32 zor soru</b>. Antrepo götürü teminatı ve DİR süreleri gibi tebliğ ayrıntısı isteyen sorular zorluğu artırıyor. Olumsuz kök %38, öncüllü 15.",
+   "Muafiyetler 7 soruyla en yüksek seviyede; bunların 3'ü geri gelen eşya (istisnalar, elde olmayan sebepler, sürenin başlangıcı). STA–menşe belgeleri 8 soru: anlaşma–belge eşleştirmeleri ve taraf ülkeler."
+  ],
+  "2025": [
+   "Tarife 16 soru (39–55), transit <b>8 soruluk tek blok (65–72)</b>, STA–menşe belgeleri 7. Bu üç konu birlikte sınavın üçte birini oluşturuyor.",
+   "<b>Yeni başlıklar geldi</b>: damga vergisi ve transfer fiyatlandırması (1, 4, 5), GATT VII isteğe bağlı kıymet unsurları (3), TKA ön karar kapsamı (6), nihai kullanım ve gümrük statü belgesi (21–24). İç vergiler, kambiyo ve fonlar grubu 13 soruyla beş yılın en yükseği.",
+   "<b>Gümrük Kıymeti 5 soruya düştü</b>: beş yılın en düşük seviyesi. Hesap soruları da 9 ile en az; çoğu 12–20 aralığında. 12. soruda anahtar (464) ardiyeyi KDV matrahına katmıyor; ardiye eklenirse 484 (E) çıkıyor.",
+   "<b>En çeşitli soru kalıbı bu yılda</b>: öncüllü 18 (beş yılın zirvesi), boşluk doldurma 5, eşleştirme/sıralama 3. Olumlu kök 40'a geriledi.",
+   "Sınav sonu yine meslek ve kolaylaştırma soruları: YYS ve OKS (3), YGM tespit kodları (98, 100) ve asgari ücret tarifesi (99). Zorluk: 15 kolay, 63 orta, 22 zor."
+  ]
+ },
+ "tekrar": [
+  {
+   "kalip": "Fikri ve sınai haklarda alıkoyma süreleri ve yasak işlemler",
+   "konu": "GM_FSMH",
+   "sorular": {
+    "2021": [
+     12,
+     17
+    ],
+    "2022": [
+     27,
+     38
+    ],
+    "2023": [
+     56
+    ],
+    "2024": [
+     31
+    ],
+    "2025": [
+     28
+    ]
+   },
+   "bilgi": "Re'sen alıkoyma 3 iş günü; hak sahibi ihtiyati tedbiri 10 iş gününde (çabuk bozulan eşyada 3) getirir; başvuru en fazla 1 yıl için yapılır; durdurulan eşya TGB'yi terk edemez, serbest bölgeye konamaz."
+  },
+  {
+   "kalip": "Incoterms 2020: kurallar ve taşıma türleri",
+   "konu": "GM_INCOTERMS",
+   "sorular": {
+    "2021": [
+     67
+    ],
+    "2022": [
+     29,
+     65
+    ],
+    "2023": [
+     65,
+     71
+    ],
+    "2024": [
+     1
+    ],
+    "2025": [
+     11
+    ]
+   },
+   "bilgi": "EXW, FCA, CPT, CIP, DAP, DPU ve DDP tüm taşıma türlerine; FAS, FOB, CFR ve CIF yalnız deniz ve iç su yoluna uygundur. Kuralları ICC hazırlar; DPU, DAT'ın yerini almıştır."
+  },
+  {
+   "kalip": "Royalti ve lisans ücretinin kıymete eklenmesi",
+   "konu": "GM_KIYMET",
+   "sorular": {
+    "2021": [
+     83,
+     84
+    ],
+    "2022": [
+     92,
+     98
+    ],
+    "2024": [
+     13,
+     15,
+     23
+    ],
+    "2025": [
+     14,
+     17
+    ]
+   },
+   "bilgi": "Satış şartı olan ve ithal eşyasıyla ilgili royalti kıymete eklenir; Türkiye'de çoğaltma hakkı bedeli eklenmez. Ödemenin ithalattan önce ya da sonra yapılması sonucu değiştirmez; 3 yıllık zamanaşımı ayrıca kontrol edilir."
+  },
+  {
+   "kalip": "Geri gelen eşya muafiyeti: süre, başlangıç, istisnalar",
+   "konu": "GM_MUAFIYET",
+   "sorular": {
+    "2021": [
+     22,
+     24,
+     76
+    ],
+    "2022": [
+     69
+    ],
+    "2023": [
+     27
+    ],
+    "2024": [
+     61,
+     69,
+     70
+    ]
+   },
+   "bilgi": "Süre 3 yıldır ve fiili ihraç tarihinden başlar (deniz yolunda geminin hareketi, kara yolunda sınırdan fiilen çıkış). İhracı dış ticaret önlemine konu eşya muafiyetten yararlanamaz."
+  },
+  {
+   "kalip": "TIR karnesi ve TIR Sözleşmesi",
+   "konu": "GM_TRANSIT",
+   "sorular": {
+    "2022": [
+     46
+    ],
+    "2023": [
+     93
+    ],
+    "2024": [
+     77,
+     78,
+     79
+    ],
+    "2025": [
+     71,
+     72
+    ]
+   },
+   "bilgi": "Her taşıt veya konteyner için ayrı karne esastır. Alkol ve tütün ancak özel ibareli karneyle taşınır; geçerliliğinin son günü hareket gümrüğüne ibraz edilen karne kabul edilir."
+  },
+  {
+   "kalip": "Transit teminatı, kefil ve GRN",
+   "konu": "GM_TRANSIT",
+   "sorular": {
+    "2021": [
+     74
+    ],
+    "2022": [
+     51,
+     61,
+     66
+    ],
+    "2024": [
+     74,
+     75
+    ],
+    "2025": [
+     65
+    ]
+   },
+   "bilgi": "Kefil, Türkiye'de yerleşik, rejim hak sahibinden farklı bir banka veya finans kuruluşudur. Teminat mektubu, beyannameler kapanıp GRN kapatıldıktan 10 ay sonra iade edilir; kara yolu dışındaki taşımalarda kural olarak teminat aranmaz."
+  },
+  {
+   "kalip": "Antrepo götürü teminatı",
+   "konu": "GM_ANTREPO",
+   "sorular": {
+    "2022": [
+     41,
+     68
+    ],
+    "2023": [
+     99
+    ],
+    "2024": [
+     83,
+     84
+    ],
+    "2025": [
+     82
+    ]
+   },
+   "bilgi": "Götürü teminatı antrepo işleticisi verir; tutar alan ya da tank kapasitesi kademelerine göre hesaplanır, 40.000.000 TL'yi aşan kısım dikkate alınmaz. Tank ilavesinde yalnızca ilave edilen kısım esas alınır; işlemleri bölge müdürlüğü sonuçlandırır."
+  },
+  {
+   "kalip": "İşlenmemiş kıymetli maden ithalatı (32 sayılı Karar)",
+   "konu": "GM_KAMBIYO",
+   "sorular": {
+    "2022": [
+     1
+    ],
+    "2023": [
+     50,
+     51
+    ],
+    "2024": [
+     5
+    ],
+    "2025": [
+     31,
+     37
+    ]
+   },
+   "bilgi": "İşlenmemiş standart ve standart dışı kıymetli madeni yalnızca TCMB ile kıymetli madenler aracı kuruluşları ithal edebilir. Serbest bölgeye getirilmesi yasak değildir; kıymetli maden ihracı serbesttir."
+  },
+  {
+   "kalip": "Transit basitleştirmeleri ve izin sahibinin yükümlülükleri",
+   "konu": "GM_TRANSIT",
+   "sorular": {
+    "2022": [
+     63
+    ],
+    "2023": [
+     87,
+     92
+    ],
+    "2024": [
+     76
+    ],
+    "2025": [
+     66,
+     70
+    ]
+   },
+   "bilgi": "Demiryolu basitleştirmesinde CIM bilgileri iletilir. İzin sahibi manifestolara 3 yıl erişim sağlar ve havalimanı değişikliğini 15 gün önce bildirir; başvuruda finansal büyüklük kriter değildir."
+  },
+  {
+   "kalip": "Anlaşma tarafı ülkeler (STA, TTA, TPS-OIC, EFTA)",
+   "konu": "GM_TERCIHLI_STA",
+   "sorular": {
+    "2022": [
+     23
+    ],
+    "2023": [
+     100
+    ],
+    "2024": [
+     36,
+     40
+    ],
+    "2025": [
+     26,
+     97
+    ]
+   },
+   "bilgi": "İran, Azerbaycan, Özbekistan ve Pakistan ile STA değil tercihli ticaret anlaşması vardır; Uruguay ile STA yoktur. EFTA: İsviçre, Norveç, İzlanda, Lihtenştayn."
+  },
+  {
+   "kalip": "KKDF kesintisi yapılan ve yapılmayan ithalat",
+   "konu": "GM_FONLAR",
+   "sorular": {
+    "2021": [
+     87
+    ],
+    "2022": [
+     2,
+     5
+    ],
+    "2023": [
+     52
+    ],
+    "2024": [
+     14
+    ]
+   },
+   "bilgi": "Mal mukabili, kabul kredili ve vadeli akreditifli ithalatta KKDF kesilir. Borsa İstanbul'a gelen standart kıymetli madende ve süresinden önce ödenen istisnai kıymet bedelinde kesinti yapılmaz."
+  },
+  {
+   "kalip": "Kullanılmış taşıtın gümrük kıymeti (amortisman)",
+   "konu": "GM_KIYMET",
+   "sorular": {
+    "2022": [
+     91
+    ],
+    "2023": [
+     84
+    ],
+    "2024": [
+     22
+    ],
+    "2025": [
+     16
+    ]
+   },
+   "bilgi": "Fatura bedelinden kullanım süresi için amortisman düşülür: ilk yıl %20, sonraki yıllar %10, toplamda en çok %80. Sayımın model yılından mı fatura yılından mı başlayacağı anahtarlarda farklı ele alınmış; bu soru tipi itiraza en açık hesaplardandır."
+  },
+  {
+   "kalip": "Telafi edici vergi ve geri ödeme sistemi",
+   "konu": "GM_DIR",
+   "sorular": {
+    "2021": [
+     14
+    ],
+    "2022": [
+     42
+    ],
+    "2024": [
+     67
+    ],
+    "2025": [
+     63
+    ]
+   },
+   "bilgi": "TEV bir ithalat vergisidir ve ihracat beyannamesinin tescilinde doğar. Miktar kısıtlaması, kota veya lisans söz konusu olduğunda geri ödeme sistemi uygulanmaz."
+  },
+  {
+   "kalip": "Anlaşmalara göre menşe ispat belgesi eşleştirmesi",
+   "konu": "GM_TERCIHLI_STA",
+   "sorular": {
+    "2023": [
+     47
+    ],
+    "2024": [
+     32,
+     35,
+     41
+    ],
+    "2025": [
+     33,
+     34,
+     36
+    ]
+   },
+   "bilgi": "İran TTA'da İran menşe ispat belgesi, Azerbaycan TTA'da TR-AZ Menşe İspat Belgesi, Singapur STA'da menşe beyanı, Özbekistan TTA'da EUR.1 kullanılır; Form A yalnız GTS'de geçerlidir. AB ile sanayi ürünleri ve işlenmiş tarım ürünleri ticaretinde A.TR kullanılır."
+  },
+  {
+   "kalip": "Özet beyan ve geçici depolama yeri şartları",
+   "konu": "GM_GIRIS_BEYAN",
+   "sorular": {
+    "2021": [
+     7,
+     30,
+     35,
+     36
+    ],
+    "2022": [
+     58,
+     59
+    ],
+    "2023": [
+     96
+    ]
+   },
+   "bilgi": "Geçici depolama yeri açma başvurularını bölge müdürlüğü sonuçlandırır. Çıkış özet beyanından sonra eşya 150 gün içinde çıkmazsa beyan verilmemiş sayılır; muayene bildiriminden sonra özet beyan değiştirilemez."
+  },
+  {
+   "kalip": "Konsinye ihracat",
+   "konu": "GM_DIS_TIC_IHRACAT",
+   "sorular": {
+    "2022": [
+     10,
+     45
+    ],
+    "2024": [
+     63,
+     72
+    ],
+    "2025": [
+     60
+    ]
+   },
+   "bilgi": "Başvuru İhracatçı Birlikleri Genel Sekreterliğine yapılır; kesin satış ihraçtan itibaren 1 yıl içinde gerçekleşmelidir ve haklı nedenle 2 yıl uzatılabilir."
+  },
+  {
+   "kalip": "64.06 ayakkabı aksamı ve 64. fasıl notları",
+   "konu": "GM_TARIFE_SINIF",
+   "sorular": {
+    "2022": [
+     85
+    ],
+    "2024": [
+     48,
+     58
+    ],
+    "2025": [
+     41,
+     44
+    ]
+   },
+   "bilgi": "Bağcık, kopça, toka ve süs eşyası 64.06 anlamında aksam sayılmaz; ortopedik ayakkabı 90.21'dedir. 64. fasıl XII. Bölümdedir."
+  },
+  {
+   "kalip": "ÖTV (IV) sayılı liste kapsamı",
+   "konu": "GM_OTV",
+   "sorular": {
+    "2023": [
+     60
+    ],
+    "2024": [
+     16
+    ],
+    "2025": [
+     8,
+     9
+    ]
+   },
+   "bilgi": "Parfüm, kozmetik, saç spreyi, havyar ve tırnak makası (IV) sayılı listededir; sade gazoz ve çerçeveli cam ayna değildir. Diplomatik istisna (IV) sayılı listeyi kapsamaz."
+  },
+  {
+   "kalip": "Memeliler ve yenilebilir böcekler (HS 2022)",
+   "konu": "GM_TARIFE_SINIF",
+   "sorular": {
+    "2022": [
+     79,
+     83
+    ],
+    "2024": [
+     2
+    ],
+    "2025": [
+     39
+    ]
+   },
+   "bilgi": "Balina ve yunus memelidir; canlı halde 01.06'da yer alır, 3. fasılda değil. HS 2022 ile insan tüketimine uygun böcekler 04.10'a alınmıştır."
+  },
+  {
+   "kalip": "1/95 OKK md. 28 ve Gümrük Kıymeti Komitesi",
+   "konu": "GM_ULUSLARARASI_TIC",
+   "sorular": {
+    "2023": [
+     61,
+     85
+    ],
+    "2024": [
+     11
+    ],
+    "2025": [
+     2
+    ]
+   },
+   "bilgi": "1/95 OKK md. 28 menşe, kıymet, beyan ve serbest dolaşım gibi uyum alanlarını sayar. Gümrük Kıymeti Komitesi DTÖ'de, Teknik Komite ise DGÖ'dedir."
+  },
+  {
+   "kalip": "Gümrükçe vize edilen ve edilmeyen menşe belgeleri",
+   "konu": "GM_TERCIHLI_STA",
+   "sorular": {
+    "2022": [
+     9
+    ],
+    "2023": [
+     54
+    ],
+    "2024": [
+     33
+    ]
+   },
+   "bilgi": "EUR.1 ve A.TR gümrükçe vize edilir. Menşe şahadetnamesini odalar onaylar, Form A'yı lehdar ülke makamları düzenler; fatura beyanı ve menşe beyanı vize gerektirmez."
+  },
+  {
+   "kalip": "İhracı yasak ve ön izne bağlı mallar (96/31)",
+   "konu": "GM_DIS_TIC_IHRACAT",
+   "sorular": {
+    "2021": [
+     54
+    ],
+    "2022": [
+     35
+    ],
+    "2025": [
+     61
+    ]
+   },
+   "bilgi": "Tütün tohumu ve sultani çekirdeksiz asma fidanının ihracı yasaktır; afyon ve haşhaş kellesi ön izne bağlıdır."
+  },
+  {
+   "kalip": "Gümrük müşavirliği asgari ücret tarifesi",
+   "konu": "GM_MESLEK",
+   "sorular": {
+    "2022": [
+     56
+    ],
+    "2024": [
+     100
+    ],
+    "2025": [
+     99
+    ]
+   },
+   "bilgi": "Aynı beyannamede birden fazla rejim varsa yüksek ücret uygulanır. Sektörel dış ticaret şirketlerinde beyanname sayısına göre %35 veya %50 indirim yapılabilir; tutar soruları her yılın tebliğinden gelir."
+  },
+  {
+   "kalip": "Sınır ticaret merkezleri ve sınır ticareti",
+   "konu": "GM_YATIRIM_SINIR",
+   "sorular": {
+    "2021": [
+     75
+    ],
+    "2022": [
+     30
+    ],
+    "2023": [
+     31
+    ]
+   },
+   "bilgi": "Sınır ticaret merkezleri gümrük işlemlerinde TGB dışında sayılır. Altyapı, güvenlik ve işletme valiliğin görevidir; uygunluk belgesi her ürün için ayrı düzenlenir ve devredilemez."
+  },
+  {
+   "kalip": "İhrakiye, kumanya ve tamamlayıcı beyan",
+   "konu": "GM_OZEL_TASIT",
+   "sorular": {
+    "2021": [
+     25,
+     26
+    ],
+    "2023": [
+     25,
+     26,
+     30
+    ]
+   },
+   "bilgi": "Gemiyle ihracatta fiili ihraç tarihi geminin hareket tarihi, ihrakiyede teslim tarihidir. Basitleştirilmiş usulle yapılan teslimlerde tamamlayıcı beyan, izleyen ayın ilk 7 iş gününde verilir."
+  },
+  {
+   "kalip": "YGM tespit işlemi kodları",
+   "konu": "GM_YGM",
+   "sorular": {
+    "2021": [
+     31
+    ],
+    "2025": [
+     98,
+     100
+    ]
+   },
+   "bilgi": "AN kodları antrepo, DR kodları DİR tespitleridir. Genel antrepolarda AN7, AN8 ve AN9 tespitlerini aynı YGM yapmalıdır."
+  },
+  {
+   "kalip": "Kaçak akaryakıtta numune ve tasfiye",
+   "konu": "GM_KACAKCILIK",
+   "sorular": {
+    "2021": [
+     41,
+     47
+    ],
+    "2024": [
+     88
+    ]
+   },
+   "bilgi": "Teknik düzenlemeye uygun olmayan kaçak akaryakıt il özel idaresi veya yatırım izleme ve koordinasyon başkanlığınca en yakın rafineriye satılır. Numuneleri gümrük idaresi saklar."
+  },
+  {
+   "kalip": "Isıtma tertibatlı ön cam: taşıt aksamı",
+   "konu": "GM_TARIFE_SINIF",
+   "sorular": {
+    "2023": [
+     6
+    ],
+    "2025": [
+     47
+    ]
+   },
+   "bilgi": "Isıtmalı ön cam 70.07'de değil, taşıt aksamı olarak sınıflandırılır: lokomotifte 86.07, otomobilde 8708.22."
+  },
+  {
+   "kalip": "Elektronik sigara ve 24.04",
+   "konu": "GM_TARIFE_SINIF",
+   "sorular": {
+    "2022": [
+     86
+    ],
+    "2025": [
+     52
+    ]
+   },
+   "bilgi": "Yanmadan solunan tütün ve nikotin ürünleri 24.04'te, elektronik sigara cihazı 85.43'te sınıflandırılır."
+  }
+ ],
+ "sonuc": {
+  "paragraflar": [
+   {
+    "baslik": "En çok soru gelen konular",
+    "maddeler": [
+     "<b>Tarife sınıflandırma</b> sınavın bel kemiği: 5 yılda 74 soru, son üç yılda 16–18 soru. Tarife mevzuatıyla birlikte her yıl ortalama 16 soru bu alandan geliyor.",
+     "<b>Gümrük kıymeti</b> ikinci sırada (45 soru), ancak 2025'te 5 soruya düştü. Kıymet sorularının yarıdan fazlası hesap sorusu.",
+     "<b>Transit ve TIR</b> (28) ile <b>STA–tercihli menşe belgeleri</b> (27) en hızlı yükselen konular: 2021'de 1 ve 0 soru, 2025'te 8 ve 7 soru.",
+     "Muafiyetler (2009/15481, geri gelen eşya; 24), kaçakçılık (22), antrepo (17) ve kambiyo (16) her yıl düzenli soru alan ikinci halka.",
+     "Düşüşte olanlar: genel hükümler ve tanımlar (2023'ten beri yok), özet beyan–geçici depolama ve kaçakçılık (2021'deki 8 ve 10 sorudan 2025'te 2'ye)."
+    ]
+   },
+   {
+    "baslik": "En çok sorulan soru tipleri ve kalıpları",
+    "maddeler": [
+     "<b>Kapsam ve şart</b> soruları (130) ve <b>doğru/yanlış hüküm</b> soruları (91) beş yılın toplamında ilk iki sırada; bunları tarife sınıflandırma (71) ve hesap (59) izliyor.",
+     "Olumsuz kök (\"değildir, yanlıştır, söylenemez\") 5 yılda 192 soru (%38). Öncüllü soru 2021'de 4 iken 2025'te 18: tek tek öncülleri değerlendirmek giderek daha önemli.",
+     "Soruların yalnızca %17'si doğrudan Gümrük Kanunu'na dayanıyor. Yönetmelik (96), tarife cetveli (75), tebliğler (48) ve uluslararası anlaşmalar (48) daha belirleyici.",
+     "Süre, oran ve tutar soruları (geri gelen eşyada 3 yıl, özet beyanda 150 gün, FSMH'de 3/10 iş günü, KKDF ve tek ve maktu vergi oranları) her yıl 5–9 soru. Bu değerler mevzuat değiştikçe güncellendiği için güncel metinden çalışılmalı."
+    ]
+   },
+   {
+    "baslik": "Sınavın değişen yönü",
+    "maddeler": [
+     "2021 kanun metni ve kaçakçılık ağırlıklı, klasik bir sınavdı. 2023'ten itibaren sınav tarife, kıymet hesabı, transit ve tercihli menşe üzerine kuruluyor ve uluslararası anlaşmalar (TIR, GATT VII, TKA, 1/95 OKK, TPS-OIC) daha çok soruluyor.",
+     "2025 sınavı yeni konular açtı: damga vergisi, transfer fiyatlandırması, nihai kullanım ve gümrük statü belgesi. 2026 için bu başlıkların devam etmesi beklenebilir.",
+     "Aynı bilgi yıllar içinde tekrar soruluyor: tekrar tablosundaki 29 kalıp, çıkmış soruların konu konu çalışılmasının en verimli yöntem olduğunu gösteriyor."
+    ]
+   }
+  ]
+ },
+ "tarife_not": "<h3 style='margin-bottom:6px'>Tarife soruları nereden geliyor?</h3><ul class='notes'><li>5 yılda <b>74 tarife sınıflandırma sorusu</b> var (yılda 10→16) ve bu sorular 55 farklı fasla dağılıyor. En çok soru gelen fasıllar 84 ve 85 (9'ar soru), ardından 24 (5), 44, 64, 87 ve 96 (4'er).</li><li>Bölüm bazında makine ve elektrikli cihazlar (XVI) ile gıda, içecek ve tütün (IV) açık ara önde. Canlı hayvanlar (I) ve kimya (VI) izliyor.</li><li>Soruların 33'ü olumsuz köklü: \"hangisi farklı fasılda yer alır\", \"hangisi bu pozisyonda değildir\". Tek eşyanın pozisyonunu soran sorudan çok, fasıl ve pozisyon kapsamını bilmeyi ölçen karşılaştırmalı sorular ağırlıkta.</li><li>HS 2022 değişiklikleri her yıl soruluyor: yenilebilir böcekler 04.10 (2022/79, 2024/2), elektronik sigara ve 24.04 (2022/86, 2025/52), düz panel ekran modülleri 85.24 (2024/56), sıcak izostatik presler 85.14 (2025/45).</li><li>Fasıl ve bölüm notları en verimli çalışma alanı: 64. fasıl not 2 (ayakkabı aksamı; 2024 ve 2025), 3. fasıl notu (memeliler 01.06'da; 2022 ve 2025), 42.02 pozisyon metni (2023'te iki soru) ve ısıtma tertibatlı ön camın taşıt aksamı sayılması (2023 ve 2025) tekrar soruldu.</li></ul>",
+ "hesap_not": "<h3 style='margin-bottom:6px'>Hesap sorularında neler öne çıkıyor?</h3><ul class='notes'><li>5 yılda <b>59 hesap sorusu</b> var (yılda 9–16). Bunların <b>30</b>'u gümrük kıymeti, 10'u KDV matrahı veya KDV tutarı. Hesap sorularının 30'u zor düzeyde.</li><li>Kıymet hesabında hep aynı ayrımlar sınanıyor: satış komisyonu eklenir, satın alma komisyonu eklenmez; satış şartı olan royalti eklenir, Türkiye'de çoğaltma hakkı eklenmez; alıcının bedelsiz sağladığı girdiler eklenir; ithalat sonrası montaj ve Türkiye'deki nakliye eklenmez.</li><li>KDV matrahına gümrük kıymetine ek olarak tescile kadar yapılan giderler (ardiye, fazla mesai, varış yerine kadar taşıma) eklenir, tescil sonrası giderler eklenmez. Kullanılmış taşıt amortismanı dört yılda soruldu ve 3 yıllık zamanaşımı hesap sorusunun içine yerleştiriliyor.</li><li>Hesap bloğunun yeri yıldan yıla değişiyor: 2021'de 81–90, 2022'de 89–100, 2023'te 66–84, 2024'te 9–29, 2025'te 12–20.</li><li><b>Cevap anahtarı tartışmalı hesaplar:</b> 2022/94 (anahtar 466.200; standart hesap 452.000), 2023/72–73 (şıklar metindeki tutarların 10 katı; 73'te standart hesap 5.085.000, anahtar 5.095.000), 2025/12 (anahtar 464; ardiye KDV matrahına eklenirse 484) ve 2025/16 (anahtar model yılından sayıyor; fatura yılından sayılırsa 7.000). Hesap dışında 2021/4'ün anahtarı da itiraza açık: Türkiye'de çoğaltma hakkı için yapılan ödemeler de kıymete dahil edilmeyen unsurlardandır.</li></ul>"
+}
