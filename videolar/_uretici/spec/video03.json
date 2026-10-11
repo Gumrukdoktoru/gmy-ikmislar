@@ -396,7 +396,12 @@
           "show": [
             "z1",
             "z2"
-          ]
+          ],
+          "callout": {
+            "type": "dikkat",
+            "title": "Dahilde işleme: tek rejim, İKİ SİSTEM",
+            "text": "Şartlı muafiyet listesi yalnız 'şartlı muafiyet sistemi kapsamında' dahilde işlemeyi sayar. Ekonomik etkili listesi sistem ayırmadan 'dahilde işleme' der: iki sistem de girer."
+          }
         },
         {
           "say": "[cautiously] Klasik tuzak: transit ekonomik etkili değildir ama şartlı muafiyet düzenlemesidir. Hariçte işleme de tam tersi.",
@@ -452,8 +457,9 @@
           {
             "id": "y2",
             "col": "c2",
-            "text": "Dahilde işleme (şartlı muafiyet)",
-            "fs": 22
+            "text": "Dahilde işleme",
+            "fs": 22,
+            "sub": "ŞARTLI MUAFİYET sistemi"
           },
           {
             "id": "y3",
@@ -477,8 +483,9 @@
           {
             "id": "z2",
             "col": "c3",
-            "text": "Dahilde işleme (geri ödeme)",
-            "fs": 23
+            "text": "Dahilde işleme",
+            "fs": 23,
+            "sub": "GERİ ÖDEME sistemi"
           }
         ]
       }
