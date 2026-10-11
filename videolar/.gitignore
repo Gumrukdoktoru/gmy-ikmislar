@@ -5,3 +5,5 @@
 **/snapshots/
 **/node_modules/
 _uretici/audio/**/_tr_*/
+# Ana (CRF 22) render git dışında; teslim kopyaları (*-teslim.mp4) commit edilir
+**/renders/gmy-kamp-0?.mp4
