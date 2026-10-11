@@ -1,0 +1,533 @@
+{
+  "no": 3,
+  "title": "Dahilde İşleme ve Geçici İthalat",
+  "short": "DİR · GİR",
+  "subtitle": "Kısmi muafiyet hesabı, şartlı muafiyet ↔ geri ödeme ve rejim sınıflandırması",
+  "intro": {
+    "chips": [
+      "3 YENİ SORU",
+      "TUZAK AVI",
+      "HAFIZA KARTI"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Üçüncü videomuzda ekonomik etkili rejimlere giriyoruz: dahilde işleme ve geçici ithalat."
+      },
+      {
+        "say": "Bu iki rejimden son beş sınavda otuz yedi soru geldi. Bugün üç yeni soru çözeceğiz,",
+        "chip": 0
+      },
+      {
+        "say": "hesap tuzağını, tanım tuzağını ve liste tuzağını yakalayacağız,",
+        "chip": 1
+      },
+      {
+        "say": "ve hafıza kartıyla bitireceğiz. Hadi başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Somut olay · Hesaplama",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "Kısmi muafiyet suretiyle geçici ithalat rejimine tabi tutulan bir iş makinesinin, rejime ilişkin beyannamenin tescil tarihinde serbest dolaşıma girmiş olması hâlinde alınacak ithalat vergileri 200.000 TL olarak hesaplanmıştır. Eşya rejimde 4 ay 10 gün kaldıktan sonra yeniden ihraç edilmiştir. 4458 sayılı Gümrük Kanunu'na göre bu eşya için alınacak ithalat vergileri kaç TL'dir? (Faizler dikkate alınmayacaktır.)",
+      "options": [
+        "6.000",
+        "24.000",
+        "26.000",
+        "30.000",
+        "36.000"
+      ],
+      "answer": "D",
+      "gerekce": "Mevzuata göre kısmi muafiyet suretiyle geçici ithal edilen eşyadan her ay için, tescil tarihinde serbest dolaşıma girmiş olması hâlinde alınacak vergilerin %3'ü alınır ve bir aydan az süreler tam ay sayılır. 200.000 × %3 = 6.000 TL/ay; 4 ay 10 gün = 5 ay; 6.000 × 5 = 30.000 TL. Bu nedenle doğru cevap D seçeneğidir. (GK MD 133)",
+      "read": [
+        {
+          "say": "Video üçün ilk sorusu bir hesap sorusu. Kısmi muafiyetle geçici ithal edilen bir iş makinesi var. Tescil tarihinde serbest dolaşıma girseydi ödenecek ithalat vergileri iki yüz bin lira. Makine rejimde dört ay on gün kalıyor ve yeniden ihraç ediliyor. Kaç lira ithalat vergisi alınır?"
+        },
+        {
+          "say": "A: altı bin.",
+          "show": "A"
+        },
+        {
+          "say": "B: yirmi dört bin.",
+          "show": "B"
+        },
+        {
+          "say": "C: yirmi altı bin.",
+          "show": "C"
+        },
+        {
+          "say": "D: otuz bin.",
+          "show": "D"
+        },
+        {
+          "say": "E: otuz altı bin.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap D: otuz bin lira!"
+        },
+        {
+          "say": "Kural şu: her ay için, tescil tarihinde serbest dolaşıma girseydi alınacak vergilerin yüzde üçü alınır.",
+          "show": [
+            "t1",
+            "t2"
+          ]
+        },
+        {
+          "say": "İki yüz binin yüzde üçü, ayda altı bin lira.",
+          "hl": [
+            "t2"
+          ]
+        },
+        {
+          "say": "Süre dört ay on gün. Ama kanuna göre bir aydan az süreler tam ay sayılır. Yani beş ay.",
+          "show": [
+            "t3"
+          ]
+        },
+        {
+          "say": "Altı bin çarpı beş: otuz bin lira.",
+          "show": [
+            "t4"
+          ],
+          "hl": [
+            "t4"
+          ],
+          "pose": "onay"
+        },
+        {
+          "say": "[cautiously] Tuzak tam burada: on günü atarsan yirmi dört bin, gün hesabı yaparsan yirmi altı bin bulursun. İkisi de yanlış; eksik ay, tam ay sayılır!",
+          "callout": {
+            "type": "tuzak",
+            "title": "Bir aydan az süre = TAM AY",
+            "text": "4 ay 10 gün → 5 ay. 4 ay (24.000) ya da gün hesabı (26.000) sınavın çeldiricileridir."
+          }
+        },
+        {
+          "say": "Bir de üst sınır var: alınacak toplam tutar, faizler hariç, eşya o tarihte serbest dolaşıma girseydi alınacak vergileri aşamaz.",
+          "callout": {
+            "type": "onemli",
+            "title": "Üst sınır: tam vergi",
+            "text": "Kısmi muafiyetle alınan toplam tutar, faizler hariç, eşya serbest dolaşıma girseydi alınacak vergileri aşamaz."
+          }
+        },
+        {
+          "say": "Ve süre: eşyanın geçici ithalat rejiminde kalma süresi, özel süreler saklı kalmak üzere, en fazla yirmi dört aydır.",
+          "callout": {
+            "type": "uyari",
+            "title": "Azami süre: 24 AY",
+            "text": "Özel süreler saklı kalmak üzere geçici ithalat rejiminde kalma süresi en fazla 24 aydır."
+          }
+        }
+      ],
+      "board": {
+        "title": "Kısmi muafiyet: her ay %3",
+        "madde": "4458 s. GK md. 130, 133",
+        "kind": "formula",
+        "terms": [
+          {
+            "id": "t1",
+            "text": "Serbest dolaşımda alınacak vergi",
+            "sub": "200.000 TL",
+            "fs": 25
+          },
+          {
+            "id": "t2",
+            "text": "Aylık %3",
+            "sub": "= 6.000 TL / ay",
+            "op": "×",
+            "fs": 25
+          },
+          {
+            "id": "t3",
+            "text": "Süre: 4 ay 10 gün",
+            "sub": "→ 5 ay sayılır",
+            "op": "×",
+            "fs": 25
+          },
+          {
+            "id": "t4",
+            "text": "ALINACAK VERGİ",
+            "sub": "30.000 TL",
+            "op": "=",
+            "tone": "green",
+            "fs": 25
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Öncüllü · Tanım",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "4458 sayılı Gümrük Kanunu'nun dahilde işleme rejimine ilişkin hükümlerine göre aşağıdaki ifadelerden hangileri doğrudur?",
+      "statements": [
+        "Şartlı muafiyet sisteminde serbest dolaşımda olmayan eşyanın vergileri teminata bağlanır; işlem görmüş ürünlerin ihracı hâlinde teminat iade edilir.",
+        "Geri ödeme sisteminde eşya, ticaret politikası önlemlerine tabi tutulmaksızın ve vergileri teminata bağlanarak geçici olarak ithal edilir.",
+        "Geri ödeme sisteminde, eşyanın serbest dolaşıma girişi sırasında tahsil edilen ithalat vergileri, işlem görmüş ürünlerin ihracı hâlinde geri verilir.",
+        "Eşyanın yenilenmesi ve düzenli hâle getirilmesi dâhil olmak üzere tamir edilmesi, işleme faaliyetleri arasında sayılmaz."
+      ],
+      "options": [
+        "I ve III",
+        "I ve II",
+        "III ve IV",
+        "I, III ve IV",
+        "II, III ve IV"
+      ],
+      "answer": "A",
+      "gerekce": "Mevzuata göre şartlı muafiyet sisteminde serbest dolaşımda olmayan eşya, vergileri teminata bağlanarak geçici olarak ithal edilir ve işlem görmüş ürünlerin ihracında teminat iade edilir; geri ödeme sisteminde ise serbest dolaşıma girişte tahsil edilen ithalat vergileri ihraçta geri verilir. Teminata bağlama geri ödemenin değil şartlı muafiyetin özelliğidir. Ayrıca eşyanın yenilenmesi ve düzenli hâle getirilmesi dâhil tamir edilmesi de işleme faaliyetleri arasında sayılmıştır. Bu nedenle doğru cevap A seçeneğidir. (GK MD 108)",
+      "read": [
+        {
+          "say": "İkinci soru dahilde işleme rejimi üzerine. Aşağıdaki ifadelerden hangileri doğrudur?",
+          "mark": "hangileri doğrudur"
+        },
+        {
+          "say": "Bir: Şartlı muafiyet sisteminde vergiler teminata bağlanır; işlem görmüş ürün ihraç edilince teminat iade edilir.",
+          "show": "S0"
+        },
+        {
+          "say": "İki: Geri ödeme sisteminde eşya, ticaret politikası önlemlerine tabi tutulmadan ve vergileri teminata bağlanarak ithal edilir.",
+          "show": "S1"
+        },
+        {
+          "say": "Üç: Geri ödeme sisteminde, serbest dolaşıma girişte tahsil edilen vergiler, ihraçta geri verilir.",
+          "show": "S2"
+        },
+        {
+          "say": "Dört: Eşyanın yenilenmesi ve düzenli hâle getirilmesi dahil tamiri, işleme faaliyeti sayılmaz.",
+          "show": "S3"
+        },
+        {
+          "say": "Şıklar ekranda.",
+          "show": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap A: bir ve üç."
+        },
+        {
+          "say": "İki sistemi yan yana koyalım. Solda şartlı muafiyet, sağda geri ödeme.",
+          "show": [
+            "c1",
+            "c2"
+          ]
+        },
+        {
+          "say": "Şartlı muafiyette eşya serbest dolaşımda değildir; vergiler teminata bağlanır, ihraç edilince teminat iade edilir.",
+          "show": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "say": "Geri ödemede eşya serbest dolaşıma girer; vergiler tahsil edilir, ihraç edilince geri verilir.",
+          "show": [
+            "g1",
+            "g2"
+          ]
+        },
+        {
+          "say": "Kanun, şartlı muafiyet düzenlemelerini sayarken yalnızca şartlı muafiyet sistemindeki dahilde işlemeyi sayar. Geri ödeme bu listede yok.",
+          "show": [
+            "s3",
+            "g3"
+          ]
+        },
+        {
+          "say": "[cautiously] Sınavın en sevdiği numara: şartlı muafiyetin tanımını yazıp sonuna 'buna geri ödeme sistemi denir' demek. İkinci öncül tam olarak bu. Kanundaki tanımlara göre: teminat gördüysen şartlı muafiyet!",
+          "callout": {
+            "type": "tuzak",
+            "title": "Tanımlar yer değiştirince…",
+            "text": "'Teminata bağlanır' → ŞARTLI MUAFİYET. 'Tahsil edilir, ihraçta geri verilir' → GERİ ÖDEME. Bu karışıklık 2021, 2023, 2024 ve 2025'te soruldu."
+          }
+        },
+        {
+          "say": "Dördüncü öncül de yanlış: kanuna göre yenileme ve düzenli hâle getirme dahil tamir de bir işleme faaliyetidir.",
+          "callout": {
+            "type": "uyari",
+            "title": "Tamir de İŞLEME FAALİYETİDİR",
+            "text": "İşleme faaliyetleri: montaj, kurma ve birleştirme dâhil işçilik · işleme · yenileme ve düzenli hâle getirme dâhil tamir · üretimi sağlayan veya kolaylaştıran eşyanın kullanılması."
+          }
+        },
+        {
+          "say": "Kurumlara da dikkat: dahilde işleme izin belgesini Bakanlık düzenler; dahilde işleme iznini ise gümrük idaresi verir.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Belge ↔ İzin",
+            "text": "Dahilde işleme izin belgesi: Bakanlıkça (İhracat Genel Müdürlüğü) düzenlenir. Dahilde işleme izni: gümrük idaresince verilir."
+          }
+        }
+      ],
+      "board": {
+        "title": "Şartlı muafiyet mi, geri ödeme mi?",
+        "madde": "4458 s. GK md. 79, 108",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "ŞARTLI MUAFİYET",
+            "tone": "gold"
+          },
+          {
+            "id": "c2",
+            "title": "GERİ ÖDEME",
+            "tone": "navy"
+          }
+        ],
+        "items": [
+          {
+            "id": "s1",
+            "col": "c1",
+            "text": "Serbest dolaşımda OLMAYAN eşya"
+          },
+          {
+            "id": "s2",
+            "col": "c1",
+            "text": "Vergi TEMİNATA bağlanır → ihraçta teminat iade"
+          },
+          {
+            "id": "s3",
+            "col": "c1",
+            "text": "Şartlı muafiyet düzenlemesidir",
+            "tone": "green"
+          },
+          {
+            "id": "g1",
+            "col": "c2",
+            "text": "Serbest dolaşıma GİREN eşya"
+          },
+          {
+            "id": "g2",
+            "col": "c2",
+            "text": "Vergi TAHSİL edilir → ihraçta geri verilir"
+          },
+          {
+            "id": "g3",
+            "col": "c2",
+            "text": "Şartlı muafiyet düzenlemesi DEĞİL",
+            "tone": "red"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Kapsam · Sınıflandırma",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "4458 sayılı Gümrük Kanunu'na göre aşağıdaki rejimlerden hangisi hem şartlı muafiyet düzenlemeleri hem de ekonomik etkili gümrük rejimleri arasında yer alır?",
+      "options": [
+        "Transit rejimi",
+        "Hariçte işleme rejimi",
+        "Geçici ithalat rejimi",
+        "İhracat rejimi",
+        "Geri ödeme sistemi kapsamında dahilde işleme rejimi"
+      ],
+      "answer": "C",
+      "gerekce": "Mevzuata göre şartlı muafiyet düzenlemeleri transit, antrepo, şartlı muafiyet sistemi kapsamında dahilde işleme, gümrük kontrolü altında işleme ve geçici ithalattır; ekonomik etkili gümrük rejimleri ise antrepo, dahilde işleme, gümrük kontrolü altında işleme, geçici ithalat ve hariçte işlemedir. Seçenekler arasında her iki listede yer alan geçici ithalat rejimidir. Bu nedenle doğru cevap C seçeneğidir. (GK MD 79)",
+      "read": [
+        {
+          "say": "Son soru: hangi rejim hem şartlı muafiyet düzenlemeleri hem de ekonomik etkili gümrük rejimleri arasında yer alır?",
+          "mark": "hem şartlı muafiyet düzenlemeleri hem de ekonomik etkili",
+          "callout": {
+            "type": "dikkat",
+            "title": "'Hem… hem…' sorusu",
+            "text": "İki listenin KESİŞİMİNİ arıyoruz. Bir listede yer alması yetmez."
+          }
+        },
+        {
+          "say": "A: Transit.",
+          "show": "A"
+        },
+        {
+          "say": "B: Hariçte işleme.",
+          "show": "B"
+        },
+        {
+          "say": "C: Geçici ithalat.",
+          "show": "C"
+        },
+        {
+          "say": "D: İhracat.",
+          "show": "D"
+        },
+        {
+          "say": "E: Geri ödeme sistemi kapsamında dahilde işleme.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap C: geçici ithalat."
+        },
+        {
+          "say": "Kanunda iki ayrı liste var. Üç kutu çizelim: yalnız şartlı muafiyet, ikisi de, yalnız ekonomik etkili.",
+          "show": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        },
+        {
+          "say": "Transit, şartlı muafiyet düzenlemesidir ama ekonomik etkili rejim değildir.",
+          "show": [
+            "x1"
+          ]
+        },
+        {
+          "say": "Antrepo, şartlı muafiyet sistemindeki dahilde işleme, gümrük kontrolü altında işleme ve geçici ithalat iki listede de var.",
+          "show": [
+            "y1",
+            "y2",
+            "y3",
+            "y4"
+          ]
+        },
+        {
+          "say": "Hariçte işleme ve geri ödeme sistemindeki dahilde işleme ise yalnızca ekonomik etkili rejimdir. İhracat hiçbir listede yok.",
+          "show": [
+            "z1",
+            "z2"
+          ]
+        },
+        {
+          "say": "[cautiously] Klasik tuzak: transit ekonomik etkili değildir ama şartlı muafiyet düzenlemesidir. Hariçte işleme de tam tersi.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Transit ↔ Hariçte işleme",
+            "text": "Transit: şartlı muafiyet düzenlemesi ✔ ekonomik etkili ✘. Hariçte işleme: ekonomik etkili ✔ şartlı muafiyet ✘."
+          }
+        },
+        {
+          "say": "Ve hatırlatma: eşyanın bir şartlı muafiyet düzenlemesine tabi tutulması, doğabilecek gümrük vergilerine karşılık teminat verilmesi şartına bağlıdır.",
+          "callout": {
+            "type": "onemli",
+            "title": "Şartlı muafiyet = TEMİNAT",
+            "text": "Eşyanın bir şartlı muafiyet düzenlemesine tabi tutulması, tahakkuk edebilecek gümrük vergilerine karşılık teminat verilmesi şartına bağlıdır."
+          }
+        }
+      ],
+      "board": {
+        "title": "İki liste, bir kesişim",
+        "madde": "4458 s. GK md. 79, 81",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "YALNIZ ŞARTLI MUAFİYET",
+            "tone": "navy"
+          },
+          {
+            "id": "c2",
+            "title": "İKİSİ DE",
+            "tone": "green"
+          },
+          {
+            "id": "c3",
+            "title": "YALNIZ EKONOMİK ETKİLİ",
+            "tone": "gold"
+          }
+        ],
+        "items": [
+          {
+            "id": "x1",
+            "col": "c1",
+            "text": "Transit",
+            "fs": 23
+          },
+          {
+            "id": "y1",
+            "col": "c2",
+            "text": "Antrepo",
+            "fs": 22
+          },
+          {
+            "id": "y2",
+            "col": "c2",
+            "text": "Dahilde işleme (şartlı muafiyet)",
+            "fs": 22
+          },
+          {
+            "id": "y3",
+            "col": "c2",
+            "text": "Gümrük kontrolü altında işleme",
+            "fs": 22
+          },
+          {
+            "id": "y4",
+            "col": "c2",
+            "text": "Geçici ithalat",
+            "fs": 22,
+            "tone": "green"
+          },
+          {
+            "id": "z1",
+            "col": "c3",
+            "text": "Hariçte işleme",
+            "fs": 23
+          },
+          {
+            "id": "z2",
+            "col": "c3",
+            "text": "Dahilde işleme (geri ödeme)",
+            "fs": 23
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {
+        "title": "Kısmi muafiyet: her ay %3",
+        "text": "Eksik ay tam ay sayılır; toplam, tam vergiyi aşamaz; azami süre 24 ay."
+      },
+      {
+        "title": "Teminat → şartlı muafiyet",
+        "text": "Tahsil edip ihraçta geri vermek → geri ödeme; geri ödeme şartlı muafiyet düzenlemesi değildir."
+      },
+      {
+        "title": "Kesişim: antrepo, DİR-ŞMS, GKAİ, GİR",
+        "text": "Transit yalnız şartlı muafiyet; hariçte işleme yalnız ekonomik etkili."
+      }
+    ],
+    "parts": [
+      {
+        "say": "Hafıza kartına geçelim. Üç kural."
+      },
+      {
+        "say": "Bir: kısmi muafiyette her ay yüzde üç; eksik ay tam ay sayılır.",
+        "item": 0
+      },
+      {
+        "say": "İki: teminat gördüysen şartlı muafiyet; tahsil edip geri veriyorsan geri ödeme.",
+        "item": 1
+      },
+      {
+        "say": "Üç: transit yalnız şartlı muafiyet, hariçte işleme yalnız ekonomik etkili.",
+        "item": 2
+      },
+      {
+        "say": "Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+        "score": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Skorunu yorumlara yaz!",
+    "next": "Video 4 · Transit, Antrepo ve Geri Gelen Eşya",
+    "parts": [
+      {
+        "say": "[excited] Kaç doğru yaptığını yorumlara yaz, abone olmayı unutma. Sıradaki videoda transit, antrepo ve geri gelen eşyadayız. Görüşmek üzere!"
+      }
+    ]
+  }
+}

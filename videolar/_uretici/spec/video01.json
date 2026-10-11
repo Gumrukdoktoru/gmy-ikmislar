@@ -1,0 +1,167 @@
+{
+  "no": 1,
+  "title": "Gümrük Kıymeti",
+  "short": "GÜMRÜK KIYMETİ",
+  "subtitle": "Kıymet hesabı, fiyata ilave edilen ve edilmeyen unsurlar, yöntem sırası",
+  "intro": {
+    "chips": ["3 YENİ SORU", "TUZAK AVI", "HAFIZA KARTI"],
+    "parts": [
+      {"say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! GMY Soru Kampı'nın ilk videosundayız ve konumuz gümrük kıymeti."},
+      {"say": "Son beş sınavda tam otuz bir soru bu konudan geldi. Bugün üç yeni soru çözeceğiz,", "chip": 0},
+      {"say": "her sorudaki tuzağı tek tek yakalayacağız,", "chip": 1},
+      {"say": "ve hafıza kartıyla bitireceğiz. Hazırsan başlıyoruz!", "chip": 2}
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Somut olay · Hesaplama",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "(K) firması, Çin'den deniz yoluyla ithal ettiği makineler için satıcıya FOB 40.000 TL ödemiştir. Eşyanın Şanghay Limanından Mersin Limanına kadar navlunu 3.000 TL, bu taşımanın sigorta bedeli 400 TL, Mersin Limanından Gaziantep'teki fabrikaya kadar karayolu nakliye bedeli 1.000 TL'dir. Alıcı ayrıca fiyata dâhil edilmemiş 1.200 TL satış komisyonu ile yurt dışındaki satın alma temsilcisine 800 TL satın alma komisyonu ödemiştir. 4458 sayılı Gümrük Kanunu'nun gümrük kıymetine ilişkin hükümlerine göre eşyanın gümrük kıymeti kaç TL'dir?",
+      "options": ["43.400", "44.600", "45.400", "45.600", "46.400"],
+      "answer": "B",
+      "gerekce": "Mevzuata göre gümrük kıymetine; Türkiye'deki giriş yerine kadar yapılan nakliye ve sigorta giderleri ile satın alma komisyonları dışındaki komisyonlar ilave edilir. Giriş yerinden sonraki nakliye ve satın alma komisyonları ise gümrük kıymetine dâhil edilmez. 40.000 + 3.000 + 400 + 1.200 = 44.600 TL. Bu nedenle doğru cevap B seçeneğidir. (GK MD 27-28)",
+      "read": [
+        {"say": "Birinci sorumuz bir hesaplama sorusu. K firması Çin'den deniz yoluyla makine ithal ediyor ve satıcıya FOB kırk bin lira ödüyor. Mersin Limanına kadar navlun üç bin, bu taşımanın sigortası dört yüz lira. Mersin'den Gaziantep'teki fabrikaya karayolu nakliyesi bin lira. Alıcı ayrıca fiyata dâhil olmayan bin iki yüz lira satış komisyonu ve yurt dışındaki satın alma temsilcisine sekiz yüz lira satın alma komisyonu ödüyor. Gümrük kıymeti kaç lira?"},
+        {"say": "Şıklara bakalım. A: kırk üç bin dört yüz.", "show": "A"},
+        {"say": "B: kırk dört bin altı yüz.", "show": "B"},
+        {"say": "C: kırk beş bin dört yüz.", "show": "C"},
+        {"say": "D: kırk beş bin altı yüz.", "show": "D"},
+        {"say": "E: kırk altı bin dört yüz.", "show": "E"}
+      ],
+      "explain": [
+        {"say": "[excited] Doğru cevap B: kırk dört bin altı yüz lira!"},
+        {"say": "Şimdi adım adım kuralım. Başlangıç noktamız fiilen ödenen fiyat: FOB kırk bin lira.", "show": ["t1"]},
+        {"say": "Türkiye'deki giriş limanına, yani Mersin'e kadar olan navlunu ekliyoruz: üç bin lira.", "show": ["t2"]},
+        {"say": "Bu taşımanın sigortası da kıymete girer: dört yüz lira.", "show": ["t3"]},
+        {"say": "Satın alma komisyonları dışındaki komisyonlar, alıcı üstlendiyse eklenir. Satış komisyonu: bin iki yüz lira.", "show": ["t4"]},
+        {"say": "Toplam: kırk dört bin altı yüz lira.", "show": ["t5"], "hl": ["t5"], "pose": "onay"},
+        {"say": "[cautiously] Peki tuzaklar nerede? Mersin'den Gaziantep'e olan bin liralık nakliye, giriş yerinden sonra yapıldığı için kıymete girmez.", "callout": {"type": "tuzak", "title": "Giriş yerinden SONRAKİ nakliye eklenmez", "text": "Mersin → Gaziantep nakliyesi (1.000 TL) giriş yerinden sonra yapıldığı için kıymete eklenmez; fiyata dâhil olsaydı da ayırt edilebilmesi koşuluyla düşülürdü."}},
+        {"say": "İkinci tuzak: yurt dışındaki temsilciye ödenen satın alma komisyonu da eklenmez. Satış komisyonu eklenir, satın alma komisyonu eklenmez!", "callout": {"type": "dikkat", "title": "Satış komisyonu (+) · Satın alma komisyonu (−)", "text": "Satın alma komisyonu: ithalatçının, eşyanın satın alınmasında yurt dışında verdiği temsil hizmeti karşılığında temsilcisine ödediği ücrettir; kıymete eklenmez."}},
+        {"say": "Bir de kur bilgisi: faturadaki döviz, gümrük yükümlülüğünün başladığı tarihteki Merkez Bankası döviz satış kuru ile Türk lirasına çevrilir.", "callout": {"type": "onemli", "title": "Kur: TCMB DÖVİZ SATIŞ kuru", "text": "Yabancı para, gümrük yükümlülüğünün başladığı tarihte yürürlükte olan T.C. Merkez Bankası döviz satış kuru üzerinden TL'ye çevrilir."}}
+      ],
+      "board": {
+        "title": "Gümrük kıymeti nasıl hesaplanır?",
+        "madde": "4458 s. GK md. 27, 28, 30",
+        "kind": "formula",
+        "terms": [
+          {"id": "t1", "text": "Fiilen ödenen fiyat", "sub": "FOB 40.000 TL", "fs": 24},
+          {"id": "t2", "text": "Navlun", "sub": "Mersin'e kadar 3.000 TL", "op": "+", "fs": 24},
+          {"id": "t3", "text": "Sigorta", "sub": "400 TL", "op": "+", "fs": 24},
+          {"id": "t4", "text": "Satış komisyonu", "sub": "1.200 TL", "op": "+", "fs": 24},
+          {"id": "t5", "text": "GÜMRÜK KIYMETİ", "sub": "44.600 TL", "op": "=", "tone": "green", "fs": 24}
+        ]
+      }
+    },
+    {
+      "chip": "Öncüllü · Kapsam dışı",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "4458 sayılı Gümrük Kanunu'na göre ithal eşyasının gümrük kıymeti belirlenirken aşağıdakilerden hangileri fiilen ödenen veya ödenecek fiyata ilave edilmez?",
+      "statements": [
+        "Alıcı tarafından bedelsiz sağlanan ve Türkiye'de gerçekleştirilen mühendislik, plan ve taslak hazırlama hizmetleri",
+        "Alıcının, satıcı ile yapılan bir anlaşma kapsamında olsa da kendi hesabına yaptığı pazarlama faaliyetlerine ilişkin giderler",
+        "Fiyata dâhil edilmemiş olup alıcı tarafından üstlenilen, işçilik ve malzeme giderleri dâhil ambalaj bedeli",
+        "Satış koşulu gereği alıcının ödemesi gereken ve fiyata dâhil edilmemiş royalti ve lisans ücretleri"
+      ],
+      "options": ["Yalnız I", "Yalnız II", "Yalnız IV", "I ve II", "II ve III"],
+      "answer": "D",
+      "gerekce": "Mevzuata göre fiyata yalnızca Kanunda sayılan unsurlar ilave edilir. Mühendislik, plan ve taslak hizmetleri ancak Türkiye dışında gerçekleştirilmişse ilave edilir; alıcının pazarlama dâhil kendi hesabına yaptığı faaliyetler satıcıya dolaylı ödeme sayılmaz. Alıcının üstlendiği ambalaj bedeli ile satış koşulu olan royalti ve lisans ücretleri ise ilave edilir. Bu nedenle doğru cevap D seçeneğidir. (GK MD 24/3, 27)",
+      "read": [
+        {"say": "İkinci soru öncüllü. Gümrük Kanunu'na göre aşağıdakilerden hangileri fiyata ilave edilmez?", "mark": "ilave edilmez"},
+        {"say": "Bir: Alıcının bedelsiz sağladığı ve Türkiye'de gerçekleştirilen mühendislik, plan ve taslak hizmetleri.", "show": "S0"},
+        {"say": "İki: Alıcının, satıcıyla anlaşma kapsamında olsa da kendi hesabına yaptığı pazarlama giderleri.", "show": "S1"},
+        {"say": "Üç: Fiyata dâhil olmayan ve alıcının üstlendiği ambalaj bedeli.", "show": "S2"},
+        {"say": "Dört: Satış koşulu olan ve fiyata dâhil edilmemiş royalti ve lisans ücretleri.", "show": "S3"},
+        {"say": "Şıklar ekranda.", "show": ["A", "B", "C", "D", "E"]}
+      ],
+      "explain": [
+        {"say": "[excited] Doğru cevap D: bir ve iki."},
+        {"say": "Bu soruyu bir terazi gibi düşünelim. Sol kefede fiyata ilave edilenler, sağ kefede edilmeyenler.", "show": ["c1", "c2"]},
+        {"say": "Ambalaj bedeli, alıcı üstlendiyse eklenir. Satış koşulu olan royalti ve lisans ücretleri de eklenir.", "show": ["i3", "i4"]},
+        {"say": "Alıcının kendi hesabına yaptığı pazarlama ise, satıcıyla anlaşma olsa bile, satıcıya dolaylı ödeme sayılmaz; eklenmez.", "show": ["i2"]},
+        {"say": "Türkiye'de yapılan mühendislik ve plan hizmetleri de eklenmez.", "show": ["i1"]},
+        {"say": "[cautiously] İşte büyük tuzak: mühendislik, plan ve taslak hizmeti Türkiye dışında yapıldıysa eklenir; Türkiye'de yapıldıysa eklenmez. Sınavda tek kelimeyi değiştirip soruyorlar!", "callout": {"type": "tuzak", "title": "Yer değişince cevap değişir!", "text": "Mühendislik, geliştirme, plan ve taslak: Türkiye DIŞINDA yapıldıysa (+) eklenir · Türkiye'DE yapıldıysa (−) eklenmez."}},
+        {"say": "Şunu da unutma: Türkiye'de çoğaltma hakkı için yapılan ödemeler ve satış koşulu olmayan dağıtım hakları da fiyata eklenmez.", "callout": {"type": "onemli", "title": "Bunlar da eklenmez", "text": "Türkiye'de çoğaltma hakkı ödemeleri ile satış koşulu olmayan dağıtım veya tekrar satış hakkı ödemeleri fiyata ilave edilmez."}}
+      ],
+      "board": {
+        "title": "Fiyata ilave edilir mi?",
+        "madde": "4458 s. GK md. 24/3-b, 27",
+        "kind": "split",
+        "columns": [
+          {"id": "c1", "title": "İLAVE EDİLİR (+)", "tone": "green"},
+          {"id": "c2", "title": "İLAVE EDİLMEZ (−)", "tone": "red"}
+        ],
+        "items": [
+          {"id": "i3", "col": "c1", "text": "Ambalaj bedeli", "sub": "alıcı üstlendiyse"},
+          {"id": "i4", "col": "c1", "text": "Royalti ve lisans ücreti", "sub": "satış koşulu ise"},
+          {"id": "i2", "col": "c2", "text": "Pazarlama giderleri", "sub": "alıcının kendi hesabına"},
+          {"id": "i1", "col": "c2", "text": "Türkiye'de yapılan mühendislik/plan", "sub": "Türkiye dışında olsaydı (+)"}
+        ]
+      }
+    },
+    {
+      "chip": "Doğru-yanlış hüküm · Yöntemler",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre gümrük kıymeti belirleme yöntemlerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+      "options": [
+        "Son yöntemle kıymet belirlenirken eşyanın ihraç ülkesindeki iç piyasa fiyatı esas alınabilir.",
+        "Kıymet bir üst yönteme göre belirlenebildiği sürece bir alt yöntem uygulanamaz.",
+        "Beyan sahibinin yazılı talebi idarece uygun bulunursa indirgeme ile hesaplanmış kıymet yöntemlerinin sırası değiştirilebilir.",
+        "Aynı eşyanın satış bedeli yönteminde birden fazla bedel tespit edilirse en düşük olanı kullanılır.",
+        "İndirgeme yönteminde yakın tarihte satış yoksa, ithal tarihinden itibaren doksan gün içindeki ilk satışın birim fiyatı esas alınır."
+      ],
+      "answer": "A",
+      "gerekce": "Mevzuata göre diğer yöntemlerle belirlenemeyen kıymet, son yöntemle Türkiye'de mevcut veriler esas alınarak belirlenir; bu yöntemde eşyanın ihraç ülkesindeki iç piyasa fiyatı esas alınamaz. Diğer ifadeler yöntem sırası, sıra değişikliği istisnası, en düşük bedel ve indirgemede doksan günlük süreye ilişkin doğru hükümlerdir. Bu nedenle doğru cevap A seçeneğidir. (GK MD 25-26, GY MD 44, 46, 48)",
+      "read": [
+        {"say": "Üçüncü sorumuz yöntemlerle ilgili. Gümrük kıymeti belirleme yöntemlerine ilişkin hangisi yanlıştır?", "mark": "yanlıştır", "callout": {"type": "dikkat", "title": "Kök olumsuz: hangisi YANLIŞTIR?", "text": "Dört doğruyu eleyip yanlışı arıyoruz. Son beş sınavda mesleki soruların yaklaşık üçte biri bu kökle soruldu."}},
+        {"say": "A: Son yöntemle kıymet belirlenirken ihraç ülkesindeki iç piyasa fiyatı esas alınabilir.", "show": "A"},
+        {"say": "B: Kıymet bir üst yönteme göre belirlenebildiği sürece alt yönteme geçilemez.", "show": "B"},
+        {"say": "C: Yazılı talep uygun bulunursa indirgeme ile hesaplanmış kıymetin sırası değişebilir.", "show": "C"},
+        {"say": "D: Aynı eşyada birden fazla bedel varsa en düşüğü kullanılır.", "show": "D"},
+        {"say": "E: İndirgemede yakın tarihte satış yoksa, doksan gün içindeki ilk satışın birim fiyatı esas alınır.", "show": "E"}
+      ],
+      "explain": [
+        {"say": "[excited] Doğru cevap A!"},
+        {"say": "Önce yöntemlerin sırasını kuralım. Bir: satış bedeli yöntemi.", "show": ["n1"]},
+        {"say": "Sonra aynı eşyanın, ardından benzer eşyanın satış bedeli.", "show": ["n2", "n3"]},
+        {"say": "Dört: indirgeme, beş: hesaplanmış kıymet. Bu ikisinin sırası, beyan sahibinin yazılı talebi uygun bulunursa yer değiştirebilir.", "show": ["n4", "n5"], "hl": ["n4", "n5"], "pose": "onemli"},
+        {"say": "Ve altıncı basamak: son yöntem. Burada Türkiye'deki mevcut veriler esas alınır.", "show": ["n6"]},
+        {"say": "[cautiously] Son yöntemde kullanılamayacaklar listesi sınavın favorisi: ihraç ülkesinin iç piyasa fiyatı, Türkiye'de üretilen eşyanın iç satış fiyatı, asgari kıymetler, keyfi ya da fiktif kıymetler. Hiçbiri esas alınamaz. A şıkkı bu yüzden yanlış.", "callout": {"type": "tuzak", "title": "Son yöntemde ESAS ALINMAZ", "text": "İhraç ülkesi iç piyasa fiyatı · Türkiye'de üretilen eşyanın Türkiye içindeki satış fiyatı · iki alternatif kıymetten yükseğinin kabulü · Türkiye'den başka ülkeye ihraç fiyatı · hesaplanmış kıymet dışındaki maliyet bedeli · asgari, keyfi veya fiktif kıymetler"}},
+        {"say": "Bir de sayılara dikkat: aynı ya da benzer eşyada birden fazla bedel varsa en düşüğü alınır; indirgemede süre doksan gün.", "callout": {"type": "onemli", "title": "En düşük bedel · 90 gün", "text": "Birden fazla aynı/benzer eşya bedeli → EN DÜŞÜĞÜ. İndirgemede yakın tarihli satış yoksa → ithalden itibaren 90 GÜN içindeki ilk satış."}}
+      ],
+      "board": {
+        "title": "Yöntem sırası (tek istisnayla)",
+        "madde": "4458 s. GK md. 24-26 · GY md. 44-50",
+        "kind": "flow",
+        "nodes": [
+          {"id": "n1", "text": "Satış bedeli yöntemi", "num": 1},
+          {"id": "n2", "text": "Aynı eşyanın satış bedeli", "num": 2},
+          {"id": "n3", "text": "Benzer eşyanın satış bedeli", "num": 3},
+          {"id": "n4", "text": "İndirgeme yöntemi", "sub": "yazılı talep → 4 ↔ 5", "num": 4, "tone": "gold"},
+          {"id": "n5", "text": "Hesaplanmış kıymet", "num": 5, "tone": "gold"},
+          {"id": "n6", "text": "Son yöntem", "sub": "Türkiye'deki mevcut verilerle", "num": 6}
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {"title": "Navlun ve sigorta: giriş yerine kadar (+)", "text": "Giriş yerinden sonraki nakliye ve satın alma komisyonu eklenmez; satış komisyonu eklenir."},
+      {"title": "Mühendislik: Türkiye dışı (+) · Türkiye'de (−)", "text": "Pazarlama alıcının kendi hesabınadır; ambalaj ve satış koşulu royalti eklenir."},
+      {"title": "Sıra sabit; yalnız 4 ↔ 5 yer değiştirir", "text": "Son yöntemde ihraç ülkesi iç fiyatı, asgari ve keyfi kıymet kullanılamaz."}
+    ],
+    "parts": [
+      {"say": "Ve geldik hafıza kartımıza. Üç cümleyi aklına yaz."},
+      {"say": "Bir: navlun ve sigorta giriş yerine kadar eklenir; satın alma komisyonu eklenmez.", "item": 0},
+      {"say": "İki: mühendislik Türkiye dışındaysa eklenir, Türkiye'deyse eklenmez; pazarlama alıcının kendi hesabıdır.", "item": 1},
+      {"say": "Üç: yöntem sırası sabittir; sadece indirgeme ile hesaplanmış kıymet yer değiştirebilir.", "item": 2},
+      {"say": "Şimdi skorunu kontrol et. Üçte üç yaptıysan müşavirlik yolundasın!", "score": true}
+    ]
+  },
+  "outro": {
+    "title": "Skorunu yorumlara yaz!",
+    "next": "Video 2 · Menşe ve Serbest Dolaşım",
+    "parts": [
+      {"say": "[excited] Kaç doğru yaptığını yorumlara yaz, kanala abone olmayı unutma. Bir sonraki videoda menşe ve serbest dolaşımın tuzaklarını avlıyoruz. Görüşmek üzere!"}
+    ]
+  }
+}

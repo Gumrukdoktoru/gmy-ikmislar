@@ -1,0 +1,62 @@
+[
+ {
+  "id": "intro",
+  "text": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! GMY Soru Kampı'nın ilk videosundayız ve konumuz gümrük kıymeti. Son beş sınavda tam otuz bir soru bu konudan geldi. Bugün üç yeni soru çözeceğiz, her sorudaki tuzağı tek tek yakalayacağız, ve hafıza kartıyla bitireceğiz. Hazırsan başlıyoruz!",
+  "chars": 288
+ },
+ {
+  "id": "q1_read",
+  "text": "Birinci sorumuz bir hesaplama sorusu. K firması Çin'den deniz yoluyla makine ithal ediyor ve satıcıya FOB kırk bin lira ödüyor. Mersin Limanına kadar navlun üç bin, bu taşımanın sigortası dört yüz lira. Mersin'den Gaziantep'teki fabrikaya karayolu nakliyesi bin lira. Alıcı ayrıca fiyata dâhil olmayan bin iki yüz lira satış komisyonu ve yurt dışındaki satın alma temsilcisine sekiz yüz lira satın alma komisyonu ödüyor. Gümrük kıymeti kaç lira? Şıklara bakalım. A: kırk üç bin dört yüz. B: kırk dört bin altı yüz. C: kırk beş bin dört yüz. D: kırk beş bin altı yüz. E: kırk altı bin dört yüz.",
+  "chars": 593
+ },
+ {
+  "id": "q1_think",
+  "text": "Videoyu durdurabilirsin. Süren başladı… beş saniye!",
+  "chars": 51
+ },
+ {
+  "id": "q1_exp",
+  "text": "[excited] Doğru cevap B: kırk dört bin altı yüz lira! Şimdi adım adım kuralım. Başlangıç noktamız fiilen ödenen fiyat: FOB kırk bin lira. Türkiye'deki giriş limanına, yani Mersin'e kadar olan navlunu ekliyoruz: üç bin lira. Bu taşımanın sigortası da kıymete girer: dört yüz lira. Satın alma komisyonları dışındaki komisyonlar, alıcı üstlendiyse eklenir. Satış komisyonu: bin iki yüz lira. Toplam: kırk dört bin altı yüz lira. [cautiously] Peki tuzaklar nerede? Mersin'den Gaziantep'e olan bin liralık nakliye, giriş yerinden sonra yapıldığı için kıymete girmez. İkinci tuzak: yurt dışındaki temsilciye ödenen satın alma komisyonu da eklenmez. Satış komisyonu eklenir, satın alma komisyonu eklenmez! Bir de kur bilgisi: faturadaki döviz, gümrük yükümlülüğünün başladığı tarihteki Merkez Bankası döviz satış kuru ile Türk lirasına çevrilir.",
+  "chars": 838
+ },
+ {
+  "id": "q2_read",
+  "text": "İkinci soru öncüllü. Gümrük Kanunu'na göre aşağıdakilerden hangileri fiyata ilave edilmez? Bir: Alıcının bedelsiz sağladığı ve Türkiye'de gerçekleştirilen mühendislik, plan ve taslak hizmetleri. İki: Alıcının, satıcıyla anlaşma kapsamında olsa da kendi hesabına yaptığı pazarlama giderleri. Üç: Fiyata dâhil olmayan ve alıcının üstlendiği ambalaj bedeli. Dört: Satış koşulu olan ve fiyata dâhil edilmemiş royalti ve lisans ücretleri. Şıklar ekranda.",
+  "chars": 449
+ },
+ {
+  "id": "q2_think",
+  "text": "Şimdi sıra sende. Beş saniye düşün!",
+  "chars": 35
+ },
+ {
+  "id": "q2_exp",
+  "text": "[excited] Doğru cevap D: bir ve iki. Bu soruyu bir terazi gibi düşünelim. Sol kefede fiyata ilave edilenler, sağ kefede edilmeyenler. Ambalaj bedeli, alıcı üstlendiyse eklenir. Satış koşulu olan royalti ve lisans ücretleri de eklenir. Alıcının kendi hesabına yaptığı pazarlama ise, satıcıyla anlaşma olsa bile, satıcıya dolaylı ödeme sayılmaz; eklenmez. Türkiye'de yapılan mühendislik ve plan hizmetleri de eklenmez. [cautiously] İşte büyük tuzak: mühendislik, plan ve taslak hizmeti Türkiye dışında yapıldıysa eklenir; Türkiye'de yapıldıysa eklenmez. Sınavda tek kelimeyi değiştirip soruyorlar! Şunu da unutma: Türkiye'de çoğaltma hakkı için yapılan ödemeler ve satış koşulu olmayan dağıtım hakları da fiyata eklenmez.",
+  "chars": 719
+ },
+ {
+  "id": "q3_read",
+  "text": "Üçüncü sorumuz yöntemlerle ilgili. Gümrük kıymeti belirleme yöntemlerine ilişkin hangisi yanlıştır? A: Son yöntemle kıymet belirlenirken ihraç ülkesindeki iç piyasa fiyatı esas alınabilir. B: Kıymet bir üst yönteme göre belirlenebildiği sürece alt yönteme geçilemez. C: Yazılı talep uygun bulunursa indirgeme ile hesaplanmış kıymetin sırası değişebilir. D: Aynı eşyada birden fazla bedel varsa en düşüğü kullanılır. E: İndirgemede yakın tarihte satış yoksa, doksan gün içindeki ilk satışın birim fiyatı esas alınır.",
+  "chars": 515
+ },
+ {
+  "id": "q3_think",
+  "text": "Kalemi al, işaretle. Beş saniye!",
+  "chars": 32
+ },
+ {
+  "id": "q3_exp",
+  "text": "[excited] Doğru cevap A! Önce yöntemlerin sırasını kuralım. Bir: satış bedeli yöntemi. Sonra aynı eşyanın, ardından benzer eşyanın satış bedeli. Dört: indirgeme, beş: hesaplanmış kıymet. Bu ikisinin sırası, beyan sahibinin yazılı talebi uygun bulunursa yer değiştirebilir. Ve altıncı basamak: son yöntem. Burada Türkiye'deki mevcut veriler esas alınır. [cautiously] Son yöntemde kullanılamayacaklar listesi sınavın favorisi: ihraç ülkesinin iç piyasa fiyatı, Türkiye'de üretilen eşyanın iç satış fiyatı, asgari kıymetler, keyfi ya da fiktif kıymetler. Hiçbiri esas alınamaz. A şıkkı bu yüzden yanlış. Bir de sayılara dikkat: aynı ya da benzer eşyada birden fazla bedel varsa en düşüğü alınır; indirgemede süre doksan gün.",
+  "chars": 721
+ },
+ {
+  "id": "summary",
+  "text": "Ve geldik hafıza kartımıza. Üç cümleyi aklına yaz. Bir: navlun ve sigorta giriş yerine kadar eklenir; satın alma komisyonu eklenmez. İki: mühendislik Türkiye dışındaysa eklenir, Türkiye'deyse eklenmez; pazarlama alıcının kendi hesabıdır. Üç: yöntem sırası sabittir; sadece indirgeme ile hesaplanmış kıymet yer değiştirebilir. Şimdi skorunu kontrol et. Üçte üç yaptıysan müşavirlik yolundasın!",
+  "chars": 392
+ },
+ {
+  "id": "outro",
+  "text": "[excited] Kaç doğru yaptığını yorumlara yaz, kanala abone olmayı unutma. Bir sonraki videoda menşe ve serbest dolaşımın tuzaklarını avlıyoruz. Görüşmek üzere!",
+  "chars": 158
+ }
+]

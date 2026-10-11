@@ -1,0 +1,173 @@
+{
+  "no": 2,
+  "title": "Menşe ve Serbest Dolaşım",
+  "short": "MENŞE",
+  "subtitle": "Yetersiz işçilik, tümüyle elde edilen eşya ve menşe şahadetnamesi",
+  "intro": {
+    "chips": ["3 YENİ SORU", "TUZAK AVI", "HAFIZA KARTI"],
+    "parts": [
+      {"say": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! İkinci videomuzda konumuz menşe."},
+      {"say": "Menşe, son iki sınavın yıldızı: 2024'te sekiz, 2025'te dokuz soru! Bugün üç yeni soru çözüyoruz,", "chip": 0},
+      {"say": "tuzakları tek tek işaretliyoruz,", "chip": 1},
+      {"say": "ve hafıza kartıyla kapatıyoruz. Başlayalım!", "chip": 2}
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Öncüllü · Kapsam",
+      "src": "Gümrük Yönetmeliği",
+      "stem": "Gümrük Yönetmeliği'nin tekstil ürünlerinde menşenin belirlenmesine ilişkin hükümlerine göre aşağıdaki işlemlerden hangileri, eşyanın menşe kazanması için yetersiz işçilik veya işlem olarak kabul edilir?",
+      "statements": [
+        "Tamamlanmış bir ürün oluşturmak üzere parçaların basit montajı",
+        "Ürün veya ambalajı üzerine marka, etiket ve benzeri ayırt edici işaretlerin konulması",
+        "İmalatın önemli bir aşamasının ve ekonomik yönden gerekli en son esaslı işçiliğin, bu amaçla donatılmış işletmede yapılması",
+        "Tozun giderilmesi, eleme, tasnifleme, yıkama ve kesmeden oluşan basit işlemler"
+      ],
+      "options": ["I ve II", "II ve IV", "I, II ve IV", "I, III ve IV", "II, III ve IV"],
+      "answer": "C",
+      "gerekce": "Mevzuata göre tekstil ürünlerinde, pozisyon değişikliği koşulunun sağlanıp sağlanmadığına bakılmaksızın, parçaların basit montajı, marka ve etiket konulması ile toz giderme, eleme, tasnifleme, yıkama ve kesme gibi basit işlemler yetersiz işçilik veya işlem olarak kabul edilir. İmalatın önemli bir aşamasının ve en son esaslı işçiliğin donatılmış işletmede yapılması ise eşyaya menşe kazandırır. Bu nedenle doğru cevap C seçeneğidir. (GY MD 33-34)",
+      "read": [
+        {"say": "Video ikinin ilk sorusu. Gümrük Yönetmeliği'nin tekstil ürünlerinde menşeye ilişkin hükümlerine göre, aşağıdaki işlemlerden hangileri menşe kazanmak için yetersiz işçilik sayılır?", "mark": "yetersiz işçilik veya işlem"},
+        {"say": "Bir: Parçaların basit montajı.", "show": "S0"},
+        {"say": "İki: Ürüne ya da ambalajına marka ve etiket konulması.", "show": "S1"},
+        {"say": "Üç: İmalatın önemli bir aşamasının ve en son esaslı işçiliğin, donatılmış bir işletmede yapılması.", "show": "S2"},
+        {"say": "Dört: Toz alma, eleme, tasnif, yıkama ve kesme gibi basit işlemler.", "show": "S3"},
+        {"say": "Şıklar ekranda.", "show": ["A", "B", "C", "D", "E"]}
+      ],
+      "explain": [
+        {"say": "[excited] Doğru cevap C: bir, iki ve dört."},
+        {"say": "Menşe kazanmanın formülü şu: ya yeni bir ürün imal edeceksin, ya da imalatın önemli aşamasını ve en son esaslı işçiliği yapacaksın.", "show": ["c2", "g1", "g2"]},
+        {"say": "Buna karşılık tekstil ürünleri için bir yetersiz işlemler listesi var: basit montaj,", "show": ["c1", "r1"]},
+        {"say": "marka ve etiket konulması,", "show": ["r2"]},
+        {"say": "toz alma, eleme, tasnif, yıkama gibi basit işlemler,", "show": ["r3"]},
+        {"say": "ve ambalaj değişikliği, kutulama, torbalama.", "show": ["r4"]},
+        {"say": "[cautiously] Tuzak şurada: bu yetersiz işlemlerden ikisini, üçünü bir arada yapsan da sonuç değişmez; yine yetersizdir!", "callout": {"type": "tuzak", "title": "Yetersiz + yetersiz = yine YETERSİZ", "text": "Listede sayılan işlemlerin iki veya daha fazlasının bir arada yapılması da yetersiz işçilik veya işlem sayılır."}},
+        {"say": "Bir de dikkat: listedeki işlemler, tarife pozisyonu değişse bile menşe kazandırmaz. Tekstilde temel ölçüt pozisyon değişikliğidir; ama bu basit işlemlerle elde edilemez.", "callout": {"type": "dikkat", "title": "Pozisyon değişse de YETMEZ", "text": "Listedeki işlemler, pozisyon değişikliği gerçekleşse bile menşe kazandırmaz; tekstilde temel ölçüt pozisyon değişikliğidir (Ek-5 listesindeki ürünlerde listedeki işlem aranır)."}}
+      ],
+      "board": {
+        "title": "Menşe kazandırır mı?",
+        "madde": "GK md. 19 · GY md. 33-34",
+        "kind": "split",
+        "columns": [
+          {"id": "c1", "title": "YETERSİZ İŞLEM (−)", "tone": "red"},
+          {"id": "c2", "title": "MENŞE KAZANDIRIR (+)", "tone": "green"}
+        ],
+        "items": [
+          {"id": "r1", "col": "c1", "text": "Parçaların basit montajı"},
+          {"id": "r2", "col": "c1", "text": "Marka, etiket konulması"},
+          {"id": "r3", "col": "c1", "text": "Toz alma, eleme, tasnif, yıkama, kesme"},
+          {"id": "r4", "col": "c1", "text": "Ambalaj değişikliği, kutulama, torbalama"},
+          {"id": "g1", "col": "c2", "text": "Yeni bir ürün imali"},
+          {"id": "g2", "col": "c2", "text": "Önemli imalat aşaması + en son esaslı işçilik", "sub": "bu amaçla donatılmış işletmede"}
+        ]
+      }
+    },
+    {
+      "chip": "Kapsam dışı · Somut",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "4458 sayılı Gümrük Kanunu'nun tümüyle bir ülkede elde edilen veya üretilen eşyaya ilişkin hükümlerine göre aşağıdakilerden hangisi Türkiye menşeli sayılmaz?",
+      "options": [
+        "Türkiye'de doğan ve yetiştirilen ineklerden elde edilen süt",
+        "Türkiye'de kayıtlı, Türk bandıralı bir geminin herhangi bir ülkenin kara suları dışındaki denizden avladığı balık",
+        "Türkiye'de sadece hammadde elde etmek için toplanan imalat atık ve artıkları",
+        "Türkiye'nin kara suları dışındaki deniz dibinden, münhasır işletme hakkına sahip olarak Türkiye tarafından çıkarılan ürünler",
+        "Türk bandıralı bir balıkçı gemisinin Yunanistan kara sularında avladığı balık"
+      ],
+      "answer": "E",
+      "gerekce": "Mevzuata göre ülke ifadesi o ülkenin kara sularını da kapsar. Bir ülkenin bandıralı gemisinin çıkardığı av ürünleri ancak herhangi bir ülkenin kara suları dışındaki denizlerden çıkarılmışsa o ülke menşeli sayılır. Yunanistan kara sularında avlanan balık, gemi Türk bandıralı olsa da Türkiye menşeli sayılmaz. Bu nedenle doğru cevap E seçeneğidir. (GK MD 18)",
+      "read": [
+        {"say": "İkinci soru. Gümrük Kanunu'na göre aşağıdakilerden hangisi Türkiye menşeli sayılmaz?", "mark": "Türkiye menşeli sayılmaz"},
+        {"say": "A: Türkiye'de doğan ve yetiştirilen ineklerden elde edilen süt.", "show": "A"},
+        {"say": "B: Türk bandıralı bir geminin, herhangi bir ülkenin kara suları dışındaki denizden avladığı balık.", "show": "B"},
+        {"say": "C: Türkiye'de sadece hammadde elde etmek için toplanan atık ve artıklar.", "show": "C"},
+        {"say": "D: Kara suları dışındaki deniz dibinden, münhasır hakla Türkiye'nin çıkardığı ürünler.", "show": "D"},
+        {"say": "E: Türk bandıralı bir balıkçı gemisinin Yunanistan kara sularında avladığı balık.", "show": "E"}
+      ],
+      "explain": [
+        {"say": "[excited] Doğru cevap E!"},
+        {"say": "Kanun, tümüyle bir ülkede elde edilen eşyayı tek tek sayıyor. Kökümüz: tümüyle Türkiye'de elde edilen eşya.", "show": ["root"]},
+        {"say": "Türkiye'de çıkarılan madenler, toplanan bitkiler, doğan ve yetiştirilen hayvanlar ve bunlardan elde edilen süt gibi ürünler.", "show": ["b1"]},
+        {"say": "Türk bandıralı gemilerin, herhangi bir ülkenin kara suları dışındaki denizlerden avladıkları.", "show": ["b2"]},
+        {"say": "Kara suları dışındaki deniz dibinden münhasır hakla çıkarılan ürünler ve sadece hammadde için toplanan atık ve artıklar.", "show": ["b3", "b4"]},
+        {"say": "[cautiously] Tuzak: kanuna göre ülke ifadesi, o ülkenin kara sularını da kapsar. Yunan kara sularında avlanan balık, gemi Türk bandıralı olsa bile Türkiye menşeli değildir!", "callout": {"type": "tuzak", "title": "Bayrak tek başına yetmez; KARA SULARI da önemli!", "text": "'Ülke' ifadesi kara sularını da kapsar. Başka ülkenin kara sularında avlanan ürün, gemi Türk bandıralı olsa da Türkiye menşeli sayılmaz."}},
+        {"say": "Birden fazla ülkede üretilen eşyada ise menşe, ekonomik yönden gerekli en son esaslı işçiliğin yapıldığı ülkedir.", "callout": {"type": "onemli", "title": "Birden fazla ülke → en son esaslı işçilik", "text": "Birden fazla ülkede üretilen eşya, yeni bir ürün imal edildiği veya imalatın önemli bir aşaması ile ekonomik yönden gerekli en son esaslı işçiliğin bu amaçla donatılmış işletmede yapıldığı ülkenin menşelidir."}}
+      ],
+      "board": {
+        "title": "Tümüyle elde edilen eşya",
+        "madde": "4458 s. GK md. 18-19",
+        "kind": "branch",
+        "root": {"id": "root", "text": "Tümüyle TÜRKİYE'de elde edilen", "tone": "gold"},
+        "branches": [
+          {"id": "b1", "text": "Madenler · bitkiler · doğan ve yetiştirilen hayvanlar ile ürünleri"},
+          {"id": "b2", "text": "Türkiye'de kayıtlı/tescilli, Türk bandıralı gemi → kara suları DIŞINDAKİ denizlerden av"},
+          {"id": "b3", "text": "Kara suları dışı deniz dibi → münhasır hakla çıkarılan ürün"},
+          {"id": "b4", "text": "Sadece hammadde için toplanan atık ve artıklar"}
+        ]
+      }
+    },
+    {
+      "chip": "Doğru-yanlış hüküm · Belge",
+      "src": "Gümrük Yönetmeliği",
+      "stem": "Gümrük Yönetmeliği'ne göre menşe şahadetnamesine ilişkin aşağıdakilerden hangisi yanlıştır?",
+      "options": [
+        "Ticari mahiyette olmayan ve CIF kıymeti 430 Avro'yu geçmeyen eşya için menşe şahadetnamesi aranmaz.",
+        "Menşe şahadetnamesinde eşyanın kıymetinin gösterilmesi zorunludur.",
+        "Menşe şahadetnamesi, menşe ülkenin veya ihracatçı ülkenin yetkili makamlarınca düzenlenir.",
+        "Menşe şahadetnamesinin sonradan ibraz edileceğinin beyannamede belirtilmesi hâlinde, ilgili tutarlar nakit teminata bağlanarak tescil tarihinden itibaren altı aylık süre verilir.",
+        "1/95 sayılı OKK'nın ticaret politikası önlemlerine ilişkin hükümleri saklı kalmak üzere, AB'ye üye ülkelerden A.TR Dolaşım Belgesi eşliğinde gelen eşyanın serbest dolaşıma girişinde menşe şahadetnamesi aranmaz."
+      ],
+      "answer": "B",
+      "gerekce": "Mevzuata göre menşe şahadetnamesinde gönderenin ve alıcının adı, kapların marka-numara-sayıları, eşyanın cinsi, nev'i ve ağırlıkları, tasdik şerhi ile gerekiyorsa işçilik açıklamalarının bulunması zorunludur; eşyanın kıymeti zorunlu bilgiler arasında sayılmamıştır. Bu nedenle doğru cevap B seçeneğidir. (GY MD 38-40, 205)",
+      "read": [
+        {"say": "Üçüncü sorumuz belgeyle ilgili. Gümrük Yönetmeliği'ne göre menşe şahadetnamesine ilişkin hangisi yanlıştır?", "mark": "yanlıştır"},
+        {"say": "A: Ticari olmayan ve CIF kıymeti dört yüz otuz avroyu geçmeyen eşyada menşe şahadetnamesi aranmaz.", "show": "A"},
+        {"say": "B: Menşe şahadetnamesinde kıymetin gösterilmesi zorunludur.", "show": "B"},
+        {"say": "C: Şahadetnameyi menşe ülkenin ya da ihracatçı ülkenin yetkili makamları düzenler.", "show": "C"},
+        {"say": "D: Sonradan ibraz edilecekse, tutarlar nakit teminata bağlanır ve tescilden itibaren altı ay süre verilir.", "show": "D"},
+        {"say": "E: AB'den A Te Re belgesiyle gelen eşyada menşe şahadetnamesi aranmaz.", "show": "E"}
+      ],
+      "explain": [
+        {"say": "[excited] Doğru cevap B!"},
+        {"say": "Menşe şahadetnamesini bir kontrol listesi gibi düşünelim. Kim düzenler? Menşe ülkenin ya da ihracatçı ülkenin yetkili makamları.", "show": ["root", "b1"]},
+        {"say": "Ne zaman aranmaz? Ticari olmayan ve CIF kıymeti dört yüz otuz avroyu geçmeyen eşyada, bir de AB'den A Te Re belgesiyle gelen eşyada.", "show": ["b2"]},
+        {"say": "Sonradan ibraz edilecekse, tutarlar nakit teminata bağlanır ve tescilden itibaren altı ay süre verilir; süre bitmeden başvurulursa gümrük idare amirince en fazla otuz gün uzatılabilir, mücbir sebep hâlleri ise saklıdır.", "show": ["b3"]},
+        {"say": "Peki şahadetnamede neler zorunlu? Gönderen, alıcı, kapların marka ve sayıları, eşyanın cinsi ve ağırlığı ve tasdik şerhi.", "show": ["b4"]},
+        {"say": "[cautiously] Listede kıymet yok! Menşe şahadetnamesinde kıymet zorunlu bilgi değildir. Bu tuzak 2024 ve 2025 sınavlarında iki kez soruldu.", "callout": {"type": "tuzak", "title": "Kıymet zorunlu DEĞİL!", "text": "Zorunlu bilgiler: gönderen, alıcı, kaplar, cins-nev'i-ağırlık, tasdik şerhi ve gerekiyorsa işçilik açıklaması. Kıymet listede yok."}},
+        {"say": "Ve son not: A Te Re bir menşe belgesi değil; serbest dolaşımdaki eşyanın Gümrük Birliği kapsamında tercihli rejimden yararlanmasını sağlayan dolaşım belgesidir.", "callout": {"type": "onemli", "title": "A.TR ≠ Menşe belgesi", "text": "A.TR, serbest dolaşımdaki eşyanın Gümrük Birliği kapsamında tercihli rejimden yararlanmasını sağlayan dolaşım belgesidir; menşe belgesi değildir."}}
+      ],
+      "board": {
+        "title": "Menşe şahadetnamesi kontrol listesi",
+        "madde": "GY md. 38-40, 205",
+        "kind": "branch",
+        "root": {"id": "root", "text": "Menşe şahadetnamesi", "tone": "gold"},
+        "branches": [
+          {"id": "b1", "text": "Düzenleyen: menşe ülke veya ihracatçı ülke yetkili makamı"},
+          {"id": "b2", "text": "Aranmaz: ticari olmayan + CIF ≤ 430 € · AB'den A.TR ile gelen"},
+          {"id": "b3", "text": "Sonradan ibraz: nakit teminat + 6 ay (en fazla +30 gün)"},
+          {"id": "b4", "text": "Zorunlu: gönderen, alıcı, kaplar, cins-ağırlık, tasdik"}
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {"title": "Yetersiz işlemler menşe kazandırmaz", "text": "Basit montaj, etiket, ambalaj, eleme-yıkama; bir arada yapılsa da yetersiz."},
+      {"title": "Ülke = kara suları dahil", "text": "Bayrak tek başına yetmez; başka ülkenin kara sularında avlanan ürün o ülkenin menşelidir."},
+      {"title": "Menşe şahadetnamesinde kıymet zorunlu değil", "text": "CIF 430 €'yu geçmeyen ticari olmayan eşyada aranmaz; sonradan ibrazda 6 ay + en fazla 30 gün."}
+    ],
+    "parts": [
+      {"say": "Hafıza kartı zamanı. Üç cümle, üç tuzak."},
+      {"say": "Bir: yetersiz işlemler, bir arada yapılsa bile menşe kazandırmaz.", "item": 0},
+      {"say": "İki: ülke ifadesi kara sularını da kapsar; bayrak tek başına yetmez.", "item": 1},
+      {"say": "Üç: menşe şahadetnamesinde kıymet zorunlu değil; sonradan ibrazda altı ay süre var.", "item": 2},
+      {"say": "Skorunu kontrol et. Üçte üç yaptıysan müşavirlik yolundasın!", "score": true}
+    ]
+  },
+  "outro": {
+    "title": "Skorunu yorumlara yaz!",
+    "next": "Video 3 · Dahilde İşleme ve Geçici İthalat",
+    "parts": [
+      {"say": "[excited] Kaç doğru yaptığını yorumlara yaz, abone olmayı unutma. Bir sonraki videoda dahilde işleme ve geçici ithalatın hesaplarını yapıyoruz. Görüşmek üzere!"}
+    ]
+  }
+}

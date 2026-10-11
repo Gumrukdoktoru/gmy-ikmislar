@@ -1,0 +1,7 @@
+# HyperFrames geçici çıktıları
+**/renders/work-*
+**/renders/.*hf-transaction*
+**/renders/.hf-segments/
+**/snapshots/
+**/node_modules/
+_uretici/audio/**/_tr_*/

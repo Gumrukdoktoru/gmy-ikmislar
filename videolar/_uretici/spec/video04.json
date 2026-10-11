@@ -1,0 +1,485 @@
+{
+  "no": 4,
+  "title": "Transit, Antrepo ve Geri Gelen Eşya",
+  "short": "TRANSİT · ANTREPO",
+  "subtitle": "Teminat ve rejimin sonu, antrepo tipleri ve 30 gün, geri gelen eşyada 3 yıl",
+  "intro": {
+    "chips": [
+      "3 YENİ SORU",
+      "TUZAK AVI",
+      "HAFIZA KARTI"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Dördüncü videomuzda rejimlerin ikinci perdesi: transit, antrepo ve geri gelen eşya."
+      },
+      {
+        "say": "Bu konu kümesinden son iki sınavda tam yirmi dokuz soru geldi. Bugün üç yeni soru çözüyoruz,",
+        "chip": 0
+      },
+      {
+        "say": "süre ve teminat tuzaklarını avlıyoruz,",
+        "chip": 1
+      },
+      {
+        "say": "ve hafıza kartıyla kapatıyoruz. Başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Doğru hüküm · Teminat",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "4458 sayılı Gümrük Kanunu'na göre transit rejimine ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+      "options": [
+        "Karayoluyla yapılan transit taşımalarında teminat aranmaz.",
+        "Boru hattıyla yapılan transit taşımalarında teminat verilmesi zorunludur.",
+        "Transit rejimi, eşya ile gerekli belgelerin hareket gümrük idaresine sunulmasıyla sona erer.",
+        "Birden fazla transit işlemi için, izin verilmesi hâlinde bireysel teminat verilir.",
+        "Transit rejimi, ihracatla ilgili gümrük işlemleri tamamlanmış eşyanın Türkiye Gümrük Bölgesi içindeki bir noktadan diğerine taşınmasına da uygulanır."
+      ],
+      "answer": "E",
+      "gerekce": "Mevzuata göre transit rejimi; ithalat vergileri ve ticaret politikası önlemlerine tabi tutulmayan serbest dolaşıma girmemiş eşya ile ihracatla ilgili gümrük işlemleri tamamlanmış eşyanın gümrük gözetimi altında Türkiye Gümrük Bölgesi içindeki bir noktadan diğerine taşınmasına uygulanır. Transitte teminat verilmesi zorunludur; ancak hava, boru hattı, demir ve deniz yoluyla yapılan taşımalarda yönetmelikle belirlenen hâller dışında teminat aranmaz. Rejim, eşya ile belgelerin varış gümrük idaresine sunulmasıyla sona erer; izin verilmesi hâlinde birden fazla işlem için kapsamlı teminat verilir. Bu nedenle doğru cevap E seçeneğidir. (GK MD 84-85)",
+      "read": [
+        {
+          "say": "Video dördün ilk sorusu transit rejimi. Aşağıdakilerden hangisi doğrudur?",
+          "mark": "doğrudur"
+        },
+        {
+          "say": "A: Karayoluyla yapılan transit taşımalarında teminat aranmaz.",
+          "show": "A"
+        },
+        {
+          "say": "B: Boru hattıyla yapılan transit taşımalarında teminat verilmesi zorunludur.",
+          "show": "B"
+        },
+        {
+          "say": "C: Rejim, eşya ve belgelerin hareket idaresine sunulmasıyla sona erer.",
+          "show": "C"
+        },
+        {
+          "say": "D: Birden fazla transit işlemi için, izinle bireysel teminat verilir.",
+          "show": "D"
+        },
+        {
+          "say": "E: Transit rejimi, ihracat işlemleri tamamlanmış eşyanın Türkiye Gümrük Bölgesi içinde taşınmasına da uygulanır.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap E!"
+        },
+        {
+          "say": "Transit iki tür eşyaya uygulanır: ithalat vergilerine tabi tutulmayan serbest dolaşıma girmemiş eşya ve ihracat işlemleri tamamlanmış eşya. Yolculuk hareket idaresinde başlar.",
+          "show": [
+            "n1"
+          ]
+        },
+        {
+          "say": "Eşya gümrük gözetimi altında taşınır.",
+          "show": [
+            "n2"
+          ]
+        },
+        {
+          "say": "Eşya ve gerekli belgeler varış gümrük idaresine sunulduğunda rejim sona erer.",
+          "show": [
+            "n3"
+          ],
+          "hl": [
+            "n3"
+          ]
+        },
+        {
+          "say": "Hareket ve varış idaresindeki bilgiler karşılaştırılıp usulüne uygun sonlandığı belirlenince de rejim ibra edilir.",
+          "show": [
+            "n4"
+          ]
+        },
+        {
+          "say": "Teminat kuralı: transitte teminat zorunludur. Havayolu, boru hattı, demiryolu ve denizyolu taşımalarında, yönetmelikle belirlenen hâller dışında teminat aranmaz. Karayolu bu istisnada yok!",
+          "callout": {
+            "type": "onemli",
+            "title": "Teminat ZORUNLU · 4 yolda istisna",
+            "text": "Hava · boru hattı · demiryolu · deniz yolu: yönetmelikle belirlenen hâller dışında teminat aranmaz. KARAYOLU istisna değildir."
+          }
+        },
+        {
+          "say": "[cautiously] A ve B şıklarındaki tuzak: yollar yer değiştirmiş. Karayolunda teminat zorunludur; boru hattında ise, yönetmelikle belirlenen hâller dışında teminat aranmaz.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Yollar yer değiştirdi!",
+            "text": "Karayolu → teminat ARANIR. Boru hattı → yönetmelikle belirlenen hâller dışında teminat ARANMAZ. Mutlak ifadelere dikkat!"
+          }
+        },
+        {
+          "say": "Ve teminat türü: tek işlem için bireysel, izin verilmesi hâlinde birden fazla işlem için kapsamlı teminat.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Bireysel ↔ Kapsamlı",
+            "text": "Tek transit işlemi → bireysel teminat. İzinle birden fazla işlem → kapsamlı teminat."
+          }
+        }
+      ],
+      "board": {
+        "title": "Transit: nerede başlar, nerede biter?",
+        "madde": "4458 s. GK md. 84-85",
+        "kind": "flow",
+        "nodes": [
+          {
+            "id": "n1",
+            "text": "Hareket idaresi",
+            "sub": "beyan + teminat"
+          },
+          {
+            "id": "n2",
+            "text": "Taşıma",
+            "sub": "gümrük gözetimi altında"
+          },
+          {
+            "id": "n3",
+            "text": "Varış idaresi",
+            "sub": "eşya + belgeler sunulur → REJİM SONA ERER",
+            "tone": "green"
+          },
+          {
+            "id": "n4",
+            "text": "İbra",
+            "sub": "bilgi ve belgeler karşılaştırılır"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Öncüllü · Hüküm",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre gümrük antrepo rejimine ilişkin aşağıdaki ifadelerden hangileri doğrudur?",
+      "statements": [
+        "C tipi antrepo, gümrük idarelerince işletilen genel antrepo tipidir.",
+        "Antrepodaki eşya için gümrükçe onaylanmış bir işlem veya kullanım tayinine ilişkin beyanname verilmesi hâlinde, işlemlerin tescil tarihinden itibaren otuz gün içinde bitirilmesi gerekir.",
+        "Eşyanın antrepo rejimi altında kalış süresi sınırsızdır.",
+        "Gümrük antreposu işletme izni yalnızca Türkiye'de yerleşik kişilere verilir."
+      ],
+      "options": [
+        "II ve III",
+        "II, III ve IV",
+        "I, III ve IV",
+        "I, II ve IV",
+        "I, II, III ve IV"
+      ],
+      "answer": "B",
+      "gerekce": "Mevzuata göre eşyanın antrepo rejimi altında kalış süresi sınırsızdır; ancak gümrükçe onaylanmış bir işlem veya kullanım beyannamesi tescil edildiğinde işlemler otuz gün içinde bitirilmelidir. Antrepo işletme izni yalnızca Türkiye'de yerleşik kişilere verilir. Gümrük idarelerince işletilen genel antrepo F tipidir; C tipi özel antrepodur. Bu nedenle doğru cevap B seçeneğidir. (GK MD 70, 95, 101; GY MD 329, 346)",
+      "read": [
+        {
+          "say": "İkinci soru antrepo rejimi. Gümrük Kanunu ve Yönetmeliğe göre aşağıdaki ifadelerden hangileri doğrudur?",
+          "mark": "hangileri doğrudur"
+        },
+        {
+          "say": "Bir: C tipi antrepo, gümrük idarelerince işletilen genel antrepo tipidir.",
+          "show": "S0"
+        },
+        {
+          "say": "İki: Antrepodaki eşya için beyanname tescil edilirse, işlemler otuz gün içinde bitirilmelidir.",
+          "show": "S1"
+        },
+        {
+          "say": "Üç: Eşyanın antrepo rejimi altında kalış süresi sınırsızdır.",
+          "show": "S2"
+        },
+        {
+          "say": "Dört: Antrepo işletme izni yalnızca Türkiye'de yerleşik kişilere verilir.",
+          "show": "S3"
+        },
+        {
+          "say": "Şıklar ekranda.",
+          "show": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap B: iki, üç ve dört."
+        },
+        {
+          "say": "Antrepo tiplerini iki gruba ayıralım: genel antrepolar herkes tarafından kullanılabilir; özel antrepolar yalnız işleticinin eşyası içindir.",
+          "show": [
+            "c1",
+            "c2"
+          ]
+        },
+        {
+          "say": "Genel antrepolar: A tipinde işletici sorumludur, B tipinde kullanıcı sorumludur, F tipini ise gümrük idaresi işletir.",
+          "show": [
+            "a",
+            "b",
+            "f"
+          ]
+        },
+        {
+          "say": "Özel antrepolar: C, D ve E tipleri. Hepsinde işletici ile kullanıcı aynı kişidir.",
+          "show": [
+            "c",
+            "d",
+            "e"
+          ]
+        },
+        {
+          "say": "[cautiously] Birinci öncül bu yüzden yanlış: gümrük idaresinin işlettiği genel antrepo C değil, F tipidir. C tipi özel antrepodur.",
+          "callout": {
+            "type": "tuzak",
+            "title": "F = gümrük idaresi · C = özel",
+            "text": "Gümrük idarelerince işletilen genel antrepo F tipidir. C tipi; işleticisi ve kullanıcısı aynı kişi olan özel antrepodur."
+          }
+        },
+        {
+          "say": "Süreler: eşyanın antrepoda kalış süresi sınırsızdır. Ama beyanname tescil ettirildiyse işlemler otuz gün içinde bitmelidir; bitmezse eşya tasfiyelik olur.",
+          "callout": {
+            "type": "onemli",
+            "title": "Süre sınırsız — beyandan sonra 30 GÜN",
+            "text": "Kalış süresi sınırsız. Gümrükçe onaylanmış işlem veya kullanım beyannamesi tescil edilince işlemler 30 gün içinde bitirilmelidir; aksi hâlde tasfiye."
+          }
+        },
+        {
+          "say": "Ve izin: antrepo işletme izni yalnızca Türkiye'de yerleşik kişilere verilir.",
+          "callout": {
+            "type": "dikkat",
+            "title": "İzin: yalnız Türkiye'de yerleşik kişiye",
+            "text": "Gümrük antreposu işletme izni yalnızca Türkiye'de yerleşik kişilere verilir."
+          }
+        }
+      ],
+      "board": {
+        "title": "Antrepo tipleri",
+        "madde": "4458 s. GK md. 70, 95, 101 · GY md. 329, 346",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "GENEL ANTREPO",
+            "tone": "navy"
+          },
+          {
+            "id": "c2",
+            "title": "ÖZEL ANTREPO",
+            "tone": "gold"
+          }
+        ],
+        "items": [
+          {
+            "id": "a",
+            "col": "c1",
+            "text": "A tipi · işletici sorumlu"
+          },
+          {
+            "id": "b",
+            "col": "c1",
+            "text": "B tipi · kullanıcı sorumlu"
+          },
+          {
+            "id": "f",
+            "col": "c1",
+            "text": "F tipi · gümrük idaresi işletir",
+            "tone": "gold"
+          },
+          {
+            "id": "c",
+            "col": "c2",
+            "text": "C tipi · işletici = kullanıcı"
+          },
+          {
+            "id": "d",
+            "col": "c2",
+            "text": "D tipi · işletici = kullanıcı"
+          },
+          {
+            "id": "e",
+            "col": "c2",
+            "text": "E tipi · depolama yeri antrepo addedilir"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Somut olay · Uygulanacak işlem",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "(A) firması, yurt dışındaki bir projede kullanılmak üzere serbest dolaşımdaki iş makinelerini 10 Mart 2023 tarihinde geçici olarak fiilen ihraç etmiştir. Makineler, süresi içinde mücbir sebep belgesi ibrazı ile süre uzatımı talep edilmeksizin, ihraç edildiği durumda 20 Nisan 2026 tarihinde geri getirilmiş ve serbest dolaşıma sokulmak istenmiştir. 4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'nin geri gelen eşyaya ilişkin hükümlerine göre bu eşya için aşağıdakilerden hangisi uygulanır?",
+      "options": [
+        "Eşya ithalat vergilerinden muaf olarak serbest dolaşıma sokulur; herhangi bir ceza uygulanmaz.",
+        "Eşya ithalat vergilerinden muaf olarak serbest dolaşıma sokulur; yalnızca usulsüzlük cezası uygulanır.",
+        "Usulsüzlük cezası uygulanır, gümrük vergileri tahsil edilerek serbest dolaşıma giriş rejimi hükümleri uygulanır.",
+        "Eşya kaçak eşya sayılarak 5607 sayılı Kanun hükümleri uygulanır.",
+        "Eşyanın serbest dolaşıma girişine izin verilmez ve eşya mahrecine iade edilir."
+      ],
+      "answer": "C",
+      "gerekce": "Mevzuata göre geri gelen eşya, ihraçtan sonra üç yıl içinde ihraç edildiği durumda yeniden serbest dolaşıma girerse ithalat vergilerinden muaf tutulur; süre eşyanın fiilen ihraç edildiği tarihten başlar. Geçici olarak ihraç edilen eşya, süresi içinde mücbir sebep belgesi ibrazı ile süre uzatımı talep edilmeksizin üç yıllık süreyi aşarak getirilirse usulsüzlük cezası uygulanır, gümrük vergileri tahsil edilir ve serbest dolaşıma giriş rejimi hükümleri uygulanır. 10.03.2023'te başlayan süre 10.03.2026'da dolmuştur. Bu nedenle doğru cevap C seçeneğidir. (GK MD 168, 241; GY MD 452-453)",
+      "read": [
+        {
+          "say": "Son soru bir senaryo. A firması, yurt dışındaki bir projede kullanmak üzere serbest dolaşımdaki iş makinelerini on mart iki bin yirmi üçte geçici olarak fiilen ihraç ediyor. Makineler, süresi içinde mücbir sebep belgesiyle süre uzatımı talep edilmeden, ihraç edildiği hâliyle yirmi nisan iki bin yirmi altıda geri getiriliyor ve serbest dolaşıma sokulmak isteniyor. Hangi işlem uygulanır?"
+        },
+        {
+          "say": "A: Vergiden muaf serbest dolaşım, ceza yok.",
+          "show": "A"
+        },
+        {
+          "say": "B: Vergiden muaf serbest dolaşım, yalnızca usulsüzlük cezası.",
+          "show": "B"
+        },
+        {
+          "say": "C: Usulsüzlük cezası, vergiler tahsil edilir ve serbest dolaşım hükümleri uygulanır.",
+          "show": "C"
+        },
+        {
+          "say": "D: Kaçak eşya sayılır.",
+          "show": "D"
+        },
+        {
+          "say": "E: Serbest dolaşıma izin verilmez, mahrecine iade edilir.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap C!"
+        },
+        {
+          "say": "Zaman çizelgesine bakalım. Süre, eşyanın fiilen ihraç edildiği tarihte başlar: on mart iki bin yirmi üç.",
+          "show": [
+            "axis",
+            "p1"
+          ]
+        },
+        {
+          "say": "Üç yıllık süre on mart iki bin yirmi altıda doluyor.",
+          "show": [
+            "p2"
+          ]
+        },
+        {
+          "say": "Eşya yirmi nisan iki bin yirmi altıda geliyor: üç yıl aşılmış.",
+          "show": [
+            "p3"
+          ],
+          "pose": "saskin"
+        },
+        {
+          "say": "Bu durumda usulsüzlük cezası uygulanır, gümrük vergileri tahsil edilir ve eşya serbest dolaşıma giriş rejimine göre işlem görür.",
+          "show": [
+            "p4"
+          ],
+          "hl": [
+            "p4"
+          ],
+          "pose": "anlatim"
+        },
+        {
+          "say": "Kural: serbest dolaşımdaki eşya, ihraçtan sonra üç yıl içinde ve ihraç edildiği durumda geri gelirse, ithalat vergilerinden muaf tutulur.",
+          "callout": {
+            "type": "onemli",
+            "title": "3 YIL + aynı ayniyet = muafiyet",
+            "text": "İhraçtan sonra üç yıl içinde, ihraç edildiği durumda geri gelen eşya, beyan sahibinin talebiyle ithalat vergilerinden muaftır."
+          }
+        },
+        {
+          "say": "[cautiously] Ama tuzak şurada: üç yıl aşılmadan, ek süreler dahil verilen süreler aşılırsa vergi alınmaz; yalnızca usulsüzlük cezası uygulanır. B şıkkı o durumu anlatıyor.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Ek süre aşımı ≠ 3 yıl aşımı",
+            "text": "Üç yıl aşılmadan, ek süreler dâhil verilen süreler aşılırsa: usulsüzlük cezası + vergi ALINMADAN serbest dolaşım. Üç yıl aşılırsa: ceza + VERGİ."
+          }
+        },
+        {
+          "say": "Ve unutma: hariçte işleme kapsamında ihraç edilen eşya, aynen ihraç edildiği durum hariç, bu muafiyetten yararlanamaz; ihracı dış ticaret önlemine konu eşya da öyle.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Muafiyet tanınmayan hâller",
+            "text": "Hariçte işleme çerçevesinde ihraç edilen eşya (aynen ihraç edildiği durum hariç) ve ihracı dış ticaret önlemine konu eşya muafiyetten yararlanamaz."
+          }
+        }
+      ],
+      "board": {
+        "title": "Geri gelen eşya: 3 yıllık saat",
+        "madde": "4458 s. GK md. 168-169 · GY md. 452-453",
+        "kind": "timeline",
+        "points": [
+          {
+            "id": "p1",
+            "text": "10.03.2023",
+            "sub": "Fiilen ihraç · süre başlar"
+          },
+          {
+            "id": "p2",
+            "text": "10.03.2026",
+            "sub": "3 yıl doldu",
+            "tone": "gold"
+          },
+          {
+            "id": "p3",
+            "text": "20.04.2026",
+            "sub": "Geri geldi · süre AŞILDI",
+            "tone": "red"
+          },
+          {
+            "id": "p4",
+            "text": "SONUÇ",
+            "sub": "Usulsüzlük cezası + vergi tahsili + serbest dolaşım",
+            "tone": "paper",
+            "fs": 24
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {
+        "title": "Transit varışta biter, teminat zorunlu",
+        "text": "Hava, boru, demir, deniz yolunda yönetmelikteki hâller dışında aranmaz; karayolu istisna değil."
+      },
+      {
+        "title": "F tipi = gümrük idaresi · C, D, E özel",
+        "text": "Kalış süresi sınırsız; beyanname tescilinden sonra 30 gün."
+      },
+      {
+        "title": "Geri gelen eşyada 3 yıl",
+        "text": "Süre fiilen ihraçla başlar; 3 yıl aşılırsa ceza + vergi, sadece ek süre aşılırsa yalnız ceza."
+      }
+    ],
+    "parts": [
+      {
+        "say": "Hafıza kartı zamanı. Üç cümle yaz."
+      },
+      {
+        "say": "Bir: transit varış idaresinde biter; teminat zorunludur, karayolu istisna değildir.",
+        "item": 0
+      },
+      {
+        "say": "İki: gümrük idaresinin işlettiği antrepo F tipidir; beyandan sonra otuz gün.",
+        "item": 1
+      },
+      {
+        "say": "Üç: geri gelen eşyada üç yıl, fiilen ihraç tarihinden başlar.",
+        "item": 2
+      },
+      {
+        "say": "Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+        "score": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Skorunu yorumlara yaz!",
+    "next": "Video 5 · Yaptırımlar: Cezalar ve Kaçakçılık",
+    "parts": [
+      {
+        "say": "[excited] Kaç doğru yaptığını yorumlara yaz, abone olmayı unutma. Serinin son videosunda cezaları ve kaçakçılığı konuşacağız. Görüşmek üzere!"
+      }
+    ]
+  }
+}

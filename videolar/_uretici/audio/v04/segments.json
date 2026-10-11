@@ -1,0 +1,62 @@
+[
+ {
+  "id": "intro",
+  "text": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Dördüncü videomuzda rejimlerin ikinci perdesi: transit, antrepo ve geri gelen eşya. Bu konu kümesinden son iki sınavda tam yirmi dokuz soru geldi. Bugün üç yeni soru çözüyoruz, süre ve teminat tuzaklarını avlıyoruz, ve hafıza kartıyla kapatıyoruz. Başlayalım!",
+  "chars": 309
+ },
+ {
+  "id": "q1_read",
+  "text": "Video dördün ilk sorusu transit rejimi. Aşağıdakilerden hangisi doğrudur? A: Karayoluyla yapılan transit taşımalarında teminat aranmaz. B: Boru hattıyla yapılan transit taşımalarında teminat verilmesi zorunludur. C: Rejim, eşya ve belgelerin hareket idaresine sunulmasıyla sona erer. D: Birden fazla transit işlemi için, izinle bireysel teminat verilir. E: Transit rejimi, ihracat işlemleri tamamlanmış eşyanın Türkiye Gümrük Bölgesi içinde taşınmasına da uygulanır.",
+  "chars": 466
+ },
+ {
+  "id": "q1_think",
+  "text": "Videoyu durdurabilirsin. Süren başladı… beş saniye!",
+  "chars": 51
+ },
+ {
+  "id": "q1_exp",
+  "text": "[excited] Doğru cevap E! Transit iki tür eşyaya uygulanır: ithalat vergilerine tabi tutulmayan serbest dolaşıma girmemiş eşya ve ihracat işlemleri tamamlanmış eşya. Yolculuk hareket idaresinde başlar. Eşya gümrük gözetimi altında taşınır. Eşya ve gerekli belgeler varış gümrük idaresine sunulduğunda rejim sona erer. Hareket ve varış idaresindeki bilgiler karşılaştırılıp usulüne uygun sonlandığı belirlenince de rejim ibra edilir. Teminat kuralı: transitte teminat zorunludur. Havayolu, boru hattı, demiryolu ve denizyolu taşımalarında, yönetmelikle belirlenen hâller dışında teminat aranmaz. Karayolu bu istisnada yok! [cautiously] A ve B şıklarındaki tuzak: yollar yer değiştirmiş. Karayolunda teminat zorunludur; boru hattında ise, yönetmelikle belirlenen hâller dışında teminat aranmaz. Ve teminat türü: tek işlem için bireysel, izin verilmesi hâlinde birden fazla işlem için kapsamlı teminat.",
+  "chars": 898
+ },
+ {
+  "id": "q2_read",
+  "text": "İkinci soru antrepo rejimi. Gümrük Kanunu ve Yönetmeliğe göre aşağıdaki ifadelerden hangileri doğrudur? Bir: C tipi antrepo, gümrük idarelerince işletilen genel antrepo tipidir. İki: Antrepodaki eşya için beyanname tescil edilirse, işlemler otuz gün içinde bitirilmelidir. Üç: Eşyanın antrepo rejimi altında kalış süresi sınırsızdır. Dört: Antrepo işletme izni yalnızca Türkiye'de yerleşik kişilere verilir. Şıklar ekranda.",
+  "chars": 423
+ },
+ {
+  "id": "q2_think",
+  "text": "Şimdi sıra sende. Beş saniye düşün!",
+  "chars": 35
+ },
+ {
+  "id": "q2_exp",
+  "text": "[excited] Doğru cevap B: iki, üç ve dört. Antrepo tiplerini iki gruba ayıralım: genel antrepolar herkes tarafından kullanılabilir; özel antrepolar yalnız işleticinin eşyası içindir. Genel antrepolar: A tipinde işletici sorumludur, B tipinde kullanıcı sorumludur, F tipini ise gümrük idaresi işletir. Özel antrepolar: C, D ve E tipleri. Hepsinde işletici ile kullanıcı aynı kişidir. [cautiously] Birinci öncül bu yüzden yanlış: gümrük idaresinin işlettiği genel antrepo C değil, F tipidir. C tipi özel antrepodur. Süreler: eşyanın antrepoda kalış süresi sınırsızdır. Ama beyanname tescil ettirildiyse işlemler otuz gün içinde bitmelidir; bitmezse eşya tasfiyelik olur. Ve izin: antrepo işletme izni yalnızca Türkiye'de yerleşik kişilere verilir.",
+  "chars": 744
+ },
+ {
+  "id": "q3_read",
+  "text": "Son soru bir senaryo. A firması, yurt dışındaki bir projede kullanmak üzere serbest dolaşımdaki iş makinelerini on mart iki bin yirmi üçte geçici olarak fiilen ihraç ediyor. Makineler, süresi içinde mücbir sebep belgesiyle süre uzatımı talep edilmeden, ihraç edildiği hâliyle yirmi nisan iki bin yirmi altıda geri getiriliyor ve serbest dolaşıma sokulmak isteniyor. Hangi işlem uygulanır? A: Vergiden muaf serbest dolaşım, ceza yok. B: Vergiden muaf serbest dolaşım, yalnızca usulsüzlük cezası. C: Usulsüzlük cezası, vergiler tahsil edilir ve serbest dolaşım hükümleri uygulanır. D: Kaçak eşya sayılır. E: Serbest dolaşıma izin verilmez, mahrecine iade edilir.",
+  "chars": 660
+ },
+ {
+  "id": "q3_think",
+  "text": "Kalemi al, işaretle. Beş saniye!",
+  "chars": 32
+ },
+ {
+  "id": "q3_exp",
+  "text": "[excited] Doğru cevap C! Zaman çizelgesine bakalım. Süre, eşyanın fiilen ihraç edildiği tarihte başlar: on mart iki bin yirmi üç. Üç yıllık süre on mart iki bin yirmi altıda doluyor. Eşya yirmi nisan iki bin yirmi altıda geliyor: üç yıl aşılmış. Bu durumda usulsüzlük cezası uygulanır, gümrük vergileri tahsil edilir ve eşya serbest dolaşıma giriş rejimine göre işlem görür. Kural: serbest dolaşımdaki eşya, ihraçtan sonra üç yıl içinde ve ihraç edildiği durumda geri gelirse, ithalat vergilerinden muaf tutulur. [cautiously] Ama tuzak şurada: üç yıl aşılmadan, ek süreler dahil verilen süreler aşılırsa vergi alınmaz; yalnızca usulsüzlük cezası uygulanır. B şıkkı o durumu anlatıyor. Ve unutma: hariçte işleme kapsamında ihraç edilen eşya, aynen ihraç edildiği durum hariç, bu muafiyetten yararlanamaz; ihracı dış ticaret önlemine konu eşya da öyle.",
+  "chars": 850
+ },
+ {
+  "id": "summary",
+  "text": "Hafıza kartı zamanı. Üç cümle yaz. Bir: transit varış idaresinde biter; teminat zorunludur, karayolu istisna değildir. İki: gümrük idaresinin işlettiği antrepo F tipidir; beyandan sonra otuz gün. Üç: geri gelen eşyada üç yıl, fiilen ihraç tarihinden başlar. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+  "chars": 310
+ },
+ {
+  "id": "outro",
+  "text": "[excited] Kaç doğru yaptığını yorumlara yaz, abone olmayı unutma. Serinin son videosunda cezaları ve kaçakçılığı konuşacağız. Görüşmek üzere!",
+  "chars": 141
+ }
+]

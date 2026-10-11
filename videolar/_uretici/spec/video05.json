@@ -1,0 +1,477 @@
+{
+  "no": 5,
+  "title": "Yaptırımlar: Cezalar ve Kaçakçılık",
+  "short": "YAPTIRIMLAR",
+  "subtitle": "Vergi farkında kat cezası, 5607'de artırımlar ve usulsüzlük katları",
+  "intro": {
+    "chips": [
+      "3 YENİ SORU",
+      "TUZAK AVI",
+      "HAFIZA KARTI"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Serinin son videosunda yaptırımları konuşuyoruz: Gümrük Kanunu cezaları ve Kaçakçılık Kanunu."
+      },
+      {
+        "say": "Bu iki başlıktan son beş sınavda kırk yedi soru geldi. Bugün üç yeni soru çözüyoruz,",
+        "chip": 0
+      },
+      {
+        "say": "kat ve oran tuzaklarını tek tek avlıyoruz,",
+        "chip": 1
+      },
+      {
+        "say": "ve hafıza kartıyla seriyi kapatıyoruz. Başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Somut olay · Çift bilgi",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "Serbest dolaşıma giriş rejimi kapsamında beyan edilen eşyanın tarife pozisyonunun beyan edilenden farklı olduğu anlaşılmıştır. Beyana göre hesaplanan ithalat vergileri 400.000 TL, alınması gereken ithalat vergileri 500.000 TL'dir. 4458 sayılı Gümrük Kanunu'nun vergi kaybına neden olan işlemlere uygulanacak cezalara ilişkin hükümlerine göre, bu aykırılığın gümrük idaresince tespit edilmesi hâlinde ve gümrük idaresince tespit edilmeden önce beyan sahibince bildirilmesi hâlinde ithalat vergilerinden ayrı olarak uygulanacak para cezası sırasıyla kaç TL'dir?",
+      "options": [
+        "300.000 – 30.000",
+        "300.000 – 150.000",
+        "200.000 – 20.000",
+        "100.000 – 10.000",
+        "50.000 – 0"
+      ],
+      "answer": "A",
+      "gerekce": "Mevzuata göre serbest dolaşıma giriş rejiminde Gümrük Tarifesini oluşturan unsurlardaki aykırılık nedeniyle beyana göre hesaplanan vergi ile alınması gereken vergi arasındaki fark %5'i aşarsa, ithalat vergilerinden ayrı olarak farkın üç katı para cezası alınır: 100.000 × 3 = 300.000 TL. Aykırılık gümrük idaresince tespit edilmeden önce beyan sahibince bildirilirse ceza yüzde on nispetinde uygulanır: 30.000 TL. Bu nedenle doğru cevap A seçeneğidir. (GK MD 234)",
+      "read": [
+        {
+          "say": "Video beşin ilk sorusu. Serbest dolaşıma giriş beyannamesinde tarife pozisyonunun farklı olduğu anlaşılmış. Beyana göre ithalat vergisi dört yüz bin lira, alınması gereken beş yüz bin lira. Aykırılığı idare tespit ederse ceza ne olur? İdare tespit etmeden önce beyan sahibi kendisi bildirirse ne olur?",
+          "mark": "sırasıyla",
+          "callout": {
+            "type": "dikkat",
+            "title": "Çift bilgi sorusu",
+            "text": "İki durum soruluyor: idarenin tespiti ve kendiliğinden bildirim. Şıklar bu iki tutarı sırasıyla veriyor."
+          }
+        },
+        {
+          "say": "A: üç yüz bin ve otuz bin.",
+          "show": "A"
+        },
+        {
+          "say": "B: üç yüz bin ve yüz elli bin.",
+          "show": "B"
+        },
+        {
+          "say": "C: iki yüz bin ve yirmi bin.",
+          "show": "C"
+        },
+        {
+          "say": "D: yüz bin ve on bin.",
+          "show": "D"
+        },
+        {
+          "say": "E: elli bin ve sıfır.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap A: üç yüz bin ve otuz bin lira."
+        },
+        {
+          "say": "Adım bir: beyana göre vergi dört yüz bin lira.",
+          "show": [
+            "n1"
+          ]
+        },
+        {
+          "say": "Adım iki: alınması gereken vergi beş yüz bin lira.",
+          "show": [
+            "n2"
+          ]
+        },
+        {
+          "say": "Fark yüz bin lira. Bu, yüzde beşi açıkça aşıyor.",
+          "show": [
+            "n3"
+          ]
+        },
+        {
+          "say": "Tarife unsurlarındaki aykırılıkta fark yüzde beşi aşarsa, farkın üç katı para cezası alınır: üç yüz bin lira.",
+          "show": [
+            "n4"
+          ],
+          "hl": [
+            "n4"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "Kendiliğinden bildirim avantajı: aykırılığı gümrük idaresi tespit etmeden önce beyan sahibi bildirirse, ceza yüzde on oranında uygulanır: otuz bin lira.",
+          "callout": {
+            "type": "onemli",
+            "title": "Önce sen bildir: ceza %10",
+            "text": "İdare tespit etmeden önce beyan sahibince bildirilirse ceza yüzde on nispetinde uygulanır: 300.000 × %10 = 30.000 TL."
+          }
+        },
+        {
+          "say": "Rejime dikkat: dahilde işleme, gümrük kontrolü altında işleme ve tam muafiyetli geçici ithalatta ceza, vergi farkının yarısıdır. E şıkkındaki elli bin buradan geliyor.",
+          "callout": {
+            "type": "dikkat",
+            "title": "DİR · GKAİ · tam muafiyetli GİR → farkın YARISI",
+            "text": "Bu rejimlerde aynı farklılıkların tespitinde vergi farkının yarısı tutarında idari para cezası verilir."
+          }
+        },
+        {
+          "say": "[cautiously] Son tuzak: genel yönetim kapsamındaki kamu idarelerine bu cezalar uygulanmaz. Ayrıca bu cezalar, usulsüzlük cezasının temel tutarından az olamaz.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Kamu idaresi ve alt sınır",
+            "text": "Genel yönetim kapsamındaki kamu idarelerine bu cezalar uygulanmaz. Verilen cezalar usulsüzlük cezasının temel tutarından az olamaz."
+          }
+        }
+      ],
+      "board": {
+        "title": "Vergi farkında kat cezası",
+        "madde": "4458 s. GK md. 234",
+        "kind": "flow",
+        "nodes": [
+          {
+            "id": "n1",
+            "text": "Beyan",
+            "sub": "400.000 TL"
+          },
+          {
+            "id": "n2",
+            "text": "Alınması gereken",
+            "sub": "500.000 TL"
+          },
+          {
+            "id": "n3",
+            "text": "Fark",
+            "sub": "100.000 TL · %25 > %5"
+          },
+          {
+            "id": "n4",
+            "text": "Ceza: 3 KAT",
+            "sub": "300.000 TL",
+            "tone": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Eşleştirme · Oran",
+      "src": "5607 s. Kaçakçılıkla Mücadele K.",
+      "stem": "5607 sayılı Kaçakçılıkla Mücadele Kanunu'nda yer alan hâller ile cezaya ilişkin uygulama eşleştirmelerinden hangisi yanlıştır?",
+      "options": [
+        "Eşyanın gümrük kapıları dışından ülkeye sokulması – Ceza üçte birinden yarısına kadar artırılır.",
+        "Suçun bir örgütün faaliyeti çerçevesinde işlenmesi – Ceza iki kat artırılır.",
+        "Suçun üç veya daha fazla kişi tarafından birlikte işlenmesi – Ceza yarı oranında artırılır.",
+        "Fiilin teşebbüs aşamasında kalması – Tamamlanmış gibi cezalandırılır.",
+        "Suç konusu eşyanın değerinin fahiş olması – Ceza yarısından iki katına kadar artırılır."
+      ],
+      "answer": "E",
+      "gerekce": "Mevzuata göre suç konusu eşyanın değerinin fahiş olması hâlinde verilecek cezalar yarısından bir katına kadar artırılır. Yarısından iki katına kadar artırım, suç konusu eşyanın akaryakıt, tütün, tütün mamulleri, makaron, yaprak sigara kâğıdı, etil alkol, metanol ve alkollü içki olması hâlinde uygulanır. Diğer eşleştirmeler doğrudur. Bu nedenle doğru cevap E seçeneğidir. (5607 S.K. MD 3-4)",
+      "read": [
+        {
+          "say": "İkinci soru bir eşleştirme. Kaçakçılık Kanunu'ndaki hâller ve cezaya etkisi eşleştirmelerinden hangisi yanlıştır?",
+          "mark": "yanlıştır"
+        },
+        {
+          "say": "A: Gümrük kapıları dışından sokma, ceza üçte birinden yarısına kadar artırılır.",
+          "show": "A"
+        },
+        {
+          "say": "B: Örgüt faaliyeti, ceza iki kat artırılır.",
+          "show": "B"
+        },
+        {
+          "say": "C: Üç veya daha fazla kişi, ceza yarı oranında artırılır.",
+          "show": "C"
+        },
+        {
+          "say": "D: Teşebbüs, tamamlanmış gibi cezalandırılır.",
+          "show": "D"
+        },
+        {
+          "say": "E: Eşyanın değeri fahiş, ceza yarısından iki katına kadar artırılır.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap E!"
+        },
+        {
+          "say": "Artırım hâllerini tabloya dökelim. Gümrük kapıları dışından sokma: üçte birinden yarısına kadar artırım.",
+          "show": [
+            "c1",
+            "a1"
+          ]
+        },
+        {
+          "say": "Örgüt faaliyeti çerçevesinde: iki kat. Üç veya daha fazla kişiyle ya da kaçakçılıkla mücadeleyle görevli kişilerce işlenirse: yarı oranında.",
+          "show": [
+            "a2",
+            "a3"
+          ]
+        },
+        {
+          "say": "Eşyanın değeri fahişse: yarısından bir katına kadar.",
+          "show": [
+            "a4"
+          ],
+          "hl": [
+            "a4"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "Diğer sütunda: teşebbüs tamamlanmış gibi cezalandırılır; değer hafifse yarısına, pek hafifse üçte birine kadar indirilir.",
+          "show": [
+            "c2",
+            "d1",
+            "d2"
+          ],
+          "pose": "anlatim"
+        },
+        {
+          "say": "[cautiously] E şıkkının tuzağı: 'yarısından iki katına kadar' artırım fahiş değer için değil; konusu akaryakıt, tütün mamulleri, alkollü içki gibi eşya olan suçlar içindir. Üstelik orada ceza üç yıldan az olamaz.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Fahiş değer: yarısından BİR katına",
+            "text": "'Yarısından İKİ katına' artırım akaryakıt, tütün, tütün mamulleri, makaron, yaprak sigara kâğıdı, etil alkol, metanol ve alkollü içkilerde uygulanır; ceza 3 yıldan az olamaz."
+          }
+        },
+        {
+          "say": "Etkin pişmanlıkta da oran var: gümrüklenmiş değerin iki katı ödenirse, soruşturma evresinde ceza yarı oranında, kovuşturma evresinde üçte bir oranında indirilir.",
+          "callout": {
+            "type": "onemli",
+            "title": "Etkin pişmanlık: 2 katını öde",
+            "text": "Gümrüklenmiş değerin 2 katı ödenirse: soruşturma evresinde ceza YARI, kovuşturma evresinde ÜÇTE BİR oranında indirilir."
+          }
+        }
+      ],
+      "board": {
+        "title": "5607: artırım ve indirim tablosu",
+        "madde": "5607 s. KMK md. 3-5",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "ARTIRIM",
+            "tone": "red"
+          },
+          {
+            "id": "c2",
+            "title": "TEŞEBBÜS · İNDİRİM",
+            "tone": "navy"
+          }
+        ],
+        "items": [
+          {
+            "id": "a1",
+            "col": "c1",
+            "text": "Gümrük kapıları dışından → 1/3'ten 1/2'ye"
+          },
+          {
+            "id": "a2",
+            "col": "c1",
+            "text": "Örgüt faaliyeti → 2 KAT"
+          },
+          {
+            "id": "a3",
+            "col": "c1",
+            "text": "3+ kişi / görevliler → yarı oranında"
+          },
+          {
+            "id": "a4",
+            "col": "c1",
+            "text": "Fahiş değer → yarısından 1 katına",
+            "tone": "gold"
+          },
+          {
+            "id": "d1",
+            "col": "c2",
+            "text": "Teşebbüs → tamamlanmış gibi"
+          },
+          {
+            "id": "d2",
+            "col": "c2",
+            "text": "Hafif → yarısına · Pek hafif → üçte birine kadar indirim"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Eşleştirme · Kat",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "4458 sayılı Gümrük Kanunu'na göre usulsüzlük cezası uygulanan hâller ile cezanın kat sayısı eşleştirmelerinden hangisi yanlıştır?",
+      "options": [
+        "Gümrük idarelerince verilen kararlara dayanak oluşturan belge ve bilgilerin ilgili kişilerce yanlış verilmesi – İki kat",
+        "Geçerli bir temsil yetkisi olmadan başka bir kişi adına veya hesabına gümrük idarelerinde iş takip edilmesi – Dört kat",
+        "Karayoluyla transit eşya taşıyan taşıt araçlarının verilen süreleri yirmi dört saate kadar aşması – İki kat",
+        "Gümrük antrepolarında bulunan eşyanın gümrük idaresinin izni olmaksızın elleçlemelere tabi tutulması – İki kat",
+        "Taşıt araçlarının önceden belirlenmiş yollar dışında seyretmesi – Sekiz kat"
+      ],
+      "answer": "D",
+      "gerekce": "Mevzuata göre gümrük antrepolarında bulunan eşyanın gümrük idarelerinin izni olmaksızın elleçlemelere tabi tutulması hâlinde usulsüzlük cezası dört kat olarak uygulanır. Yanlış belge veya bilgi verilmesi iki kat, temsil yetkisi olmadan iş takibi dört kat, karayolu transitinde sürenin yirmi dört saate kadar aşılması iki kat, önceden belirlenmiş yollar dışında seyir sekiz kattır. Bu nedenle doğru cevap D seçeneğidir. (GK MD 241)",
+      "read": [
+        {
+          "say": "Ve serinin son sorusu: usulsüzlük cezasında hangi eşleştirme yanlış?",
+          "mark": "yanlıştır"
+        },
+        {
+          "say": "A: Kararlara dayanak belge ve bilgilerin yanlış verilmesi, iki kat.",
+          "show": "A"
+        },
+        {
+          "say": "B: Temsil yetkisi olmadan iş takibi, dört kat.",
+          "show": "B"
+        },
+        {
+          "say": "C: Karayolu transitinde sürenin yirmi dört saate kadar aşılması, iki kat.",
+          "show": "C"
+        },
+        {
+          "say": "D: Antrepodaki eşyanın izinsiz elleçlenmesi, iki kat.",
+          "show": "D"
+        },
+        {
+          "say": "E: Önceden belirlenmiş yollar dışında seyir, sekiz kat.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap D!"
+        },
+        {
+          "say": "Kat mantığını transit süre aşımıyla kuralım. Süre yirmi dört saate kadar aşılırsa iki kat,",
+          "show": [
+            "axis",
+            "p1"
+          ]
+        },
+        {
+          "say": "kırk sekiz saate kadar dört kat,",
+          "show": [
+            "p2"
+          ]
+        },
+        {
+          "say": "yetmiş iki saate kadar altı kat,",
+          "show": [
+            "p3"
+          ]
+        },
+        {
+          "say": "yetmiş iki saatten fazlaysa sekiz kat.",
+          "show": [
+            "p4"
+          ],
+          "pose": "saskin"
+        },
+        {
+          "say": "[cautiously] D şıkkının tuzağı: antrepodaki eşyanın izinsiz elleçlenmesi iki kat değil, dört kat usulsüzlük cezasıdır. 2022 sınavında da soruldu.",
+          "callout": {
+            "type": "tuzak",
+            "title": "İzinsiz elleçleme = 4 KAT",
+            "text": "Gümrük antrepolarındaki eşyanın idarenin izni olmaksızın elleçlemeye tabi tutulması dört kat usulsüzlük cezasını gerektirir."
+          }
+        },
+        {
+          "say": "Diğerlerini de not al: yanlış belge veya bilgi iki kat, temsil yetkisi olmadan iş takibi dört kat, belirlenmiş yollar dışında seyir sekiz kat.",
+          "callout": {
+            "type": "onemli",
+            "title": "Kat ezberi",
+            "text": "Yanlış belge/bilgi → 2 kat · Temsil yetkisiz iş takibi → 4 kat · Belirlenmiş yol dışında seyir → 8 kat."
+          }
+        },
+        {
+          "say": "Ve tutar: temel usulsüzlük cezası her yıl yeniden değerleme oranında artırılır. Bu maddeyle ilgili 2026 tarihli bir Anayasa Mahkemesi kararı da var; sınavdan önce güncel metni mutlaka kontrol et.",
+          "callout": {
+            "type": "uyari",
+            "title": "Tutar her yıl değişir",
+            "text": "Temel tutar her yıl yeniden değerleme oranında artar (2025 sınavında 1.191 TL). Maddeye ilişkin 26.03.2026 tarihli AYM kararını ve güncel tutarı kontrol et."
+          }
+        }
+      ],
+      "board": {
+        "title": "Transit süre aşımı: kat merdiveni",
+        "madde": "4458 s. GK md. 241",
+        "kind": "timeline",
+        "points": [
+          {
+            "id": "p1",
+            "text": "≤ 24 saat",
+            "sub": "2 KAT"
+          },
+          {
+            "id": "p2",
+            "text": "≤ 48 saat",
+            "sub": "4 KAT",
+            "tone": "gold"
+          },
+          {
+            "id": "p3",
+            "text": "≤ 72 saat",
+            "sub": "6 KAT",
+            "tone": "gold"
+          },
+          {
+            "id": "p4",
+            "text": "> 72 saat",
+            "sub": "8 KAT",
+            "tone": "red"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {
+        "title": "Fark %5'i aşarsa 3 kat",
+        "text": "İdareden önce bildirirsen %10; DİR, GKAİ ve tam muafiyetli GİR'de farkın yarısı."
+      },
+      {
+        "title": "5607: örgüt 2 kat, 3+ kişi yarı oranında",
+        "text": "Gümrük kapıları dışı 1/3–1/2; fahiş değer yarısından bir katına; teşebbüs tamamlanmış gibi."
+      },
+      {
+        "title": "Usulsüzlük katları: 2-4-6-8",
+        "text": "Transit süre aşımı 24/48/72 saat; izinsiz elleçleme 4 kat; yol dışı seyir 8 kat."
+      }
+    ],
+    "parts": [
+      {
+        "say": "Serinin son hafıza kartı. Üç cümle."
+      },
+      {
+        "say": "Bir: vergi farkı yüzde beşi aşarsa üç kat; idareden önce bildirirsen yüzde on.",
+        "item": 0
+      },
+      {
+        "say": "İki: kaçakçılıkta örgüt iki kat, üç kişi yarı oranında; fahiş değer yarısından bir katına.",
+        "item": 1
+      },
+      {
+        "say": "Üç: usulsüzlük katları iki, dört, altı, sekiz; izinsiz elleçleme dört kat.",
+        "item": 2
+      },
+      {
+        "say": "Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+        "score": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Seriyi bitirdin, tebrikler!",
+    "next": "Tekrar için: Video 1 · Gümrük Kıymeti",
+    "parts": [
+      {
+        "say": "[excited] Beş videoda on beş soru ve onlarca tuzak! Skorunu yorumlara yaz, abone ol ve tekrarı ihmal etme. Sınavda başarılar, görüşmek üzere!"
+      }
+    ]
+  }
+}
