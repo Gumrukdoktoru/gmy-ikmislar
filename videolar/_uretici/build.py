@@ -61,6 +61,43 @@ def norm_tok(w):
     return w
 
 
+_BIR = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"]
+_ON = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]
+
+
+def num_tr(n):
+    """Tam sayıyı Türkçe sözcüklere açar: 26000 -> ['yirmi', 'altı', 'bin']."""
+    if n == 0:
+        return ["sıfır"]
+    out = []
+    for val, name in ((10 ** 9, "milyar"), (10 ** 6, "milyon"), (1000, "bin")):
+        q, n = divmod(n, val)
+        if q:
+            out += ([] if (q == 1 and name == "bin") else num_tr(q)) + [name]
+    h, n = divmod(n, 100)
+    if h:
+        out += ([] if h == 1 else [_BIR[h]]) + ["yüz"]
+    t, n = divmod(n, 10)
+    if t:
+        out.append(_ON[t])
+    if n:
+        out.append(_BIR[n])
+    return out
+
+
+def whisper_toks(w):
+    """Whisper kelimesini hizalama belirteçlerine çevirir; rakamları (yıllar hariç) sözcüğe açar."""
+    t = norm_tok(w)
+    m = re.fullmatch(r"(%?)(\d+)(%?)", t)
+    if not m:
+        return [t] if t else []
+    v = int(m.group(2))
+    if len(m.group(2)) == 4 and 1900 <= v <= 2099:
+        return [t]
+    pre = ["yüzde"] if (m.group(1) or m.group(3)) else []
+    return pre + num_tr(v)
+
+
 def tokens(text):
     out = []
     for w in strip_tags(text).split():
@@ -166,8 +203,7 @@ class Aligner:
         self.tok = tokens(text)
         self.dur = dur
         self.s0, self.s1 = speech
-        wt = [norm_tok(w["text"]) for w in words]
-        wt_f = [(t, w) for t, w in zip(wt, words) if t]
+        wt_f = [(t, w) for w in words for t in whisper_toks(w["text"])]
         self.wtok = [t for t, _ in wt_f]
         self.wobj = [w for _, w in wt_f]
         sm = difflib.SequenceMatcher(a=self.tok, b=self.wtok, autojunk=False)
@@ -284,9 +320,11 @@ font-weight:600;font-size:33px;line-height:1.28;color:#fff;text-align:center}
 /* giriş */
 .intro-kicker{position:absolute;left:110px;top:150px;font-family:"GK Mono";font-weight:700;font-size:30px;letter-spacing:.24em;color:var(--gold)}
 .intro-num{position:absolute;left:104px;top:205px;font-family:"GK Mono";font-weight:800;font-size:140px;letter-spacing:-.02em;color:var(--gold);line-height:1}
-.intro-title{position:absolute;left:104px;top:390px;width:1150px;font-weight:900;font-size:118px;line-height:1.0;letter-spacing:-.035em;color:#fff}
+.intro-block{position:absolute;left:104px;top:390px;width:1150px;display:flex;flex-direction:column;align-items:flex-start}
+.intro-title{position:relative;width:1150px;font-weight:900;font-size:118px;line-height:1.0;letter-spacing:-.035em;color:#fff}
 .intro-title .w{display:inline-block;margin-right:28px}
-.intro-sub{position:absolute;left:110px;top:0;width:1100px;font-family:"GK Serif";font-weight:500;font-size:40px;line-height:1.3;color:var(--muted)}
+.intro-sub{position:relative;margin:30px 0 0 6px;width:1100px;font-family:"GK Serif";font-weight:500;font-size:40px;line-height:1.3;color:var(--muted)}
+.intro-block .chips{position:relative;left:auto;margin-top:36px}
 .chips{position:absolute;left:104px;display:flex;gap:18px}
 .chip{display:flex;align-items:center;gap:12px;padding:14px 26px;border-radius:40px;font-weight:800;font-size:28px;letter-spacing:.04em}
 .chip .dot{width:16px;height:16px;border-radius:50%}
@@ -349,7 +387,7 @@ background:var(--navy2);border:3px solid rgba(159,176,224,.45);color:#fff;font-w
 .node.paper .sub{color:#3A4775}
 .node .glowr{position:absolute;inset:-10px;border-radius:26px;border:5px solid var(--gold);opacity:0}
 .col{position:absolute;top:0;height:420px;border-radius:24px;border:3px dashed rgba(159,176,224,.35);opacity:0}
-.col .ch{position:absolute;left:0;top:0;width:100%;height:70px;border-radius:20px 20px 0 0;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:28px;letter-spacing:.06em}
+.col .ch{position:absolute;left:0;top:0;width:100%;height:70px;box-sizing:border-box;padding:0 14px;border-radius:20px 20px 0 0;display:flex;align-items:center;justify-content:center;text-align:center;white-space:nowrap;font-weight:900;font-size:28px;letter-spacing:.06em}
 .col.green .ch{background:rgba(24,165,107,.25);color:#BFF2DA}
 .col.red .ch{background:rgba(217,68,63,.25);color:#FFC9C6}
 .col.gold .ch{background:rgba(242,178,51,.22);color:var(--gold2)}
@@ -531,9 +569,9 @@ def build_video(vid):
     intro_inner = (
         f'<div class="intro-kicker" id="ik">GMY SORU KAMPI · VİDEO {vnum}/5</div>'
         f'<div class="intro-num" id="inum">{int(vnum):02d}</div>'
-        f'<div class="intro-title" id="ititle">{tw_html}</div>'
-        f'<div class="intro-sub" id="isub" style="top:{sub_top}px">{esc(spec["subtitle"])}</div>'
-        f'<div class="chips" style="top:{sub_top + 140}px">{chips_html}</div>'
+        f'<div class="intro-block"><div class="intro-title" id="ititle">{tw_html}</div>'
+        f'<div class="intro-sub" id="isub">{esc(spec["subtitle"])}</div>'
+        f'<div class="chips">{chips_html}</div></div>'
         f'<div class="half" id="ihalf" style="left:1150px;top:150px"><div class="av-talk" id="ihalf-talk"><img src="assets/avatar/yarim_boy.png" alt=""></div></div>'
     )
     intro_end = Q[0]["start"] + XF
@@ -591,9 +629,13 @@ def build_video(vid):
                 mid = f"{pre}-mk{len(marks)}"
                 m_esc = esc(p["mark"])
                 if m_esc in stem_html:
-                    stem_html = stem_html.replace(
-                        m_esc, f'<span class="mk"><span class="mkbg" id="{mid}"></span><span class="mkt">{m_esc}</span></span>', 1)
-                    marks.append((mid, k))
+                    # her sözcük ayrı vurgulanır: uzun ifadeler de doğal satır kırılımıyla akar
+                    ws = m_esc.split(" ")
+                    span = " ".join(
+                        f'<span class="mk"><span class="mkbg" id="{mid}w{j}"></span><span class="mkt">{w}</span></span>'
+                        for j, w in enumerate(ws))
+                    stem_html = stem_html.replace(m_esc, span, 1)
+                    marks.append((mid, k, len(ws)))
         body = f'<div class="stem" id="{pre}-stem" style="font-size:{stem_px}px">{stem_html}</div>'
         if onermeli:
             romans = ["I.", "II.", "III.", "IV.", "V."]
@@ -668,9 +710,11 @@ def build_video(vid):
                         C.sound(tt - 0.05 + s_i * 0.08, "pop", 0.35)
             if p.get("pose"):
                 poses.append((tt, p["pose"]))
-        for (mid, k) in marks:
+        for (mid, k, nw) in marks:
             tt = ptime(rd, k)
-            C.fromto(f"#{mid}", {"scaleX": 0}, {"scaleX": 1, "duration": 0.5, "ease": "power2.inOut"}, tt + 0.15)
+            step = min(0.12, 0.5 / max(1, nw))
+            for j in range(nw):
+                C.fromto(f"#{mid}w{j}", {"scaleX": 0}, {"scaleX": 1, "duration": max(0.18, 0.5 - step * (nw - 1)), "ease": "power2.inOut"}, tt + 0.15 + step * j)
         for (cid, k, co) in qcalls:
             tt = ptime(rd, k)
             show_callout(C, cid, co, tt, poses)
@@ -1081,7 +1125,8 @@ def diagram_html(px, b):
         cw = int((W - gap * (nc - 1)) / nc)
         for k, c in enumerate(cols):
             x = k * (cw + gap)
-            parts.append(f'<div class="col {c.get("tone","navy")}" id="{px}-{c["id"]}" style="left:{x}px;width:{cw}px"><div class="ch">{esc(c["title"])}</div></div>')
+            chfs = max(18, min(28, int((cw - 40) / (0.78 * max(1, len(c["title"]))))))
+            parts.append(f'<div class="col {c.get("tone","navy")}" id="{px}-{c["id"]}" style="left:{x}px;width:{cw}px"><div class="ch" style="font-size:{chfs}px">{esc(c["title"])}</div></div>')
             items[c["id"]] = {"type": "col", "edges": []}
             its = [it for it in b["items"] if it["col"] == c["id"]]
             ni = len(its)
