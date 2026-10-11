@@ -147,7 +147,7 @@ def cmd_words(vid, only=None):
         tmp = os.path.join(d, "_tr_" + s["id"])
         os.makedirs(tmp, exist_ok=True)
         subprocess.run(["npx", "hyperframes", "transcribe", mp3, "--model", "small", "--language", "tr",
-                        "--json", "-d", tmp], capture_output=True, text=True)
+                        "--json", "-d", tmp, "--timeout", "3600000"], capture_output=True, text=True)
         tj = os.path.join(tmp, "transcript.json")
         with open(tj, encoding="utf-8") as f:
             tr = json.load(f)
