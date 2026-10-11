@@ -98,6 +98,29 @@ def whisper_toks(w):
     return pre + num_tr(v)
 
 
+def intro_title_px(title, width=1150, max_lines=2):
+    """Başlığı (Montserrat Black, sözcük aralığı 28px) en fazla iki satıra sığdıran en büyük puntoyu ölçerek seçer."""
+    try:
+        from PIL import ImageFont
+    except ImportError:
+        return 118
+    path = os.path.join(HERE, "shared", "fonts", "Montserrat.ttf")
+    for px in (118, 110, 104, 98, 92, 86, 80):
+        f = ImageFont.truetype(path, px)
+        f.set_variation_by_axes([900])
+        n, cur = 1, 0.0
+        for w in title.split():
+            ww = f.getlength(w) - 0.035 * px * len(w)
+            add = ww if cur == 0 else 28 + ww
+            if cur and cur + add > width * 0.97:
+                n, cur = n + 1, ww
+            else:
+                cur += add
+        if n <= max_lines:
+            return px
+    return 80
+
+
 def tokens(text):
     out = []
     for w in strip_tags(text).split():
@@ -569,7 +592,7 @@ def build_video(vid):
     intro_inner = (
         f'<div class="intro-kicker" id="ik">GMY SORU KAMPI · VİDEO {vnum}/5</div>'
         f'<div class="intro-num" id="inum">{int(vnum):02d}</div>'
-        f'<div class="intro-block"><div class="intro-title" id="ititle">{tw_html}</div>'
+        f'<div class="intro-block"><div class="intro-title" id="ititle" style="font-size:{intro_title_px(spec["title"])}px">{tw_html}</div>'
         f'<div class="intro-sub" id="isub">{esc(spec["subtitle"])}</div>'
         f'<div class="chips">{chips_html}</div></div>'
         f'<div class="half" id="ihalf" style="left:1150px;top:150px"><div class="av-talk" id="ihalf-talk"><img src="assets/avatar/yarim_boy.png" alt=""></div></div>'
