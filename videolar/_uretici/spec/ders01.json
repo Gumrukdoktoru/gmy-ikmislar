@@ -43,14 +43,14 @@
       4,
       7
     ],
-    "total_html": "5 sınavda <b>19</b> soru · en az <b>13</b>'ü bu parçadan",
+    "total_html": "5 sınavda <b>19</b> soru · 2025'te tek sınavda <b>7</b>",
     "parts": [
       {
-        "say": "Neden bu parça? Dahilde işleme soruları her sınavda artıyor: iki, iki, dört, dört ve son sınavda tam yedi soru.",
+        "say": "Neden bu parça? Dahilde işleme soruları giderek artıyor: iki, iki, dört, dört ve son sınavda tam yedi soru.",
         "bars": true
       },
       {
-        "say": "Toplam on dokuz sorunun en az on üçü doğrudan şartlı muafiyet sisteminin temel kavramlarından geldi.",
+        "say": "Toplam on dokuz soru ve şartlı muafiyet sistemi bu soruların önemli bir bölümünde karşımıza çıkıyor.",
         "total": true
       },
       {
@@ -232,7 +232,7 @@
           "callout": {
             "type": "tuzak",
             "title": "Tanım aynı, AD değişik!",
-            "text": "Şartlı muafiyetin tanımını yazıp 'buna geri ödeme sistemi denir' demek 2021, 2023, 2024 ve 2025 sınavlarında soruldu."
+            "text": "ŞMS tanımı 2021, 2023, 2024 ve 2025'te soruldu. 2024'te bu tanıma 'geri ödeme sistemi' diyen şık yanlıştı; 2023'te 'ŞMS'de vergiler tahsil edilir' şıkkı yanlıştı."
           }
         }
       ]
@@ -299,7 +299,7 @@
           "callout": {
             "type": "ipucu",
             "title": "İndirimli teminat: %1 · %5 · %10",
-            "text": "Yetkilendirilmiş yükümlüler ve büyük ihracatçılar düşük oranla yararlanır. İndirimli teminatta kısmi teminat iadesi yapılmaz."
+            "text": "YYS ve onaylanmış kişi statü belgesi sahipleri, dış ticaret sermaye şirketleri ve ihracat performansı olan firmalar düşük oranla yararlanır. İndirimli teminatta kısmi teminat iadesi yapılmaz."
           }
         },
         {
@@ -435,7 +435,7 @@
           {
             "id": "p3",
             "text": "Ek süre",
-            "sub": "en çok 3 ay · ihracat ≥ %25 ise sürenin yarısı",
+            "sub": "belgede: en çok 3 ay · ihracat ≥ %25 ise orijinal sürenin yarısı",
             "tone": "gold"
           },
           {
@@ -629,7 +629,7 @@
       },
       {
         "title": "Süre belge tarihinde başlar, ay sonunda biter",
-        "text": "Azami 12 ay; önceden ihracatta süre ihracat tescilinden işler."
+        "text": "Azami 12 ay; önceden ihracatta ithal eşyasının beyan süresi ihracat tescilinden işler."
       }
     ],
     "badge": "Mini testi doğru yaptıysan bu parçayı kapattın!",

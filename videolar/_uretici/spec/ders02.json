@@ -4,27 +4,78 @@
   "short": "KIYMET · SATIŞ BEDELİ",
   "subtitle": "Gümrük kıymetinden bir parça: dört şart, ilişkili kişiler ve dolaylı ödeme",
   "intro": {
-    "chips": ["5 BÖLÜM", "ŞEMA + TUZAK", "MİNİ TEST"],
+    "chips": [
+      "5 BÖLÜM",
+      "ŞEMA + TUZAK",
+      "MİNİ TEST"
+    ],
     "parts": [
-      {"say": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Konu anlatımı serisinin ikinci dersinde gümrük kıymetinden tek bir parçayı alıyoruz: satış bedeli yöntemi ve ilişkili kişiler."},
-      {"say": "Beş kısa bölüm,", "chip": 0},
-      {"say": "her bölümde şema ve tuzak kutuları,", "chip": 1},
-      {"say": "en sonda da bir mini test. Başlayalım!", "chip": 2}
+      {
+        "say": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Konu anlatımı serisinin ikinci dersinde gümrük kıymetinden tek bir parçayı alıyoruz: satış bedeli yöntemi ve ilişkili kişiler."
+      },
+      {
+        "say": "Beş kısa bölüm,",
+        "chip": 0
+      },
+      {
+        "say": "her bölümde şema ve tuzak kutuları,",
+        "chip": 1
+      },
+      {
+        "say": "en sonda da bir mini test. Başlayalım!",
+        "chip": 2
+      }
     ]
   },
   "stats": {
     "label": "Gümrük kıymeti soruları",
-    "years": ["2021", "2022", "2023", "2024", "2025"],
-    "values": [4, 11, 5, 7, 4],
-    "total_html": "5 sınavda <b>31</b> soru · en az <b>10</b>'u bu parçadan",
+    "years": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "values": [
+      4,
+      11,
+      5,
+      7,
+      4
+    ],
+    "total_html": "5 sınavda <b>31</b> kıymet sorusu · bu parçadan <b>8</b> + 2 ceza sorusu",
     "parts": [
-      {"say": "Neden bu parça? Gümrük kıymeti, son beş sınavda otuz bir soruyla en çok sorulan ikinci konu.", "bars": true},
-      {"say": "Bu soruların en az onu doğrudan bugünkü parçadan geldi: satış bedelinin şartları, ilişki ve dolaylı ödeme.", "total": true},
-      {"say": "Beş bölümde ilerleyeceğiz: satış bedelinin tanımı,", "agenda": 0},
-      {"say": "dört şart,", "agenda": 1},
-      {"say": "ilişkili kişiler,", "agenda": 2},
-      {"say": "ilişki varsa ne olacağı", "agenda": 3},
-      {"say": "ve dolaylı ödeme. Sonunda bir mini test var.", "agenda": [4, 5]}
+      {
+        "say": "Neden bu parça? Gümrük kıymeti, son beş sınavda otuz bir soruyla en çok sorulan ikinci konu.",
+        "bars": true
+      },
+      {
+        "say": "Bu parçadan sekiz kıymet sorusu geldi; ilişkinin beyan edilmemesi de iki kez ceza sorusu oldu.",
+        "total": true
+      },
+      {
+        "say": "Beş bölümde ilerleyeceğiz: satış bedelinin tanımı,",
+        "agenda": 0
+      },
+      {
+        "say": "dört şart,",
+        "agenda": 1
+      },
+      {
+        "say": "ilişkili kişiler,",
+        "agenda": 2
+      },
+      {
+        "say": "ilişki varsa ne olacağı",
+        "agenda": 3
+      },
+      {
+        "say": "ve dolaylı ödeme. Sonunda bir mini test var.",
+        "agenda": [
+          4,
+          5
+        ]
+      }
     ]
   },
   "sections": [
@@ -35,14 +86,35 @@
       "law": {
         "ref": "4458 s. Gümrük Kanunu md. 24/1",
         "text": "İthal eşyasının gümrük kıymeti, eşyanın satış bedelidir. Satış bedeli, Türkiye'ye ihraç amacıyla yapılan satışta (…) gerekli düzeltmelerin de yapıldığı, fiilen ödenen veya ödenecek fiyattır.",
-        "marks": ["eşyanın satış bedelidir.", "Türkiye'ye ihraç amacıyla yapılan satışta", "fiilen ödenen veya ödenecek fiyattır."],
+        "marks": [
+          "eşyanın satış bedelidir.",
+          "Türkiye'ye ihraç amacıyla yapılan satışta",
+          "fiilen ödenen veya ödenecek fiyattır."
+        ],
         "plain": "Önce gerçek alım-satım fiyatına bakılır. Bu fiyat kanundaki şartları taşımıyorsa diğer kıymet yöntemlerine sırayla geçilir."
       },
       "parts": [
-        {"say": "Önce kanunun cümlesine bakalım. Gümrük kıymetinin birinci ve asıl yöntemi, eşyanın satış bedelidir.", "mark": 0},
-        {"say": "Ama her satış değil: Türkiye'ye ihraç amacıyla yapılan satış. Ardıl satışlar varsa, eşyanın Türkiye'ye girmesine yol açan son satış esas alınır.", "mark": 1},
-        {"say": "Satış bedeli de fiilen ödenen veya ödenecek fiyattır; yani alıcının satıcıya ya da satıcı yararına yaptığı bütün ödemelerin toplamı.", "mark": 2, "callout": {"type": "onemli", "title": "Fiyat = TÜM ödemeler", "text": "Alıcının satıcıya veya satıcının bir yükümlülüğü için üçüncü kişiye yaptığı ya da yapacağı ödemeler. Para transferi, akreditif, kıymetli evrak; doğrudan veya dolaylı."}},
-        {"say": "Sade dille: önce gerçek fiyata bakarız. Bu fiyat kanundaki şartları taşımıyorsa, diğer kıymet yöntemlerine sırayla geçeriz.", "plain": true}
+        {
+          "say": "Önce kanunun cümlesine bakalım. Gümrük kıymetinin birinci ve asıl yöntemi, eşyanın satış bedelidir.",
+          "mark": 0
+        },
+        {
+          "say": "Ama her satış değil: Türkiye'ye ihraç amacıyla yapılan satış. Ardıl satışlar varsa, eşyanın Türkiye'ye girmesine yol açan son satış esas alınır.",
+          "mark": 1
+        },
+        {
+          "say": "Satış bedeli de fiilen ödenen veya ödenecek fiyattır; yani alıcının satıcıya ya da satıcı yararına yaptığı bütün ödemelerin toplamı.",
+          "mark": 2,
+          "callout": {
+            "type": "onemli",
+            "title": "Fiyat = TÜM ödemeler",
+            "text": "Alıcının satıcıya veya satıcının bir yükümlülüğü için üçüncü kişiye yaptığı ya da yapacağı ödemeler. Para transferi, akreditif, kıymetli evrak; doğrudan veya dolaylı."
+          }
+        },
+        {
+          "say": "Sade dille: önce gerçek fiyata bakarız. Bu fiyat kanundaki şartları taşımıyorsa, diğer kıymet yöntemlerine sırayla geçeriz.",
+          "plain": true
+        }
       ]
     },
     {
@@ -50,22 +122,82 @@
       "madde": "4458 s. GK md. 24/1-a, b, c, d · GY md. 45/1-f",
       "kind": "branch",
       "board": {
-        "root": {"id": "root", "text": "Satış bedeli KABUL edilir, eğer…", "tone": "gold"},
+        "root": {
+          "id": "root",
+          "text": "Satış bedeli KABUL edilir, eğer…",
+          "tone": "gold"
+        },
         "branches": [
-          {"id": "b1", "text": "a) Kullanım ve elden çıkarmada kısıtlama YOK", "sub": "üç istisna hariç"},
-          {"id": "b2", "text": "b) Kıymeti tespit EDİLEMEZ koşul veya edim YOK"},
-          {"id": "b3", "text": "c) Satıcıya giden hasılat payı fiyata EKLENEBİLMELİ"},
-          {"id": "b4", "text": "d) İlişki YOK ya da fiyatı ETKİLEMEMİŞ", "tone": "green"}
+          {
+            "id": "b1",
+            "text": "a) Kullanım ve elden çıkarmada kısıtlama YOK",
+            "sub": "üç istisna hariç"
+          },
+          {
+            "id": "b2",
+            "text": "b) Kıymeti tespit EDİLEMEZ koşul veya edim YOK"
+          },
+          {
+            "id": "b3",
+            "text": "c) Satıcıya giden hasılat payı fiyata EKLENEBİLMELİ"
+          },
+          {
+            "id": "b4",
+            "text": "d) İlişki YOK ya da fiyatı ETKİLEMEMİŞ",
+            "tone": "green"
+          }
         ]
       },
       "parts": [
-        {"say": "Satış bedelinin kıymete esas alınması dört şarta bağlı. Hepsini tek ekranda görelim.", "show": ["root"]},
-        {"say": "Bir: alıcının eşyayı kullanması ya da elden çıkarması kısıtlanmamalı. Üç istisna var: Türk mevzuatının ya da yetkili mercilerin koyduğu kısıtlamalar, eşyanın tekrar satılabileceği coğrafi bölgeyi sınırlayan kısıtlamalar ve kıymeti önemli ölçüde etkilemeyen kısıtlamalar.", "show": ["b1"]},
-        {"say": "[cautiously] Tuzak şurada: eşyanın kullanım yeri ve şekline ilişkin kısıtlama bu istisnalar arasında yok. Bu yüzden satış bedelini engeller.", "callout": {"type": "tuzak", "title": "Kullanım yeri ve şekli kısıtı = ENGEL", "text": "İzin verilen kısıtlamalar yalnız üç tane: mevzuat veya yetkili merci, coğrafi bölge, kıymeti önemli ölçüde etkilemeyen. 2022 sınavında soruldu."}},
-        {"say": "İki: satış ya da fiyat, kıymeti tespit edilemeyen bir koşul veya edime bağlı olmamalı.", "show": ["b2"]},
-        {"say": "Dikkat: koşulun kıymeti tespit edilebiliyorsa satış bedeli reddedilmez; o kıymet dolaylı ödeme sayılır ve fiyata eklenir.", "callout": {"type": "dikkat", "title": "Tespit EDİLEBİLİRSE ret yok", "text": "Kıymeti belirlenebilen koşul veya edim (pazarlama faaliyeti ya da kanuni ilave unsur değilse) alıcının satıcıya yaptığı dolaylı ödeme sayılır ve fiyatın parçası kabul edilir."}},
-        {"say": "Üç: alıcının eşyayı satmasından doğan hasılatın bir kısmı satıcıya gidiyorsa, bu pay fiyata eklenebilmeli.", "show": ["b3"]},
-        {"say": "Dört: alıcı ile satıcı arasında ilişki olmamalı; ilişki varsa da fiyat, kanunun ilişki hükmüne göre kabul edilebilir nitelikte olmalı.", "show": ["b4"], "hl": ["b4"]}
+        {
+          "say": "Satış bedelinin kıymete esas alınması dört şarta bağlı. Hepsini tek ekranda görelim.",
+          "show": [
+            "root"
+          ]
+        },
+        {
+          "say": "Bir: alıcının eşyayı kullanması ya da elden çıkarması kısıtlanmamalı. Üç istisna var: Türk mevzuatının ya da yetkili mercilerin koyduğu kısıtlamalar, eşyanın tekrar satılabileceği coğrafi bölgeyi sınırlayan kısıtlamalar ve kıymeti önemli ölçüde etkilemeyen kısıtlamalar.",
+          "show": [
+            "b1"
+          ]
+        },
+        {
+          "say": "[cautiously] Tuzak şurada: eşyanın kullanım yeri ve şekline ilişkin kısıtlama bu istisnalar arasında yok. Bu yüzden satış bedelini engeller.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Kullanım yeri ve şekli kısıtı = ENGEL",
+            "text": "İzin verilen kısıtlamalar yalnız üç tane: mevzuat veya yetkili merci, coğrafi bölge, kıymeti önemli ölçüde etkilemeyen. 2022 sınavında soruldu."
+          }
+        },
+        {
+          "say": "İki: satış ya da fiyat, kıymeti tespit edilemeyen bir koşul veya edime bağlı olmamalı.",
+          "show": [
+            "b2"
+          ]
+        },
+        {
+          "say": "Dikkat: koşulun kıymeti tespit edilebiliyorsa satış bedeli reddedilmez; o kıymet dolaylı ödeme sayılır ve fiyata eklenir.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Tespit EDİLEBİLİRSE ret yok",
+            "text": "Kıymeti belirlenebilen koşul veya edim (pazarlama faaliyeti ya da kanuni ilave unsur değilse) alıcının satıcıya yaptığı dolaylı ödeme sayılır ve fiyatın parçası kabul edilir."
+          }
+        },
+        {
+          "say": "Üç: alıcının eşyayı satmasından doğan hasılatın bir kısmı satıcıya gidiyorsa, bu pay fiyata eklenebilmeli.",
+          "show": [
+            "b3"
+          ]
+        },
+        {
+          "say": "Dört: alıcı ile satıcı arasında ilişki olmamalı; ilişki varsa da fiyat, kanunun ilişki hükmüne göre kabul edilebilir nitelikte olmalı.",
+          "show": [
+            "b4"
+          ],
+          "hl": [
+            "b4"
+          ]
+        }
       ]
     },
     {
@@ -74,30 +206,140 @@
       "kind": "split",
       "board": {
         "columns": [
-          {"id": "c1", "title": "İLİŞKİ VAR · 1", "tone": "green"},
-          {"id": "c2", "title": "İLİŞKİ VAR · 2", "tone": "green"},
-          {"id": "c3", "title": "İLİŞKİ SAYILMAZ", "tone": "red"}
+          {
+            "id": "c1",
+            "title": "İLİŞKİ VAR · 1",
+            "tone": "green"
+          },
+          {
+            "id": "c2",
+            "title": "İLİŞKİ VAR · 2",
+            "tone": "green"
+          },
+          {
+            "id": "c3",
+            "title": "İLİŞKİ SAYILMAZ",
+            "tone": "red"
+          }
         ],
         "items": [
-          {"id": "i1", "col": "c1", "text": "Birbirinin memuru veya idarecisi", "fs": 22},
-          {"id": "i2", "col": "c1", "text": "Birbirinin yasal ortağı", "fs": 22},
-          {"id": "i3", "col": "c1", "text": "İşçi–işveren ilişkisi", "fs": 22},
-          {"id": "i4", "col": "c1", "text": "Oy hakkı veren payların en az %5'i aynı kişilerde", "fs": 21},
-          {"id": "i5", "col": "c2", "text": "Biri diğerini kontrol ediyor", "fs": 22},
-          {"id": "i6", "col": "c2", "text": "İkisini de üçüncü kişi kontrol ediyor", "fs": 22},
-          {"id": "i7", "col": "c2", "text": "İkisi birlikte üçüncü kişiyi kontrol ediyor", "fs": 21},
-          {"id": "i8", "col": "c2", "text": "Aynı ailenin üyeleri", "fs": 22},
-          {"id": "x1", "col": "c3", "text": "Tek acente · distribütör · bayi", "sub": "kıstaslara uymuyorsa", "fs": 22},
-          {"id": "x2", "col": "c3", "text": "Aynı iş kolunda faaliyet", "fs": 22},
-          {"id": "x3", "col": "c3", "text": "Aynı sanayi kolunda faaliyet", "fs": 22}
+          {
+            "id": "i1",
+            "col": "c1",
+            "text": "Birbirinin memuru veya idarecisi",
+            "fs": 22
+          },
+          {
+            "id": "i2",
+            "col": "c1",
+            "text": "Birbirinin yasal ortağı",
+            "fs": 22
+          },
+          {
+            "id": "i3",
+            "col": "c1",
+            "text": "İşçi–işveren ilişkisi",
+            "fs": 22
+          },
+          {
+            "id": "i4",
+            "col": "c1",
+            "text": "Oy hakkı veren payların en az %5'i aynı kişilerde",
+            "fs": 21
+          },
+          {
+            "id": "i5",
+            "col": "c2",
+            "text": "Biri diğerini kontrol ediyor",
+            "fs": 22
+          },
+          {
+            "id": "i6",
+            "col": "c2",
+            "text": "İkisini de üçüncü kişi kontrol ediyor",
+            "fs": 22
+          },
+          {
+            "id": "i7",
+            "col": "c2",
+            "text": "İkisi birlikte üçüncü kişiyi kontrol ediyor",
+            "fs": 21
+          },
+          {
+            "id": "i8",
+            "col": "c2",
+            "text": "Aynı ailenin üyeleri",
+            "fs": 22
+          },
+          {
+            "id": "x1",
+            "col": "c3",
+            "text": "Tek acente · distribütör · bayi",
+            "sub": "kıstaslara uymuyorsa",
+            "fs": 22
+          },
+          {
+            "id": "x2",
+            "col": "c3",
+            "text": "Aynı iş kolunda faaliyet",
+            "fs": 22
+          },
+          {
+            "id": "x3",
+            "col": "c3",
+            "text": "Aynı sanayi kolunda faaliyet",
+            "fs": 22
+          }
         ]
       },
       "parts": [
-        {"say": "Şimdi en çok soru gelen yere geldik: ilişkili kişiler. Yönetmelik ilişkiyi yalnızca sekiz durumda kabul ediyor.", "show": ["c1", "c2", "c3"]},
-        {"say": "Birbirlerinin memuru ya da idarecisi olmak, yasal ortak olmak, işçi–işveren ilişkisi ve her iki firmanın oy hakkı veren paylarının en az yüzde beşinin aynı kişilere ait olması.", "show": ["i1", "i2", "i3", "i4"]},
-        {"say": "Biri diğerini kontrol ediyorsa, ikisini de üçüncü bir kişi kontrol ediyorsa, ikisi birlikte üçüncü bir kişiyi kontrol ediyorsa ve aynı ailenin üyeleriyse.", "show": ["i5", "i6", "i7", "i8"]},
-        {"say": "Aile listesinde amca, dayı, hala, teyze ve yeğen; gelin, damat ve eşlerin kardeşleri var. Kuzen ise listede yok.", "callout": {"type": "ipucu", "title": "Aile listesi: kuzen YOK", "text": "Karı-koca, anne-baba, çocuk, kardeş, büyükanne-büyükbaba, torun, amca, dayı, hala, teyze, yeğen, eşlerin anne-babası ve kardeşleri, gelin-damat, kardeşlerin eşleri."}},
-        {"say": "[cautiously] Ve tuzak: liste kapalıdır. Aynı iş kolunda ya da aynı sanayi kolunda faaliyet göstermek ilişki sayılmaz. Tek acente, tek distribütör ya da tek bayi de bu kıstaslardan birine uymuyorsa ilişkili sayılmaz.", "show": ["x1", "x2", "x3"], "callout": {"type": "tuzak", "title": "'Yalnızca' = KAPALI LİSTE", "text": "Aynı iş kolu (2023), aynı sanayi kolu (2024) ve tek acente (2022) üç ayrı sınavda 'ilişki sayılmaz' cevabıyla soruldu."}}
+        {
+          "say": "Şimdi en çok soru gelen yere geldik: ilişkili kişiler. Yönetmelik ilişkiyi yalnızca sekiz durumda kabul ediyor.",
+          "show": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        },
+        {
+          "say": "Birbirlerinin memuru ya da idarecisi olmak, yasal ortak olmak, işçi–işveren ilişkisi ve her iki firmanın oy hakkı veren paylarının en az yüzde beşinin aynı kişilere ait olması.",
+          "show": [
+            "i1",
+            "i2",
+            "i3",
+            "i4"
+          ]
+        },
+        {
+          "say": "Biri diğerini kontrol ediyorsa, ikisini de üçüncü bir kişi kontrol ediyorsa, ikisi birlikte üçüncü bir kişiyi kontrol ediyorsa ve aynı ailenin üyeleriyse.",
+          "show": [
+            "i5",
+            "i6",
+            "i7",
+            "i8"
+          ]
+        },
+        {
+          "say": "Aile listesinde amca, dayı, hala, teyze ve yeğen; gelin, damat ve eşlerin kardeşleri var. Kuzen ise listede yok.",
+          "callout": {
+            "type": "ipucu",
+            "title": "Aile listesi: kuzen YOK",
+            "text": "Karı-koca, anne-baba, çocuk, kardeş, büyükanne-büyükbaba, torun, amca, dayı, hala, teyze, yeğen, eşlerin anne-babası ve kardeşleri, gelin-damat, kardeşlerin eşleri."
+          }
+        },
+        {
+          "say": "[cautiously] Ve tuzak: liste kapalıdır. Aynı iş kolunda ya da aynı sanayi kolunda faaliyet göstermek ilişki sayılmaz. Tek acente, tek distribütör ya da tek bayi de bu kıstaslardan birine uymuyorsa ilişkili sayılmaz.",
+          "show": [
+            "x1",
+            "x2",
+            "x3"
+          ],
+          "callout": {
+            "type": "tuzak",
+            "title": "'Yalnızca' = KAPALI LİSTE",
+            "text": "Aynı iş kolu (2023), aynı sanayi kolu (2024) ve tek acente (2022) üç ayrı sınavda 'ilişki sayılmaz' cevabıyla soruldu."
+          }
+        }
       ]
     },
     {
@@ -105,21 +347,82 @@
       "madde": "4458 s. GK md. 24/2 · md. 241/3",
       "kind": "branch",
       "board": {
-        "root": {"id": "root", "text": "Alıcı ile satıcı İLİŞKİLİ", "tone": "gold"},
+        "root": {
+          "id": "root",
+          "text": "Alıcı ile satıcı İLİŞKİLİ",
+          "tone": "gold"
+        },
         "branches": [
-          {"id": "b1", "text": "Tek başına ret sebebi DEĞİL", "tone": "green"},
-          {"id": "b2", "text": "Satış koşulları incelenir · fiyatı etkilemediyse KABUL"},
-          {"id": "b3", "text": "Etkilediği kanısındaysa idare YAZILI bildirir", "sub": "beyan sahibinin cevap hakkı saklı"},
-          {"id": "b4", "text": "Test kıymetine çok yakın olduğu ispatlanırsa KABUL", "sub": "ispat beyan sahibinde"}
+          {
+            "id": "b1",
+            "text": "Tek başına ret sebebi DEĞİL",
+            "tone": "green"
+          },
+          {
+            "id": "b2",
+            "text": "Satış koşulları incelenir · fiyatı etkilemediyse KABUL"
+          },
+          {
+            "id": "b3",
+            "text": "Etkilediği kanısındaysa idare YAZILI bildirir",
+            "sub": "beyan sahibinin cevap hakkı saklı"
+          },
+          {
+            "id": "b4",
+            "text": "Test kıymetine çok yakın olduğu ispatlanırsa KABUL",
+            "sub": "ispat beyan sahibinde"
+          }
         ]
       },
       "parts": [
-        {"say": "Peki alıcı ile satıcı ilişkiliyse satış bedeli yöntemi hiç uygulanamaz mı? Hayır!", "show": ["root"]},
-        {"say": "İlişkinin varlığı, satış bedelinin reddi için tek başına yeterli değildir.", "show": ["b1"], "callout": {"type": "tuzak", "title": "'İlişki varsa yöntem uygulanmaz' YANLIŞ", "text": "İlişkili firmalardan yapılan ithalatta da şartlar sağlanırsa satış bedeli yöntemi uygulanır. 2022 sınavının doğru cevabı buydu."}},
-        {"say": "Satışa ilişkin koşullar incelenir; ilişkinin fiyatı etkilemediği anlaşılırsa satış bedeli kabul edilir.", "show": ["b2"]},
-        {"say": "İdare, ilişkinin fiyatı etkilediği kanısına varırsa bunu beyan sahibine yazılı olarak bildirir; beyan sahibinin süresi içinde cevap verme hakkı saklıdır.", "show": ["b3"]},
-        {"say": "Beyan sahibi, fiyatın aynı ya da yakın tarihteki bir test kıymetine çok yakın olduğunu ispatlarsa da satış bedeli kabul edilir.", "show": ["b4"], "callout": {"type": "dikkat", "title": "Üç test kıymeti", "text": "Aynı veya benzer eşyada: ilişkisiz alıcı-satıcılar arasındaki satış bedeli · indirgeme yöntemiyle bulunan kıymet · hesaplanmış kıymet. Yalnız kıyaslama içindir; satış bedelinin yerini alamaz."}},
-        {"say": "Unutma: ilişki beyan edilmezse, vergi kaybı olmasa bile usulsüzlük cezası iki kat uygulanır.", "callout": {"type": "uyari", "title": "İlişkiyi BEYAN et!", "text": "Vergi kaybı doğmasa da ilişkili kişiler arasındaki satışta ilişkinin beyan edilmemesi, temel usulsüzlük cezasının iki katı cezayı gerektirir. 2023'te soruldu."}}
+        {
+          "say": "Peki alıcı ile satıcı ilişkiliyse satış bedeli yöntemi hiç uygulanamaz mı? Hayır!",
+          "show": [
+            "root"
+          ]
+        },
+        {
+          "say": "İlişkinin varlığı, satış bedelinin reddi için tek başına yeterli değildir.",
+          "show": [
+            "b1"
+          ],
+          "callout": {
+            "type": "tuzak",
+            "title": "'İlişki varsa yöntem uygulanmaz' YANLIŞ",
+            "text": "İlişkili firmalardan yapılan ithalatta da şartlar sağlanırsa satış bedeli yöntemi uygulanır. 2022 sınavının doğru cevabı buydu."
+          }
+        },
+        {
+          "say": "Satışa ilişkin koşullar incelenir; ilişkinin fiyatı etkilemediği anlaşılırsa satış bedeli kabul edilir.",
+          "show": [
+            "b2"
+          ]
+        },
+        {
+          "say": "İdare, ilişkinin fiyatı etkilediği kanısına varırsa bunu beyan sahibine yazılı olarak bildirir; beyan sahibinin süresi içinde cevap verme hakkı saklıdır.",
+          "show": [
+            "b3"
+          ]
+        },
+        {
+          "say": "Beyan sahibi, fiyatın aynı ya da yakın tarihteki bir test kıymetine çok yakın olduğunu ispatlarsa da satış bedeli kabul edilir.",
+          "show": [
+            "b4"
+          ],
+          "callout": {
+            "type": "dikkat",
+            "title": "Üç test kıymeti",
+            "text": "Aynı veya benzer eşyada: ilişkisiz alıcı-satıcılar arasındaki satış bedeli · indirgeme yöntemiyle bulunan kıymet · hesaplanmış kıymet. Yalnız kıyaslama içindir; satış bedelinin yerini alamaz."
+          }
+        },
+        {
+          "say": "Unutma: ilişki beyan edilmezse, vergi kaybı olmasa bile usulsüzlük cezası iki kat uygulanır.",
+          "callout": {
+            "type": "uyari",
+            "title": "İlişkiyi BEYAN et!",
+            "text": "Vergi kaybı doğmasa da ilişkili kişiler arasındaki satışta ilişkinin beyan edilmemesi, temel usulsüzlük cezasının iki katı cezayı gerektirir. 2023 ve 2024'te soruldu."
+          }
+        }
       ]
     },
     {
@@ -128,22 +431,80 @@
       "kind": "split",
       "board": {
         "columns": [
-          {"id": "c1", "title": "FİYATA DAHİL ✓", "tone": "green"},
-          {"id": "c2", "title": "DOLAYLI ÖDEME DEĞİL ✗", "tone": "red"}
+          {
+            "id": "c1",
+            "title": "FİYATA DAHİL ✓",
+            "tone": "green"
+          },
+          {
+            "id": "c2",
+            "title": "DOLAYLI ÖDEME DEĞİL ✗",
+            "tone": "red"
+          }
         ],
         "items": [
-          {"id": "d1", "col": "c1", "text": "Satıcıya veya satıcı yararına yapılan tüm ödemeler"},
-          {"id": "d2", "col": "c1", "text": "Satıcının borcu için üçüncü kişiye yapılan ödeme"},
-          {"id": "d3", "col": "c1", "text": "Kıymeti belirlenebilen koşul veya edim"},
-          {"id": "e1", "col": "c2", "text": "Alıcının pazarlama dahil KENDİ HESABINA faaliyetleri", "tone": "red"},
-          {"id": "e2", "col": "c2", "text": "Satıcı yararına ya da satıcıyla anlaşma yoluyla olsa BİLE"}
+          {
+            "id": "d1",
+            "col": "c1",
+            "text": "Satıcıya veya satıcı yararına yapılan tüm ödemeler"
+          },
+          {
+            "id": "d2",
+            "col": "c1",
+            "text": "Satıcının borcu için üçüncü kişiye yapılan ödeme"
+          },
+          {
+            "id": "d3",
+            "col": "c1",
+            "text": "Kıymeti belirlenebilen koşul veya edim"
+          },
+          {
+            "id": "e1",
+            "col": "c2",
+            "text": "Alıcının pazarlama dahil KENDİ HESABINA faaliyetleri",
+            "tone": "red"
+          },
+          {
+            "id": "e2",
+            "col": "c2",
+            "text": "Satıcı yararına ya da satıcıyla anlaşma yoluyla olsa BİLE"
+          }
         ]
       },
       "parts": [
-        {"say": "Son bölüm: dolaylı ödeme. Fiyata neler dahil, neler değil?", "show": ["c1", "c2"]},
-        {"say": "Alıcının satıcıya ya da satıcı yararına yaptığı bütün ödemeler, satıcının bir borcu için üçüncü kişiye yaptığı ödemeler ve kıymeti belirlenebilen koşul ya da edimler fiyata dahildir.", "show": ["d1", "d2", "d3"]},
-        {"say": "Buna karşılık alıcının pazarlama dahil kendi hesabına yaptığı faaliyetler, satıcı yararına ya da satıcıyla yapılan bir anlaşma yoluyla olsa bile dolaylı ödeme sayılmaz ve fiyata eklenmez.", "show": ["e1", "e2"], "hl": ["e1"]},
-        {"say": "[cautiously] Bu cümle son beş sınavda üç kez soruldu ve şıklarda hep 'dolaylı ödeme sayılır' diye ters çevrildi.", "callout": {"type": "tuzak", "title": "Pazarlama ≠ dolaylı ödeme", "text": "Reklam, promosyon ve bunlarla ilgili garantiler alıcının kendi hesabına sayılır; satıcıyla anlaşma olsa da fiyata EKLENMEZ. 2021, 2022 ve 2024'te soruldu."}}
+        {
+          "say": "Son bölüm: dolaylı ödeme. Fiyata neler dahil, neler değil?",
+          "show": [
+            "c1",
+            "c2"
+          ]
+        },
+        {
+          "say": "Alıcının satıcıya ya da satıcı yararına yaptığı bütün ödemeler, satıcının bir borcu için üçüncü kişiye yaptığı ödemeler ve kıymeti belirlenebilen koşul ya da edimler fiyata dahildir.",
+          "show": [
+            "d1",
+            "d2",
+            "d3"
+          ]
+        },
+        {
+          "say": "Buna karşılık alıcının pazarlama dahil kendi hesabına yaptığı faaliyetler, satıcı yararına ya da satıcıyla yapılan bir anlaşma yoluyla olsa bile dolaylı ödeme sayılmaz ve fiyata eklenmez.",
+          "show": [
+            "e1",
+            "e2"
+          ],
+          "hl": [
+            "e1"
+          ]
+        },
+        {
+          "say": "[cautiously] Bu cümle son beş sınavda üç kez soruldu; 2021 ve 2022'de şıklarda 'dolaylı ödeme sayılır' diye ters çevrildi.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Pazarlama ≠ dolaylı ödeme",
+            "text": "Reklam, promosyon ve bunlarla ilgili garantiler alıcının kendi hesabına sayılır; satıcıyla anlaşma olsa da fiyata EKLENMEZ. 2021, 2022 ve 2024'te soruldu."
+          }
+        }
       ]
     }
   ],
@@ -161,58 +522,160 @@
     "answer": "D",
     "gerekce": "Mevzuata göre alıcı ile satıcı arasındaki ilişkinin varlığı yalnızca Yönetmelikte sayılan durumlarda kabul edilir; her ikisinin birlikte bir üçüncü kişiyi doğrudan veya dolaylı olarak kontrol etmesi bu durumlardan biridir. Aynı iş kolunda faaliyet listede yoktur, pay oranı en az %5 olmalıdır, kuzen aile tanımında yer almaz ve kıstaslara uymayan tek distribütör ilişkili sayılmaz. Bu nedenle doğru cevap D seçeneğidir. (GY MD 43, 55)",
     "read": [
-      {"say": "Mini test zamanı. Gümrük Yönetmeliği'ne göre, alıcı ile satıcı arasında ilişkinin varlığı aşağıdakilerin hangisinde kabul edilir?", "mark": "hangisinde kabul edilir?"},
-      {"say": "A: Aynı iş kolunda faaliyet.", "show": "A"},
-      {"say": "B: Oy hakkı veren sermaye paylarının yüzde üçünün aynı kişilere ait olması.", "show": "B"},
-      {"say": "C: Alıcı ile satıcının kuzen olması.", "show": "C"},
-      {"say": "D: İkisinin birlikte bir üçüncü kişiyi dolaylı olarak kontrol etmesi.", "show": "D"},
-      {"say": "E: Hiçbir kıstasa uymaksızın tek distribütör olarak iş ilişkisi.", "show": "E"}
+      {
+        "say": "Mini test zamanı. Gümrük Yönetmeliği'ne göre, alıcı ile satıcı arasında ilişkinin varlığı aşağıdakilerin hangisinde kabul edilir?",
+        "mark": "hangisinde kabul edilir?"
+      },
+      {
+        "say": "A: Aynı iş kolunda faaliyet.",
+        "show": "A"
+      },
+      {
+        "say": "B: Oy hakkı veren sermaye paylarının yüzde üçünün aynı kişilere ait olması.",
+        "show": "B"
+      },
+      {
+        "say": "C: Alıcı ile satıcının kuzen olması.",
+        "show": "C"
+      },
+      {
+        "say": "D: İkisinin birlikte bir üçüncü kişiyi dolaylı olarak kontrol etmesi.",
+        "show": "D"
+      },
+      {
+        "say": "E: Hiçbir kıstasa uymaksızın tek distribütör olarak iş ilişkisi.",
+        "show": "E"
+      }
     ],
     "explain": [
-      {"say": "[excited] Doğru cevap D!"},
-      {"say": "Liste kapalı ve D şıkkı listede var: ikisinin birlikte bir üçüncü kişiyi doğrudan ya da dolaylı kontrol etmesi.", "show": ["c1", "y1"]},
-      {"say": "Aynı iş kolu ilişki değil; yüzde üç, yüzde beş eşiğinin altında; kuzen aile listesinde yok; tek distribütör de kıstaslara uymuyorsa ilişkili sayılmaz.", "show": ["c2", "n1", "n2", "n3", "n4"]},
-      {"say": "Kural tek cümle: ilişki yalnızca sayılan sekiz durumda vardır.", "callout": {"type": "onemli", "title": "Sekiz hal · kapalı liste", "text": "Memur/idareci · yasal ortak · işçi-işveren · en az %5 oy hakkı veren pay · kontrol (3 şekilde) · aynı aile."}}
+      {
+        "say": "[excited] Doğru cevap D!"
+      },
+      {
+        "say": "Liste kapalı ve D şıkkı listede var: ikisinin birlikte bir üçüncü kişiyi doğrudan ya da dolaylı kontrol etmesi.",
+        "show": [
+          "c1",
+          "y1"
+        ]
+      },
+      {
+        "say": "Aynı iş kolu ilişki değil; yüzde üç, yüzde beş eşiğinin altında; kuzen aile listesinde yok; tek distribütör de kıstaslara uymuyorsa ilişkili sayılmaz.",
+        "show": [
+          "c2",
+          "n1",
+          "n2",
+          "n3",
+          "n4"
+        ]
+      },
+      {
+        "say": "Kural tek cümle: ilişki yalnızca sayılan sekiz durumda vardır.",
+        "callout": {
+          "type": "onemli",
+          "title": "Sekiz hal · kapalı liste",
+          "text": "Memur/idareci · yasal ortak · işçi-işveren · en az %5 oy hakkı veren pay · kontrol (3 şekilde) · aynı aile."
+        }
+      }
     ],
     "board": {
       "title": "İlişki var mı?",
       "madde": "Gümrük Yönetmeliği md. 43/1-a, 55",
       "kind": "split",
       "columns": [
-        {"id": "c1", "title": "İLİŞKİ VAR", "tone": "green"},
-        {"id": "c2", "title": "İLİŞKİ YOK", "tone": "red"}
+        {
+          "id": "c1",
+          "title": "İLİŞKİ VAR",
+          "tone": "green"
+        },
+        {
+          "id": "c2",
+          "title": "İLİŞKİ YOK",
+          "tone": "red"
+        }
       ],
       "items": [
-        {"id": "y1", "col": "c1", "text": "D · Birlikte üçüncü kişiyi kontrol", "tone": "green"},
-        {"id": "n1", "col": "c2", "text": "A · Aynı iş kolu"},
-        {"id": "n2", "col": "c2", "text": "B · %3 < %5"},
-        {"id": "n3", "col": "c2", "text": "C · Kuzen listede yok"},
-        {"id": "n4", "col": "c2", "text": "E · Kıstassız tek distribütör"}
+        {
+          "id": "y1",
+          "col": "c1",
+          "text": "D · Birlikte üçüncü kişiyi kontrol",
+          "tone": "green"
+        },
+        {
+          "id": "n1",
+          "col": "c2",
+          "text": "A · Aynı iş kolu"
+        },
+        {
+          "id": "n2",
+          "col": "c2",
+          "text": "B · %3 < %5"
+        },
+        {
+          "id": "n3",
+          "col": "c2",
+          "text": "C · Kuzen listede yok"
+        },
+        {
+          "id": "n4",
+          "col": "c2",
+          "text": "E · Kıstassız tek distribütör"
+        }
       ]
     }
   },
   "summary": {
     "items": [
-      {"title": "Satış bedeli = fiilen ödenen veya ödenecek fiyat", "text": "Birinci yöntem; Türkiye'ye ihraç amaçlı satışta yapılan tüm ödemeler."},
-      {"title": "Dört şart", "text": "Kısıtlama yok (3 istisna) · tespit edilemez koşul yok · hasılat eklenebilir · ilişki fiyatı etkilememiş."},
-      {"title": "İlişki: 8 hal, kapalı liste", "text": "En az %5 oy hakkı; aynı iş/sanayi kolu ve kıstassız tek acente ilişki değil; kuzen listede yok."},
-      {"title": "İlişki tek başına ret sebebi değil", "text": "Fiyatı etkilemediyse kabul; beyan edilmezse 2 kat ceza; pazarlama dolaylı ödeme değil."}
+      {
+        "title": "Satış bedeli = fiilen ödenen veya ödenecek fiyat",
+        "text": "Birinci yöntem; Türkiye'ye ihraç amaçlı satışta yapılan tüm ödemeler."
+      },
+      {
+        "title": "Dört şart",
+        "text": "Kısıtlama yok (3 istisna) · tespit edilemez koşul yok · hasılat eklenebilir · ilişki fiyatı etkilememiş."
+      },
+      {
+        "title": "İlişki: 8 hal, kapalı liste",
+        "text": "En az %5 oy hakkı; aynı iş/sanayi kolu ve kıstassız tek acente ilişki değil; kuzen listede yok."
+      },
+      {
+        "title": "İlişki tek başına ret sebebi değil",
+        "text": "Fiyatı etkilemediyse kabul; beyan edilmezse 2 kat ceza; pazarlama dolaylı ödeme değil."
+      }
     ],
     "badge": "Mini testi doğru yaptıysan bu parçayı kapattın!",
     "parts": [
-      {"say": "Hafıza kartı zamanı. Dört cümle."},
-      {"say": "Bir: satış bedeli, Türkiye'ye ihraç amaçlı satışta fiilen ödenen veya ödenecek fiyattır.", "item": 0},
-      {"say": "İki: dört şart var; kısıtlama, koşul veya edim, hasılat ve ilişki.", "item": 1},
-      {"say": "Üç: ilişki sekiz halde vardır; liste kapalıdır, kuzen yoktur.", "item": 2},
-      {"say": "Dört: ilişki tek başına ret sebebi değildir; ama beyan edilmezse iki kat ceza var.", "item": 3},
-      {"say": "Mini testi doğru yaptıysan bu parçayı kapattın!", "badge": true}
+      {
+        "say": "Hafıza kartı zamanı. Dört cümle."
+      },
+      {
+        "say": "Bir: satış bedeli, Türkiye'ye ihraç amaçlı satışta fiilen ödenen veya ödenecek fiyattır.",
+        "item": 0
+      },
+      {
+        "say": "İki: dört şart var; kısıtlama, koşul veya edim, hasılat ve ilişki.",
+        "item": 1
+      },
+      {
+        "say": "Üç: ilişki sekiz halde vardır; liste kapalıdır, kuzen yoktur.",
+        "item": 2
+      },
+      {
+        "say": "Dört: ilişki tek başına ret sebebi değildir; ama beyan edilmezse iki kat ceza var.",
+        "item": 3
+      },
+      {
+        "say": "Mini testi doğru yaptıysan bu parçayı kapattın!",
+        "badge": true
+      }
     ]
   },
   "outro": {
     "title": "Bir sonraki derste görüşürüz!",
     "next": "Ders 3 · Tebliğ, ödeme ve itiraz süreleri",
     "parts": [
-      {"say": "[excited] Beğenmeyi ve abone olmayı unutma. Bir sonraki derste gümrük vergilerinin tebliğ, ödeme ve itiraz sürelerini kronometreyle anlatıyoruz. Görüşmek üzere!"}
+      {
+        "say": "[excited] Beğenmeyi ve abone olmayı unutma. Bir sonraki derste gümrük vergilerinin tebliğ, ödeme ve itiraz sürelerini kronometreyle anlatıyoruz. Görüşmek üzere!"
+      }
     ]
   }
 }

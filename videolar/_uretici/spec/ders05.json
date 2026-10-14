@@ -1,0 +1,789 @@
+{
+  "no": 5,
+  "title": "Kaçakçılık Suçları ve Ceza Aralıkları",
+  "short": "KAÇAKÇILIK · MD. 3",
+  "subtitle": "Kaçakçılıktan bir parça: 5607 md. 3'te hangi fiile hangi ceza?",
+  "intro": {
+    "chips": [
+      "5 BÖLÜM",
+      "CEZA ETİKETLERİ",
+      "MİNİ TEST"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Serinin son dersinde kaçakçılıktan tek bir parçayı alıyoruz: Kaçakçılıkla Mücadele Kanunu'nun üçüncü maddesinde hangi fiile hangi ceza verildiği."
+      },
+      {
+        "say": "Beş kısa bölüm,",
+        "chip": 0
+      },
+      {
+        "say": "her fiile bir ceza etiketi,",
+        "chip": 1
+      },
+      {
+        "say": "en sonda da bir mini test. Başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "stats": {
+    "label": "Kaçakçılık soruları",
+    "years": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "values": [
+      10,
+      7,
+      4,
+      3,
+      3
+    ],
+    "total_html": "5 sınavda <b>27</b> soru · <b>8</b>'i doğrudan md. 3",
+    "parts": [
+      {
+        "say": "Neden bu parça? Kaçakçılık, son beş sınavda yirmi yedi soruyla en çok sorulan konulardan biri.",
+        "bars": true
+      },
+      {
+        "say": "Bunların sekizi doğrudan üçüncü maddeden geldi; 2024'te üç soru art arda bu maddedendi.",
+        "total": true
+      },
+      {
+        "say": "Beş bölümde ilerleyeceğiz: sokma ve rejim fiilleri,",
+        "agenda": 0
+      },
+      {
+        "say": "muaf ve yasak eşya,",
+        "agenda": 1
+      },
+      {
+        "say": "sahte ihracat,",
+        "agenda": 2
+      },
+      {
+        "say": "artırım listesi",
+        "agenda": 3
+      },
+      {
+        "say": "ve cezayı büyüten ya da küçülten ayarlar. Sonunda bir mini test var.",
+        "agenda": [
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Sokma ve rejim fiilleri",
+      "madde": "5607 s. Kaçakçılıkla Mücadele K. md. 3/1-5",
+      "kind": "table",
+      "table": {
+        "tmpl": "640px 1fr 1fr",
+        "cols": [
+          {
+            "title": "Fiil"
+          },
+          {
+            "title": "HAPİS",
+            "tone": "gold"
+          },
+          {
+            "title": "ADLÎ PARA",
+            "tone": "navy"
+          }
+        ],
+        "rows": [
+          {
+            "id": "r1",
+            "cells": [
+              "(1) Gümrük işlemine tabi tutmadan ülkeye sokma",
+              "1 – 5 yıl",
+              "10.000 güne kadar"
+            ]
+          },
+          {
+            "id": "r2",
+            "cells": [
+              "(2) Aldatıcı işlemle vergiyi ödemeden sokma",
+              "2 – 5 yıl",
+              "10.000 güne kadar"
+            ]
+          },
+          {
+            "id": "r3",
+            "cells": [
+              "(3) Transit eşyayı gümrük bölgesinde bırakma",
+              "1 – 3 yıl",
+              "5.000 güne kadar"
+            ]
+          },
+          {
+            "id": "r4",
+            "cells": [
+              "(4) Geçici ithalat / DİR eşyasını hileyle çıkmış gibi gösterme",
+              "1 – 3 yıl",
+              "5.000 güne kadar"
+            ]
+          },
+          {
+            "id": "r5",
+            "cells": [
+              "(5) Bu eşyayı iştirak etmeden, bilerek ve ticari amaçla alma, satma, taşıma, saklama",
+              "1 – 3 yıl",
+              "5.000 güne kadar"
+            ]
+          }
+        ]
+      },
+      "parts": [
+        {
+          "say": "Üçüncü madde bir fiil kataloğu: her fiilin yanında bir hapis aralığı ve adlî para cezasının üst sınırı var. İlk beş fıkrayla başlayalım."
+        },
+        {
+          "say": "Eşyayı gümrük işlemlerine tabi tutmaksızın ülkeye sokan kişi: bir yıldan beş yıla kadar hapis ve on bin güne kadar adlî para cezası.",
+          "show": [
+            "r1"
+          ]
+        },
+        {
+          "say": "Eşyayı aldatıcı işlem ve davranışlarla, vergileri kısmen ya da tamamen ödemeden sokarsa alt sınır ikiye çıkar: iki yıldan beş yıla kadar hapis, yine on bin gün.",
+          "show": [
+            "r2"
+          ],
+          "hl": [
+            "r2"
+          ]
+        },
+        {
+          "say": "[cautiously] Tuzak: 2022'de yanlış şıklarda gün sayıları doğruydu; yalnızca hapis aralıkları değiştirilmişti.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Gün sabit, HAPİS oynuyor",
+            "text": "2022'de doğru cevap (2) idi: aldatıcı işlemle sokma 2–5 yıl + 10.000 gün. Çeldiricilerde (1) için 1–3 yıl, (3), (4) ve (8) için 1–5 yıl yazılmıştı."
+          }
+        },
+        {
+          "say": "Transit rejimiyle taşınan, serbest dolaşımda olmayan eşyayı rejime aykırı olarak gümrük bölgesinde bırakmak: bir ile üç yıl hapis, beş bin güne kadar adlî para.",
+          "show": [
+            "r3"
+          ]
+        },
+        {
+          "say": "Geçici ithalat ya da dahilde işleme rejimiyle gelen eşyayı hileyle yurt dışına çıkarmış gibi işlem yapmak da aynı ceza: bir ile üç yıl, beş bin gün.",
+          "show": [
+            "r4"
+          ]
+        },
+        {
+          "say": "Bu fiillere iştirak etmeden, eşyayı bilerek ve ticari amaçla satın alan, satan, taşıyan ya da saklayan da bir ile üç yıl ve beş bin gün alır.",
+          "show": [
+            "r5"
+          ],
+          "callout": {
+            "type": "dikkat",
+            "title": "BİLEREK + TİCARİ AMAÇ",
+            "text": "(5)'te iki şart birlikte aranır. 2025'te sorulan markersız akaryakıt fıkrasında da satın alma ancak bilerek ve ticari amaçla yapılırsa cezalı; kişisel kullanım için satın alma cevap değildi."
+          }
+        },
+        {
+          "say": "Kısa formül: ülkeye sokmada on bin gün, rejim ihlallerinde beş bin gün.",
+          "callout": {
+            "type": "ipucu",
+            "title": "Sokma 10.000 · rejim 5.000",
+            "text": "(1) ve (2) ülkeye sokma: 10.000 gün · (3), (4) ve (5): 1–3 yıl + 5.000 gün. 'Aldatıcı' kelimesi hapsin alt sınırını 2 yıla çıkarır."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Muaf ve yasak eşya",
+      "madde": "5607 s. KMK md. 3/6-8 · 4458 s. GK md. 235",
+      "kind": "split",
+      "board": {
+        "columns": [
+          {
+            "id": "c1",
+            "title": "(6) MUAF EŞYA",
+            "tone": "navy"
+          },
+          {
+            "id": "c2",
+            "title": "(7) İTHALİ YASAK",
+            "tone": "red"
+          },
+          {
+            "id": "c3",
+            "title": "(8) İHRACI YASAK",
+            "tone": "gold"
+          }
+        ],
+        "items": [
+          {
+            "id": "m1",
+            "col": "c1",
+            "text": "6 ay – 2 yıl hapis"
+          },
+          {
+            "id": "m2",
+            "col": "c1",
+            "text": "5.000 güne kadar"
+          },
+          {
+            "id": "m3",
+            "col": "c1",
+            "text": "Fiil: amaç dışı tahsis, satış, devir",
+            "fs": 22
+          },
+          {
+            "id": "y1",
+            "col": "c2",
+            "text": "2 – 6 yıl hapis",
+            "tone": "red"
+          },
+          {
+            "id": "y2",
+            "col": "c2",
+            "text": "20.000 güne kadar"
+          },
+          {
+            "id": "y3",
+            "col": "c2",
+            "text": "Bilerek alan, satan, taşıyan: AYNI ceza",
+            "fs": 22
+          },
+          {
+            "id": "z1",
+            "col": "c3",
+            "text": "1 – 3 yıl hapis"
+          },
+          {
+            "id": "z2",
+            "col": "c3",
+            "text": "5.000 güne kadar"
+          },
+          {
+            "id": "z3",
+            "col": "c3",
+            "text": "İthal yasağından HAFİF",
+            "fs": 22
+          }
+        ]
+      },
+      "parts": [
+        {
+          "say": "İkinci bölüm: eşyanın statüsü. Muaf eşya, ithali yasak eşya ve ihracı yasak eşya; üç ayrı ceza etiketi."
+        },
+        {
+          "say": "Vergiden muaf ithal edilen eşyayı ithal amacı dışında kullanan, satan ya da devreden kişi: altı aydan iki yıla kadar hapis ve beş bin güne kadar adlî para. Bunu bilerek satın alan da aynı fıkraya girer.",
+          "show": [
+            "c1",
+            "m1",
+            "m2",
+            "m3"
+          ]
+        },
+        {
+          "say": "[cautiously] Tuzak: 2022'de 'hangisi kaçakçılık fiili değildir' sorusunun cevabı, muaf eşyayı süresi içinde yurt dışına çıkarmamaktı. Buradaki fiil, amaç dışı kullanım.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Muaf eşya: AMAÇ DIŞI kullanım",
+            "text": "2022: 'muaf ithal edilen eşyayı süresi içinde yurt dışına çıkarmamak' kaçakçılık fiili olarak sayılmadı; doğru cevap buydu."
+          }
+        },
+        {
+          "say": "İthali kanun gereği yasak eşyayı ülkeye sokan kişi: iki yıldan altı yıla kadar hapis ve yirmi bin güne kadar adlî para. Bilerek satın alan, satan, taşıyan ya da saklayan da aynı cezayı alır.",
+          "show": [
+            "c2",
+            "y1",
+            "y2",
+            "y3"
+          ]
+        },
+        {
+          "say": "İhracı kanun gereği yasak olan eşyayı ülkeden çıkaran kişi ise bir yıldan üç yıla kadar hapis ve beş bin gün alır; ithal yasağından çok daha hafif.",
+          "show": [
+            "c3",
+            "z1",
+            "z2",
+            "z3"
+          ]
+        },
+        {
+          "say": "[cautiously] Ve en önemli ayrım: yasak kanundan değil de genel düzenleyici idari işlemden geliyorsa, bu fıkralar değil Gümrük Kanunu'nun iki yüz otuz beşinci maddesi uygulanır.",
+          "callout": {
+            "type": "tuzak",
+            "title": "KANUN gereği ≠ İDARİ İŞLEMLE yasak",
+            "text": "Kanun gereği yasak → 5607 md. 3 (suç). Genel düzenleyici idari işlemle yasak → GK 235 idari para cezası: ithalde gümrüklenmiş değerin 4 katı, ihraçta 2 katı."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Sahte ihracat ve %10",
+      "madde": "5607 s. KMK md. 3/9 · 4458 s. GK md. 241/3-j",
+      "kind": "law",
+      "law": {
+        "ref": "5607 s. Kaçakçılıkla Mücadele Kanunu md. 3/9",
+        "text": "İlgili kanun hükümlerine göre teşvik, sübvansiyon veya parasal iadelerden yararlanmak amacıyla ihracat gerçekleşmediği hâlde gerçekleşmiş gibi gösteren ya da gerçekleştirilen ihracata konu malın cins, miktar, evsaf veya fiyatını değişik gösteren kişi, bir yıldan beş yıla kadar hapis ve on bin güne kadar adlî para cezası ile cezalandırılır. (…) Beyanname ve eki belgelerde gösterilen ile gerçekte ihraç edilen eşya arasında %10'u aşmayan bir fark bulunması hâlinde, sadece 4458 sayılı Gümrük Kanunu hükümlerine göre işlem yapılır.",
+        "marks": [
+          "teşvik, sübvansiyon veya parasal iadelerden yararlanmak amacıyla",
+          "gerçekleşmiş gibi gösteren",
+          "cins, miktar, evsaf veya fiyatını değişik gösteren",
+          "bir yıldan beş yıla kadar hapis ve on bin güne kadar",
+          "%10'u aşmayan bir fark",
+          "sadece 4458 sayılı Gümrük Kanunu"
+        ],
+        "plain": "Teşvik almak için olmayan ihracatı varmış gibi göstermek ya da malı farklı göstermek: 1–5 yıl + 10.000 gün. Fark %10'u aşmıyorsa yalnız Gümrük Kanunu uygulanır."
+      },
+      "parts": [
+        {
+          "say": "Üçüncü bölüm ihracat tarafı: teşvik almak için yapılan sahte ihracat."
+        },
+        {
+          "say": "Teşvik, sübvansiyon ya da parasal iadelerden yararlanmak amacıyla,",
+          "mark": 0
+        },
+        {
+          "say": "ihracat gerçekleşmediği hâlde gerçekleşmiş gibi gösteren ya da ihraç edilen malın cinsini, miktarını, evsafını veya fiyatını değişik gösteren kişi,",
+          "mark": [
+            1,
+            2
+          ]
+        },
+        {
+          "say": "bir yıldan beş yıla kadar hapis ve on bin güne kadar adlî para cezası ile cezalandırılır.",
+          "mark": 3
+        },
+        {
+          "say": "Ama beyanname ve eki belgelerde gösterilen ile gerçekte ihraç edilen eşya arasındaki fark yüzde onu aşmıyorsa, yalnızca Gümrük Kanunu hükümleri uygulanır.",
+          "mark": [
+            4,
+            5
+          ],
+          "plain": true
+        },
+        {
+          "say": "[cautiously] Yüzde onu iki kanunda da göreceksin; yönüne dikkat et.",
+          "callout": {
+            "type": "dikkat",
+            "title": "%10 iki kanunda",
+            "text": "5607 md. 3/9: fark %10'u AŞMIYORSA yalnız Gümrük Kanunu. GK 241/3-j: ihraç eşyasında %10'dan FAZLA miktar veya cins farkı → 241/1'deki tutarın 2 katı usulsüzlük cezası (2024)."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Artırım listesi: özel eşya",
+      "madde": "5607 s. KMK md. 3/10-18",
+      "kind": "split",
+      "board": {
+        "columns": [
+          {
+            "id": "c1",
+            "title": "(10) LİSTESİNDE ✓",
+            "tone": "green"
+          },
+          {
+            "id": "c2",
+            "title": "LİSTEDE YOK ✗",
+            "tone": "red"
+          }
+        ],
+        "items": [
+          {
+            "id": "l1",
+            "col": "c1",
+            "text": "Akaryakıt"
+          },
+          {
+            "id": "l2",
+            "col": "c1",
+            "text": "Tütün · tütün mamulleri"
+          },
+          {
+            "id": "l3",
+            "col": "c1",
+            "text": "Makaron · yaprak sigara kâğıdı"
+          },
+          {
+            "id": "l4",
+            "col": "c1",
+            "text": "Etil alkol · metanol · alkollü içkiler"
+          },
+          {
+            "id": "x1",
+            "col": "c2",
+            "text": "Elektronik sigara içme cihazı",
+            "tone": "red"
+          },
+          {
+            "id": "x2",
+            "col": "c2",
+            "text": "Elektronik eşya"
+          },
+          {
+            "id": "x3",
+            "col": "c2",
+            "text": "İlaç"
+          },
+          {
+            "id": "x4",
+            "col": "c2",
+            "text": "Canlı hayvan"
+          }
+        ]
+      },
+      "parts": [
+        {
+          "say": "Dördüncü bölüm: eşyanın kendisi cezayı büyütebilir. Onuncu fıkra sekiz kalemlik kapalı bir liste veriyor."
+        },
+        {
+          "say": "Akaryakıt,",
+          "show": [
+            "c1",
+            "l1"
+          ]
+        },
+        {
+          "say": "tütün ve tütün mamulleri,",
+          "show": [
+            "l2"
+          ]
+        },
+        {
+          "say": "makaron ve yaprak sigara kâğıdı,",
+          "show": [
+            "l3"
+          ]
+        },
+        {
+          "say": "etil alkol, metanol ve alkollü içkiler.",
+          "show": [
+            "l4"
+          ]
+        },
+        {
+          "say": "Kaçakçılığın konusu bu eşyalardan biriyse, verilecek cezalar yarısından iki katına kadar artırılır; ama bu fıkra uygulanarak verilen ceza üç yıldan az olamaz.",
+          "callout": {
+            "type": "onemli",
+            "title": "Yarısından 2 KATINA · en az 3 YIL",
+            "text": "Liste kapalıdır: akaryakıt, tütün, tütün mamulleri, makaron, yaprak sigara kâğıdı, etil alkol, metanol, alkollü içkiler."
+          }
+        },
+        {
+          "say": "Listede olmayanlara örnek: elektronik sigara içme cihazı, elektronik eşya, ilaç ve canlı hayvan.",
+          "show": [
+            "c2",
+            "x1",
+            "x2",
+            "x3",
+            "x4"
+          ]
+        },
+        {
+          "say": "[cautiously] Tuzak: 2021'de 'hangisinde artırım mümkün değildir' diye soruldu; cevap elektronik sigara içme cihazıydı.",
+          "hl": [
+            "x1"
+          ],
+          "callout": {
+            "type": "tuzak",
+            "title": "Elektronik sigara listede YOK",
+            "text": "2021: yaprak sigara kâğıdı, etil alkol, tütün ve alkollü içki listedeydi; doğru cevap 'elektronik sigara içme cihazı' idi."
+          }
+        },
+        {
+          "say": "Bir de iki grup aralığı: akaryakıt ve markerda iki ile beş yıl, bandrolde üç ile altı yıl hapis; ikisinde de yirmi bin gün.",
+          "callout": {
+            "type": "ipucu",
+            "title": "Akaryakıt 2–5 · Bandrol 3–6",
+            "text": "(11)–(15) akaryakıt, EPDK, marker: 2–5 yıl + 20.000 gün · (16)–(18) bandrol, etiket, hologram, pul, damga: 3–6 yıl + 20.000 gün."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ayarlar: artır, indir",
+      "madde": "5607 s. KMK md. 3/1, 3/22, 3/23 · md. 4",
+      "kind": "branch",
+      "board": {
+        "root": {
+          "id": "root",
+          "text": "Hesaplanan CEZA",
+          "sub": "sonra ayar düğmeleri",
+          "tone": "gold"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "text": "Gümrük kapıları DIŞINDAN sokma",
+            "sub": "üçte birinden yarısına kadar ARTIRILIR"
+          },
+          {
+            "id": "b2",
+            "text": "Eşyanın değeri FAHİŞ",
+            "sub": "yarısından bir katına kadar ARTIRILIR"
+          },
+          {
+            "id": "b3",
+            "text": "Değer HAFİF · PEK HAFİF",
+            "sub": "yarısına · üçte birine kadar İNDİRİLİR",
+            "tone": "green"
+          },
+          {
+            "id": "b4",
+            "text": "TEŞEBBÜS",
+            "sub": "tamamlanmış gibi cezalandırılır · indirim YOK",
+            "tone": "red"
+          }
+        ]
+      },
+      "parts": [
+        {
+          "say": "Son bölüm: hesaplanan cezayı büyüten ya da küçülten ayar düğmeleri.",
+          "show": [
+            "root"
+          ]
+        },
+        {
+          "say": "Eşya gümrük kapıları dışından ülkeye sokulursa, verilecek ceza üçte birinden yarısına kadar artırılır.",
+          "show": [
+            "b1"
+          ]
+        },
+        {
+          "say": "[cautiously] 2024'te tam bu oran soruldu; şıklarda 'yarısından bir katına' ve 'yarısından iki katına' da vardı, ama bunlar başka fıkraların oranları.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Kapı dışı: üçte birinden YARISINA",
+            "text": "2024: doğru cevap 'üçte birinden yarısına kadar'. 'Yarısından bir katına' değer fahiş olduğunda, 'yarısından iki katına' (10) listesindeki eşyada uygulanır."
+          }
+        },
+        {
+          "say": "Suç konusu eşyanın değeri fahişse cezalar yarısından bir katına kadar artırılır;",
+          "show": [
+            "b2"
+          ]
+        },
+        {
+          "say": "değeri hafifse yarısına kadar, pek hafifse üçte birine kadar indirilir.",
+          "show": [
+            "b3"
+          ]
+        },
+        {
+          "say": "Teşebbüs ise indirim sebebi değil: bu fiiller teşebbüs aşamasında kalsa bile tamamlanmış gibi cezalandırılır.",
+          "show": [
+            "b4"
+          ],
+          "hl": [
+            "b4"
+          ],
+          "callout": {
+            "type": "dikkat",
+            "title": "Teşebbüs = TAMAMLANMIŞ",
+            "text": "2024: '1/2 ya da 1/3 oranında azaltılır' ve 'ceza verilmez' şıkları yanlıştı. Doğru cevap: fiiller tamamlanmış gibi cezalandırılır."
+          }
+        },
+        {
+          "say": "Örgüt ve kalabalık ise üçüncü maddede değil, dördüncü maddede: örgütte ceza iki kat, üç ya da daha fazla kişide yarı oranında artırılır.",
+          "callout": {
+            "type": "ipucu",
+            "title": "Md. 4: örgüt 2 KAT · 3+ kişi YARI",
+            "text": "Bunlar md. 3 değil md. 4 artırımları. 2021'de '3 veya daha fazla kişi', 2022'de 'örgüt → 2 kat' soruldu."
+          }
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "chip": "Doğru hüküm · Ceza aralığı",
+    "src": "5607 s. Kaçakçılıkla Mücadele Kanunu",
+    "stem": "5607 sayılı Kaçakçılıkla Mücadele Kanunu'nun 3 üncü maddesine göre aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "Eşyayı gümrük işlemlerine tabi tutmaksızın ülkeye sokan kişi, bir yıldan üç yıla kadar hapis ve on bin güne kadar adlî para cezası ile cezalandırılır.",
+      "İthali kanun gereği yasak olan eşyayı ülkeye sokan kişi, bir yıldan üç yıla kadar hapis ve beş bin güne kadar adlî para cezası ile cezalandırılır.",
+      "Transit rejimi çerçevesinde taşınan serbest dolaşımda bulunmayan eşyayı rejime aykırı olarak gümrük bölgesinde bırakan kişi, bir yıldan üç yıla kadar hapis ve beş bin güne kadar adlî para cezası ile cezalandırılır.",
+      "Maddede tanımlanan fiillerin teşebbüs aşamasında kalması hâlinde verilecek ceza yarı oranında indirilir.",
+      "Eşyanın gümrük kapıları dışından ülkeye sokulması hâlinde verilecek ceza yarısından iki katına kadar artırılır."
+    ],
+    "answer": "C",
+    "gerekce": "5607 sayılı Kanunun 3 üncü maddesinin üçüncü fıkrasına göre transit rejimi çerçevesinde taşınan serbest dolaşımda bulunmayan eşyayı rejim hükümlerine aykırı olarak gümrük bölgesinde bırakan kişi, bir yıldan üç yıla kadar hapis ve beş bin güne kadar adlî para cezası ile cezalandırılır. Gümrük işlemlerine tabi tutmaksızın sokmanın cezası bir yıldan beş yıla kadar hapis ve on bin gün, ithali kanun gereği yasak eşyayı sokmanın cezası iki yıldan altı yıla kadar hapis ve yirmi bin gündür; teşebbüs aşamasında kalan fiiller tamamlanmış gibi cezalandırılır; gümrük kapıları dışından sokmada ceza üçte birinden yarısına kadar artırılır. Bu nedenle doğru cevap C seçeneğidir. (5607 MD 3)",
+    "read": [
+      {
+        "say": "Mini test zamanı. Kaçakçılıkla Mücadele Kanunu'nun üçüncü maddesine göre hangisi doğrudur?",
+        "mark": "doğrudur?"
+      },
+      {
+        "say": "A: Gümrük işlemine tabi tutmadan sokmaya bir ile üç yıl hapis ve on bin güne kadar adlî para.",
+        "show": "A"
+      },
+      {
+        "say": "B: İthali kanun gereği yasak eşyayı sokmaya bir ile üç yıl hapis ve beş bin güne kadar adlî para.",
+        "show": "B"
+      },
+      {
+        "say": "C: Transit eşyayı rejime aykırı olarak gümrük bölgesinde bırakmaya bir ile üç yıl hapis ve beş bin güne kadar adlî para.",
+        "show": "C"
+      },
+      {
+        "say": "D: Fiiller teşebbüste kalırsa ceza yarı oranında indirilir.",
+        "show": "D"
+      },
+      {
+        "say": "E: Gümrük kapıları dışından sokmada ceza yarısından iki katına kadar artırılır.",
+        "show": "E"
+      }
+    ],
+    "explain": [
+      {
+        "say": "[excited] Doğru cevap C!"
+      },
+      {
+        "say": "Transit rejimiyle taşınan eşyayı gümrük bölgesinde bırakmak bir rejim ihlali: bir ile üç yıl hapis, beş bin gün.",
+        "show": [
+          "c1",
+          "t1"
+        ]
+      },
+      {
+        "say": "A'da gün doğru ama hapis yanlış; sokmada bir ile beş yıl. B, ithal yasağına ihraç yasağının cezasını vermiş; doğrusu iki ile altı yıl ve yirmi bin gün.",
+        "show": [
+          "c2",
+          "f1",
+          "f2"
+        ]
+      },
+      {
+        "say": "D'de teşebbüs indirilmez, tamamlanmış gibi cezalandırılır. E'de oran yanlış; gümrük kapıları dışında üçte birinden yarısına kadar.",
+        "show": [
+          "f3",
+          "f4"
+        ]
+      },
+      {
+        "say": "Kural: önce fiili bul, sonra etiketini oku.",
+        "callout": {
+          "type": "onemli",
+          "title": "Önce FİİL, sonra ETİKET",
+          "text": "Sokma 1–5 / 10.000 · aldatıcı 2–5 / 10.000 · rejim 1–3 / 5.000 · ithali yasak 2–6 / 20.000 · ihracı yasak 1–3 / 5.000 · teşebbüs = tamamlanmış."
+        }
+      }
+    ],
+    "board": {
+      "title": "Hangi etiket?",
+      "madde": "5607 s. KMK md. 3",
+      "kind": "split",
+      "columns": [
+        {
+          "id": "c1",
+          "title": "DOĞRU · C",
+          "tone": "green"
+        },
+        {
+          "id": "c2",
+          "title": "YANLIŞ · A B D E",
+          "tone": "red"
+        }
+      ],
+      "items": [
+        {
+          "id": "t1",
+          "col": "c1",
+          "text": "Transit eşyayı bırakma",
+          "sub": "1–3 yıl + 5.000 gün",
+          "tone": "green"
+        },
+        {
+          "id": "f1",
+          "col": "c2",
+          "text": "A · Sokma: 1–5 yıl",
+          "sub": "1–3 değil",
+          "fs": 22
+        },
+        {
+          "id": "f2",
+          "col": "c2",
+          "text": "B · İthali yasak: 2–6 yıl",
+          "sub": "+ 20.000 gün",
+          "fs": 22
+        },
+        {
+          "id": "f3",
+          "col": "c2",
+          "text": "D · Teşebbüs = tamamlanmış",
+          "sub": "indirim yok",
+          "fs": 22
+        },
+        {
+          "id": "f4",
+          "col": "c2",
+          "text": "E · Kapı dışı: 1/3 – 1/2",
+          "sub": "yarısından 2 katı değil",
+          "fs": 22
+        }
+      ]
+    }
+  },
+  "summary": {
+    "items": [
+      {
+        "title": "Sokma 1–5 · aldatıcı 2–5 · rejim 1–3",
+        "text": "(1) ve (2): 10.000 gün · (3), (4), (5): 5.000 gün. İştiraksiz alıcıda bilerek + ticari amaç."
+      },
+      {
+        "title": "Muaf 6 ay–2 · ithali yasak 2–6 · ihracı yasak 1–3",
+        "text": "İdari işlemle yasak: GK 235 → ithalde 4 kat, ihraçta 2 kat idari para cezası."
+      },
+      {
+        "title": "Sahte ihracat 1–5 · özel eşya 2 kata kadar",
+        "text": "Fark %10'u aşmıyorsa yalnız GK · (10) listesinde ceza en az 3 yıl · akaryakıt 2–5, bandrol 3–6."
+      },
+      {
+        "title": "Kapı dışı 1/3–1/2 · teşebbüs = tamamlanmış",
+        "text": "Fahiş: yarısından 1 katına artırım · hafif: yarısına, pek hafif: üçte birine indirim."
+      }
+    ],
+    "badge": "Mini testi doğru yaptıysan bu parçayı da kapattın!",
+    "parts": [
+      {
+        "say": "Hafıza kartı zamanı. Dört cümle."
+      },
+      {
+        "say": "Bir: sokma bir ile beş, aldatıcı sokma iki ile beş, rejim ihlalleri bir ile üç yıl.",
+        "item": 0
+      },
+      {
+        "say": "İki: muaf eşyada altı ay ile iki yıl, ithali yasakta iki ile altı, ihracı yasakta bir ile üç yıl.",
+        "item": 1
+      },
+      {
+        "say": "Üç: sahte ihracatta bir ile beş yıl; listedeki özel eşyada ceza iki katına kadar artar ve üç yıldan az olamaz.",
+        "item": 2
+      },
+      {
+        "say": "Dört: gümrük kapıları dışında üçte birinden yarısına kadar artırım; teşebbüs ise tamamlanmış gibi.",
+        "item": 3
+      },
+      {
+        "say": "Mini testi doğru yaptıysan bu parçayı da kapattın!",
+        "badge": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Seriyi tamamladın!",
+    "next_label": "SERİ TAMAM",
+    "next": "5 ders · 5 parça · Sınavda başarılar!",
+    "parts": [
+      {
+        "say": "[excited] Böylece beş derslik serimizin sonuna geldik. Beğenmeyi ve abone olmayı unutma; sınavda başarılar dilerim. Görüşmek üzere!"
+      }
+    ]
+  }
+}
