@@ -1,0 +1,62 @@
+[
+ {
+  "id": "intro",
+  "text": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Bugün gümrük müşavirliğinden tek bir parçayı alıyoruz: gümrük müşavirleri ve yardımcılarına verilen disiplin cezaları. Beş kısa bölüm, her bölümde şema ve tuzak kutuları, en sonda da bir mini test. Başlayalım!",
+  "chars": 259
+ },
+ {
+  "id": "stats",
+  "text": "Neden bu parça? Gümrük müşavirliği, son beş sınavda otuz beş soruyla en çok sorulan konu. Bunların sekizi doğrudan disiplin cezalarından geldi; dördü tek başına 2023 sınavında. Beş bölümde ilerleyeceğiz: ceza merdiveni, hangi fiile hangi ceza, tekerrür, usul ve merciler ve tedbirin ceza olmadığı. Sonunda bir mini test var.",
+  "chars": 324
+ },
+ {
+  "id": "s1",
+  "text": "Mesleğin vakar ve onuruna aykırı davrananlara, görevini yapmayan ya da kusurlu yapanlara dört disiplin cezası verilir; bu cezalar yardımcıları da kapsar. Hafiften ağıra merdiveni çıkalım. Birinci basamak uyarma: meslek mensubuna, daha dikkatli davranması gerektiğinin yazıyla bildirilmesi. İkinci basamak kınama: görevinde ve davranışında kusurlu sayıldığının yazıyla bildirilmesi. [cautiously] Tuzak: ikisi de yazılıdır. 'Sözlü uyarı' diye bir disiplin cezası yok. Üçüncü basamak, geçici olarak mesleki faaliyetten alıkoyma: mesleki sıfat saklı kalmak şartıyla altı aydan az, bir yıldan çok olamaz. Dördüncü ve son basamak meslekten çıkarma: izin belgesi geri alınır ve bu mesleği bir daha icra etmesine izin verilmez.",
+  "chars": 719
+ },
+ {
+  "id": "s2",
+  "text": "Şimdi fiil ve ceza eşleştirmesi. Kanun, hangi davranışa hangi basamağın uygulanacağını tek tek sayıyor. Mesleki kurallara, mesleğin vakar ve onuruna aykırı ya da güveni sarsıcı davranışta ilk defasında uyarma, tekrarında kınama verilir. Sahte belgeyle yanlış beyan: durum müşavirin bilgisi dışında ama bir araştırmayla öğrenilebilecekse ve bu rapora bağlanmışsa, ilk defasında kınama, tekrarında alıkoyma. [cautiously] Tuzak: sahte belgede ilk ceza uyarma değil, kınamadır. Görevini bağımsızlık, tarafsızlık ve dürüstlükle yapmayan ya da kusurlu yapan meslek mensubuna geçici alıkoyma verilir. Kaçakçılık suçundan mahkûmiyet kararı kesinleşen meslek mensubuna ise meslekten çıkarma verilir. Dikkat: kesinleşme şart; kovuşturma başlaması yetmez.",
+  "chars": 744
+ },
+ {
+  "id": "s3",
+  "text": "Peki fiil tekrar ederse? Kanun iki ayrı pencere açıyor: üç yıl ve beş yıl. Üç yıllık dönem içinde iki ya da daha fazla disiplin cezası gerektiren davranışta bulunana, her yeni suçu için bir öncekinden daha ağır ceza uygulanabilir. Beş yıllık dönem içinde iki kez alıkoyma cezası aldıktan sonra aynı cezayı gerektiren fiili yeniden işleyene ise meslekten çıkarma cezası uygulanır. [cautiously] Fiillere dikkat: üç yılda 'uygulanabilir', yani takdir var; beş yılda 'uygulanır', yani zorunlu. Disiplin kurulları cezayı bir derece ağır ya da bir derece hafif uygulayabilir. Ve ceza davasının yürütülmesi, disiplin soruşturması yapılmasına ve disiplin cezası verilmesine engel değildir.",
+  "chars": 681
+ },
+ {
+  "id": "s4",
+  "text": "Usule geçelim. Meslek mensubu hakkında savunması alınmadan disiplin cezası verilemez. Savunma için verilen süre on günden az olamaz; süresinde savunma yapmayan, savunma hakkından vazgeçmiş sayılır. Kararı kim verir? Kanun metnine göre uyarma ve kınamayı yetkili gümrük başmüdürü, alıkoymayı Merkez Disiplin Kurulu, meslekten çıkarmayı Yüksek Disiplin Kurulu verir. Disiplin cezaları, kesinleşme tarihinden itibaren uygulanır. Zamanaşımı ise üç yıl: aykırılığın gümrük idarelerince tespit edildiği tarihten itibaren üç yıl içinde uygulanmayan ceza zamanaşımına uğrar. Aykırılık aynı zamanda adli kovuşturma konusuysa Türk Ceza Kanunundaki zamanaşımı esas alınır. [cautiously] Tuzak: ceza fiilin işlendiği ya da öğrenildiği tarihte değil, kesinleşince uygulanır; zamanaşımı da fiilden değil, tespit tarihinden başlar.",
+  "chars": 815
+ },
+ {
+  "id": "s5",
+  "text": "Son bölüm, sınavın en sevdiği ayrım: tedbir ile ceza. Mevzuata aykırı hareketleri görülen müşavir ve yardımcıların izin belgeleri, müfettişler ve bölge müdürlerince tedbir olarak en fazla altı ay süreyle alınabilir. Bu sürede gümrüklerde iş takip edemezler; durum ertesi gün Bakanlığa bildirilir. Sonradan alıkoyma cezası verilirse, tedbir süresi cezadan mahsup edilir. [cautiously] Tuzak: izin belgesinin tedbiren alınması dört disiplin cezası arasında değildir. Ve iki ayrı altı ayı karıştırma: alıkoymada altı ay alt sınırdır, tedbirde ise üst sınır.",
+  "chars": 553
+ },
+ {
+  "id": "quiz_read",
+  "text": "Mini test zamanı. Gümrük Kanunu'na göre disiplin cezalarına ilişkin hangisi yanlıştır? A: Sahte belgeyle yanlış beyan müşavirin bilgisi dışında ama araştırmayla öğrenilebilecekse, ilk defasında uyarma verilir. B: Disiplin cezaları kesinleşme tarihinden itibaren uygulanır. C: Savunma alınmadan disiplin cezası verilemez. D: Kaçakçılıktan mahkûmiyeti kesinleşene meslekten çıkarma verilir. E: Alıkoyma, altı aydan az, bir yıldan çok olamaz.",
+  "chars": 439
+ },
+ {
+  "id": "quiz_think",
+  "text": "Videoyu durdurabilirsin. Beş saniye düşün!",
+  "chars": 42
+ },
+ {
+  "id": "quiz_exp",
+  "text": "[excited] Doğru cevap A! B'den E'ye kadar hepsi kanunun cümlesi: kesinleşince uygulanır, savunma şart, kaçakçılık mahkûmiyetinde çıkarma, alıkoyma altı ay ile bir yıl arası. Ama sahte belgede ilk ceza uyarma değil kınamadır; tekrarında alıkoyma verilir. Bu tabloyu ezberle: sahte belgede kınama, sonra alıkoyma.",
+  "chars": 311
+ },
+ {
+  "id": "summary",
+  "text": "Hafıza kartı zamanı. Dört cümle. Bir: dört ceza var; uyarma, kınama, alıkoyma ve meslekten çıkarma. İki: sahte belgede ilk ceza kınama, kesinleşmiş kaçakçılık mahkûmiyetinde meslekten çıkarma. Üç: üç yılda 'uygulanabilir', beş yılda 'uygulanır'. Dört: ceza kesinleşince uygulanır; tedbir ise ceza değildir; müfettiş ya da bölge müdürünün aldığı tedbir en fazla altı ay sürer. Mini testi doğru yaptıysan bu parçayı kapattın!",
+  "chars": 423
+ },
+ {
+  "id": "outro",
+  "text": "[excited] Beğenmeyi ve abone olmayı unutma. Serinin son dersinde kaçakçılık suçlarını ve ceza aralıklarını anlatıyoruz. Görüşmek üzere!",
+  "chars": 135
+ }
+]

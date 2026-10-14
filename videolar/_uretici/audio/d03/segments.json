@@ -1,0 +1,62 @@
+[
+ {
+  "id": "intro",
+  "text": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Bugün gümrük vergilerinden tek bir parçayı alıyoruz: tebliğ, ödeme ve itiraz süreleri. Beş kısa bölüm, her bölümde bir süre kronometresi, en sonda da bir mini test. Kronometreyi başlatalım!",
+  "chars": 239
+ },
+ {
+  "id": "stats",
+  "text": "Neden bu parça? Bu süreler son beş sınavın her birinde soruldu; 2024'te tek sınavda beş soru geldi. Toplam on üç soru ve neredeyse hepsi bir sayıyı ya da saatin başladığı anı soruyor. Beş bölümde ilerleyeceğiz: saat sıfır ve tebliğ, üç yıllık tebligat saati, ödeme saati, itiraz saati ve bütün süreleri toplayan bir tablo. Sonunda bir mini test var.",
+  "chars": 349
+ },
+ {
+  "id": "s1",
+  "text": "Kronometreyi sıfırlayalım. Serbest dolaşıma girişte gümrük yükümlülüğü, beyannamenin tescil tarihinde başlar. Vergiler tahakkuk ettirilir ve tahakkuktan hemen sonra yükümlüye tebliğ edilir. Kanun burada gün vermez: hemen sonra. Beyannamede gösterilen vergi tutarı ile gümrük idaresinin hesapladığı tutar eşitse, eşyanın teslim edilmesi tebliğ yerine geçer. [cautiously] Tuzak: 'tebliğ tahakkuktan önce yapılır' yanlıştır. 2024'te doğru cevap, eşyanın tesliminin tebliğ yerine geçmesiydi.",
+  "chars": 487
+ },
+ {
+  "id": "s2",
+  "text": "Peki sonradan yapılan kontrolde vergi eksik çıkarsa? Kanun burada bir zamanaşımı saati kuruyor. Hiç alınmayan ya da noksan alınan vergiler, gümrük yükümlülüğünün doğduğu tarihten itibaren üç yıl içinde tebliğ edilmelidir. Dava açılması ise zamanaşımını durdurur. Sade dille: saat yükümlülüğün doğduğu gün başlar, dava açılırsa durur. Ceza davası açılmışsa ve ceza zamanaşımı daha uzunsa, vergi alacağı Türk Ceza Kanunundaki zamanaşımı süreleri içinde kovuşturulup tahsil edilir. Vergiye bağlı para cezaları da aynı saate tabidir.",
+  "chars": 529
+ },
+ {
+  "id": "s3",
+  "text": "Şimdi ödeme saati. Bu saat de tebliğle başlar. Kontrol sonucu tebliğ edilen vergiler, tebliğden itibaren on beş gün içinde ödenmelidir. Süre bitmeden yazılı istemde bulunur ve teminat verirsen, ödeme süresi otuz gün daha uzatılabilir; uzatma beyannamedeki her kalem için ayrı ayrı da yapılabilir. Uzatılan süre için tecil faizi alınır. [cautiously] 2024'te bu bilgilerin her biri şıklarda ters çevrildi: otuz gün, altı ay, süre bittikten sonra başvuru ve tecil faizi alınmaz. Ve rahatlatıcı bir bilgi: verginin tamamını ya da bir kısmını sürenin bitmesini beklemeden ödeyebilirsin.",
+  "chars": 581
+ },
+ {
+  "id": "s4",
+  "text": "İtiraz edeceksen saat yine tebliğle başlar. Gümrük vergileri, cezalar ve idari kararlar bu kapsamda. Tebliğden itibaren on beş gün içinde, bir üst makama, üst makam yoksa aynı makama dilekçeyle itiraz edilebilir. İdareye intikal eden itiraz otuz gün içinde karara bağlanır ve ilgiliye tebliğ edilir. İtiraz reddedilirse, işlemin yapıldığı yerdeki idari yargı mercilerine başvurulabilir. Çok önemli bir bağlantı: itiraz, ödeme süresini keser; ödeme süresi kararın tebliğinden itibaren yeniden başlar. Dilekçeyi süresi içinde yanlış makama verdiysen de itiraz süresinde yapılmış sayılır; idare dilekçeyi yetkili makama ulaştırır. [cautiously] Sayılara dikkat: itiraz on beş, karar otuz gün. Şıklarda altmış ve kırk beş günlük karar süresi gibi çeldiriciler var.",
+  "chars": 759
+ },
+ {
+  "id": "s5",
+  "text": "Son bölümde bütün saatleri tek tabloda toplayalım; sınavda en çok karıştırılan sayılar bunlar. Ödeme on beş gün, tebliğden. Uzatma otuz gün daha; süre bitmeden yazılı istem ve teminatla. İtiraz on beş gün; tebliğden, üst makama. İtiraza karar otuz gün. Uzlaşma talebi de tebliğden itibaren on beş gün; itiraz edilmişse, itiraz sonuçlanmadan talep edilebilir. Uzlaşma talebi itiraz ve dava süresini durdurur. Ve sonradan bulunan eksik vergi için tebligat zamanaşımı üç yıl; yükümlülüğün doğduğu tarihten. Kısa formül: on beş, artı otuz, on beş, otuz ve üç yıl.",
+  "chars": 559
+ },
+ {
+  "id": "quiz_read",
+  "text": "Mini test zamanı. Gümrük Kanunu'na göre tebliğ edilen vergilere ilişkin hangisi doğrudur? A: Tebliğden itibaren otuz gün içinde itiraz edilebilir. B: İtiraz ödeme süresini keser; süre kararın tebliğinden itibaren yeniden başlar. C: Ödeme süresi bittikten sonra yapılan yazılı istemle süre otuz gün daha uzatılabilir. D: İtirazlar kırk beş gün içinde karara bağlanır. E: Tebligat, beyannamenin kesinleşmesinden sonra üç yıl içinde yapılır.",
+  "chars": 438
+ },
+ {
+  "id": "quiz_think",
+  "text": "Videoyu durdurabilirsin. Beş saniye düşün!",
+  "chars": 42
+ },
+ {
+  "id": "quiz_exp",
+  "text": "[excited] Doğru cevap B! İtiraz ödeme süresini keser ve süre kararın tebliğinden itibaren yeniden başlar. Diğerleri saat hatası: itiraz on beş gün, uzatma talebi süre bitmeden, karar otuz gün ve üç yıl yükümlülüğün doğduğu tarihten. Formülü unutma: on beş, artı otuz, on beş, otuz, üç yıl.",
+  "chars": 289
+ },
+ {
+  "id": "summary",
+  "text": "Hafıza kartı zamanı. Dört cümle. Bir: tebliğ, tahakkuktan hemen sonra yapılır; beyan ile hesap eşitse eşyanın teslimi tebliğ sayılır. İki: tebligat zamanaşımı üç yıl, yükümlülüğün doğduğu tarihten. Üç: ödeme on beş gün, uzatma otuz gün daha ve tecil faiziyle. Dört: itiraz on beş gün, karar otuz gün; itiraz ödeme süresini keser. Mini testi doğru yaptıysan bu parçayı kapattın!",
+  "chars": 377
+ },
+ {
+  "id": "outro",
+  "text": "[excited] Beğenmeyi ve abone olmayı unutma. Bir sonraki derste gümrük müşavirlerine verilen disiplin cezalarını anlatıyoruz. Görüşmek üzere!",
+  "chars": 140
+ }
+]
