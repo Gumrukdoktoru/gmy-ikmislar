@@ -1,0 +1,62 @@
+[
+ {
+  "id": "intro",
+  "text": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Konu anlatımı serisinin ikinci dersinde gümrük kıymetinden tek bir parçayı alıyoruz: satış bedeli yöntemi ve ilişkili kişiler. Beş kısa bölüm, her bölümde şema ve tuzak kutuları, en sonda da bir mini test. Başlayalım!",
+  "chars": 267
+ },
+ {
+  "id": "stats",
+  "text": "Neden bu parça? Gümrük kıymeti, son beş sınavda otuz bir soruyla en çok sorulan ikinci konu. Bu soruların en az onu doğrudan bugünkü parçadan geldi: satış bedelinin şartları, ilişki ve dolaylı ödeme. Beş bölümde ilerleyeceğiz: satış bedelinin tanımı, dört şart, ilişkili kişiler, ilişki varsa ne olacağı ve dolaylı ödeme. Sonunda bir mini test var.",
+  "chars": 348
+ },
+ {
+  "id": "s1",
+  "text": "Önce kanunun cümlesine bakalım. Gümrük kıymetinin birinci ve asıl yöntemi, eşyanın satış bedelidir. Ama her satış değil: Türkiye'ye ihraç amacıyla yapılan satış. Ardıl satışlar varsa, eşyanın Türkiye'ye girmesine yol açan son satış esas alınır. Satış bedeli de fiilen ödenen veya ödenecek fiyattır; yani alıcının satıcıya ya da satıcı yararına yaptığı bütün ödemelerin toplamı. Sade dille: önce gerçek fiyata bakarız. Bu fiyat kanundaki şartları taşımıyorsa, diğer kıymet yöntemlerine sırayla geçeriz.",
+  "chars": 501
+ },
+ {
+  "id": "s2",
+  "text": "Satış bedelinin kıymete esas alınması dört şarta bağlı. Hepsini tek ekranda görelim. Bir: alıcının eşyayı kullanması ya da elden çıkarması kısıtlanmamalı. Üç istisna var: Türk mevzuatının ya da yetkili mercilerin koyduğu kısıtlamalar, eşyanın tekrar satılabileceği coğrafi bölgeyi sınırlayan kısıtlamalar ve kıymeti önemli ölçüde etkilemeyen kısıtlamalar. [cautiously] Tuzak şurada: eşyanın kullanım yeri ve şekline ilişkin kısıtlama bu istisnalar arasında yok. Bu yüzden satış bedelini engeller. İki: satış ya da fiyat, kıymeti tespit edilemeyen bir koşul veya edime bağlı olmamalı. Dikkat: koşulun kıymeti tespit edilebiliyorsa satış bedeli reddedilmez; o kıymet dolaylı ödeme sayılır ve fiyata eklenir. Üç: alıcının eşyayı satmasından doğan hasılatın bir kısmı satıcıya gidiyorsa, bu pay fiyata eklenebilmeli. Dört: alıcı ile satıcı arasında ilişki olmamalı; ilişki varsa da fiyat, kanunun ilişki hükmüne göre kabul edilebilir nitelikte olmalı.",
+  "chars": 947
+ },
+ {
+  "id": "s3",
+  "text": "Şimdi en çok soru gelen yere geldik: ilişkili kişiler. Yönetmelik ilişkiyi yalnızca sekiz durumda kabul ediyor. Birbirlerinin memuru ya da idarecisi olmak, yasal ortak olmak, işçi–işveren ilişkisi ve her iki firmanın oy hakkı veren paylarının en az yüzde beşinin aynı kişilere ait olması. Biri diğerini kontrol ediyorsa, ikisini de üçüncü bir kişi kontrol ediyorsa, ikisi birlikte üçüncü bir kişiyi kontrol ediyorsa ve aynı ailenin üyeleriyse. Aile listesinde amca, dayı, hala, teyze ve yeğen; gelin, damat ve eşlerin kardeşleri var. Kuzen ise listede yok. [cautiously] Ve tuzak: liste kapalıdır. Aynı iş kolunda ya da aynı sanayi kolunda faaliyet göstermek ilişki sayılmaz. Tek acente, tek distribütör ya da tek bayi de bu kıstaslardan birine uymuyorsa ilişkili sayılmaz.",
+  "chars": 772
+ },
+ {
+  "id": "s4",
+  "text": "Peki alıcı ile satıcı ilişkiliyse satış bedeli yöntemi hiç uygulanamaz mı? Hayır! İlişkinin varlığı, satış bedelinin reddi için tek başına yeterli değildir. Satışa ilişkin koşullar incelenir; ilişkinin fiyatı etkilemediği anlaşılırsa satış bedeli kabul edilir. İdare, ilişkinin fiyatı etkilediği kanısına varırsa bunu beyan sahibine yazılı olarak bildirir; beyan sahibinin süresi içinde cevap verme hakkı saklıdır. Beyan sahibi, fiyatın aynı ya da yakın tarihteki bir test kıymetine çok yakın olduğunu ispatlarsa da satış bedeli kabul edilir. Unutma: ilişki beyan edilmezse, vergi kaybı olmasa bile usulsüzlük cezası iki kat uygulanır.",
+  "chars": 635
+ },
+ {
+  "id": "s5",
+  "text": "Son bölüm: dolaylı ödeme. Fiyata neler dahil, neler değil? Alıcının satıcıya ya da satıcı yararına yaptığı bütün ödemeler, satıcının bir borcu için üçüncü kişiye yaptığı ödemeler ve kıymeti belirlenebilen koşul ya da edimler fiyata dahildir. Buna karşılık alıcının pazarlama dahil kendi hesabına yaptığı faaliyetler, satıcı yararına ya da satıcıyla yapılan bir anlaşma yoluyla olsa bile dolaylı ödeme sayılmaz ve fiyata eklenmez. [cautiously] Bu cümle son beş sınavda üç kez soruldu ve şıklarda hep 'dolaylı ödeme sayılır' diye ters çevrildi.",
+  "chars": 542
+ },
+ {
+  "id": "quiz_read",
+  "text": "Mini test zamanı. Gümrük Yönetmeliği'ne göre, alıcı ile satıcı arasında ilişkinin varlığı aşağıdakilerin hangisinde kabul edilir? A: Aynı iş kolunda faaliyet. B: Oy hakkı veren sermaye paylarının yüzde üçünün aynı kişilere ait olması. C: Alıcı ile satıcının kuzen olması. D: İkisinin birlikte bir üçüncü kişiyi dolaylı olarak kontrol etmesi. E: Hiçbir kıstasa uymaksızın tek distribütör olarak iş ilişkisi.",
+  "chars": 406
+ },
+ {
+  "id": "quiz_think",
+  "text": "Videoyu durdurabilirsin. Beş saniye düşün!",
+  "chars": 42
+ },
+ {
+  "id": "quiz_exp",
+  "text": "[excited] Doğru cevap D! Liste kapalı ve D şıkkı listede var: ikisinin birlikte bir üçüncü kişiyi doğrudan ya da dolaylı kontrol etmesi. Aynı iş kolu ilişki değil; yüzde üç, yüzde beş eşiğinin altında; kuzen aile listesinde yok; tek distribütör de kıstaslara uymuyorsa ilişkili sayılmaz. Kural tek cümle: ilişki yalnızca sayılan sekiz durumda vardır.",
+  "chars": 350
+ },
+ {
+  "id": "summary",
+  "text": "Hafıza kartı zamanı. Dört cümle. Bir: satış bedeli, Türkiye'ye ihraç amaçlı satışta fiilen ödenen veya ödenecek fiyattır. İki: dört şart var; kısıtlama, koşul veya edim, hasılat ve ilişki. Üç: ilişki sekiz halde vardır; liste kapalıdır, kuzen yoktur. Dört: ilişki tek başına ret sebebi değildir; ama beyan edilmezse iki kat ceza var. Mini testi doğru yaptıysan bu parçayı kapattın!",
+  "chars": 381
+ },
+ {
+  "id": "outro",
+  "text": "[excited] Beğenmeyi ve abone olmayı unutma. Bir sonraki derste gümrük vergilerinin tebliğ, ödeme ve itiraz sürelerini kronometreyle anlatıyoruz. Görüşmek üzere!",
+  "chars": 160
+ }
+]

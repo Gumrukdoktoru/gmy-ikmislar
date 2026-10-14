@@ -1,0 +1,209 @@
+{
+  "no": 3,
+  "title": "Tebliğ, Ödeme ve İtiraz Süreleri",
+  "short": "VERGİ · SÜRE KRONOMETRESİ",
+  "subtitle": "Gümrük vergilerinden bir parça: saat ne zaman başlar, kaç gün sürer?",
+  "intro": {
+    "chips": ["5 BÖLÜM", "SÜRE KRONOMETRESİ", "MİNİ TEST"],
+    "parts": [
+      {"say": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Bugün gümrük vergilerinden tek bir parçayı alıyoruz: tebliğ, ödeme ve itiraz süreleri."},
+      {"say": "Beş kısa bölüm,", "chip": 0},
+      {"say": "her bölümde bir süre kronometresi,", "chip": 1},
+      {"say": "en sonda da bir mini test. Kronometreyi başlatalım!", "chip": 2}
+    ]
+  },
+  "stats": {
+    "label": "Tebliğ · ödeme · itiraz soruları",
+    "years": ["2021", "2022", "2023", "2024", "2025"],
+    "values": [2, 2, 2, 5, 2],
+    "total_html": "5 sınavda <b>13</b> soru · 2024'te tek sınavda <b>5</b>",
+    "parts": [
+      {"say": "Neden bu parça? Bu süreler son beş sınavın her birinde soruldu; 2024'te tek sınavda beş soru geldi.", "bars": true},
+      {"say": "Toplam on üç soru ve neredeyse hepsi bir sayıyı ya da saatin başladığı anı soruyor.", "total": true},
+      {"say": "Beş bölümde ilerleyeceğiz: saat sıfır ve tebliğ,", "agenda": 0},
+      {"say": "üç yıllık tebligat saati,", "agenda": 1},
+      {"say": "ödeme saati,", "agenda": 2},
+      {"say": "itiraz saati", "agenda": 3},
+      {"say": "ve bütün süreleri toplayan bir tablo. Sonunda bir mini test var.", "agenda": [4, 5]}
+    ]
+  },
+  "sections": [
+    {
+      "title": "Saat sıfır ve tebliğ",
+      "madde": "4458 s. GK md. 181/1, 197/1, 197/3",
+      "kind": "flow",
+      "board": {
+        "nodes": [
+          {"id": "n1", "text": "Beyanname tescili", "sub": "yükümlülük BAŞLAR"},
+          {"id": "n2", "text": "Tahakkuk", "sub": "vergi hesaplanır"},
+          {"id": "n3", "text": "Tebliğ", "sub": "tahakkuktan HEMEN SONRA", "tone": "gold"},
+          {"id": "n4", "text": "Beyan = hesap", "sub": "eşyanın teslimi = TEBLİĞ", "tone": "green"}
+        ]
+      },
+      "parts": [
+        {"say": "Kronometreyi sıfırlayalım. İthalatta gümrük yükümlülüğü, beyannamenin tescil tarihinde başlar.", "show": ["n1"]},
+        {"say": "Vergiler tahakkuk ettirilir", "show": ["n2"]},
+        {"say": "ve tahakkuktan hemen sonra yükümlüye tebliğ edilir. Kanun burada gün vermez: hemen sonra.", "show": ["n3"]},
+        {"say": "Beyannamede gösterilen vergi tutarı ile gümrük idaresinin hesapladığı tutar eşitse, eşyanın teslim edilmesi tebliğ yerine geçer.", "show": ["n4"], "hl": ["n4"]},
+        {"say": "[cautiously] Tuzak: 'tebliğ tahakkuktan önce yapılır' yanlıştır. 2024'te doğru cevap, eşyanın tesliminin tebliğ yerine geçmesiydi.", "callout": {"type": "tuzak", "title": "Tebliğ tahakkuktan HEMEN SONRA", "text": "2024'te 'beyan = hesap ise eşyanın teslimi tebliğ yerine geçer' doğru cevaptı; 'tahakkuktan önce', 'uzlaşma 20 gün', 'karar 45 gün' çeldiriciydi."}}
+      ]
+    },
+    {
+      "title": "Üç yıllık tebligat saati",
+      "madde": "4458 s. GK md. 197/2, 197/4 · Tahsilat Tebliği md. 10",
+      "kind": "law",
+      "law": {
+        "ref": "4458 s. Gümrük Kanunu md. 197/2",
+        "text": "Yapılan denetlemeler sonucunda hiç alınmadığı veya noksan alındığı belirlenen (…) gümrük vergilerine ilişkin tebligat, gümrük yükümlülüğünün doğduğu tarihten itibaren üç yıl içinde yapılır. Şu kadar ki, gümrük yükümlülüğünün doğduğu olayla ilgili olarak dava açılması zaman aşımını durdurur.",
+        "marks": ["hiç alınmadığı veya noksan alındığı", "gümrük yükümlülüğünün doğduğu tarihten itibaren üç yıl içinde", "dava açılması zaman aşımını durdurur."],
+        "plain": "Sonradan bulunan eksik vergi en geç üç yıl içinde tebliğ edilmeli. Saat, yükümlülüğün doğduğu gün başlar; dava açılırsa durur."
+      },
+      "parts": [
+        {"say": "Peki sonradan yapılan kontrolde vergi eksik çıkarsa? Kanun burada bir zamanaşımı saati kuruyor."},
+        {"say": "Hiç alınmayan ya da noksan alınan vergiler,", "mark": 0},
+        {"say": "gümrük yükümlülüğünün doğduğu tarihten itibaren üç yıl içinde tebliğ edilmelidir.", "mark": 1, "callout": {"type": "tuzak", "title": "Başlangıç: yükümlülüğün DOĞDUĞU tarih", "text": "'Kesinleşmeyi müteakip', 'tebliğden itibaren', beş ya da yedi yıl gibi şıklar yanlış. 2023, 2024 ve 2025'te soruldu."}},
+        {"say": "Dava açılması ise zamanaşımını durdurur. Sade dille: saat yükümlülüğün doğduğu gün başlar, dava açılırsa durur.", "mark": 2, "plain": true},
+        {"say": "Ceza davası açılmışsa ve ceza zamanaşımı daha uzunsa, vergi alacağı Türk Ceza Kanunundaki zamanaşımı süreleri içinde kovuşturulup tahsil edilir.", "callout": {"type": "dikkat", "title": "Ceza davası varsa: TCK süreleri", "text": "Fiil ceza davasına konu olmuşsa ve zamanaşımı daha uzunsa, vergiler TCK'daki zamanaşımı süreleri içinde tahsil edilir; 6183'teki süreler değil (2021)."}},
+        {"say": "Vergiye bağlı para cezaları da aynı saate tabidir.", "callout": {"type": "ipucu", "title": "Bağlı ceza = verginin süresi", "text": "Gümrük vergisi alacağına bağlı para cezalarının zamanaşımı, bağlı olduğu verginin zamanaşımına tabidir: yükümlülüğün doğduğu tarihten 3 yıl (2024)."}}
+      ]
+    },
+    {
+      "title": "Ödeme saati: 15 + 30",
+      "madde": "4458 s. GK md. 198/1, 198/3 · Tahsilat Tebliği md. 17",
+      "kind": "timeline",
+      "board": {
+        "points": [
+          {"id": "p1", "text": "Tebliğ", "sub": "ödeme saati başlar"},
+          {"id": "p2", "text": "15 gün", "sub": "ödeme süresi", "tone": "gold"},
+          {"id": "p3", "text": "+30 gün", "sub": "süre bitmeden yazılı istem + teminat", "tone": "gold"},
+          {"id": "p4", "text": "Tecil faizi", "sub": "uzatılan süre için alınır", "tone": "red"}
+        ]
+      },
+      "parts": [
+        {"say": "Şimdi ödeme saati. Bu saat de tebliğle başlar.", "show": ["axis", "p1"]},
+        {"say": "Kontrol sonucu tebliğ edilen vergiler, tebliğden itibaren on beş gün içinde ödenmelidir.", "show": ["p2"]},
+        {"say": "Süre bitmeden yazılı istemde bulunur ve teminat verirsen, ödeme süresi otuz gün daha uzatılabilir; uzatma beyannamedeki her kalem için ayrı ayrı da yapılabilir.", "show": ["p3"]},
+        {"say": "Uzatılan süre için tecil faizi alınır.", "show": ["p4"], "hl": ["p4"]},
+        {"say": "[cautiously] 2024'te bu bilgilerin her biri şıklarda ters çevrildi: otuz gün, altı ay, süre bittikten sonra başvuru ve tecil faizi alınmaz.", "callout": {"type": "tuzak", "title": "15 + 30 · ÖNCE başvur · faiz VAR", "text": "Ödeme 15 gün; uzatma 30 gün daha; talep süre BİTMEDEN, yazılı ve teminatlı; uzatılan süre için tecil faizi alınır."}},
+        {"say": "Ve rahatlatıcı bir bilgi: verginin tamamını ya da bir kısmını sürenin bitmesini beklemeden ödeyebilirsin.", "callout": {"type": "ipucu", "title": "Erken ve kısmi ödeme serbest", "text": "Yükümlü, vergi tutarının tamamını veya bir kısmını sürenin bitimini beklemeksizin ödeyebilir. 'Kalanı 3 ay içinde öde' diye bir kural yok."}}
+      ]
+    },
+    {
+      "title": "İtiraz saati: 15 gün, karar 30 gün",
+      "madde": "4458 s. GK md. 242 · md. 198/2",
+      "kind": "flow",
+      "board": {
+        "nodes": [
+          {"id": "n1", "text": "Tebliğ", "sub": "vergi · ceza · idari karar"},
+          {"id": "n2", "text": "İtiraz: 15 gün", "sub": "üst makama · dilekçeyle", "tone": "gold"},
+          {"id": "n3", "text": "Karar: 30 gün", "sub": "karar + tebliğ", "tone": "gold"},
+          {"id": "n4", "text": "Ret → idari yargı", "sub": "işlem yerindeki mahkeme", "tone": "red"}
+        ]
+      },
+      "parts": [
+        {"say": "İtiraz edeceksen saat yine tebliğle başlar. Gümrük vergileri, cezalar ve idari kararlar bu kapsamda.", "show": ["n1"]},
+        {"say": "Tebliğden itibaren on beş gün içinde, bir üst makama, üst makam yoksa aynı makama dilekçeyle itiraz edilir.", "show": ["n2"]},
+        {"say": "İdareye intikal eden itiraz otuz gün içinde karara bağlanır ve ilgiliye tebliğ edilir.", "show": ["n3"]},
+        {"say": "İtiraz reddedilirse, işlemin yapıldığı yerdeki idari yargı mercilerine başvurulabilir.", "show": ["n4"]},
+        {"say": "Çok önemli bir bağlantı: itiraz, ödeme süresini keser; ödeme süresi kararın tebliğinden itibaren yeniden başlar.", "callout": {"type": "onemli", "title": "İtiraz ödeme süresini KESER", "text": "Ödeme süresi, idarenin ya da yargı merciinin kararının tebliğ edildiği tarihten itibaren yeniden başlar."}},
+        {"say": "Dilekçeyi süresi içinde yanlış makama verdiysen de itiraz süresinde yapılmış sayılır; idare dilekçeyi yetkili makama ulaştırır.", "callout": {"type": "dikkat", "title": "Yanlış makam = süre kaybı YOK", "text": "Süresi içinde yanlış makama verilen itiraz dilekçesi süresinde yapılmış sayılır ve idarece yetkili makama ulaştırılır."}},
+        {"say": "[cautiously] Sayılara dikkat: itiraz on beş, karar otuz gün. Şıklarda altmış ve kırk beş günlük karar süresi gibi çeldiriciler var.", "callout": {"type": "tuzak", "title": "İtiraz 15 · Karar 30", "text": "2022 ve 2024'te itiraz süresi doğrudan soruldu: 15 gün. 'Karar 60 gün' (2023) ve 'karar 45 gün' (2024) yanlış şıklardı."}}
+      ]
+    },
+    {
+      "title": "Kronometre tablosu",
+      "madde": "4458 s. GK md. 197, 198, 242, 244 · Uzlaşma Yönetmeliği md. 25",
+      "kind": "table",
+      "table": {
+        "tmpl": "300px 200px 1fr",
+        "cols": [{"title": "Ne?"}, {"title": "SÜRE", "tone": "gold"}, {"title": "SAAT NE ZAMAN BAŞLAR?", "tone": "navy"}],
+        "rows": [
+          {"id": "r1", "cells": ["Ödeme", "15 gün", "Tebliğden"]},
+          {"id": "r2", "cells": ["Ödeme uzatma", "+30 gün", "Süre bitmeden yazılı istem + teminat"]},
+          {"id": "r3", "cells": ["İtiraz", "15 gün", "Tebliğden · üst makama"]},
+          {"id": "r4", "cells": ["İtiraza karar", "30 gün", "İdareye intikalden"]},
+          {"id": "r5", "cells": ["Uzlaşma talebi", "15 gün", "Tebliğden · itirazla aynı anda değil"]},
+          {"id": "r6", "cells": ["Tebligat zamanaşımı", "3 yıl", "Yükümlülüğün doğduğu tarihten"]}
+        ]
+      },
+      "parts": [
+        {"say": "Son bölümde bütün saatleri tek tabloda toplayalım; sınavda en çok karıştırılan sayılar bunlar."},
+        {"say": "Ödeme on beş gün, tebliğden.", "show": ["r1"]},
+        {"say": "Uzatma otuz gün daha; süre bitmeden yazılı istem ve teminatla.", "show": ["r2"]},
+        {"say": "İtiraz on beş gün; tebliğden, üst makama.", "show": ["r3"]},
+        {"say": "İtiraza karar otuz gün.", "show": ["r4"]},
+        {"say": "Uzlaşma talebi de on beş gün; ama aynı alacak için itiraz ve uzlaşma hakkı aynı anda kullanılamaz.", "show": ["r5"]},
+        {"say": "Ve sonradan bulunan eksik vergi için tebligat zamanaşımı üç yıl; yükümlülüğün doğduğu tarihten.", "show": ["r6"], "hl": ["r6"]},
+        {"say": "Kısa formül: on beş, artı otuz, on beş, otuz ve üç yıl.", "callout": {"type": "ipucu", "title": "Formül: 15 · +30 · 15 · 30 · 3 yıl", "text": "Ödeme 15 · uzatma +30 · itiraz 15 · karar 30 · tebligat zamanaşımı 3 yıl (yükümlülüğün doğduğu tarihten)."}}
+      ]
+    }
+  ],
+  "quiz": {
+    "chip": "Doğru hüküm · Süreler",
+    "src": "4458 s. Gümrük Kanunu",
+    "stem": "4458 sayılı Gümrük Kanunu'na göre tebliğ edilen gümrük vergilerine ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "Tebliğ edilen gümrük vergilerine karşı tebliğ tarihinden itibaren otuz gün içinde itiraz edilebilir.",
+      "İtiraz edilmesi ödeme süresini keser; ödeme süresi kararın tebliğ edildiği tarihten itibaren yeniden başlar.",
+      "Ödeme süresinin bitiminden sonra yapılan yazılı istem üzerine ödeme süresi otuz gün daha uzatılabilir.",
+      "İdareye intikal eden itirazlar kırk beş gün içinde karara bağlanarak ilgili kişiye tebliğ edilir.",
+      "Noksan alındığı belirlenen gümrük vergilerine ilişkin tebligat, beyannamenin kesinleşmesini müteakip üç yıl içinde yapılır."
+    ],
+    "answer": "B",
+    "gerekce": "Mevzuata göre tebliğ edilen gümrük vergilerine karşı gümrük idareleri nezdinde itiraz edilmesi ödeme süresini keser ve ödeme süresi idarenin ya da yargı merciinin kararının tebliğ edildiği tarihten itibaren yeniden başlar. İtiraz süresi tebliğden itibaren on beş gündür; uzatma talebi ödeme süresi bitmeden yapılmalıdır; itirazlar otuz gün içinde karara bağlanır; tebligat gümrük yükümlülüğünün doğduğu tarihten itibaren üç yıl içinde yapılır. Bu nedenle doğru cevap B seçeneğidir. (GK MD 197, 198, 242)",
+    "read": [
+      {"say": "Mini test zamanı. Gümrük Kanunu'na göre tebliğ edilen vergilere ilişkin hangisi doğrudur?", "mark": "doğrudur?"},
+      {"say": "A: Tebliğden itibaren otuz gün içinde itiraz edilebilir.", "show": "A"},
+      {"say": "B: İtiraz ödeme süresini keser; süre kararın tebliğinden itibaren yeniden başlar.", "show": "B"},
+      {"say": "C: Ödeme süresi bittikten sonra yapılan yazılı istemle süre otuz gün daha uzatılabilir.", "show": "C"},
+      {"say": "D: İtirazlar kırk beş gün içinde karara bağlanır.", "show": "D"},
+      {"say": "E: Tebligat, beyannamenin kesinleşmesinden sonra üç yıl içinde yapılır.", "show": "E"}
+    ],
+    "explain": [
+      {"say": "[excited] Doğru cevap B!"},
+      {"say": "İtiraz ödeme süresini keser ve süre kararın tebliğinden itibaren yeniden başlar.", "show": ["c1", "y1"]},
+      {"say": "Diğerleri saat hatası: itiraz on beş gün, uzatma talebi süre bitmeden, karar otuz gün ve üç yıl yükümlülüğün doğduğu tarihten.", "show": ["c2", "n1", "n2", "n3", "n4"]},
+      {"say": "Formülü unutma: on beş, artı otuz, on beş, otuz, üç yıl.", "callout": {"type": "onemli", "title": "15 · +30 · 15 · 30 · 3 yıl", "text": "Ödeme · uzatma · itiraz · itiraza karar · tebligat zamanaşımı. Her birinde saatin ne zaman başladığını da sor."}}
+    ],
+    "board": {
+      "title": "Hangi saat yanlış kuruldu?",
+      "madde": "4458 s. GK md. 197/2, 198, 242",
+      "kind": "split",
+      "columns": [
+        {"id": "c1", "title": "DOĞRU · B", "tone": "green"},
+        {"id": "c2", "title": "YANLIŞ", "tone": "red"}
+      ],
+      "items": [
+        {"id": "y1", "col": "c1", "text": "İtiraz ödeme süresini KESER", "sub": "karar tebliğiyle yeniden başlar", "tone": "green"},
+        {"id": "n1", "col": "c2", "text": "A · itiraz 15 gün (30 değil)"},
+        {"id": "n2", "col": "c2", "text": "C · uzatma talebi süre BİTMEDEN"},
+        {"id": "n3", "col": "c2", "text": "D · karar 30 gün (45 değil)"},
+        {"id": "n4", "col": "c2", "text": "E · 3 yıl yükümlülüğün DOĞDUĞU tarihten"}
+      ]
+    }
+  },
+  "summary": {
+    "items": [
+      {"title": "Tebliğ tahakkuktan hemen sonra", "text": "Beyan = hesap ise eşyanın teslimi tebliğ yerine geçer."},
+      {"title": "Tebligat zamanaşımı 3 yıl", "text": "Yükümlülüğün doğduğu tarihten; dava açılırsa durur."},
+      {"title": "Ödeme 15 gün + 30 gün", "text": "Uzatma: süre bitmeden yazılı istem ve teminat; tecil faizi alınır."},
+      {"title": "İtiraz 15 gün, karar 30 gün", "text": "İtiraz ödeme süresini keser; ret kararına karşı idari yargı."}
+    ],
+    "badge": "Mini testi doğru yaptıysan bu parçayı kapattın!",
+    "parts": [
+      {"say": "Hafıza kartı zamanı. Dört cümle."},
+      {"say": "Bir: tebliğ, tahakkuktan hemen sonra yapılır; beyan ile hesap eşitse eşyanın teslimi tebliğ sayılır.", "item": 0},
+      {"say": "İki: tebligat zamanaşımı üç yıl, yükümlülüğün doğduğu tarihten.", "item": 1},
+      {"say": "Üç: ödeme on beş gün, uzatma otuz gün daha ve tecil faiziyle.", "item": 2},
+      {"say": "Dört: itiraz on beş gün, karar otuz gün; itiraz ödeme süresini keser.", "item": 3},
+      {"say": "Mini testi doğru yaptıysan bu parçayı kapattın!", "badge": true}
+    ]
+  },
+  "outro": {
+    "title": "Bir sonraki derste görüşürüz!",
+    "next": "Ders 4 · Gümrük müşavirlerinin disiplin cezaları",
+    "parts": [
+      {"say": "[excited] Beğenmeyi ve abone olmayı unutma. Bir sonraki derste gümrük müşavirlerine verilen disiplin cezalarını anlatıyoruz. Görüşmek üzere!"}
+    ]
+  }
+}

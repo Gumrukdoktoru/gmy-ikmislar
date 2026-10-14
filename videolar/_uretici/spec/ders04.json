@@ -1,0 +1,206 @@
+{
+  "no": 4,
+  "title": "Gümrük Müşavirlerinin Disiplin Cezaları",
+  "short": "MÜŞAVİRLİK · DİSİPLİN",
+  "subtitle": "Gümrük müşavirliğinden bir parça: dört ceza, fiiller, tekerrür, usul ve tedbir",
+  "intro": {
+    "chips": ["5 BÖLÜM", "ŞEMA + TUZAK", "MİNİ TEST"],
+    "parts": [
+      {"say": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Bugün gümrük müşavirliğinden tek bir parçayı alıyoruz: gümrük müşavirleri ve yardımcılarına verilen disiplin cezaları."},
+      {"say": "Beş kısa bölüm,", "chip": 0},
+      {"say": "her bölümde şema ve tuzak kutuları,", "chip": 1},
+      {"say": "en sonda da bir mini test. Başlayalım!", "chip": 2}
+    ]
+  },
+  "stats": {
+    "label": "Gümrük müşavirliği soruları",
+    "years": ["2021", "2022", "2023", "2024", "2025"],
+    "values": [10, 5, 10, 7, 3],
+    "total_html": "5 sınavda <b>35</b> soru · <b>8</b>'i doğrudan disiplin",
+    "parts": [
+      {"say": "Neden bu parça? Gümrük müşavirliği, son beş sınavda otuz beş soruyla en çok sorulan konu.", "bars": true},
+      {"say": "Bunların sekizi doğrudan disiplin cezalarından geldi; yalnızca 2023 sınavında dört soru.", "total": true},
+      {"say": "Beş bölümde ilerleyeceğiz: ceza merdiveni,", "agenda": 0},
+      {"say": "hangi fiile hangi ceza,", "agenda": 1},
+      {"say": "tekerrür,", "agenda": 2},
+      {"say": "usul ve merciler", "agenda": 3},
+      {"say": "ve tedbirin ceza olmadığı. Sonunda bir mini test var.", "agenda": [4, 5]}
+    ]
+  },
+  "sections": [
+    {
+      "title": "Ceza merdiveni",
+      "madde": "4458 s. GK geçici md. 6/2",
+      "kind": "steps",
+      "board": {
+        "nodes": [
+          {"id": "c1", "text": "Uyarma", "sub": "daha dikkatli davranması gerektiğinin YAZIYLA bildirilmesi"},
+          {"id": "c2", "text": "Kınama", "sub": "kusurlu sayıldığının YAZIYLA bildirilmesi"},
+          {"id": "c3", "text": "Geçici olarak mesleki faaliyetten alıkoyma", "sub": "6 aydan az, 1 yıldan çok olamaz · mesleki sıfat saklı", "tone": "gold"},
+          {"id": "c4", "text": "Meslekten çıkarma", "sub": "izin belgesi geri alınır · BİR DAHA izin verilmez", "tone": "red"}
+        ]
+      },
+      "parts": [
+        {"say": "Mesleğin vakar ve onuruna aykırı davrananlara, görevini yapmayan ya da kusurlu yapanlara dört disiplin cezası verilir; bu cezalar yardımcıları da kapsar. Hafiften ağıra merdiveni çıkalım."},
+        {"say": "Birinci basamak uyarma: meslek mensubuna, daha dikkatli davranması gerektiğinin yazıyla bildirilmesi.", "show": ["c1"]},
+        {"say": "İkinci basamak kınama: görevinde ve davranışında kusurlu sayıldığının yazıyla bildirilmesi.", "show": ["c2"]},
+        {"say": "[cautiously] Tuzak: ikisi de yazılıdır. 'Sözlü uyarı' diye bir disiplin cezası yok.", "callout": {"type": "tuzak", "title": "Uyarma da kınama da YAZILI", "text": "Uyarma: 'daha dikkatli ol'. Kınama: 'kusurlu sayıldın'. 2024'te kınamanın tanımı doğrudan soruldu; 'sözlü uyarı' çeldiricidir."}},
+        {"say": "Üçüncü basamak, geçici olarak mesleki faaliyetten alıkoyma: mesleki sıfat saklı kalmak şartıyla altı aydan az, bir yıldan çok olamaz.", "show": ["c3"]},
+        {"say": "Dördüncü ve son basamak meslekten çıkarma: izin belgesi geri alınır ve bu mesleği bir daha icra etmesine izin verilmez.", "show": ["c4"], "hl": ["c3"], "callout": {"type": "onemli", "title": "Alıkoyma: 6 ay – 1 yıl", "text": "Altı aydan az, bir yıldan çok olamaz; mesleki sıfat saklı kalır. 2023'te şıklarda 3 ay–1 yıl, 6 ay–2 yıl gibi çeldiricilerle soruldu."}}
+      ]
+    },
+    {
+      "title": "Hangi fiile hangi ceza?",
+      "madde": "4458 s. GK geçici md. 6/3",
+      "kind": "table",
+      "table": {
+        "tmpl": "560px 1fr 1fr",
+        "cols": [{"title": "Fiil"}, {"title": "İLK DEFASINDA", "tone": "gold"}, {"title": "TEKRARINDA", "tone": "red"}],
+        "rows": [
+          {"id": "r1", "cells": ["Vakar, onur ya da güveni sarsan fiil", "Uyarma", "Kınama"]},
+          {"id": "r2", "cells": ["Sahte belgeyle yanlış beyan (bilgisi dışında ama araştırsa öğrenebilirdi)", "Kınama", "Alıkoyma"]},
+          {"id": "r3", "cells": ["Bağımsızlık, tarafsızlık, dürüstlük ihlali · kusurlu iş", "Alıkoyma", "—"]},
+          {"id": "r4", "cells": ["Kaçakçılıktan KESİNLEŞMİŞ mahkûmiyet", "Meslekten çıkarma", "—"]}
+        ]
+      },
+      "parts": [
+        {"say": "Şimdi fiil ve ceza eşleştirmesi. Kanun, hangi davranışa hangi basamağın uygulanacağını tek tek sayıyor."},
+        {"say": "Mesleki kurallara, mesleğin vakar ve onuruna aykırı ya da güveni sarsıcı davranışta ilk defasında uyarma, tekrarında kınama verilir.", "show": ["r1"]},
+        {"say": "Sahte belgeyle yanlış beyan: durum müşavirin bilgisi dışında ama bir araştırmayla öğrenilebilecekse ve bu rapora bağlanmışsa, ilk defasında kınama, tekrarında alıkoyma.", "show": ["r2"], "hl": ["r2"]},
+        {"say": "[cautiously] Tuzak: sahte belgede ilk ceza uyarma değil, kınamadır.", "callout": {"type": "tuzak", "title": "Sahte belge: İLK ceza KINAMA", "text": "Şart: yanlış beyan müşavirin bilgisi dışında olmalı, ama araştırmayla öğrenilebilir olmalı ve bu durum rapora bağlanmalı. Tekrarında alıkoyma."}},
+        {"say": "Görevini bağımsızlık, tarafsızlık ve dürüstlükle yapmayan ya da kusurlu yapan meslek mensubuna geçici alıkoyma verilir.", "show": ["r3"]},
+        {"say": "Kaçakçılık suçundan mahkûmiyet kararı kesinleşen meslek mensubuna ise meslekten çıkarma verilir. Dikkat: kesinleşme şart; kovuşturma başlaması yetmez.", "show": ["r4"], "hl": ["r4"], "callout": {"type": "dikkat", "title": "KESİNLEŞMİŞ mahkûmiyet şart", "text": "Kaçakçılık suçundan mahkûmiyeti kesinleşen meslek mensubuna meslekten çıkarma cezası verilir (2023). Kovuşturma aşamasında izin belgesi yalnızca tedbiren alınır."}}
+      ]
+    },
+    {
+      "title": "Tekerrür: 3 yıl ve 5 yıl",
+      "madde": "4458 s. GK geçici md. 6/4",
+      "kind": "branch",
+      "board": {
+        "root": {"id": "root", "text": "Fiil TEKRAR ediyor", "tone": "gold"},
+        "branches": [
+          {"id": "b1", "text": "3 yıl içinde 2+ disiplin cezası gerektiren davranış", "sub": "her yeni suça daha ağır ceza UYGULANABİLİR"},
+          {"id": "b2", "text": "5 yıl içinde 2 kez alıkoyma + aynı fiil yine", "sub": "meslekten çıkarma UYGULANIR", "tone": "red"},
+          {"id": "b3", "text": "Kurul BİR derece ağır ya da hafif ceza verebilir"},
+          {"id": "b4", "text": "Ceza davası, disiplin soruşturmasına ENGEL değil", "tone": "green"}
+        ]
+      },
+      "parts": [
+        {"say": "Peki fiil tekrar ederse? Kanun iki ayrı pencere açıyor: üç yıl ve beş yıl.", "show": ["root"]},
+        {"say": "Üç yıllık dönem içinde iki ya da daha fazla disiplin cezası gerektiren davranışta bulunana, her yeni suçu için bir öncekinden daha ağır ceza uygulanabilir.", "show": ["b1"]},
+        {"say": "Beş yıllık dönem içinde iki kez alıkoyma cezası aldıktan sonra aynı cezayı gerektiren fiili yeniden işleyene ise meslekten çıkarma cezası uygulanır.", "show": ["b2"]},
+        {"say": "[cautiously] Fiillere dikkat: üç yılda 'uygulanabilir', yani takdir var; beş yılda 'uygulanır', yani zorunlu.", "callout": {"type": "tuzak", "title": "3 yıl -ABİLİR · 5 yıl -IR", "text": "3 yılda ağırlaştırma isteğe bağlıdır. 5 yılda 2 alıkoymadan sonra aynı fiil: meslekten çıkarma zorunludur."}},
+        {"say": "Disiplin kurulları cezayı bir derece ağır ya da bir derece hafif uygulayabilir.", "show": ["b3"]},
+        {"say": "Ve ceza davasının yürütülmesi, disiplin soruşturması yapılmasına ve disiplin cezası verilmesine engel değildir.", "show": ["b4"]}
+      ]
+    },
+    {
+      "title": "Usul: kim verir, ne zaman uygulanır?",
+      "madde": "4458 s. GK geçici md. 6/5-8",
+      "kind": "flow",
+      "board": {
+        "nodes": [
+          {"id": "n1", "text": "Savunma", "sub": "en az 10 gün süre"},
+          {"id": "n2", "text": "Karar", "sub": "yetkili merci"},
+          {"id": "n3", "text": "Kesinleşme", "sub": "ceza bu tarihten UYGULANIR", "tone": "gold"},
+          {"id": "n4", "text": "Zamanaşımı 3 yıl", "sub": "aykırılığın TESPİT tarihinden", "tone": "red"}
+        ]
+      },
+      "parts": [
+        {"say": "Usule geçelim. Meslek mensubu hakkında savunması alınmadan disiplin cezası verilemez.", "show": ["n1"]},
+        {"say": "Savunma için verilen süre on günden az olamaz; süresinde savunma yapmayan, savunma hakkından vazgeçmiş sayılır.", "callout": {"type": "dikkat", "title": "Savunma: en az 10 gün", "text": "Savunma alınmadan ceza verilemez. Süresinde savunma yapmayan savunma hakkından vazgeçmiş sayılır ve ceza verilebilir."}},
+        {"say": "Kararı kim verir? Kanun metnine göre uyarma ve kınamayı yetkili gümrük başmüdürü, alıkoymayı Merkez Disiplin Kurulu, meslekten çıkarmayı Yüksek Disiplin Kurulu verir.", "show": ["n2"], "callout": {"type": "onemli", "title": "Kim verir?", "text": "Uyarma ve kınama: yetkili gümrük başmüdürü (kanun metnindeki ifade) · Alıkoyma: Merkez Disiplin Kurulu · Meslekten çıkarma: Yüksek Disiplin Kurulu (2024)."}},
+        {"say": "Disiplin cezaları, kesinleşme tarihinden itibaren uygulanır.", "show": ["n3"]},
+        {"say": "Zamanaşımı ise üç yıl: aykırılığın gümrük idarelerince tespit edildiği tarihten itibaren üç yıl içinde uygulanmayan ceza zamanaşımına uğrar. Aykırılık aynı zamanda adli kovuşturma konusuysa Türk Ceza Kanunundaki zamanaşımı esas alınır.", "show": ["n4"], "hl": ["n4"]},
+        {"say": "[cautiously] Tuzak: ceza fiilin işlendiği ya da öğrenildiği tarihte değil, kesinleşince uygulanır; zamanaşımı da fiilden değil, tespit tarihinden başlar.", "callout": {"type": "tuzak", "title": "KESİNLEŞME · TESPİT tarihi", "text": "2024: ceza kesinleşme tarihinden itibaren uygulanır. 2023: zamanaşımı, tespit tarihinden itibaren 3 yıl."}}
+      ]
+    },
+    {
+      "title": "Tedbir ceza değildir",
+      "madde": "4458 s. GK geçici md. 6/9",
+      "kind": "law",
+      "law": {
+        "ref": "4458 s. Gümrük Kanunu geçici md. 6/9",
+        "text": "(…) gümrük müşavirleri ve gümrük müşavir yardımcılarının izin belgeleri Bakanlık müfettişleri ve gümrük ve dış ticaret bölge müdürleri tarafından gerek görülmesi hâlinde tedbir mahiyetinde en fazla altı ay süre ile geçici olarak alınır ve gümrüklerde iş takip etmelerine izin verilmez. (…) Bu şekilde izin belgeleri alınanlar hakkında geçici mesleki faaliyetten alıkoyma cezası verilmesi hâlinde, tedbir mahiyetinde izin belgelerinin alındığı süre verilen cezadan mahsup edilir.",
+        "marks": ["tedbir mahiyetinde en fazla altı ay", "iş takip etmelerine izin verilmez.", "verilen cezadan mahsup edilir."],
+        "plain": "Bu bir disiplin cezası değil, geçici bir tedbir. En fazla 6 ay sürer; sonra alıkoyma cezası verilirse bu süre cezadan düşülür."
+      },
+      "parts": [
+        {"say": "Son bölüm, sınavın en sevdiği ayrım: tedbir ile ceza."},
+        {"say": "Mevzuata aykırı hareketleri görülen müşavir ve yardımcıların izin belgeleri, müfettişler ve bölge müdürlerince tedbir olarak en fazla altı ay süreyle alınabilir.", "mark": 0},
+        {"say": "Bu sürede gümrüklerde iş takip edemezler; durum ertesi gün Bakanlığa bildirilir.", "mark": 1},
+        {"say": "Sonradan alıkoyma cezası verilirse, tedbir süresi cezadan mahsup edilir.", "mark": 2, "plain": true},
+        {"say": "[cautiously] Tuzak: izin belgesinin tedbiren alınması dört disiplin cezası arasında değildir.", "callout": {"type": "tuzak", "title": "Tedbir ≠ disiplin cezası", "text": "Disiplin cezaları yalnızca dört tanedir. 2023'te 'hangisi disiplin cezası değildir' sorusunun cevabı izin belgesinin tedbiren alınmasıydı."}},
+        {"say": "Ve iki ayrı altı ayı karıştırma: alıkoymada altı ay alt sınırdır, tedbirde ise üst sınır.", "callout": {"type": "ipucu", "title": "İki ayrı 6 AY", "text": "Alıkoyma cezası: en az 6 ay, en çok 1 yıl. Tedbir: EN FAZLA 6 ay (2022'de soruldu)."}}
+      ]
+    }
+  ],
+  "quiz": {
+    "chip": "Yanlış hüküm · Disiplin",
+    "src": "4458 s. Gümrük Kanunu",
+    "stem": "4458 sayılı Gümrük Kanunu'na göre gümrük müşavirleri ve gümrük müşavir yardımcılarına uygulanacak disiplin cezalarına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Sahte belgelere dayanılarak yanlış beyanda bulunulduğunun müşavirin bilgisi dışında olduğu ancak araştırmayla öğrenilebileceğinin rapora bağlandığı durumlarda, ilk defasında uyarma cezası verilir.",
+      "Disiplin cezaları kesinleşme tarihinden itibaren uygulanır.",
+      "Meslek mensubu hakkında savunması alınmadan disiplin cezası verilemez.",
+      "Kaçakçılık suçundan mahkûmiyet kararı kesinleşen meslek mensuplarına meslekten çıkarma cezası verilir.",
+      "Geçici olarak mesleki faaliyetten alıkoyma cezası, mesleki sıfat saklı kalmak şartıyla altı aydan az, bir yıldan çok olamaz."
+    ],
+    "answer": "A",
+    "gerekce": "Mevzuata göre sahte belgelere dayanılarak yanlış beyanda bulunulduğunun gümrük müşavirinin bilgisi dışında olduğu, ancak araştırma sonucunda gerçek durumun öğrenilebileceğinin rapora bağlandığı durumlarda ilk defasında kınama cezası verilir, tekerrüründe geçici olarak mesleki faaliyetten alıkoyma cezası uygulanır. Diğer ifadeler Kanunun geçici 6 ncı maddesine uygundur. Bu nedenle doğru cevap A seçeneğidir. (GK GEÇİCİ MD 6)",
+    "read": [
+      {"say": "Mini test zamanı. Gümrük Kanunu'na göre disiplin cezalarına ilişkin hangisi yanlıştır?", "mark": "yanlıştır?"},
+      {"say": "A: Sahte belgeyle yanlış beyan müşavirin bilgisi dışında ama araştırmayla öğrenilebilecekse, ilk defasında uyarma verilir.", "show": "A"},
+      {"say": "B: Disiplin cezaları kesinleşme tarihinden itibaren uygulanır.", "show": "B"},
+      {"say": "C: Savunma alınmadan disiplin cezası verilemez.", "show": "C"},
+      {"say": "D: Kaçakçılıktan mahkûmiyeti kesinleşene meslekten çıkarma verilir.", "show": "D"},
+      {"say": "E: Alıkoyma, altı aydan az, bir yıldan çok olamaz.", "show": "E"}
+    ],
+    "explain": [
+      {"say": "[excited] Doğru cevap A!"},
+      {"say": "B'den E'ye kadar hepsi kanunun cümlesi: kesinleşince uygulanır, savunma şart, kaçakçılık mahkûmiyetinde çıkarma, alıkoyma altı ay ile bir yıl arası.", "show": ["c1", "t1", "t2", "t3", "t4"]},
+      {"say": "Ama sahte belgede ilk ceza uyarma değil kınamadır; tekrarında alıkoyma verilir.", "show": ["c2", "f1"], "hl": ["f1"]},
+      {"say": "Bu tabloyu ezberle: sahte belgede kınama, sonra alıkoyma.", "callout": {"type": "onemli", "title": "Sahte belge: KINAMA → alıkoyma", "text": "Vakar ve onur ihlalinde uyarma → kınama; sahte belgede kınama → alıkoyma. Merdiveni bir basamak yukarıdan başlat."}}
+    ],
+    "board": {
+      "title": "Hangi basamak?",
+      "madde": "4458 s. GK geçici md. 6",
+      "kind": "split",
+      "columns": [
+        {"id": "c1", "title": "DOĞRU · B–E", "tone": "green"},
+        {"id": "c2", "title": "YANLIŞ · A", "tone": "red"}
+      ],
+      "items": [
+        {"id": "t1", "col": "c1", "text": "Kesinleşince uygulanır"},
+        {"id": "t2", "col": "c1", "text": "Savunma alınmadan ceza yok"},
+        {"id": "t3", "col": "c1", "text": "Kesinleşmiş kaçakçılık → çıkarma"},
+        {"id": "t4", "col": "c1", "text": "Alıkoyma 6 ay – 1 yıl"},
+        {"id": "f1", "col": "c2", "text": "Sahte belgede ilk ceza KINAMA", "sub": "tekrarında alıkoyma", "tone": "red"}
+      ]
+    }
+  },
+  "summary": {
+    "items": [
+      {"title": "Dört ceza: uyarma · kınama · alıkoyma · çıkarma", "text": "Uyarma ve kınama yazılı; alıkoyma 6 ay–1 yıl; çıkarmada izin bir daha verilmez."},
+      {"title": "Fiil–ceza eşleşmesi", "text": "Vakar ve güven: uyarma → kınama · sahte belge: kınama → alıkoyma · kesinleşmiş kaçakçılık: çıkarma."},
+      {"title": "3 yıl -abilir, 5 yıl -ır", "text": "5 yılda iki alıkoymadan sonra aynı fiil: meslekten çıkarma zorunlu."},
+      {"title": "Kesinleşince uygulanır · tedbir ceza değil", "text": "Savunma en az 10 gün · zamanaşımı tespitten 3 yıl · tedbir en fazla 6 ay."}
+    ],
+    "badge": "Mini testi doğru yaptıysan bu parçayı kapattın!",
+    "parts": [
+      {"say": "Hafıza kartı zamanı. Dört cümle."},
+      {"say": "Bir: dört ceza var; uyarma, kınama, alıkoyma ve meslekten çıkarma.", "item": 0},
+      {"say": "İki: sahte belgede ilk ceza kınama, kesinleşmiş kaçakçılık mahkûmiyetinde meslekten çıkarma.", "item": 1},
+      {"say": "Üç: üç yılda 'uygulanabilir', beş yılda 'uygulanır'.", "item": 2},
+      {"say": "Dört: ceza kesinleşince uygulanır; tedbir ise ceza değildir ve en fazla altı ay sürer.", "item": 3},
+      {"say": "Mini testi doğru yaptıysan bu parçayı kapattın!", "badge": true}
+    ]
+  },
+  "outro": {
+    "title": "Bir sonraki derste görüşürüz!",
+    "next": "Ders 5 · Kaçakçılık suçları ve ceza aralıkları",
+    "parts": [
+      {"say": "[excited] Beğenmeyi ve abone olmayı unutma. Serinin son dersinde kaçakçılık suçlarını ve ceza aralıklarını anlatıyoruz. Görüşmek üzere!"}
+    ]
+  }
+}

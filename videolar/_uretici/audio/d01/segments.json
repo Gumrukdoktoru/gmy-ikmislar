@@ -1,0 +1,62 @@
+[
+ {
+  "id": "intro",
+  "text": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Konu anlatımı serimize dahilde işleme rejiminden tek bir parçayla başlıyoruz: şartlı muafiyet sistemi. Beş kısa bölüm, her bölümde şema ve tuzak kutuları, en sonda da bir mini test. Hadi başlayalım!",
+  "chars": 248
+ },
+ {
+  "id": "stats",
+  "text": "Neden bu parça? Dahilde işleme soruları her sınavda artıyor: iki, iki, dört, dört ve son sınavda tam yedi soru. Toplam on dokuz sorunun en az on üçü doğrudan şartlı muafiyet sisteminin temel kavramlarından geldi. Beş bölümde ilerleyeceğiz: kanundaki tanım, geri ödemeyle farkı, teminat ve ihraç edilmezse ne olacağı, belge ve izin ayrımı ve süreler. Sonunda bir mini test var.",
+  "chars": 376
+ },
+ {
+  "id": "s1",
+  "text": "Önce kanunun cümlesine bakalım. Sınav bu tanımı neredeyse kelimesi kelimesine soruyor. Bir: eşya serbest dolaşımda olmayan eşyadır, yani yabancı statüdedir. İki: gümrük vergileri ve ticaret politikası önlemleri uygulanmaz. Dikkat, bir istisna var: işletme malzemesi ithalatında katma değer vergisi ve özel tüketim vergisi tahsil edilir, ticaret politikası önlemleri de uygulanır. Üç: vergiler teminata bağlanır. Dört: işlem görmüş ürün ihraç edilince teminat iade edilir. Eşyanın rejimden bu şekilde yararlanmasına şartlı muafiyet sistemi denir. Sade dille: yabancı hammadde vergisi ödenmeden, teminatla girer; işlenip ihraç edilince teminat geri verilir.",
+  "chars": 655
+ },
+ {
+  "id": "s2",
+  "text": "Dahilde işlemenin iki sistemi var: şartlı muafiyet ve geri ödeme. Yan yana koyalım. Şartlı muafiyette eşya serbest dolaşımda değildir; geri ödemede ise eşya serbest dolaşıma girer. Şartlı muafiyette vergi teminata bağlanır; geri ödemede ithalatta tahsil edilir. İhraç edilince şartlı muafiyette teminat iade edilir; geri ödemede tahsil edilen vergi geri verilir. Ticaret politikası önlemleri şartlı muafiyette uygulanmaz, geri ödemede uygulanır. Ve sınıflandırma: şartlı muafiyet sistemindeki dahilde işleme hem şartlı muafiyet düzenlemesi hem ekonomik etkili rejimdir; geri ödemedeki ise yalnızca ekonomik etkili. [cautiously] Sınavın en sevdiği numara: tanımı verip adını değiştirmek. Teminatı görürsen şartlı muafiyet, tahsil ve geri vermeyi görürsen geri ödeme!",
+  "chars": 765
+ },
+ {
+  "id": "s3",
+  "text": "Sistemin kalbi teminat. Kanuna göre eşyanın bir şartlı muafiyet düzenlemesine tabi tutulması teminat şartına bağlıdır. Teminat, ithalatta alınması gereken vergi tutarı kadardır; Bakanlık bu oranı vergi tutarının iki katına kadar artırabilir. Teminat para, banka teminat mektubu ya da Hazine tahvil ve bonosu olabilir. Teminatı ithalatta gümrük idaresi alır; ihracat taahhüdü kapatılınca yine gümrük idaresi iade eder. Bazı firmalar indirimli teminattan yararlanır: yüzde bir, yüzde beş ya da yüzde on. Peki işlenmiş ürün ihraç edilmezse? Alınmayan vergi ithal tarihi itibarıyla tahsil edilir; teminat nakit değilse, gecikme zammı da şartlı muafiyet beyannamesinin tescil tarihinden başlar.",
+  "chars": 689
+ },
+ {
+  "id": "s4",
+  "text": "Şimdi iki benzer kelime: izin belgesi ve izin. Biri Bakanlıktan, diğeri gümrükten. Dahilde işleme izin belgesini Bakanlık, yani İhracat Genel Müdürlüğü düzenler; başvuru elektronik ortamda Bakanlığa yapılır. Dahilde işleme iznini ise gümrük idaresi verir. İzin, Tebliğde sayılan işlemlerle sınırlıdır: tamir, montaj, ambalajlama gibi. İkisinde de ihracat taahhüdünü kapatmak için süre sonundan itibaren üç ay var. [cautiously] Tuzak: izni veren makam gümrük idaresidir; izin kapsamındaki ihracat taahhüdü de gümrük idaresine kapatılır, ihracatçı birliklerine değil. Kanuna göre izin; Türkiye Gümrük Bölgesinde yerleşik kişilere, ithal eşyasının ürün içindeki varlığı tespit edilebiliyorsa ve yerli üreticilerin temel ekonomik çıkarları zarar görmüyorsa verilir.",
+  "chars": 761
+ },
+ {
+  "id": "s5",
+  "text": "Son bölüm: süreler. Süre, belgenin ya da iznin tarihinde başlar. Belge ya da izin süresi sektöre göre en fazla on iki aydır; gemi inşası, komple tesis ve savunma sanayinde proje süresi kadar olabilir. Belge süresi, ilk ithalat tarihi esas alınarak en fazla üç ay uzatılır; ihracat taahhüdün en az yüzde yirmi beşine ulaşmışsa, orijinal sürenin yarısı kadar ek süre verilebilir. Süre, bittiği ayın son günü sona erer; taahhüt kapatma için üç ay vardır. Ve şartlı muafiyete özgü bir kolaylık: önceden ihracat. Önce serbest dolaşımdaki eşdeğer eşyayla üretip ihraç edersin, ithalatı sonra yaparsın. [cautiously] Tuzak: önceden ihracatta ithal eşyasının beyan süresi, ithalat tarihinden değil, ihracat beyannamesinin tescil tarihinden başlar.",
+  "chars": 738
+ },
+ {
+  "id": "quiz_read",
+  "text": "Mini test zamanı. Tebliğe göre şartlı muafiyet sistemine ilişkin hangisi yanlıştır? A: Serbest dolaşımda olmayan eşya, ticaret politikası önlemlerine tabi tutulmadan ithal edilir. B: Vergi teminata bağlanır; ihracat taahhüdü gerçekleşince teminat iade edilir. C: Teminat oranı Bakanlıkça vergi tutarının iki katına kadar artırılabilir. D: Ticaret politikası önlemleri uygulanıp vergiler tahsil edilerek eşya serbest dolaşıma girebilir. E: İşletme malzemesi ithalatında katma değer vergisi ve özel tüketim vergisi de teminata bağlanır.",
+  "chars": 534
+ },
+ {
+  "id": "quiz_think",
+  "text": "Videoyu durdurabilirsin. Beş saniye düşün!",
+  "chars": 42
+ },
+ {
+  "id": "quiz_exp",
+  "text": "[excited] Doğru cevap E! A'dan D'ye kadar her şey şartlı muafiyetin kuralı: önlem yok, teminat var, iki kata kadar artış ve vergiyle serbest dolaşım imkânı. Ama işletme malzemesi istisnadır: katma değer vergisi ve özel tüketim vergisi teminata bağlanmaz, tahsil edilir; ticaret politikası önlemleri de uygulanır. Kısacası: şartlı muafiyette kural teminat, istisna işletme malzemesi.",
+  "chars": 382
+ },
+ {
+  "id": "summary",
+  "text": "Hafıza kartı zamanı. Dört cümle. Bir: serbest dolaşımda olmayan eşya, önlemsiz ve teminatla girer; ihraçta teminat iade olunur. İki: teminat gördüysen şartlı muafiyet, tahsil gördüysen geri ödeme. Üç: belge Bakanlıktan, izin gümrük idaresinden. Dört: süre belge tarihinde başlar, ayın son günü biter; önceden ihracatta ihracat tescilinden işler. Mini testi doğru yaptıysan bu parçayı kapattın!",
+  "chars": 393
+ },
+ {
+  "id": "outro",
+  "text": "[excited] Beğenmeyi ve abone olmayı unutma. Bir sonraki derste gümrük kıymetinden satış bedeli yöntemini ve ilişkili kişileri anlatıyoruz. Görüşmek üzere!",
+  "chars": 154
+ }
+]

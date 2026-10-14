@@ -1,0 +1,671 @@
+{
+  "no": 1,
+  "title": "Dahilde İşlemede Şartlı Muafiyet Sistemi",
+  "short": "DİR · ŞARTLI MUAFİYET",
+  "subtitle": "Dahilde işleme rejiminden bir parça: tanım, teminat, belge-izin ve süreler",
+  "intro": {
+    "chips": [
+      "5 BÖLÜM",
+      "ŞEMA + TUZAK",
+      "MİNİ TEST"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Konu anlatımı serimize dahilde işleme rejiminden tek bir parçayla başlıyoruz: şartlı muafiyet sistemi."
+      },
+      {
+        "say": "Beş kısa bölüm,",
+        "chip": 0
+      },
+      {
+        "say": "her bölümde şema ve tuzak kutuları,",
+        "chip": 1
+      },
+      {
+        "say": "en sonda da bir mini test. Hadi başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "stats": {
+    "label": "Dahilde işleme soruları",
+    "years": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "values": [
+      2,
+      2,
+      4,
+      4,
+      7
+    ],
+    "total_html": "5 sınavda <b>19</b> soru · en az <b>13</b>'ü bu parçadan",
+    "parts": [
+      {
+        "say": "Neden bu parça? Dahilde işleme soruları her sınavda artıyor: iki, iki, dört, dört ve son sınavda tam yedi soru.",
+        "bars": true
+      },
+      {
+        "say": "Toplam on dokuz sorunun en az on üçü doğrudan şartlı muafiyet sisteminin temel kavramlarından geldi.",
+        "total": true
+      },
+      {
+        "say": "Beş bölümde ilerleyeceğiz: kanundaki tanım,",
+        "agenda": 0
+      },
+      {
+        "say": "geri ödemeyle farkı,",
+        "agenda": 1
+      },
+      {
+        "say": "teminat ve ihraç edilmezse ne olacağı,",
+        "agenda": 2
+      },
+      {
+        "say": "belge ve izin ayrımı",
+        "agenda": 3
+      },
+      {
+        "say": "ve süreler. Sonunda bir mini test var.",
+        "agenda": [
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Kanun ne diyor?",
+      "madde": "4458 s. GK md. 108/1 · DİR Tebliği md. 5",
+      "kind": "law",
+      "law": {
+        "ref": "4458 s. Gümrük Kanunu md. 108/1",
+        "text": "Serbest dolaşımda olmayan eşya, işlem görmüş ürünlerin üretiminde kullanılmasından sonra Türkiye Gümrük Bölgesinden yeniden ihraç edilmesi amacıyla, gümrük vergileri ve ticaret politikası önlemlerine tabi tutulmaksızın ve vergileri teminata bağlanmak suretiyle, dahilde işleme rejimi kapsamında geçici olarak ithal edilebilir. Eşyanın işlem görmüş ürünler şeklinde ihracı halinde, teminat iade olunur.",
+        "marks": [
+          "Serbest dolaşımda olmayan eşya,",
+          "gümrük vergileri ve ticaret politikası önlemlerine tabi tutulmaksızın",
+          "vergileri teminata bağlanmak suretiyle,",
+          "teminat iade olunur."
+        ],
+        "plain": "Yabancı hammadde vergisi ödenmeden, teminatla girer. İşlenip ihraç edilince teminat geri verilir."
+      },
+      "parts": [
+        {
+          "say": "Önce kanunun cümlesine bakalım. Sınav bu tanımı neredeyse kelimesi kelimesine soruyor.",
+          "pose": "anlatim"
+        },
+        {
+          "say": "Bir: eşya serbest dolaşımda olmayan eşyadır, yani yabancı statüdedir.",
+          "mark": 0
+        },
+        {
+          "say": "İki: gümrük vergileri ve ticaret politikası önlemleri uygulanmaz.",
+          "mark": 1
+        },
+        {
+          "say": "Dikkat, bir istisna var: işletme malzemesi ithalatında katma değer vergisi ve özel tüketim vergisi tahsil edilir, ticaret politikası önlemleri de uygulanır.",
+          "callout": {
+            "type": "dikkat",
+            "title": "İstisna: işletme malzemesi",
+            "text": "Belge kapsamında işletme malzemesi ithalatında katma değer vergisi ve özel tüketim vergisi TAHSİL edilir ve ticaret politikası önlemleri uygulanır."
+          }
+        },
+        {
+          "say": "Üç: vergiler teminata bağlanır.",
+          "mark": 2
+        },
+        {
+          "say": "Dört: işlem görmüş ürün ihraç edilince teminat iade edilir. Eşyanın rejimden bu şekilde yararlanmasına şartlı muafiyet sistemi denir.",
+          "mark": 3
+        },
+        {
+          "say": "Sade dille: yabancı hammadde vergisi ödenmeden, teminatla girer; işlenip ihraç edilince teminat geri verilir.",
+          "plain": true
+        }
+      ]
+    },
+    {
+      "title": "Şartlı muafiyet mi, geri ödeme mi?",
+      "madde": "4458 s. GK md. 79/1, 108 · DİR Tebliği md. 5, 11",
+      "kind": "table",
+      "table": {
+        "cols": [
+          {
+            "title": "Konu"
+          },
+          {
+            "title": "ŞARTLI MUAFİYET",
+            "tone": "gold"
+          },
+          {
+            "title": "GERİ ÖDEME",
+            "tone": "navy"
+          }
+        ],
+        "rows": [
+          {
+            "id": "r1",
+            "cells": [
+              "Eşyanın statüsü",
+              "Serbest dolaşımda DEĞİL",
+              "Serbest dolaşıma GİRER"
+            ]
+          },
+          {
+            "id": "r2",
+            "cells": [
+              "İthalatta vergi",
+              "TEMİNATA bağlanır",
+              "TAHSİL edilir"
+            ]
+          },
+          {
+            "id": "r3",
+            "cells": [
+              "İhraç edilince",
+              "Teminat İADE edilir",
+              "Vergi GERİ VERİLİR"
+            ]
+          },
+          {
+            "id": "r4",
+            "cells": [
+              "Ticaret politikası önlemi",
+              "Uygulanmaz",
+              "Uygulanır"
+            ]
+          },
+          {
+            "id": "r5",
+            "cells": [
+              "Şartlı muafiyet düzenlemesi mi?",
+              "EVET · ekonomik etkili de",
+              "HAYIR · yalnız ekonomik etkili"
+            ]
+          }
+        ]
+      },
+      "parts": [
+        {
+          "say": "Dahilde işlemenin iki sistemi var: şartlı muafiyet ve geri ödeme. Yan yana koyalım."
+        },
+        {
+          "say": "Şartlı muafiyette eşya serbest dolaşımda değildir; geri ödemede ise eşya serbest dolaşıma girer.",
+          "show": [
+            "r1"
+          ]
+        },
+        {
+          "say": "Şartlı muafiyette vergi teminata bağlanır; geri ödemede ithalatta tahsil edilir.",
+          "show": [
+            "r2"
+          ]
+        },
+        {
+          "say": "İhraç edilince şartlı muafiyette teminat iade edilir; geri ödemede tahsil edilen vergi geri verilir.",
+          "show": [
+            "r3"
+          ]
+        },
+        {
+          "say": "Ticaret politikası önlemleri şartlı muafiyette uygulanmaz, geri ödemede uygulanır.",
+          "show": [
+            "r4"
+          ]
+        },
+        {
+          "say": "Ve sınıflandırma: şartlı muafiyet sistemindeki dahilde işleme hem şartlı muafiyet düzenlemesi hem ekonomik etkili rejimdir; geri ödemedeki ise yalnızca ekonomik etkili.",
+          "show": [
+            "r5"
+          ],
+          "hl": [
+            "r5"
+          ]
+        },
+        {
+          "say": "[cautiously] Sınavın en sevdiği numara: tanımı verip adını değiştirmek. Teminatı görürsen şartlı muafiyet, tahsil ve geri vermeyi görürsen geri ödeme!",
+          "callout": {
+            "type": "tuzak",
+            "title": "Tanım aynı, AD değişik!",
+            "text": "Şartlı muafiyetin tanımını yazıp 'buna geri ödeme sistemi denir' demek 2021, 2023, 2024 ve 2025 sınavlarında soruldu."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Teminat ve ihraç edilmezse",
+      "madde": "4458 s. GK md. 81/2, 114, 207 · DİR Tebliği md. 8, 40, 45",
+      "kind": "branch",
+      "board": {
+        "root": {
+          "id": "root",
+          "text": "Vergi TEMİNATA bağlanır",
+          "tone": "gold"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "text": "Tutar: ithalatta alınması gereken vergi kadar",
+            "sub": "Bakanlık 2 katına kadar artırabilir"
+          },
+          {
+            "id": "b2",
+            "text": "Türü: para · banka teminat mektubu · Hazine tahvil ve bonosu"
+          },
+          {
+            "id": "b3",
+            "text": "Gümrük idaresi alır · taahhüt kapanınca iade eder",
+            "tone": "green"
+          },
+          {
+            "id": "b4",
+            "text": "İhraç edilmezse: vergi TAHSİL + gecikme zammı",
+            "tone": "red"
+          }
+        ]
+      },
+      "parts": [
+        {
+          "say": "Sistemin kalbi teminat. Kanuna göre eşyanın bir şartlı muafiyet düzenlemesine tabi tutulması teminat şartına bağlıdır.",
+          "show": [
+            "root"
+          ]
+        },
+        {
+          "say": "Teminat, ithalatta alınması gereken vergi tutarı kadardır; Bakanlık bu oranı vergi tutarının iki katına kadar artırabilir.",
+          "show": [
+            "b1"
+          ]
+        },
+        {
+          "say": "Teminat para, banka teminat mektubu ya da Hazine tahvil ve bonosu olabilir.",
+          "show": [
+            "b2"
+          ]
+        },
+        {
+          "say": "Teminatı ithalatta gümrük idaresi alır; ihracat taahhüdü kapatılınca yine gümrük idaresi iade eder.",
+          "show": [
+            "b3"
+          ]
+        },
+        {
+          "say": "Bazı firmalar indirimli teminattan yararlanır: yüzde bir, yüzde beş ya da yüzde on.",
+          "callout": {
+            "type": "ipucu",
+            "title": "İndirimli teminat: %1 · %5 · %10",
+            "text": "Yetkilendirilmiş yükümlüler ve büyük ihracatçılar düşük oranla yararlanır. İndirimli teminatta kısmi teminat iadesi yapılmaz."
+          }
+        },
+        {
+          "say": "Peki işlenmiş ürün ihraç edilmezse? Alınmayan vergi ithal tarihi itibarıyla tahsil edilir; teminat nakit değilse, gecikme zammı da şartlı muafiyet beyannamesinin tescil tarihinden başlar.",
+          "show": [
+            "b4"
+          ],
+          "callout": {
+            "type": "uyari",
+            "title": "İhraç YOKSA: vergi + gecikme zammı",
+            "text": "Vergi, dahilde işleme beyannamesinin tescil tarihindeki oranlarla hesaplanır; nakdi teminat dışında gecikme zammı bu tescil tarihinden işler. Ayrıca rejim aykırılığı cezası uygulanır."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Belge mi, izin mi?",
+      "madde": "DİR Tebliği md. 3, 14, 15, 37 · 4458 s. GK md. 110",
+      "kind": "split",
+      "board": {
+        "columns": [
+          {
+            "id": "c1",
+            "title": "DAHİLDE İŞLEME İZİN BELGESİ",
+            "tone": "gold"
+          },
+          {
+            "id": "c2",
+            "title": "DAHİLDE İŞLEME İZNİ",
+            "tone": "navy"
+          }
+        ],
+        "items": [
+          {
+            "id": "a1",
+            "col": "c1",
+            "text": "BAKANLIK düzenler",
+            "sub": "İhracat Genel Müdürlüğü",
+            "tone": "gold"
+          },
+          {
+            "id": "a2",
+            "col": "c1",
+            "text": "Başvuru: elektronik ortamda Bakanlığa"
+          },
+          {
+            "id": "a3",
+            "col": "c1",
+            "text": "Kapatma: süre sonundan itibaren 3 ay"
+          },
+          {
+            "id": "g1",
+            "col": "c2",
+            "text": "GÜMRÜK İDARESİ verir",
+            "tone": "gold"
+          },
+          {
+            "id": "g2",
+            "col": "c2",
+            "text": "Kapsam: Tebliğdeki işlem listesiyle sınırlı",
+            "sub": "tamir, montaj, ambalajlama…"
+          },
+          {
+            "id": "g3",
+            "col": "c2",
+            "text": "Kapatma: süre sonundan itibaren 3 ay"
+          }
+        ]
+      },
+      "parts": [
+        {
+          "say": "Şimdi iki benzer kelime: izin belgesi ve izin. Biri Bakanlıktan, diğeri gümrükten.",
+          "show": [
+            "c1",
+            "c2"
+          ]
+        },
+        {
+          "say": "Dahilde işleme izin belgesini Bakanlık, yani İhracat Genel Müdürlüğü düzenler; başvuru elektronik ortamda Bakanlığa yapılır.",
+          "show": [
+            "a1",
+            "a2"
+          ]
+        },
+        {
+          "say": "Dahilde işleme iznini ise gümrük idaresi verir. İzin, Tebliğde sayılan işlemlerle sınırlıdır: tamir, montaj, ambalajlama gibi.",
+          "show": [
+            "g1",
+            "g2"
+          ]
+        },
+        {
+          "say": "İkisinde de ihracat taahhüdünü kapatmak için süre sonundan itibaren üç ay var.",
+          "show": [
+            "a3",
+            "g3"
+          ]
+        },
+        {
+          "say": "[cautiously] Tuzak: izni veren makam gümrük idaresidir; izin kapsamındaki ihracat taahhüdü de gümrük idaresine kapatılır, ihracatçı birliklerine değil.",
+          "callout": {
+            "type": "tuzak",
+            "title": "İzin = GÜMRÜK İDARESİ",
+            "text": "2023'te 'izni vermeye yetkili idare: gümrük müdürlüğü' doğru cevaptı; 2025'te 'izin taahhüdünü kapatmak için ihracatçı birliklerine başvurulur' öncülü yanlıştı."
+          }
+        },
+        {
+          "say": "Kanuna göre izin; Türkiye Gümrük Bölgesinde yerleşik kişilere, ithal eşyasının ürün içindeki varlığı tespit edilebiliyorsa ve yerli üreticilerin temel ekonomik çıkarları zarar görmüyorsa verilir.",
+          "callout": {
+            "type": "dikkat",
+            "title": "İzin şartları + bir istisna",
+            "text": "Yerleşik kişi · mevcudiyet veya eşdeğer koşulu tespit edilebilmeli · üreticilerin temel ekonomik çıkarları korunmalı. Ticari olmayan ithalatta yerleşik olmayana da izin MÜMKÜN."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Süreler ve önceden ihracat",
+      "madde": "4458 s. GK md. 109, 111 · GY md. 349, 353 · DİR Tebliği md. 6, 20, 22",
+      "kind": "timeline",
+      "board": {
+        "points": [
+          {
+            "id": "p1",
+            "text": "Belge / izin tarihi",
+            "sub": "süre BAŞLAR"
+          },
+          {
+            "id": "p2",
+            "text": "Azami 12 ay",
+            "sub": "gemi, komple tesis, savunma: proje süresi"
+          },
+          {
+            "id": "p3",
+            "text": "Ek süre",
+            "sub": "en çok 3 ay · ihracat ≥ %25 ise sürenin yarısı",
+            "tone": "gold"
+          },
+          {
+            "id": "p4",
+            "text": "Ayın SON günü",
+            "sub": "süre biter · 3 ayda kapatma",
+            "tone": "red"
+          }
+        ]
+      },
+      "parts": [
+        {
+          "say": "Son bölüm: süreler. Süre, belgenin ya da iznin tarihinde başlar.",
+          "show": [
+            "axis",
+            "p1"
+          ]
+        },
+        {
+          "say": "Belge ya da izin süresi sektöre göre en fazla on iki aydır; gemi inşası, komple tesis ve savunma sanayinde proje süresi kadar olabilir.",
+          "show": [
+            "p2"
+          ]
+        },
+        {
+          "say": "Belge süresi, ilk ithalat tarihi esas alınarak en fazla üç ay uzatılır; ihracat taahhüdün en az yüzde yirmi beşine ulaşmışsa, orijinal sürenin yarısı kadar ek süre verilebilir.",
+          "show": [
+            "p3"
+          ]
+        },
+        {
+          "say": "Süre, bittiği ayın son günü sona erer; taahhüt kapatma için üç ay vardır.",
+          "show": [
+            "p4"
+          ],
+          "hl": [
+            "p4"
+          ]
+        },
+        {
+          "say": "Ve şartlı muafiyete özgü bir kolaylık: önceden ihracat. Önce serbest dolaşımdaki eşdeğer eşyayla üretip ihraç edersin, ithalatı sonra yaparsın.",
+          "callout": {
+            "type": "onemli",
+            "title": "Önceden ihracat = yalnız ŞARTLI MUAFİYET",
+            "text": "Eşdeğer eşya: asgari 8'li GTİP'te aynı; tarım ürünlerinde 12'li. Geri ödeme sisteminde önceden ihracat uygulanmaz."
+          }
+        },
+        {
+          "say": "[cautiously] Tuzak: önceden ihracatta ithal eşyasının beyan süresi, ithalat tarihinden değil, ihracat beyannamesinin tescil tarihinden başlar.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Süre İHRACAT tescilinden başlar",
+            "text": "Önceden ihracatta ithal eşyasının rejim beyanı için süre, eşdeğer eşyadan elde edilen ürünlerin ihracat beyannamesinin tescil tarihinden işler. 2025'te soruldu."
+          }
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "chip": "Yanlış hüküm · Şartlı muafiyet",
+    "src": "Dahilde İşleme Rejimi Tebliği",
+    "stem": "Dahilde İşleme Rejimi Tebliği'ne göre şartlı muafiyet sistemine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Serbest dolaşımda bulunmayan eşya, ticaret politikası önlemlerine tabi tutulmaksızın ithal edilir.",
+      "İthalattan doğan vergi teminata bağlanır ve ihracat taahhüdünün gerçekleşmesini müteakip teminat iade edilir.",
+      "Teminat oranı Bakanlıkça, ithalattan doğan vergi tutarının 2 katına kadar artırılabilir.",
+      "Eşya, ticaret politikası önlemlerinin uygulanması ve vergilerin tahsili kaydıyla belge/izin süresi içinde serbest dolaşıma girebilir.",
+      "Belge kapsamında yapılan işletme malzemesi ithalatında katma değer vergisi ve özel tüketim vergisi de teminata bağlanır."
+    ],
+    "answer": "E",
+    "gerekce": "Mevzuata göre şartlı muafiyet sisteminde serbest dolaşımda bulunmayan eşya ticaret politikası önlemlerine tabi tutulmaksızın, vergisi teminata bağlanarak ithal edilir ve ihracat taahhüdü gerçekleşince teminat iade edilir; teminat oranı Bakanlıkça vergi tutarının 2 katına kadar artırılabilir; eşya ticaret politikası önlemleri ve vergilerin tahsili kaydıyla serbest dolaşıma girebilir. Ancak belge/izin kapsamında yapılacak işletme malzemesi ithalatında katma değer vergisi ve özel tüketim vergisi tahsil edilir ve ticaret politikası önlemleri uygulanır. Bu nedenle doğru cevap E seçeneğidir. (DİR Tebliği MD 5, 8, 38)",
+    "read": [
+      {
+        "say": "Mini test zamanı. Tebliğe göre şartlı muafiyet sistemine ilişkin hangisi yanlıştır?",
+        "mark": "yanlıştır?"
+      },
+      {
+        "say": "A: Serbest dolaşımda olmayan eşya, ticaret politikası önlemlerine tabi tutulmadan ithal edilir.",
+        "show": "A"
+      },
+      {
+        "say": "B: Vergi teminata bağlanır; ihracat taahhüdü gerçekleşince teminat iade edilir.",
+        "show": "B"
+      },
+      {
+        "say": "C: Teminat oranı Bakanlıkça vergi tutarının iki katına kadar artırılabilir.",
+        "show": "C"
+      },
+      {
+        "say": "D: Ticaret politikası önlemleri uygulanıp vergiler tahsil edilerek eşya serbest dolaşıma girebilir.",
+        "show": "D"
+      },
+      {
+        "say": "E: İşletme malzemesi ithalatında katma değer vergisi ve özel tüketim vergisi de teminata bağlanır.",
+        "show": "E"
+      }
+    ],
+    "explain": [
+      {
+        "say": "[excited] Doğru cevap E!"
+      },
+      {
+        "say": "A'dan D'ye kadar her şey şartlı muafiyetin kuralı: önlem yok, teminat var, iki kata kadar artış ve vergiyle serbest dolaşım imkânı.",
+        "show": [
+          "c1",
+          "t1",
+          "t2",
+          "t3",
+          "t4"
+        ]
+      },
+      {
+        "say": "Ama işletme malzemesi istisnadır: katma değer vergisi ve özel tüketim vergisi teminata bağlanmaz, tahsil edilir; ticaret politikası önlemleri de uygulanır.",
+        "show": [
+          "c2",
+          "f1"
+        ],
+        "hl": [
+          "f1"
+        ]
+      },
+      {
+        "say": "Kısacası: şartlı muafiyette kural teminat, istisna işletme malzemesi.",
+        "callout": {
+          "type": "onemli",
+          "title": "Kural TEMİNAT · istisna işletme malzemesi",
+          "text": "İşletme malzemesi ithalatında KDV ve ÖTV tahsil edilir, ticaret politikası önlemleri uygulanır."
+        }
+      }
+    ],
+    "board": {
+      "title": "Kural ve istisna",
+      "madde": "DİR Tebliği md. 5, 8, 38",
+      "kind": "split",
+      "columns": [
+        {
+          "id": "c1",
+          "title": "DOĞRU · A–D",
+          "tone": "green"
+        },
+        {
+          "id": "c2",
+          "title": "YANLIŞ · E",
+          "tone": "red"
+        }
+      ],
+      "items": [
+        {
+          "id": "t1",
+          "col": "c1",
+          "text": "Ticaret politikası önlemi yok"
+        },
+        {
+          "id": "t2",
+          "col": "c1",
+          "text": "Vergi teminata · ihraçta iade"
+        },
+        {
+          "id": "t3",
+          "col": "c1",
+          "text": "Teminat 2 katına kadar"
+        },
+        {
+          "id": "t4",
+          "col": "c1",
+          "text": "Önlem + vergiyle serbest dolaşım"
+        },
+        {
+          "id": "f1",
+          "col": "c2",
+          "text": "İşletme malzemesi: KDV ve ÖTV TAHSİL edilir",
+          "sub": "ticaret politikası önlemi de uygulanır",
+          "tone": "red"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "items": [
+      {
+        "title": "Serbest dolaşımda olmayan eşya · teminat · önlem yok",
+        "text": "İşlenip ihraç edilince teminat iade olunur. İstisna: işletme malzemesinde KDV-ÖTV tahsil."
+      },
+      {
+        "title": "Teminat gördüysen şartlı muafiyet",
+        "text": "Tahsil ve geri verme geri ödemedir. Şartlı muafiyetteki DİR iki listede de var."
+      },
+      {
+        "title": "Belge Bakanlıktan, izin gümrükten",
+        "text": "İzin Tebliğdeki işlemlerle sınırlı; ikisinde de kapatma için 3 ay."
+      },
+      {
+        "title": "Süre belge tarihinde başlar, ay sonunda biter",
+        "text": "Azami 12 ay; önceden ihracatta süre ihracat tescilinden işler."
+      }
+    ],
+    "badge": "Mini testi doğru yaptıysan bu parçayı kapattın!",
+    "parts": [
+      {
+        "say": "Hafıza kartı zamanı. Dört cümle."
+      },
+      {
+        "say": "Bir: serbest dolaşımda olmayan eşya, önlemsiz ve teminatla girer; ihraçta teminat iade olunur.",
+        "item": 0
+      },
+      {
+        "say": "İki: teminat gördüysen şartlı muafiyet, tahsil gördüysen geri ödeme.",
+        "item": 1
+      },
+      {
+        "say": "Üç: belge Bakanlıktan, izin gümrük idaresinden.",
+        "item": 2
+      },
+      {
+        "say": "Dört: süre belge tarihinde başlar, ayın son günü biter; önceden ihracatta ihracat tescilinden işler.",
+        "item": 3
+      },
+      {
+        "say": "Mini testi doğru yaptıysan bu parçayı kapattın!",
+        "badge": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Bir sonraki derste görüşürüz!",
+    "next": "Ders 2 · Satış bedeli yöntemi ve ilişkili kişiler",
+    "parts": [
+      {
+        "say": "[excited] Beğenmeyi ve abone olmayı unutma. Bir sonraki derste gümrük kıymetinden satış bedeli yöntemini ve ilişkili kişileri anlatıyoruz. Görüşmek üzere!"
+      }
+    ]
+  }
+}

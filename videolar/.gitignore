@@ -7,3 +7,8 @@
 _uretici/audio/**/_tr_*/
 # Ana (CRF 22) render git dışında; teslim kopyaları (*-teslim.mp4) commit edilir
 **/renders/gmy-kamp-0?.mp4
+# test projesi
+gmy-ders-99/
+_uretici/spec/ders99.json
+_uretici/audio/d99/
+**/.hyperframes/
