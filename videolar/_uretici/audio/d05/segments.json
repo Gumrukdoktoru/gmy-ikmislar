@@ -1,23 +1,23 @@
 [
  {
   "id": "intro",
-  "text": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Serinin son dersinde kaçakçılıktan tek bir parçayı alıyoruz: Kaçakçılıkla Mücadele Kanunu'nun üçüncü maddesinde hangi fiile hangi ceza verildiği. Beş kısa bölüm, her fiile bir ceza etiketi, en sonda da bir mini test. Başlayalım!",
-  "chars": 278
+  "text": "[excited] Merhaba arkadaşlar, Gümrük Koçu burada! Serinin son dersinde kaçakçılıktan tek bir parçayı alıyoruz: Kaçakçılıkla Mücadele Kanunu'nun üçüncü maddesinde hangi fiile hangi cezanın verildiği. Beş kısa bölüm, her fiile bir ceza etiketi, en sonda da bir mini test. Başlayalım!",
+  "chars": 281
  },
  {
   "id": "stats",
-  "text": "Neden bu parça? Kaçakçılık, son beş sınavda yirmi yedi soruyla en çok sorulan konulardan biri. Bunların sekizi doğrudan üçüncü maddeden geldi; 2024'te üç soru art arda bu maddedendi. Beş bölümde ilerleyeceğiz: sokma ve rejim fiilleri, muaf ve yasak eşya, sahte ihracat, artırım listesi ve cezayı büyüten ya da küçülten ayarlar. Sonunda bir mini test var.",
-  "chars": 354
+  "text": "Neden bu parça? Kaçakçılık, son beş sınavda yirmi yedi soruyla en çok sorulan konulardan biri. Bunların sekizi doğrudan üçüncü maddeden geldi; 2024'te ise art arda üç soru bu maddedendi. Beş bölümde ilerleyeceğiz: sokma ve rejim fiilleri, muaf ve yasak eşya, sahte ihracat, artırım listesi ve cezayı büyüten ya da küçülten ayarlar. Sonunda bir mini test var.",
+  "chars": 358
  },
  {
   "id": "s1",
-  "text": "Üçüncü madde bir fiil kataloğu: her fiilin yanında bir hapis aralığı ve adlî para cezasının üst sınırı var. İlk beş fıkrayla başlayalım. Eşyayı gümrük işlemlerine tabi tutmaksızın ülkeye sokan kişi: bir yıldan beş yıla kadar hapis ve on bin güne kadar adlî para cezası. Eşyayı aldatıcı işlem ve davranışlarla, vergileri kısmen ya da tamamen ödemeden sokarsa alt sınır ikiye çıkar: iki yıldan beş yıla kadar hapis, yine on bin gün. [cautiously] Tuzak: 2022'de yanlış şıklarda gün sayıları doğruydu; yalnızca hapis aralıkları değiştirilmişti. Transit rejimiyle taşınan, serbest dolaşımda olmayan eşyayı rejime aykırı olarak gümrük bölgesinde bırakmak: bir ile üç yıl hapis, beş bin güne kadar adlî para. Geçici ithalat ya da dahilde işleme rejimiyle gelen eşyayı hileyle yurt dışına çıkarmış gibi işlem yapmak da aynı ceza: bir ile üç yıl, beş bin gün. Bu fiillere iştirak etmeden, eşyayı bilerek ve ticari amaçla satın alan, satan, taşıyan ya da saklayan da bir ile üç yıl ve beş bin gün alır. Kısa formül: ülkeye sokmada on bin gün, rejim ihlallerinde beş bin gün.",
-  "chars": 1064
+  "text": "Üçüncü madde bir fiil kataloğu: her fiilin yanında bir hapis aralığı, çoğunun yanında da adlî para cezasının üst sınırı var. İlk beş fıkrayla başlayalım. Eşyayı gümrük işlemlerine tabi tutmaksızın ülkeye sokan kişi: bir yıldan beş yıla kadar hapis ve on bin güne kadar adlî para cezası. Eşyayı aldatıcı işlem ve davranışlarla, gümrük vergilerini kısmen ya da tamamen ödemeden sokarsa hapsin alt sınırı iki yıla çıkar: iki yıldan beş yıla kadar hapis, yine on bin güne kadar adlî para cezası. [cautiously] Tuzak: 2022'de yanlış şıklarda gün sayıları doğruydu; yalnızca hapis aralıkları değiştirilmişti. Transit rejimiyle taşınan, serbest dolaşımda olmayan eşyayı rejim hükümlerine aykırı olarak gümrük bölgesinde bırakmak: bir yıldan üç yıla kadar hapis, beş bin güne kadar adlî para cezası. Geçici ithalat ya da dahilde işleme rejimiyle gelen eşyayı hileyle yurt dışına çıkarmış gibi işlem yapmak da aynı ceza: bir ila üç yıl, beş bin güne kadar adlî para cezası. Bu fiillere iştirak etmeden, eşyayı bu özelliğini bilerek ve ticari amaçla satın alan, satan, taşıyan ya da saklayan da bir ila üç yıl hapis ve beş bin güne kadar adlî para cezası alır. Kısa formül: ilk iki fıkradaki sokma fiillerinde on bin gün; üçüncü, dördüncü ve beşinci fıkralarda beş bin gün.",
+  "chars": 1262
  },
  {
   "id": "s2",
-  "text": "İkinci bölüm: eşyanın statüsü. Muaf eşya, ithali yasak eşya ve ihracı yasak eşya; üç ayrı ceza etiketi. Vergiden muaf ithal edilen eşyayı ithal amacı dışında kullanan, satan ya da devreden kişi: altı aydan iki yıla kadar hapis ve beş bin güne kadar adlî para. Bunu bilerek satın alan da aynı fıkraya girer. [cautiously] Tuzak: 2022'de 'hangisi kaçakçılık fiili değildir' sorusunun cevabı, muaf eşyayı süresi içinde yurt dışına çıkarmamaktı. Buradaki fiil, amaç dışı kullanım. İthali kanun gereği yasak eşyayı ülkeye sokan kişi: iki yıldan altı yıla kadar hapis ve yirmi bin güne kadar adlî para. Bilerek satın alan, satan, taşıyan ya da saklayan da aynı cezayı alır. İhracı kanun gereği yasak olan eşyayı ülkeden çıkaran kişi ise bir yıldan üç yıla kadar hapis ve beş bin gün alır; ithal yasağından çok daha hafif. [cautiously] Ve en önemli ayrım: yasak kanundan değil de genel düzenleyici idari işlemden geliyorsa, bu fıkralar değil Gümrük Kanunu'nun iki yüz otuz beşinci maddesi uygulanır.",
-  "chars": 991
+  "text": "İkinci bölüm: eşyanın statüsü. Muaf eşya, ithali yasak eşya ve ihracı yasak eşya; üç ayrı ceza etiketi. Özel kanunlar gereğince gümrük vergilerinden kısmen ya da tamamen muaf ithal edilen eşyayı ithal amacı dışında başka bir kullanıma tahsis eden, satan ya da devreden kişi: altı aydan iki yıla kadar hapis ve beş bin güne kadar adlî para cezası. Bu özelliğini bilerek satın alan ya da kabul eden de aynı fıkraya girer. [cautiously] Tuzak: 2022'de 'hangisi kaçakçılık fiili değildir' sorusunun cevabı, muaf eşyayı süresi içinde yurt dışına çıkarmamaktı. Buradaki fiil, amaç dışı kullanım. İthali kanun gereği yasak eşyayı ülkeye sokan kişi: iki yıldan altı yıla kadar hapis ve yirmi bin güne kadar adlî para cezası. Bilerek satın alan, satan, taşıyan ya da saklayan da aynı cezayı alır. İhracı kanun gereği yasak olan eşyayı ülkeden çıkaran kişi ise bir yıldan üç yıla kadar hapis ve beş bin güne kadar adlî para cezası alır; ithal yasağından çok daha hafif. [cautiously] Ve en önemli ayrım: yasak kanundan değil de genel düzenleyici idari işlemden geliyorsa, bu fıkralar değil Gümrük Kanunu'nun iki yüz otuz beşinci maddesi uygulanır.",
+  "chars": 1135
  },
  {
   "id": "s3",
@@ -26,18 +26,18 @@
  },
  {
   "id": "s4",
-  "text": "Dördüncü bölüm: eşyanın kendisi cezayı büyütebilir. Onuncu fıkra sekiz kalemlik kapalı bir liste veriyor. Akaryakıt, tütün ve tütün mamulleri, makaron ve yaprak sigara kâğıdı, etil alkol, metanol ve alkollü içkiler. Kaçakçılığın konusu bu eşyalardan biriyse, verilecek cezalar yarısından iki katına kadar artırılır; ama bu fıkra uygulanarak verilen ceza üç yıldan az olamaz. Listede olmayanlara örnek: elektronik sigara içme cihazı, elektronik eşya, ilaç ve canlı hayvan. [cautiously] Tuzak: 2021'de 'hangisinde artırım mümkün değildir' diye soruldu; cevap elektronik sigara içme cihazıydı. Bir de iki grup aralığı: akaryakıt ve markerda iki ile beş yıl, bandrolde üç ile altı yıl hapis; ikisinde de yirmi bin gün.",
-  "chars": 714
+  "text": "Dördüncü bölüm: eşyanın kendisi cezayı büyütebilir. Onuncu fıkra sekiz kalemlik kapalı bir liste veriyor. Akaryakıt, tütün ve tütün mamulleri, makaron ve yaprak sigara kâğıdı, etil alkol, metanol ve alkollü içkiler. Kaçakçılığın konusu bu eşyalardan biriyse, verilecek cezalar yarısından iki katına kadar artırılır; ama bu fıkra uygulanarak verilen ceza üç yıldan az olamaz. Listede olmayanlara örnek: elektronik sigara içme cihazı, elektronik eşya, ilaç ve canlı hayvan. [cautiously] Tuzak: 2021'de 'hangisinde artırım mümkün değildir' diye soruldu; cevap elektronik sigara içme cihazıydı. Bir de iki grup aralığı: akaryakıt ve markerda iki ila beş yıl, bandrolde üç ila altı yıl hapis; ikisinde de yirmi bin güne kadar adlî para cezası.",
+  "chars": 738
  },
  {
   "id": "s5",
-  "text": "Son bölüm: hesaplanan cezayı büyüten ya da küçülten ayar düğmeleri. Eşya gümrük kapıları dışından ülkeye sokulursa, verilecek ceza üçte birinden yarısına kadar artırılır. [cautiously] 2024'te tam bu oran soruldu; şıklarda 'yarısından bir katına' ve 'yarısından iki katına' da vardı, ama bunlar başka fıkraların oranları. Suç konusu eşyanın değeri fahişse cezalar yarısından bir katına kadar artırılır; değeri hafifse yarısına kadar, pek hafifse üçte birine kadar indirilir. Teşebbüs ise indirim sebebi değil: bu fiiller teşebbüs aşamasında kalsa bile tamamlanmış gibi cezalandırılır. Örgüt ve kalabalık ise üçüncü maddede değil, dördüncü maddede: örgütte ceza iki kat, üç ya da daha fazla kişide yarı oranında artırılır.",
-  "chars": 720
+  "text": "Son bölüm: hesaplanan cezayı büyüten ya da küçülten ayar düğmeleri. Eşya gümrük kapıları dışından ülkeye sokulursa, verilecek ceza üçte birinden yarısına kadar artırılır. [cautiously] 2024'te tam bu oran soruldu; şıklarda 'yarısından bir katına' ve 'yarısından iki katına' da vardı, ama bunlar başka fıkraların oranları. Suç konusu eşyanın değeri fahişse cezalar yarısından bir katına kadar artırılır; değeri hafifse yarısına kadar, pek hafifse üçte birine kadar indirilir. Teşebbüs ise indirim sebebi değil: bu fiiller teşebbüs aşamasında kalsa bile tamamlanmış gibi cezalandırılır. Örgüt ve üç ya da daha fazla kişiyle birlikte işleme ise üçüncü maddede değil, dördüncü maddede: örgüt faaliyeti çerçevesinde ceza iki kat, üç ya da daha fazla kişiyle birlikte işlenirse yarı oranında artırılır.",
+  "chars": 795
  },
  {
   "id": "quiz_read",
-  "text": "Mini test zamanı. Kaçakçılıkla Mücadele Kanunu'nun üçüncü maddesine göre hangisi doğrudur? A: Gümrük işlemine tabi tutmadan sokmaya bir ile üç yıl hapis ve on bin güne kadar adlî para. B: İthali kanun gereği yasak eşyayı sokmaya bir ile üç yıl hapis ve beş bin güne kadar adlî para. C: Transit eşyayı rejime aykırı olarak gümrük bölgesinde bırakmaya bir ile üç yıl hapis ve beş bin güne kadar adlî para. D: Fiiller teşebbüste kalırsa ceza yarı oranında indirilir. E: Gümrük kapıları dışından sokmada ceza yarısından iki katına kadar artırılır.",
-  "chars": 543
+  "text": "Mini test zamanı. Kaçakçılıkla Mücadele Kanunu'nun üçüncü maddesine göre hangisi doğrudur? A: Gümrük işlemine tabi tutmadan sokmaya bir ila üç yıl hapis ve on bin güne kadar adlî para cezası. B: İthali kanun gereği yasak eşyayı sokmaya bir ila üç yıl hapis ve beş bin güne kadar adlî para cezası. C: Transit eşyayı rejim hükümlerine aykırı olarak gümrük bölgesinde bırakmaya bir ila üç yıl hapis ve beş bin güne kadar adlî para cezası. D: Fiiller teşebbüste kalırsa ceza yarı oranında indirilir. E: Gümrük kapıları dışından sokmada ceza yarısından iki katına kadar artırılır.",
+  "chars": 575
  },
  {
   "id": "quiz_think",
@@ -46,13 +46,13 @@
  },
  {
   "id": "quiz_exp",
-  "text": "[excited] Doğru cevap C! Transit rejimiyle taşınan eşyayı gümrük bölgesinde bırakmak bir rejim ihlali: bir ile üç yıl hapis, beş bin gün. A'da gün doğru ama hapis yanlış; sokmada bir ile beş yıl. B, ithal yasağına ihraç yasağının cezasını vermiş; doğrusu iki ile altı yıl ve yirmi bin gün. D'de teşebbüs indirilmez, tamamlanmış gibi cezalandırılır. E'de oran yanlış; gümrük kapıları dışında üçte birinden yarısına kadar. Kural: önce fiili bul, sonra etiketini oku.",
-  "chars": 464
+  "text": "[excited] Doğru cevap C! Transit rejimiyle taşınan eşyayı gümrük bölgesinde bırakmak bir rejim ihlali: bir ila üç yıl hapis, beş bin güne kadar adlî para cezası. A'da gün doğru ama hapis yanlış; sokmada bir ila beş yıl. B, ithal yasağına ihraç yasağının cezasını vermiş; doğrusu iki ila altı yıl ve yirmi bin gün. D yanlış: teşebbüste ceza indirilmez, fiil tamamlanmış gibi cezalandırılır. E'de oran yanlış: gümrük kapıları dışından sokmada artırım üçte birinden yarısına kadardır. Kural: önce fiili bul, sonra etiketini oku.",
+  "chars": 525
  },
  {
   "id": "summary",
-  "text": "Hafıza kartı zamanı. Dört cümle. Bir: sokma bir ile beş, aldatıcı sokma iki ile beş, rejim ihlalleri bir ile üç yıl. İki: muaf eşyada altı ay ile iki yıl, ithali yasakta iki ile altı, ihracı yasakta bir ile üç yıl. Üç: sahte ihracatta bir ile beş yıl; listedeki özel eşyada ceza iki katına kadar artar ve üç yıldan az olamaz. Dört: gümrük kapıları dışında üçte birinden yarısına kadar artırım; teşebbüs ise tamamlanmış gibi. Mini testi doğru yaptıysan bu parçayı da kapattın!",
-  "chars": 475
+  "text": "Hafıza kartı zamanı. Dört cümle. Bir: sokma bir ila beş, aldatıcı sokma iki ila beş, rejim ihlalleri bir ila üç yıl. İki: muaf eşyada altı ay ila iki yıl, ithali yasakta iki ila altı, ihracı yasakta bir ila üç yıl. Üç: sahte ihracatta bir ila beş yıl; listedeki özel eşyada cezalar yarısından iki katına kadar artırılır ve ceza üç yıldan az olamaz. Dört: gümrük kapıları dışından sokmada üçte birinden yarısına kadar artırım; teşebbüs ise tamamlanmış gibi. Mini testi doğru yaptıysan bu parçayı da kapattın!",
+  "chars": 507
  },
  {
   "id": "outro",

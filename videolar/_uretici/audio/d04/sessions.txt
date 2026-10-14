@@ -7,3 +7,6 @@ s4 eairdESPXMs2OTw47TBY 4vCTE87SOitp6kSNzGIV
 s5 lzPcN5HWKz9zLKrunOBx RGQUtGhOBhZUUGG8mc6m
 quiz_read ks5R4RGphSwxl1Mhg8kY KS9r8H9wMxZZTEil9pwM
 quiz_think Lvw2b8uxpfZWwZaDKhES qlqtqtc3Ab8wr20rE4Fp
+quiz_exp 0C6Cexy6BubDT7slujeh o5CpkNkyp3gfeowKOUMu
+summary pwwa5EZ477dUdp6JmQH6 WNf16AXw7GlkS0qQWrAg
+outro 8JDFN8u89chYuXpvnTce ekss3Hybc8qPCpCrqrjz
