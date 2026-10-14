@@ -33,3 +33,41 @@ cd ../gmy-kamp-01 && npx hyperframes lint && npx hyperframes render . --crf 26
 ```
 
 Soru metinleri `spec/video0N.json` dosyalarındadır. Metin değişirse yalnız değişen segmentin sesi yeniden üretilir.
+
+---
+
+# GMY Konu Anlatımı: Gümrük Koçu ders serisi
+
+GMY çıkmış sorularında en sık sorulan konulardan birer **parça** seçilerek hazırlanan 5 ders. Her ders konunun tamamını değil, sınavda tekrar tekrar sorulan tek bir dilimini anlatır.
+
+| Ders | Konu parçası | Neden bu parça? | Süre | Mini test |
+|---|---|---|---|---|
+| 1 | Dahilde işlemede şartlı muafiyet sistemi | DİR soruları 2→2→4→4→7 artıyor | SURE01 | E |
+| 2 | Satış bedeli yöntemi ve ilişkili kişiler | Kıymet 31 soruyla 2. sırada | SURE02 | D |
+| 3 | Tebliğ, ödeme ve itiraz süreleri | Her sınavda var, 2024'te 5 soru | SURE03 | B |
+| 4 | Gümrük müşavirlerinin disiplin cezaları | Müşavirlik 35 soruyla 1. sırada | SURE04 | A |
+| 5 | Kaçakçılık suçları ve ceza aralıkları (5607 md. 3) | 27 kaçakçılık sorusunun 8'i md. 3 | SURE05 | C |
+
+- Videolar: `gmy-ders-0N/renders/gmy-ders-0N-teslim.mp4` (1920×1080, 30 fps, H.264 + AAC)
+- Ders metinleri, şemalar ve mini test: `_uretici/spec/ders0N.json`
+
+## Her derste
+
+- Cem'in sesiyle anlatım (ElevenLabs Eleven v4), Gümrük Koçu öğretmen avatarı
+- "Neden bu konu?" açılışı: yıllara göre soru sayısı grafiği ve ders gündemi
+- 5 bölüm; her bölümde bir şema: oklu akış, dal, karşılaştırma tablosu, sütunlar, zaman çizelgesi veya kelime kelime vurgulanan kanun metni kartı ("Sade dille" özetiyle)
+- ÖNEMLİ / DİKKAT / UYARI / TUZAK / İPUCU kutuları; tuzaklar gerçek sınav çeldiricilerine dayanır
+- Üst çubukta bölüm ilerlemesi, alt yazı, ses efektleri ve fon müziği
+- Mini test: 5 saniyelik "DÜŞÜN" sayacı, cevap ve çözüm tahtası
+- "Akılda Kalsın" hafıza kartı
+
+## Yeniden üretim
+
+```bash
+cd videolar/_uretici
+python3 ders.py plan 01     # spec/ders01.json -> audio/d01/segments.json (karakter sayısı = Eleven v4 kredisi)
+# segments.json içindeki her metin ElevenLabs'te (eleven_v4, Cem) seslendirilip audio/d01/<id>.mp3 olarak kaydedilir
+python3 ders.py words 01    # yerel Whisper ile kelime zamanları
+python3 ders.py build 01    # ../gmy-ders-01/index.html + assets
+cd ../gmy-ders-01 && npx hyperframes lint && npx hyperframes render . -o renders/gmy-ders-01-teslim.mp4 --crf 26
+```
