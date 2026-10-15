@@ -12,6 +12,4 @@ gmy-ders-99/
 _uretici/spec/ders99.json
 _uretici/audio/d99/
 **/.hyperframes/
-# ders projelerinin karışık sesi her derlemede değişir; son derlemede commit edilir
-gmy-ders-0?/assets/mix.mp3
 **/renders/gmy-ders-0?.mp4
