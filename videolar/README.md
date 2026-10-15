@@ -42,11 +42,11 @@ GMY çıkmış sorularında en sık sorulan konulardan birer **parça** seçiler
 
 | Ders | Konu parçası | Neden bu parça? | Süre | Mini test |
 |---|---|---|---|---|
-| 1 | Dahilde işlemede şartlı muafiyet sistemi | DİR soruları 2→2→4→4→7 artıyor | SURE01 | E |
-| 2 | Satış bedeli yöntemi ve ilişkili kişiler | Kıymet 31 soruyla 2. sırada | SURE02 | D |
-| 3 | Tebliğ, ödeme ve itiraz süreleri | Her sınavda var, 2024'te 5 soru | SURE03 | B |
-| 4 | Gümrük müşavirlerinin disiplin cezaları | Müşavirlik 35 soruyla 1. sırada | SURE04 | A |
-| 5 | Kaçakçılık suçları ve ceza aralıkları (5607 md. 3) | 27 kaçakçılık sorusunun 8'i md. 3 | SURE05 | C |
+| 1 | Dahilde işlemede şartlı muafiyet sistemi | DİR soruları 2→2→4→4→7 artıyor | 6:44 | E |
+| 2 | Satış bedeli yöntemi ve ilişkili kişiler | Kıymet 31 soruyla 2. sırada | 6:14 | D |
+| 3 | Tebliğ, ödeme ve itiraz süreleri | Her sınavda var, 2024'te 5 soru | 5:44 | B |
+| 4 | Gümrük müşavirlerinin disiplin cezaları | Müşavirlik 35 soruyla 1. sırada | 6:24 | A |
+| 5 | Kaçakçılık suçları ve ceza aralıkları (5607 md. 3) | 27 kaçakçılık sorusunun 8'i md. 3 | 8:04 | C |
 
 - Videolar: `gmy-ders-0N/renders/gmy-ders-0N-teslim.mp4` (1920×1080, 30 fps, H.264 + AAC)
 - Ders metinleri, şemalar ve mini test: `_uretici/spec/ders0N.json`
