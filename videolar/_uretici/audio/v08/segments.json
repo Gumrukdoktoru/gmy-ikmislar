@@ -16,13 +16,13 @@
  },
  {
   "id": "q1_exp",
-  "text": "[excited] Doğru cevap D! Önce kural: özet beyanı, eşyayı getiren ya da taşıma sorumluluğunu üstlenen kişi, eşya gelmeden önce giriş gümrük idaresine verir. Ne kadar önce? Taşıma şekline bakalım. Denizyolunda konteyner: gemiye yüklemeden en az yirmi dört saat önce. A doğru. Dökme ya da ambalajlı yük: ilk varış limanına gelmeden en az dört saat önce. B doğru. Karadeniz, Akdeniz ve AB limanlarından gelişte süre iki saat; Köstence bu yüzden iki saat. C doğru. Havada uçuş dört saatten kısaysa en geç havalanma anına kadar; değilse inişten en az dört saat önce. E doğru. [cautiously] D'nin tuzağı: demiryolunda süre iki saat. Dört saat, dökme deniz yükü ile uzun uçuşun rakamı. Uzun uçuşa da dikkat: 2024 sınavında 'sekiz saat' yazıyordu ve yanlıştı. Son not: muayene bildiriminden, yanlışlık tespitinden ya da boşaltma izninden sonra özet beyan değiştirilemez.",
-  "chars": 860
+  "text": "[excited] Doğru cevap D! Önce kural: özet beyanı, eşyayı getiren ya da taşıma sorumluluğunu üstlenen kişi, eşya gelmeden önce giriş gümrük idaresine verir. Ne kadar önce? Taşıma şekline bakalım. Denizyolunda konteyner: gemiye yüklemeden en az yirmi dört saat önce. A doğru. Dökme ya da ambalajlı yük: ilk varış limanına gelmeden en az dört saat önce. B doğru. Karadeniz, Akdeniz ve AB limanlarından gelişte süre iki saat; Köstence bu yüzden iki saat. C doğru. Havayolunda uçuş süresi dört saatten azsa en geç uçağın havalandığı ana kadar; değilse inişten en az dört saat önce. Altı saatlik uçuş uzun mesafeli; E doğru. [cautiously] D'nin tuzağı: demiryolunda süre iki saat. Dört saat, dökme deniz yükü ile uzun uçuşun rakamı. Uzun uçuşa da dikkat: 2024 sınavında 'sekiz saat' yazıyordu ve yanlıştı. Son not: muayene bildiriminden, yanlışlık tespitinden ya da boşaltma izninden sonra özet beyan değiştirilemez.",
+  "chars": 909
  },
  {
   "id": "q2_read",
-  "text": "İkinci soru bir senaryo. Denizyoluyla gelen eşyada özet beyan iki martta veriliyor; gemi yalnız Mersin'e uğruyor, eşya dokuz martta gümrüğe sunuluyor. Hangisi doğrudur? A: Kırk beş gün, özet beyanın verildiği iki martta başlar. B: Kırk beş gün, eşyanın gümrüğe sunulduğu dokuz martta başlar. C: Uygunluk belgesi için geçen süre de kırk beş güne dâhildir. D: İki aylık uzatma talebinde gerekçe gerekmez. E: Karayoluyla gelseydi de süre kırk beş gün olurdu.",
-  "chars": 455
+  "text": "İkinci soru bir senaryo. Denizyoluyla gelen eşyada özet beyan iki martta veriliyor; gemi yalnız Mersin'e uğruyor, eşya dokuz martta gümrüğe sunuluyor. Hangisi doğrudur? A: Kırk beş gün, eşyanın yurt dışında gemiye yüklendiği gün başlar. B: Kırk beş gün, eşyanın gümrüğe sunulduğu dokuz martta başlar. C: Uygunluk belgesi için geçen süre de kırk beş güne dâhildir. D: İki aylık uzatma talebinde gerekçe gerekmez. E: Karayoluyla gelseydi de süre kırk beş gün olurdu.",
+  "chars": 464
  },
  {
   "id": "q2_think",
@@ -31,8 +31,8 @@
  },
  {
   "id": "q2_exp",
-  "text": "[excited] Doğru cevap B! Tarihleri çizgiye dizelim. İki mart: özet beyan verildi. Dokuz mart: eşya gümrüğe sunuldu. Özet beyan önceden verildiyse saat, gümrüğe sunma gününde başlar. B doğru, A yanlış. Süre: denizyolunda kırk beş, diğer yollarda yirmi gün. Karayoluyla gelseydi yirmi gün; E yanlış. [cautiously] A'nın tuzağı: Kanun 'özet beyanın verildiği tarihten' der; ama özet beyan önceden verildiyse Yönetmelik saati sunma gününde başlatır. Belge beklerken saat durur: uygunluk belgesi, ithal lisansı, tahlil raporu gibi belgelerin alınmasında geçen süre sayılmaz. C yanlış. Uzatmayı, süre bitmeden yapılan yazılı başvuruyla gümrük müdürlüğü verir; bir ayı aşan taleplerde gerekçe şart. D yanlış; 2021'de 'elli gün' diye çarpıtılmıştı. Süresinde işlemlere başlanmazsa ve takibat yoksa eşya tasfiye edilir.",
-  "chars": 809
+  "text": "[excited] Doğru cevap B! Tarihleri çizgiye dizelim. İki mart: özet beyan verildi. Dokuz mart: eşya gümrüğe sunuldu. Özet beyan önceden verildiyse süre, gümrüğe sunma gününde başlar. B doğru; yurt dışındaki yükleme günü ise hiçbir hükümde başlangıç değil, A yanlış. Süre: denizyolunda kırk beş, diğer yollarda yirmi gün. Karayoluyla gelseydi yirmi gün; E yanlış. [cautiously] Asıl incelik: Kanun 'özet beyanın verildiği tarihten' der; Kanun metni sorulursa bu ifade doğrudur, 2023'te de öyleydi. Ama özet beyan önceden verildiyse Yönetmelik süreyi sunma gününde başlatır. Belge beklerken süre durur: uygunluk belgesi, ithal lisansı, tahlil raporu gibi belgelerin alınmasında geçen süre sayılmaz. C yanlış. Uzatmayı, süre bitmeden yapılan yazılı başvuruyla gümrük müdürlüğü verir; bir ayı aşan taleplerde gerekçe şart. D yanlış; 2021'de 'elli gün' diye çarpıtılmıştı. Süresinde işlemlere başlanmazsa ve takibat yoksa eşya tasfiye edilir.",
+  "chars": 935
  },
  {
   "id": "q3_read",
@@ -46,13 +46,13 @@
  },
  {
   "id": "q3_exp",
-  "text": "[excited] Doğru cevap E: bir, üç ve dört. Geçici depolanan eşya bir statüdür: gümrüğe sunmayla başlar, gümrükçe onaylanmış bir işlem veya kullanımla biter. Birinci öncül doğru. Gümrük idaresinin uygun gördüğü yerlerde depolanır; idare teminat isteyebilir. Görünüş ve teknik özellikler değişmeden, muhafaza için elleçleme yapılabilir. Dördüncü öncül doğru. Yolcu eşyası ambarında süre üç ay; talep hâlinde mücbir sebep aranmadan üç aya kadar uzatılabilir. Üçüncü öncül doğru; 2023 ve 2025'te soruldu. [cautiously] İkinci öncülün tuzağı: geçici depolamaya konmak, gümrükçe onaylanmış işlem veya kullanım değildir. Kanun beş şey sayar. Ve gümrüğe terk bu beş şeyden biri olduğu için geçici depolanan eşya statüsünü bitirir; 2025'te soruldu.",
-  "chars": 737
+  "text": "[excited] Doğru cevap E: bir, üç ve dört. Geçici depolanan eşya bir statüdür: gümrüğe sunmayla başlar, gümrükçe onaylanmış bir işlem veya kullanımla biter. Birinci öncül doğru. Gümrük idaresinin uygun gördüğü yerlerde depolanır; idare teminat isteyebilir. Görünüş ve teknik özellikler değişmeden, muhafaza için elleçleme yapılabilir. Dördüncü öncül doğru. Yolcu eşyası ambarında süre üç ay; talep hâlinde mücbir sebep aranmadan üç aya kadar uzatılabilir. Üçüncü öncül doğru; üç aylık süre 2023 ve 2025'te soruldu. [cautiously] İkinci öncülün tuzağı: geçici depolamaya konmak, gümrükçe onaylanmış işlem veya kullanım değildir. Kanun beş şey sayar. Ve gümrüğe terk bu beş şeyden biri olduğu için geçici depolanan eşya statüsünü bitirir; 2025'te soruldu.",
+  "chars": 751
  },
  {
   "id": "summary",
-  "text": "Hafıza kartı zamanı. Üç cümle. Bir: özet beyanda demiryolu iki saat, uzun uçuş dört saat, konteyner yüklemeden yirmi dört saat önce. İki: denizyolunda kırk beş, diğer yollarda yirmi gün; özet beyan önceden verildiyse saat, sunma gününde başlar. Üç: yolcu ambarında üç ay artı üç ay; geçici depolamaya konmak gümrükçe onaylanmış işlem değildir. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
-  "chars": 396
+  "text": "Hafıza kartı zamanı. Üç cümle. Bir: özet beyanda demiryolu iki saat, uzun uçuş dört saat, konteyner yüklemeden yirmi dört saat önce. İki: denizyolunda kırk beş, diğer yollarda yirmi gün; özet beyan önceden verildiyse süre, sunma gününde başlar. Üç: yolcu ambarında üç ay, artı üç aya kadar uzatma; geçici depolamaya konmak gümrükçe onaylanmış işlem değildir. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+  "chars": 411
  },
  {
   "id": "outro",

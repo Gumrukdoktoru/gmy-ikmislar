@@ -34,14 +34,14 @@
       "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre tescil edilmiş gümrük beyannamesinin düzeltilmesi ve iptaline ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
       "options": [
         "Gümrük idaresince beyan sahibine eşyanın muayene edileceği bildirilmişse, muayenenin sonucu alınmadan beyannamenin iptaline ilişkin talep kabul edilmez.",
-        "Beyan sahibine eşyanın muayene edileceği bildirildikten sonra da, eşya teslim edilinceye kadar beyannamede düzeltme yapılmasına izin verilir.",
+        "Beyan sahibine eşyanın muayene edileceği bildirilmiş ve beyandaki bilgilerin yanlış olduğu tespit edilmiş olsa dahi, eşya teslim edilinceye kadar beyannamede düzeltme yapılmasına izin verilir.",
         "Başka bir eşyanın beyanı sonucunu doğursa dahi, beyan sahibinin talebi üzerine beyannamedeki bilgilerin düzeltilmesine izin verilir.",
         "Eşyanın yanlışlıkla vergilerin ödenmesini gerektiren bir rejime tabi tutulması nedeniyle beyannamenin iptali, tescil tarihinden itibaren bir ay içinde talep edilmelidir.",
         "Beyannamenin iptali, yürürlükteki cezai hükümlerin uygulanmasına engel oluşturur."
       ],
       "answer": "A",
       "gerekce": "Mevzuata göre gümrük idarelerince beyan sahibine eşyanın muayene edileceğinin bildirilmiş olduğu hâllerde, muayenenin sonucu alınmadan beyannamenin iptaline ilişkin talep kabul edilmez. Düzeltme, başka bir eşyanın beyanı sonucunu doğurmaması kaydıyla mümkündür ve muayene bildiriminden, bilgilerin yanlışlığının tespitinden veya eşyanın tesliminden sonra izin verilmez; yanlış rejim nedeniyle iptal talebi tescil tarihinden itibaren üç ay içinde yapılır; beyannamenin iptali yürürlükteki cezai hükümlerin uygulanmasına engel oluşturmaz. Bu nedenle doğru cevap A seçeneğidir. (GK MD 63-64; GY MD 121, 124)",
-      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (A): GK 64/1 ikinci paragraf (s.17713). Çeldiriciler: B → GK 63/a (s.17703), GY 121/2-a kırmızı hat belirlenmesi (s.17971-17973); C → GK 63 giriş cümlesi (s.17701), GY 121/1 'başka eşya' tanımı (s.17969); D → GY 124/2 üç ay (s.18011); E → GK 64/5 (s.17727). Anlatım: GK 73/2 ve GY 121/4 teslimden sonra düzeltme, tescilden itibaren üç yıl (s.17819, 17981); GK 64/4 teslimden sonra iptal (s.17725); GY 124/2 mücbir sebepte süre aşımının kabulü (s.18011). Esin: 2022/77 (md. 63 düzeltme sınırları, 'teslimden sonra düzeltme yok' doğru şık), 2021/50 (yanlış rejimde iptal talebi 3 ay).",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (A): GK 64/1 ikinci paragraf (s.17713). Çeldiriciler: B → GK 63/a-b (s.17703-17705), GY 121/2 (s.17971-17977) ve GY 121/3 ikinci cümle: yanlışlık tespitinden sonraki düzeltme talebi kabul edilmez (s.17979); C → GK 63 giriş cümlesi (s.17701), GY 121/1 'başka eşya' tanımı (s.17969); D → GY 124/2 üç ay (s.18011); E → GK 64/5 (s.17727). Anlatım: GK 73/2 ve GY 121/4 teslimden sonra düzeltme, tescilden itibaren üç yıl (s.17819, 17981); GK 64/4 teslimden sonra iptal (s.17725); GY 124/2 mücbir sebepte süre aşımının kabulü (s.18011). Esin: 2022/77 (md. 63 düzeltme sınırları, 'teslimden sonra düzeltme yok' doğru şık), 2021/50 (yanlış rejimde iptal talebi 3 ay).",
       "read": [
         {
           "say": "Dokuzuncu videonun ilk sorusu. Beyannamenin düzeltilmesi ve iptaliyle ilgili hangisi doğrudur?",
@@ -52,7 +52,7 @@
           "show": "A"
         },
         {
-          "say": "B: Muayene bildirildikten sonra da teslime kadar düzeltme yapılabilir.",
+          "say": "B: Muayene bildirilse ve yanlışlık tespit edilse bile, teslime kadar düzeltme yapılabilir.",
           "show": "B"
         },
         {
@@ -340,7 +340,7 @@
         "(B) firmasının, düzenli olarak yaptığı benzer sevkiyatların bir parçası olan ve gümrük kıymeti 600 Avro olan ticari eşyasının serbest dolaşıma girişi"
       ],
       "answer": "B",
-      "gerekce": "Mevzuata göre geçici ithalata konu olan, Türkiye Gümrük Bölgesi dışında yerleşik radyo ve televizyon kuruluşları temsilcilerinin mesleki teçhizat kapsamında getirdikleri radyo ve televizyon prodüksiyon ve yayın teçhizatı gümrük idarelerine sözlü beyan edilir. Ticari eşyanın sözlü beyan edilebilmesi için gümrük kıymetinin sevkiyat ve beyan başına 1000 Avro'yu geçmemesi ve sevkiyatın düzenli hâldeki benzer sevkiyatların parçası olmaması gerekir; dahilde işlemede sözlü beyan edilebilecek eşya, temel tekstil hammaddeleri dışında kalan yardımcı maddelerdir; Cumhurbaşkanının zat ve ikametgâhına ait eşyada ise Cumhurbaşkanlığından gönderilen resmi yazılar beyanname kabul edilir. Bu nedenle doğru cevap B seçeneğidir. (GK MD 59-60; GY MD 169, 171)",
+      "gerekce": "Mevzuata göre geçici ithalata konu olan, Türkiye Gümrük Bölgesi dışında yerleşik radyo ve televizyon kuruluşları temsilcilerinin mesleki teçhizat kapsamında getirdikleri radyo ve televizyon prodüksiyon ve yayın teçhizatı gümrük idarelerine sözlü beyan edilir. Ticari eşyanın sözlü beyan edilebilmesi için gümrük kıymetinin sevkiyat ve beyan başına 1000 Avro'yu geçmemesi, sevkiyatın düzenli hâldeki benzer sevkiyatların parçası olmaması ve daha büyük bir nakliyatın parçası olup bağımsız bir taşıyıcı tarafından taşınmaması gerekir; dahilde işlemede tekstil alanında yalnızca temel tekstil hammaddeleri dışında kalan tela, etiket, düğme gibi yardımcı maddeler sözlü beyan edilebilir; Cumhurbaşkanının zat ve ikametgâhına ait eşyada ise Cumhurbaşkanlığından gönderilen resmi yazılar beyanname kabul edilir. Bu nedenle doğru cevap B seçeneğidir. (GK MD 59-60; GY MD 169, 171)",
       "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (B): GY 171/1-c (s.18499), 171/2 sözlü beyan formu (s.18513). Çeldiriciler: A ve E → GY 169/6 '1000 Avro'yu geçmeme' ve 'düzenli benzer sevkiyatların parçası olmama' şartları (s.18469); C → GY 171/4-a temel tekstil hammaddeleri hariç (s.18517-18519); D → GK 60/5-a resmi yazı beyanname kabul edilir (s.17683-17685). Anlatım: GK 59 beyan yolları (s.17657-17667); GK 60/5-b diplomatik eşyada karşılıklılık şartıyla misyon şefi yazıları (s.17687); GY 171/1-d yolcunun kişisel ve sportif eşyası (s.18503); GY 170/1-e,f cenaze ve vefat eden yabancının eşyası (s.18485-18487); GY 131/1 beyanname yerine kullanılan belgeler (s.18067). Esin: 2022/45 (vefat eden yabancının eşyası → sözlü beyan formu), 2025-A/48 (cenaze → sözlü beyan formu), 2022/78 ve 2023/40 (beyanname yerine kullanılan belgeler).",
       "read": [
         {
@@ -399,7 +399,7 @@
           ]
         },
         {
-          "say": "[cautiously] C'nin tuzağı: dahilde işlemede sözlü beyan edilebilenler tela, etiket, düğme gibi yardımcı maddeler; elyaf, iplik, kumaş gibi temel tekstil hammaddeleri hariç.",
+          "say": "[cautiously] C'nin tuzağı: dahilde işlemede tela, etiket, düğme gibi yardımcı maddeler sözlü beyan edilebilir; ama elyaf, iplik, kumaş gibi temel tekstil hammaddeleri bu kapsamın dışında.",
           "show": [
             "s4",
             "y3"
@@ -423,7 +423,7 @@
           }
         },
         {
-          "say": "Sınav notu: Türkiye'de vefat eden yabancının cenazesi ve mirasçılarına giden eşyası da sözlü beyanla çıkar; 2022 ve 2025'te soruldu.",
+          "say": "Sınav notu: ihracatta cenaze ile Türkiye'de vefat eden yabancının mirasçılarına giden eşyası da sözlü beyan edilir; 2022 ve 2025'te soruldu.",
           "callout": {
             "type": "onemli",
             "title": "Vefat eden yabancı = sözlü beyan",
@@ -497,7 +497,7 @@
     "items": [
       {
         "title": "Muayene bildirildi: düzeltme yok",
-        "text": "İptal için sonuç beklenir; teslimden sonra düzeltme 3 yıl; yanlış rejimde iptal 3 ay; iptal cezayı engellemez."
+        "text": "İptal için sonuç beklenir; teslimden sonra düzeltme tescilden 3 yıl; yanlış rejimde iptal 3 ay; iptal cezayı engellemez."
       },
       {
         "title": "Mavi hat = OKSB + ihracat",
@@ -505,7 +505,7 @@
       },
       {
         "title": "Sözlü beyan: 1.000 Avro sınırı",
-        "text": "Yolcu eşyası ve yabancı TV teçhizatı geçici ithalatta sözlü; DİR'de yalnız yardımcı madde; Cumhurbaşkanlığı yazısı beyannamedir."
+        "text": "Yolcu eşyası ve yabancı TV teçhizatı geçici ithalatta sözlü; DİR'de düğme evet, iplik hayır; Cumhurbaşkanlığı yazısı beyannamedir."
       }
     ],
     "parts": [
@@ -517,7 +517,7 @@
         "item": 0
       },
       {
-        "say": "İki: mavi hat, onaylanmış kişinin ihracat hattı; artan numune bir ayda alınmalı.",
+        "say": "İki: mavi hat, onaylanmış kişinin ihracat hattı; artan numune bir ay içinde alınmalı.",
         "item": 1
       },
       {

@@ -86,7 +86,7 @@
           ]
         },
         {
-          "say": "Serbest bölgeye gidişte ise eşyanın serbest bölgeye fiilen girdiği gün.",
+          "say": "Kara ve demiryoluyla serbest bölgeye gidişte ise eşyanın serbest bölgeye fiilen girdiği gün.",
           "show": [
             "b3"
           ]
@@ -119,7 +119,7 @@
           "say": "Neden önemli? Geri gelen eşyada üç yıl, fiilen ihraç tarihinde başlar; havayolunda uçağın hareket ettiği gün. 2025'te soruldu.",
           "callout": {
             "type": "dikkat",
-            "title": "Geri gelen eşyada saat buradan",
+            "title": "Geri gelen eşyada süre buradan",
             "text": "Geri getirilme süresinin başlangıcı, eşyanın fiilen ihraç edildiği tarihtir. 2025'te İstanbul Havalimanından ihraç edilen eşya için doğru cevap 'uçağın hareket ettiği tarih' idi."
           }
         }
@@ -145,7 +145,7 @@
           },
           {
             "id": "b3",
-            "text": "Serbest bölgeye → FİİLEN giriş"
+            "text": "Kara · demir → serbest bölgeye FİİLEN giriş"
           },
           {
             "id": "b4",
@@ -216,33 +216,33 @@
           "say": "[excited] Doğru cevap D: bir ve üç."
         },
         {
-          "say": "İki ayrı saat var. Birincisi, eşya ihraç için geçici depolama yerine konduysa: kalış süresi bir ay.",
+          "say": "İki ayrı süre var. Birincisi, eşya ihraç için geçici depolama yerine konduysa: kalış süresi bir ay.",
           "show": [
             "c1",
             "g1"
           ]
         },
         {
-          "say": "Bu süre içinde istenirse gümrük müdürlüğü en çok üç ay ek süre verir; beyanname tescil edilmiş olsun olmasın. Birinci öncül doğru; 2022 ve 2024'te soruldu.",
+          "say": "Bu süre içinde istenirse gümrük müdürlüğü en çok üç ay ek süre verebilir; beyanname tescil edilmiş olsun olmasın. Birinci öncül doğru; 2022 ve 2024'te soruldu.",
           "show": [
             "g2"
           ]
         },
         {
-          "say": "Süre bitince eşya kaldırılmadıysa yükümlüye tebligat yapılır; otuz gün içinde çıkarılmazsa gümrüğe terk edilmiş sayılır ve tasfiye edilir. Tebligatsız terk yok; dördüncü öncül yanlış.",
+          "say": "Süre bitince eşya kaldırılmadıysa yükümlüye tebligat yapılır; tebliğden itibaren otuz gün içinde çıkarılmazsa gümrüğe terk edilmiş sayılır ve tasfiye edilir. Tebligatsız terk yok; dördüncü öncül yanlış.",
           "show": [
             "g3"
           ]
         },
         {
-          "say": "İkinci saat: eşya geçici depolamaya hiç girmeden ihraç ediliyorsa beyanname kapatma süresi iki ay.",
+          "say": "İkinci süre: eşya geçici depolamaya hiç girmeden ihraç ediliyorsa beyanname kapatma süresi iki ay.",
           "show": [
             "c2",
             "k1"
           ]
         },
         {
-          "say": "[cautiously] İkinci öncülde iki hata var: süre bir değil iki ay; uzatan da bölge müdürlüğü değil, gümrük müdürlüğü; makul sebeplerle en çok iki ay. 2025 sınavı tam bunu sordu.",
+          "say": "[cautiously] İkinci öncülde iki hata var: süre bir değil iki ay; uzatan da bölge müdürlüğü değil, gümrük müdürlüğü; makul sebeplerle en çok iki ay. Uzatma yetkisini 2025, süreyi 2024 sınavı sordu.",
           "show": [
             "k2"
           ],
@@ -269,7 +269,7 @@
         }
       ],
       "board": {
-        "title": "İhracatta iki saat",
+        "title": "İhracatta iki süre",
         "madde": "GY md. 417",
         "kind": "split",
         "columns": [
@@ -364,13 +364,13 @@
           "say": "[excited] Doğru cevap C!"
         },
         {
-          "say": "Basitleştirilmiş usul: beyanname yerine eksik beyan, ticari ya da idari belge veya kayıt yoluyla işlem. İhracatta kural olarak onaylanmış kişi statüsü ya da yetkilendirilmiş yükümlü sertifikası gerekir. A doğru.",
+          "say": "Kanun üç basitleştirilmiş usul sayar: eksik beyan, beyanname yerine ticari ya da idari belge ve kayıt yoluyla işlem. İhracatta kural olarak onaylanmış kişi statüsü ya da yetkilendirilmiş yükümlü sertifikası gerekir. A doğru.",
           "show": [
             "root"
           ]
         },
         {
-          "say": "Eksik beyanda eksik bilgi ve belgeler tescilden itibaren bir ay içinde tamamlanır; gerekirse en çok üç ay ek süre verilir. E doğru; 2025'te boşluk doldurma olarak soruldu.",
+          "say": "Eksik beyanda eksik bilgi ve belgeler tescilden itibaren bir ay içinde tamamlanır; gerekirse en çok üç ay ek süre verilebilir. E doğru; 2025'te boşluk doldurma olarak soruldu.",
           "show": [
             "u1"
           ]
@@ -449,7 +449,7 @@
     "items": [
       {
         "title": "Deniz-hava: hareket · kara: fiilî çıkış",
-        "text": "Serbest bölgeye fiilen giriş; dış seferdeki taşıta teslimde teslim günü; geri gelen eşyada 3 yıl buradan başlar."
+        "text": "Karadan serbest bölgeye fiilen giriş; dış seferdeki taşıta teslimde teslim günü; geri gelen eşyada 3 yıl buradan başlar."
       },
       {
         "title": "1 + 3 ay ↔ 2 + 2 ay",

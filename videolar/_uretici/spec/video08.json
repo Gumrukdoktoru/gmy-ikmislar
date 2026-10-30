@@ -37,7 +37,7 @@
         "Brezilya'dan dökme hâlde denizyoluyla getirilecek eşya – Türkiye Gümrük Bölgesindeki ilk varış limanına gelmeden en az dört saat önce",
         "Romanya'nın Köstence Limanından denizyoluyla getirilecek eşya – İlk varış limanına gelmeden en az iki saat önce",
         "Demiryoluyla getirilecek eşya – Giriş gümrük idaresine varılmasından en az dört saat önce",
-        "Uçuş süresi altı saat olan bir seferle havayoluyla getirilecek eşya – Türkiye Gümrük Bölgesindeki ilk havalimanına inilmesinden en az dört saat önce"
+        "Uçuş süresi altı saat olan aktarmasız bir seferle havayoluyla getirilecek eşya – Türkiye Gümrük Bölgesindeki ilk havalimanına inilmesinden en az dört saat önce"
       ],
       "answer": "D",
       "gerekce": "Mevzuata göre demiryolu taşımacılığında özet beyan, giriş gümrük idaresine varılmasından en az iki saat önce verilir; dört saat değildir. Konteynerle taşınan eşyada hareket limanında gemiye yüklemeden en az yirmi dört saat, dökme veya ambalaj hâlindeki eşyada ilk varış limanına gelmeden en az dört saat, Karadeniz ya da Akdeniz üzerindeki yabancı limanlar ile Avrupa Topluluğu gümrük bölgesindeki limanlardan gelen eşyada en az iki saat, uçuş süresi dört saatten az olmayan uzun mesafeli uçuşlarda ise Türkiye Gümrük Bölgesindeki ilk havalimanına inilmesinden en az dört saat önce özet beyan verilir. Bu nedenle doğru cevap D seçeneğidir. (GK MD 35/A-35/B; GY MD 67)",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "say": "Havada uçuş dört saatten kısaysa en geç havalanma anına kadar; değilse inişten en az dört saat önce. E doğru.",
+          "say": "Havayolunda uçuş süresi dört saatten azsa en geç uçağın havalandığı ana kadar; değilse inişten en az dört saat önce. Altı saatlik uçuş uzun mesafeli; E doğru.",
           "show": [
             "c2",
             "b1",
@@ -191,24 +191,24 @@
     {
       "chip": "Somut olay · 45/20 gün",
       "src": "GK · Gümrük Yönetmeliği",
-      "stem": "(A) firmasının denizyoluyla getirdiği eşyaya ilişkin özet beyan 2 Mart 2026 tarihinde verilmiş; gemi Türkiye'de yalnızca Mersin Limanına uğramış ve eşya 9 Mart 2026 tarihinde gümrüğe sunulmuştur. Eşya hakkında herhangi bir adli veya idari takibat bulunmamaktadır. Gümrük mevzuatına göre bu eşyaya gümrükçe onaylanmış bir işlem veya kullanım belirlenmesine ilişkin aşağıdakilerden hangisi doğrudur?",
+      "stem": "(A) firmasının denizyoluyla getirdiği eşyaya ilişkin özet beyan 2 Mart 2026 tarihinde verilmiş; gemi Türkiye'de yalnızca Mersin Limanına uğramış ve eşya 9 Mart 2026 tarihinde gümrüğe sunulmuştur. Eşya hakkında herhangi bir adli veya idari takibat bulunmamaktadır. 4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre bu eşyaya gümrükçe onaylanmış bir işlem veya kullanım belirlenmesine ilişkin aşağıdakilerden hangisi doğrudur?",
       "options": [
-        "Kırk beş günlük süre, özet beyanın verildiği 2 Mart 2026 tarihinden itibaren işlemeye başlar.",
+        "Kırk beş günlük süre, eşyanın yurt dışında gemiye yüklendiği tarihten itibaren işlemeye başlar.",
         "Kırk beş günlük süre, eşyanın gümrüğe sunulduğu 9 Mart 2026 tarihinden itibaren işlemeye başlar.",
         "Eşya için ibrazı gereken uygunluk belgesinin alınmasında geçen süre de kırk beş günlük sürenin hesabına dâhil edilir.",
         "Firma, süre bitmeden iki aylık süre uzatımı talep ederse talebinin gerekçesini belirtmesi gerekmez.",
         "Eşya karayoluyla getirilmiş olsaydı süre yine kırk beş gün olurdu."
       ],
       "answer": "B",
-      "gerekce": "Mevzuata göre özet beyan kapsamındaki eşyaya denizyolunda kırk beş, diğer yollarda yirmi gün içinde gümrükçe onaylanmış bir işlem veya kullanım belirlenir; özet beyanın eşyanın gümrüğe sunulmasından önce verildiği hâllerde bu süreler eşyanın gümrüğe sunulduğu tarihten itibaren başlar. Uygunluk belgesi, kontrol belgesi, tahlil raporu gibi belgelerin alınmasında geçen süreler hesaba katılmaz; bir ayı aşan süre uzatım taleplerinde gerekçe belirtilmesi şarttır; karayoluyla gelen eşyada süre yirmi gündür. Bu nedenle doğru cevap B seçeneğidir. (GK MD 46, 50; GY MD 76-77)",
-      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (B): GY 77/2 (s.24943) ve GK 46/2-a kırk beş gün (s.17373-17375). Çeldiriciler: A → GY 77/2 (s.24943); C → GY 76/1 belge alınmasında geçen süreler hesaba katılmaz (s.17385); D → GY 76/3 bir ayı aşan uzatmada gerekçe (s.17389), Süre Değişimi Seri No:2 GGT md. 2/1-b otuz günü aşan talepte gerekçe ve belge (s.15371-15375); E → GK 46/2-b yirmi gün (s.17377). Anlatım: GK 46/3 gerçek ihtiyacı aşan uzatma yapılamaz (s.17381); Süre Değişimi GGT md. 2/2 talep süre bitmeden yapılır (s.15379); GK 50/1 tasfiye (s.24931); GY 73/3 sunma tarihi = ilk kayıt tarihi (s.17265). Esin: 2022/32 ve 2023/39 (45/20 gün), 2023/74-III (denizyolunda 45 gün), 2021/36 ('elli günü aşan uzatmada gerekçe' yanlış ifade).",
+      "gerekce": "Mevzuata göre özet beyan kapsamındaki eşyaya denizyolunda kırk beş, diğer yollarda yirmi gün içinde gümrükçe onaylanmış bir işlem veya kullanım belirlenir. Kanun bu süreleri özet beyanın verildiği tarihten başlatır; ancak Yönetmelik uyarınca özet beyanın eşyanın gümrüğe sunulmasından önce verildiği hâllerde süreler eşyanın gümrüğe sunulduğu tarihten itibaren başlar. Eşyanın yurt dışında gemiye yüklendiği tarih hiçbir hükümde başlangıç olarak öngörülmemiştir. Uygunluk belgesi, kontrol belgesi, tahlil raporu gibi belgelerin alınmasında geçen süreler hesaba katılmaz; bir ayı aşan süre uzatım taleplerinde gerekçe belirtilmesi şarttır; karayoluyla gelen eşyada süre yirmi gündür. Bu nedenle doğru cevap B seçeneğidir. (GK MD 46, 50; GY MD 76-77)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (B): GY 77/2 (s.24943) ve GK 46/2-a kırk beş gün (s.17373-17375). Çeldiriciler: A → yükleme tarihi ne GK 46/2 (s.17373-17377) ne GY 77/2 (s.24943) uyarınca başlangıçtır (eski A şıkkı 'özet beyanın verildiği tarih' Kanun metniyle birebir aynı olduğu ve 2021/36-B ile 2023/74-III'te doğru sayıldığı için değiştirildi); C → GY 76/1 belge alınmasında geçen süreler hesaba katılmaz (s.17385); D → GY 76/3 bir ayı aşan uzatmada gerekçe (s.17389), Süre Değişimi Seri No:2 GGT md. 2/1-b otuz günü aşan talepte gerekçe ve belge (s.15371-15375); E → GK 46/2-b yirmi gün (s.17377). Anlatım: GK 46/3 gerçek ihtiyacı aşan uzatma yapılamaz (s.17381); Süre Değişimi GGT md. 2/2 talep süre bitmeden yapılır (s.15379); GK 50/1 tasfiye (s.24931); GY 73/3 sunma tarihi = ilk kayıt tarihi (s.17265). Esin: 2022/32 ve 2023/39 (45/20 gün), 2023/74-III (denizyolunda 45 gün), 2021/36 ('elli günü aşan uzatmada gerekçe' yanlış ifade).",
       "read": [
         {
           "say": "İkinci soru bir senaryo. Denizyoluyla gelen eşyada özet beyan iki martta veriliyor; gemi yalnız Mersin'e uğruyor, eşya dokuz martta gümrüğe sunuluyor. Hangisi doğrudur?",
           "mark": "doğrudur"
         },
         {
-          "say": "A: Kırk beş gün, özet beyanın verildiği iki martta başlar.",
+          "say": "A: Kırk beş gün, eşyanın yurt dışında gemiye yüklendiği gün başlar.",
           "show": "A"
         },
         {
@@ -240,7 +240,7 @@
           ]
         },
         {
-          "say": "Dokuz mart: eşya gümrüğe sunuldu. Özet beyan önceden verildiyse saat, gümrüğe sunma gününde başlar. B doğru, A yanlış.",
+          "say": "Dokuz mart: eşya gümrüğe sunuldu. Özet beyan önceden verildiyse süre, gümrüğe sunma gününde başlar. B doğru; yurt dışındaki yükleme günü ise hiçbir hükümde başlangıç değil, A yanlış.",
           "show": [
             "p2"
           ],
@@ -256,15 +256,15 @@
           ]
         },
         {
-          "say": "[cautiously] A'nın tuzağı: Kanun 'özet beyanın verildiği tarihten' der; ama özet beyan önceden verildiyse Yönetmelik saati sunma gününde başlatır.",
+          "say": "[cautiously] Asıl incelik: Kanun 'özet beyanın verildiği tarihten' der; Kanun metni sorulursa bu ifade doğrudur, 2023'te de öyleydi. Ama özet beyan önceden verildiyse Yönetmelik süreyi sunma gününde başlatır.",
           "callout": {
             "type": "tuzak",
-            "title": "Saat SUNULDUĞU gün başlar",
-            "text": "Özet beyanın eşyanın gümrüğe sunulmasından önce verildiği hâllerde kırk beş ve yirmi günlük süreler, eşyanın gümrüğe sunulduğu tarihten itibaren başlar."
+            "title": "Süre SUNULDUĞU gün başlar",
+            "text": "Kanun metninde başlangıç, özet beyanın verildiği tarihtir. Özet beyan eşyanın gümrüğe sunulmasından önce verildiyse Yönetmelik'e göre kırk beş ve yirmi günlük süreler sunma tarihinde başlar."
           }
         },
         {
-          "say": "Belge beklerken saat durur: uygunluk belgesi, ithal lisansı, tahlil raporu gibi belgelerin alınmasında geçen süre sayılmaz. C yanlış.",
+          "say": "Belge beklerken süre durur: uygunluk belgesi, ithal lisansı, tahlil raporu gibi belgelerin alınmasında geçen süre sayılmaz. C yanlış.",
           "callout": {
             "type": "dikkat",
             "title": "Belge süresi SAYILMAZ",
@@ -287,7 +287,7 @@
         }
       ],
       "board": {
-        "title": "45 / 20 gün: saat ne zaman başlar?",
+        "title": "45 / 20 gün: süre ne zaman başlar?",
         "madde": "GK md. 46, 50 · GY md. 76-77",
         "kind": "timeline",
         "points": [
@@ -299,7 +299,7 @@
           {
             "id": "p2",
             "text": "9 Mart",
-            "sub": "Gümrüğe sunuldu · SAAT BAŞLAR",
+            "sub": "Gümrüğe sunuldu · SÜRE BAŞLAR",
             "tone": "gold"
           },
           {
@@ -392,7 +392,7 @@
           ]
         },
         {
-          "say": "Yolcu eşyası ambarında süre üç ay; talep hâlinde mücbir sebep aranmadan üç aya kadar uzatılabilir. Üçüncü öncül doğru; 2023 ve 2025'te soruldu.",
+          "say": "Yolcu eşyası ambarında süre üç ay; talep hâlinde mücbir sebep aranmadan üç aya kadar uzatılabilir. Üçüncü öncül doğru; üç aylık süre 2023 ve 2025'te soruldu.",
           "show": [
             "b4"
           ],
@@ -465,10 +465,10 @@
       },
       {
         "title": "Deniz 45 · diğer yollar 20 gün",
-        "text": "Özet beyan önceden verildiyse saat sunma gününde başlar; belge beklerken durur; 1 ayı aşan uzatmada gerekçe şart."
+        "text": "Özet beyan önceden verildiyse süre sunma gününde başlar; belge beklerken durur; 1 ayı aşan uzatmada gerekçe şart."
       },
       {
-        "title": "Yolcu ambarı: 3 ay + 3 ay",
+        "title": "Yolcu ambarı: 3 ay + 3 aya kadar",
         "text": "Geçici depolama GOİK değildir; elleçleme görünüşü değiştirmeden; gümrüğe terk statüyü bitirir."
       }
     ],
@@ -481,11 +481,11 @@
         "item": 0
       },
       {
-        "say": "İki: denizyolunda kırk beş, diğer yollarda yirmi gün; özet beyan önceden verildiyse saat, sunma gününde başlar.",
+        "say": "İki: denizyolunda kırk beş, diğer yollarda yirmi gün; özet beyan önceden verildiyse süre, sunma gününde başlar.",
         "item": 1
       },
       {
-        "say": "Üç: yolcu ambarında üç ay artı üç ay; geçici depolamaya konmak gümrükçe onaylanmış işlem değildir.",
+        "say": "Üç: yolcu ambarında üç ay, artı üç aya kadar uzatma; geçici depolamaya konmak gümrükçe onaylanmış işlem değildir.",
         "item": 2
       },
       {

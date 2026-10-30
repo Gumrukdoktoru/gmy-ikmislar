@@ -6,8 +6,8 @@
  },
  {
   "id": "q1_read",
-  "text": "Dokuzuncu videonun ilk sorusu. Beyannamenin düzeltilmesi ve iptaliyle ilgili hangisi doğrudur? A: Muayene bildirildiyse, sonucu alınmadan iptal talebi kabul edilmez. B: Muayene bildirildikten sonra da teslime kadar düzeltme yapılabilir. C: Başka bir eşyanın beyanı sonucunu doğursa da düzeltmeye izin verilir. D: Yanlış rejim nedeniyle iptal, tescilden itibaren bir ay içinde istenmeli. E: Beyannamenin iptali, cezai hükümlerin uygulanmasını engeller.",
-  "chars": 451
+  "text": "Dokuzuncu videonun ilk sorusu. Beyannamenin düzeltilmesi ve iptaliyle ilgili hangisi doğrudur? A: Muayene bildirildiyse, sonucu alınmadan iptal talebi kabul edilmez. B: Muayene bildirilse ve yanlışlık tespit edilse bile, teslime kadar düzeltme yapılabilir. C: Başka bir eşyanın beyanı sonucunu doğursa da düzeltmeye izin verilir. D: Yanlış rejim nedeniyle iptal, tescilden itibaren bir ay içinde istenmeli. E: Beyannamenin iptali, cezai hükümlerin uygulanmasını engeller.",
+  "chars": 471
  },
  {
   "id": "q1_think",
@@ -46,13 +46,13 @@
  },
  {
   "id": "q3_exp",
-  "text": "[excited] Doğru cevap B! Kanun dört beyan yolu sayar: yazılı, bilgisayar veri işleme tekniğiyle, sözlü ve rejim isteğini gösteren herhangi bir tasarrufla. Sözlü beyanın kapsamını Yönetmelik tek tek sayar. Geçici ithalatta yolcunun kişisel ve sportif eşyası ile yabancı radyo ve televizyon kuruluşlarının yayın teçhizatı sözlü beyan edilir. B doğru. Ticari eşyada eşik bin Avro: sevkiyat ve beyan başına bin Avro'yu geçmemeli ve düzenli sevkiyatların parçası olmamalı. A ve E bu yüzden sözlü beyan edilemez. [cautiously] C'nin tuzağı: dahilde işlemede sözlü beyan edilebilenler tela, etiket, düğme gibi yardımcı maddeler; elyaf, iplik, kumaş gibi temel tekstil hammaddeleri hariç. D'de ise Cumhurbaşkanlığının resmi yazısı beyanname kabul edilir; sözlü beyan değil. Sınav notu: Türkiye'de vefat eden yabancının cenazesi ve mirasçılarına giden eşyası da sözlü beyanla çıkar; 2022 ve 2025'te soruldu.",
-  "chars": 897
+  "text": "[excited] Doğru cevap B! Kanun dört beyan yolu sayar: yazılı, bilgisayar veri işleme tekniğiyle, sözlü ve rejim isteğini gösteren herhangi bir tasarrufla. Sözlü beyanın kapsamını Yönetmelik tek tek sayar. Geçici ithalatta yolcunun kişisel ve sportif eşyası ile yabancı radyo ve televizyon kuruluşlarının yayın teçhizatı sözlü beyan edilir. B doğru. Ticari eşyada eşik bin Avro: sevkiyat ve beyan başına bin Avro'yu geçmemeli ve düzenli sevkiyatların parçası olmamalı. A ve E bu yüzden sözlü beyan edilemez. [cautiously] C'nin tuzağı: dahilde işlemede tela, etiket, düğme gibi yardımcı maddeler sözlü beyan edilebilir; ama elyaf, iplik, kumaş gibi temel tekstil hammaddeleri bu kapsamın dışında. D'de ise Cumhurbaşkanlığının resmi yazısı beyanname kabul edilir; sözlü beyan değil. Sınav notu: ihracatta cenaze ile Türkiye'de vefat eden yabancının mirasçılarına giden eşyası da sözlü beyan edilir; 2022 ve 2025'te soruldu.",
+  "chars": 920
  },
  {
   "id": "summary",
-  "text": "Hafıza kartı zamanı. Üç cümle. Bir: muayene bildirildiyse düzeltme yok, iptal için sonuç beklenir; yanlış rejimde iptal süresi üç ay. İki: mavi hat, onaylanmış kişinin ihracat hattı; artan numune bir ayda alınmalı. Üç: ticari eşyada sözlü beyan sınırı bin Avro; yabancı televizyonun yayın teçhizatı sözlü beyan edilir. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
-  "chars": 371
+  "text": "Hafıza kartı zamanı. Üç cümle. Bir: muayene bildirildiyse düzeltme yok, iptal için sonuç beklenir; yanlış rejimde iptal süresi üç ay. İki: mavi hat, onaylanmış kişinin ihracat hattı; artan numune bir ay içinde alınmalı. Üç: ticari eşyada sözlü beyan sınırı bin Avro; yabancı televizyonun yayın teçhizatı sözlü beyan edilir. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+  "chars": 376
  },
  {
   "id": "outro",
