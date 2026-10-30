@@ -1,0 +1,62 @@
+[
+ {
+  "id": "intro",
+  "text": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Dokuzuncu videomuzun konusu gümrük beyanı ve muayene. Kontrol hatları ve sözlü beyan formu, son beş sınavda birden fazla kez soruldu. Bugün üç yeni soru çözüyoruz, renk ve süre tuzaklarını avlıyoruz, ve hafıza kartıyla kapatıyoruz. Başlayalım!",
+  "chars": 290
+ },
+ {
+  "id": "q1_read",
+  "text": "Dokuzuncu videonun ilk sorusu. Beyannamenin düzeltilmesi ve iptaliyle ilgili hangisi doğrudur? A: Muayene bildirildiyse, sonucu alınmadan iptal talebi kabul edilmez. B: Muayene bildirildikten sonra da teslime kadar düzeltme yapılabilir. C: Başka bir eşyanın beyanı sonucunu doğursa da düzeltmeye izin verilir. D: Yanlış rejim nedeniyle iptal, tescilden itibaren bir ay içinde istenmeli. E: Beyannamenin iptali, cezai hükümlerin uygulanmasını engeller.",
+  "chars": 451
+ },
+ {
+  "id": "q1_think",
+  "text": "Videoyu durdurabilirsin. Süren başladı… beş saniye!",
+  "chars": 51
+ },
+ {
+  "id": "q1_exp",
+  "text": "[excited] Doğru cevap A! İkisi de beyan sahibinin talebiyle olur ama kuralları ayrı. Önce düzeltme: başka bir eşyanın beyanı sonucunu doğurmamalı. Tarife alt pozisyonu ya da vergi oranı değişiyorsa başka eşya sayılır; C yanlış. Düzeltme kapısı üç anda kapanır: muayene bildirilince, yani sistem kırmızı hattı belirleyince; bilgilerin yanlışlığı tespit edilince; eşya teslim edilince. B yanlış. Teslimden sonra ise tescilden itibaren üç yıl içinde düzeltme istenebilir. İptale geçelim. Muayene bildirildiyse, iptal talebi muayenenin sonucu alınmadan kabul edilmez. A doğru. [cautiously] D'nin tuzağı: yanlış rejim nedeniyle iptal talebi tescilden itibaren üç ay içinde yapılır; bir ay değil. 2021 sınavında tam bu soruldu. Ve iptal bir af değildir: yürürlükteki cezai hükümlerin uygulanmasına engel olmaz. E yanlış.",
+  "chars": 814
+ },
+ {
+  "id": "q2_read",
+  "text": "İkinci soru öncüllü. Beyanın kontrolü ve muayeneyle ilgili hangi ifadeler doğrudur? Bir: Kırmızı hatta muayene ve belge kontrolü, sarı hatta yalnız belge kontrolü yapılır. İki: Mavi hat, yetkilendirilmiş yükümlülerin ithalatta kontrolsüz geçtiği hattır. Üç: Tek kalemlik beyannamede kısmi muayene sonucu tümüne uygulanır; beyan sahibi tam muayene isteyebilir. Dört: Tahlilden artan numune, sonuç bildiriminden sonra üç ay içinde alınmazsa terk edilmiş sayılır. Şıklar ekranda.",
+  "chars": 476
+ },
+ {
+  "id": "q2_think",
+  "text": "Şimdi sıra sende. Beş saniye düşün!",
+  "chars": 35
+ },
+ {
+  "id": "q2_exp",
+  "text": "[excited] Doğru cevap C: bir ve üç. Beyanın kontrol türünü ve görevli memuru, bilgisayar sistemi risk kriterlerine göre belirler. Dört renk var. Kırmızı: muayene artı belge kontrolü. Sarı: muayene yok; beyanname ve eklerinin doğruluğu ve uyumu kontrol edilir. Birinci öncül doğru. Yeşil: ne belge kontrolü ne muayene. [cautiously] İkinci öncülün tuzağı: mavi hat, onaylanmış kişi statüsü sahiplerinin ihracatta yararlandığı hattır. Kontrol, çıkış işlemleri tamamlandıktan sonra yapılır. Muayenede kural: tek kalemlik beyannamede kısmi muayene sonucu tümüne uygulanır; beyan sahibi tam muayene isteyebilir. Üçüncü öncül doğru. Dördüncü öncül: tahlilden artan numune, sonuçların bildiriminden sonra bir ay içinde alınmazsa gümrüğe terk edilmiş sayılır; üç ay değil. Ezber notu: dört renk var; 'siyah hat' diye bir hat yok. 2023'te çeldiriciydi.",
+  "chars": 842
+ },
+ {
+  "id": "q3_read",
+  "text": "Ve son soru bir senaryo. Aşağıdaki durumların hangisinde beyan sözlü olarak yapılır? A: Sevkiyat başına üç bin Avro'luk ticari eşyanın serbest dolaşıma girişi. B: Yabancı bir televizyon kuruluşunun yayın teçhizatının geçici ithalatı. C: Dahilde işleme kapsamında ithal edilen elyaf ve iplik. D: Cumhurbaşkanının zat ve ikametgâhına ait eşya. E: Düzenli sevkiyatların parçası olan altı yüz Avro'luk ticari eşya.",
+  "chars": 410
+ },
+ {
+  "id": "q3_think",
+  "text": "Kalemi al, işaretle. Beş saniye!",
+  "chars": 32
+ },
+ {
+  "id": "q3_exp",
+  "text": "[excited] Doğru cevap B! Kanun dört beyan yolu sayar: yazılı, bilgisayar veri işleme tekniğiyle, sözlü ve rejim isteğini gösteren herhangi bir tasarrufla. Sözlü beyanın kapsamını Yönetmelik tek tek sayar. Geçici ithalatta yolcunun kişisel ve sportif eşyası ile yabancı radyo ve televizyon kuruluşlarının yayın teçhizatı sözlü beyan edilir. B doğru. Ticari eşyada eşik bin Avro: sevkiyat ve beyan başına bin Avro'yu geçmemeli ve düzenli sevkiyatların parçası olmamalı. A ve E bu yüzden sözlü beyan edilemez. [cautiously] C'nin tuzağı: dahilde işlemede sözlü beyan edilebilenler tela, etiket, düğme gibi yardımcı maddeler; elyaf, iplik, kumaş gibi temel tekstil hammaddeleri hariç. D'de ise Cumhurbaşkanlığının resmi yazısı beyanname kabul edilir; sözlü beyan değil. Sınav notu: Türkiye'de vefat eden yabancının cenazesi ve mirasçılarına giden eşyası da sözlü beyanla çıkar; 2022 ve 2025'te soruldu.",
+  "chars": 897
+ },
+ {
+  "id": "summary",
+  "text": "Hafıza kartı zamanı. Üç cümle. Bir: muayene bildirildiyse düzeltme yok, iptal için sonuç beklenir; yanlış rejimde iptal süresi üç ay. İki: mavi hat, onaylanmış kişinin ihracat hattı; artan numune bir ayda alınmalı. Üç: ticari eşyada sözlü beyan sınırı bin Avro; yabancı televizyonun yayın teçhizatı sözlü beyan edilir. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+  "chars": 371
+ },
+ {
+  "id": "outro",
+  "text": "[excited] Skorunu yorumlara yaz, abone olmayı unutma. Sıradaki ve serinin son videosunda ihracat rejimi var. Görüşmek üzere!",
+  "chars": 124
+ }
+]

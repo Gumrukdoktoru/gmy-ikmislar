@@ -1,0 +1,507 @@
+{
+  "no": 8,
+  "title": "Gümrüğe Sunma ve Geçici Depolama",
+  "short": "SUNMA · GEÇİCİ DEPOLAMA",
+  "subtitle": "Özet beyanın saatleri, 45/20 gün kuralı, geçici depolanan eşya ve yolcu ambarında 3 ay",
+  "intro": {
+    "chips": [
+      "3 YENİ SORU",
+      "TUZAK AVI",
+      "HAFIZA KARTI"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Sekizinci videomuzun konusu eşyanın gümrüğe sunulması ve geçici depolama."
+      },
+      {
+        "say": "Son beş sınavda on dokuz soru bu konudan geldi. Bugün üç yeni soru çözüyoruz,",
+        "chip": 0
+      },
+      {
+        "say": "saat ve gün tuzaklarını avlıyoruz,",
+        "chip": 1
+      },
+      {
+        "say": "ve hafıza kartıyla kapatıyoruz. Başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Eşleştirme · Özet beyan",
+      "src": "Gümrük Yönetmeliği",
+      "stem": "Gümrük Yönetmeliği'ne göre Türkiye Gümrük Bölgesine getirilecek eşya için özet beyanın gümrük idaresine verilme sürelerine ilişkin aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+      "options": [
+        "Şanghay Limanından konteynerle denizyoluyla getirilecek eşya – Hareket limanında eşyanın gemiye yüklenmesinden en az yirmi dört saat önce",
+        "Brezilya'dan dökme hâlde denizyoluyla getirilecek eşya – Türkiye Gümrük Bölgesindeki ilk varış limanına gelmeden en az dört saat önce",
+        "Romanya'nın Köstence Limanından denizyoluyla getirilecek eşya – İlk varış limanına gelmeden en az iki saat önce",
+        "Demiryoluyla getirilecek eşya – Giriş gümrük idaresine varılmasından en az dört saat önce",
+        "Uçuş süresi altı saat olan bir seferle havayoluyla getirilecek eşya – Türkiye Gümrük Bölgesindeki ilk havalimanına inilmesinden en az dört saat önce"
+      ],
+      "answer": "D",
+      "gerekce": "Mevzuata göre demiryolu taşımacılığında özet beyan, giriş gümrük idaresine varılmasından en az iki saat önce verilir; dört saat değildir. Konteynerle taşınan eşyada hareket limanında gemiye yüklemeden en az yirmi dört saat, dökme veya ambalaj hâlindeki eşyada ilk varış limanına gelmeden en az dört saat, Karadeniz ya da Akdeniz üzerindeki yabancı limanlar ile Avrupa Topluluğu gümrük bölgesindeki limanlardan gelen eşyada en az iki saat, uçuş süresi dört saatten az olmayan uzun mesafeli uçuşlarda ise Türkiye Gümrük Bölgesindeki ilk havalimanına inilmesinden en az dört saat önce özet beyan verilir. Bu nedenle doğru cevap D seçeneğidir. (GK MD 35/A-35/B; GY MD 67)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru cevap (D yanlış eşleştirme): GY 67/3 iki saat (s.17207). Doğru eşleştirmeler: A → GY 67/1-a (s.17193); B → GY 67/1-b (s.17195); C → GY 67/1-c Karadeniz/Akdeniz/AB limanları (s.17197); E → GY 67/2-a-2 ve 67/2-b uzun mesafe tanımı (s.17203-17205). Anlatım: GK 35/A-2 ve 35/A-3 giriş idaresine, eşya gelmeden önce (s.16997-16999); GK 35/B-4 özet beyanı veren kişi (s.17009); GK 35/B-6 değişiklik yasakları (s.17021-17029); GY 67/2-a-1 kısa mesafe (s.17201). Esin: 2024/86 (özet beyan süreleri öncüllü; 'uzun uçuşta sekiz saat' ve 'çıkış idaresine verilir' yanlış), 2021/33 ve 2023/95 (özet beyanın genel hükümleri).",
+      "read": [
+        {
+          "say": "Sekizinci videonun ilk sorusu bir eşleştirme. Özet beyanın süreleriyle ilgili hangisi yanlıştır?",
+          "mark": "yanlıştır"
+        },
+        {
+          "say": "A: Şanghay'dan konteyner, gemiye yüklemeden yirmi dört saat önce.",
+          "show": "A"
+        },
+        {
+          "say": "B: Brezilya'dan dökme yük, ilk limana varmadan dört saat önce.",
+          "show": "B"
+        },
+        {
+          "say": "C: Köstence Limanından gelen eşya, iki saat önce.",
+          "show": "C"
+        },
+        {
+          "say": "D: Demiryolu, giriş gümrük idaresine varmadan dört saat önce.",
+          "show": "D"
+        },
+        {
+          "say": "E: Altı saatlik uçuş, ilk havalimanına inişten dört saat önce.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap D!"
+        },
+        {
+          "say": "Önce kural: özet beyanı, eşyayı getiren ya da taşıma sorumluluğunu üstlenen kişi, eşya gelmeden önce giriş gümrük idaresine verir. Ne kadar önce? Taşıma şekline bakalım.",
+          "show": [
+            "c1"
+          ]
+        },
+        {
+          "say": "Denizyolunda konteyner: gemiye yüklemeden en az yirmi dört saat önce. A doğru.",
+          "show": [
+            "a1"
+          ]
+        },
+        {
+          "say": "Dökme ya da ambalajlı yük: ilk varış limanına gelmeden en az dört saat önce. B doğru.",
+          "show": [
+            "a2"
+          ]
+        },
+        {
+          "say": "Karadeniz, Akdeniz ve AB limanlarından gelişte süre iki saat; Köstence bu yüzden iki saat. C doğru.",
+          "show": [
+            "a3"
+          ]
+        },
+        {
+          "say": "Havada uçuş dört saatten kısaysa en geç havalanma anına kadar; değilse inişten en az dört saat önce. E doğru.",
+          "show": [
+            "c2",
+            "b1",
+            "b2"
+          ]
+        },
+        {
+          "say": "[cautiously] D'nin tuzağı: demiryolunda süre iki saat. Dört saat, dökme deniz yükü ile uzun uçuşun rakamı.",
+          "show": [
+            "b3"
+          ],
+          "hl": [
+            "b3"
+          ],
+          "pose": "saskin",
+          "callout": {
+            "type": "tuzak",
+            "title": "Demiryolu = 2 SAAT",
+            "text": "Demiryolu taşımacılığında özet beyan, giriş gümrük idaresine varılmasından en az iki saat önce verilir. Dört saat; dökme veya ambalajlı deniz yükü ile uzun mesafeli uçuşun süresidir."
+          }
+        },
+        {
+          "say": "Uzun uçuşa da dikkat: 2024 sınavında 'sekiz saat' yazıyordu ve yanlıştı.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Uzun uçuş = 4 saat, 8 değil",
+            "text": "Uçuş süresi dört saatten az olan uçuşlar kısa mesafelidir: en geç havalanma anına kadar. Diğerlerinde inişten en az dört saat önce. 2024'te '8 saat' yanlış kabul edildi."
+          }
+        },
+        {
+          "say": "Son not: muayene bildiriminden, yanlışlık tespitinden ya da boşaltma izninden sonra özet beyan değiştirilemez.",
+          "pose": "onemli",
+          "callout": {
+            "type": "onemli",
+            "title": "Değişiklik kapısı 3 anda kapanır",
+            "text": "Talep üzerine özet beyandaki bilgiler değiştirilebilir; ancak muayene bildiriminden, yanlışlığın tespitinden veya boşaltma izninden sonra değişikliğe izin verilmez."
+          }
+        }
+      ],
+      "board": {
+        "title": "Özet beyan: kaç saat önce?",
+        "madde": "GK md. 35/A-35/B · GY md. 67",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "DENİZYOLU",
+            "tone": "navy"
+          },
+          {
+            "id": "c2",
+            "title": "HAVA · DEMİRYOLU",
+            "tone": "gold"
+          }
+        ],
+        "items": [
+          {
+            "id": "a1",
+            "col": "c1",
+            "text": "Konteyner → yüklemeden 24 SAAT önce"
+          },
+          {
+            "id": "a2",
+            "col": "c1",
+            "text": "Dökme · ambalajlı → varıştan 4 SAAT önce"
+          },
+          {
+            "id": "a3",
+            "col": "c1",
+            "text": "Karadeniz · Akdeniz · AB → 2 SAAT önce"
+          },
+          {
+            "id": "b1",
+            "col": "c2",
+            "text": "Kısa uçuş (< 4 saat) → havalanma anına kadar"
+          },
+          {
+            "id": "b2",
+            "col": "c2",
+            "text": "Uzun uçuş → inişten 4 SAAT önce"
+          },
+          {
+            "id": "b3",
+            "col": "c2",
+            "text": "Demiryolu → varıştan 2 SAAT önce",
+            "tone": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Somut olay · 45/20 gün",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "(A) firmasının denizyoluyla getirdiği eşyaya ilişkin özet beyan 2 Mart 2026 tarihinde verilmiş; gemi Türkiye'de yalnızca Mersin Limanına uğramış ve eşya 9 Mart 2026 tarihinde gümrüğe sunulmuştur. Eşya hakkında herhangi bir adli veya idari takibat bulunmamaktadır. Gümrük mevzuatına göre bu eşyaya gümrükçe onaylanmış bir işlem veya kullanım belirlenmesine ilişkin aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "Kırk beş günlük süre, özet beyanın verildiği 2 Mart 2026 tarihinden itibaren işlemeye başlar.",
+        "Kırk beş günlük süre, eşyanın gümrüğe sunulduğu 9 Mart 2026 tarihinden itibaren işlemeye başlar.",
+        "Eşya için ibrazı gereken uygunluk belgesinin alınmasında geçen süre de kırk beş günlük sürenin hesabına dâhil edilir.",
+        "Firma, süre bitmeden iki aylık süre uzatımı talep ederse talebinin gerekçesini belirtmesi gerekmez.",
+        "Eşya karayoluyla getirilmiş olsaydı süre yine kırk beş gün olurdu."
+      ],
+      "answer": "B",
+      "gerekce": "Mevzuata göre özet beyan kapsamındaki eşyaya denizyolunda kırk beş, diğer yollarda yirmi gün içinde gümrükçe onaylanmış bir işlem veya kullanım belirlenir; özet beyanın eşyanın gümrüğe sunulmasından önce verildiği hâllerde bu süreler eşyanın gümrüğe sunulduğu tarihten itibaren başlar. Uygunluk belgesi, kontrol belgesi, tahlil raporu gibi belgelerin alınmasında geçen süreler hesaba katılmaz; bir ayı aşan süre uzatım taleplerinde gerekçe belirtilmesi şarttır; karayoluyla gelen eşyada süre yirmi gündür. Bu nedenle doğru cevap B seçeneğidir. (GK MD 46, 50; GY MD 76-77)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (B): GY 77/2 (s.24943) ve GK 46/2-a kırk beş gün (s.17373-17375). Çeldiriciler: A → GY 77/2 (s.24943); C → GY 76/1 belge alınmasında geçen süreler hesaba katılmaz (s.17385); D → GY 76/3 bir ayı aşan uzatmada gerekçe (s.17389), Süre Değişimi Seri No:2 GGT md. 2/1-b otuz günü aşan talepte gerekçe ve belge (s.15371-15375); E → GK 46/2-b yirmi gün (s.17377). Anlatım: GK 46/3 gerçek ihtiyacı aşan uzatma yapılamaz (s.17381); Süre Değişimi GGT md. 2/2 talep süre bitmeden yapılır (s.15379); GK 50/1 tasfiye (s.24931); GY 73/3 sunma tarihi = ilk kayıt tarihi (s.17265). Esin: 2022/32 ve 2023/39 (45/20 gün), 2023/74-III (denizyolunda 45 gün), 2021/36 ('elli günü aşan uzatmada gerekçe' yanlış ifade).",
+      "read": [
+        {
+          "say": "İkinci soru bir senaryo. Denizyoluyla gelen eşyada özet beyan iki martta veriliyor; gemi yalnız Mersin'e uğruyor, eşya dokuz martta gümrüğe sunuluyor. Hangisi doğrudur?",
+          "mark": "doğrudur"
+        },
+        {
+          "say": "A: Kırk beş gün, özet beyanın verildiği iki martta başlar.",
+          "show": "A"
+        },
+        {
+          "say": "B: Kırk beş gün, eşyanın gümrüğe sunulduğu dokuz martta başlar.",
+          "show": "B"
+        },
+        {
+          "say": "C: Uygunluk belgesi için geçen süre de kırk beş güne dâhildir.",
+          "show": "C"
+        },
+        {
+          "say": "D: İki aylık uzatma talebinde gerekçe gerekmez.",
+          "show": "D"
+        },
+        {
+          "say": "E: Karayoluyla gelseydi de süre kırk beş gün olurdu.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap B!"
+        },
+        {
+          "say": "Tarihleri çizgiye dizelim. İki mart: özet beyan verildi.",
+          "show": [
+            "axis",
+            "p1"
+          ]
+        },
+        {
+          "say": "Dokuz mart: eşya gümrüğe sunuldu. Özet beyan önceden verildiyse saat, gümrüğe sunma gününde başlar. B doğru, A yanlış.",
+          "show": [
+            "p2"
+          ],
+          "hl": [
+            "p2"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "Süre: denizyolunda kırk beş, diğer yollarda yirmi gün. Karayoluyla gelseydi yirmi gün; E yanlış.",
+          "show": [
+            "p3"
+          ]
+        },
+        {
+          "say": "[cautiously] A'nın tuzağı: Kanun 'özet beyanın verildiği tarihten' der; ama özet beyan önceden verildiyse Yönetmelik saati sunma gününde başlatır.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Saat SUNULDUĞU gün başlar",
+            "text": "Özet beyanın eşyanın gümrüğe sunulmasından önce verildiği hâllerde kırk beş ve yirmi günlük süreler, eşyanın gümrüğe sunulduğu tarihten itibaren başlar."
+          }
+        },
+        {
+          "say": "Belge beklerken saat durur: uygunluk belgesi, ithal lisansı, tahlil raporu gibi belgelerin alınmasında geçen süre sayılmaz. C yanlış.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Belge süresi SAYILMAZ",
+            "text": "Adli veya idari takibatta ya da uygunluk belgesi, kontrol belgesi, ithal lisansı, tahlil raporu gibi belgelerin alınmasında geçen süreler durdurulur; kalan süre işlem bitince verilir."
+          }
+        },
+        {
+          "say": "Uzatmayı, süre bitmeden yapılan yazılı başvuruyla gümrük müdürlüğü verir; bir ayı aşan taleplerde gerekçe şart. D yanlış; 2021'de 'elli gün' diye çarpıtılmıştı.",
+          "callout": {
+            "type": "uyari",
+            "title": "1 ayı aşan uzatma = GEREKÇE",
+            "text": "Süreler, bitmeden yapılan yazılı başvuruyla gümrük müdürlüklerince uzatılır. Bir ayı aşan taleplerde gerekçe belirtilmesi şarttır; gerçek ihtiyacı aşan uzatma yapılamaz."
+          }
+        },
+        {
+          "say": "Süresinde işlemlere başlanmazsa ve takibat yoksa eşya tasfiye edilir.",
+          "show": [
+            "p4"
+          ]
+        }
+      ],
+      "board": {
+        "title": "45 / 20 gün: saat ne zaman başlar?",
+        "madde": "GK md. 46, 50 · GY md. 76-77",
+        "kind": "timeline",
+        "points": [
+          {
+            "id": "p1",
+            "text": "2 Mart",
+            "sub": "Özet beyan verildi"
+          },
+          {
+            "id": "p2",
+            "text": "9 Mart",
+            "sub": "Gümrüğe sunuldu · SAAT BAŞLAR",
+            "tone": "gold"
+          },
+          {
+            "id": "p3",
+            "text": "45 GÜN",
+            "sub": "denizyolu · diğer yollar 20 gün"
+          },
+          {
+            "id": "p4",
+            "text": "Başlanmazsa",
+            "sub": "takibat yoksa → TASFİYE",
+            "tone": "red"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Öncüllü · Geçici depolama",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre geçici depolamaya ilişkin aşağıdaki ifadelerden hangileri doğrudur?",
+      "statements": [
+        "Eşya, gümrüğe sunulmasından sonra gümrükçe onaylanmış bir işlem veya kullanıma tabi tutuluncaya kadar geçici depolanan eşya statüsünde bulunur.",
+        "Eşyanın geçici depolama yerine konulması, gümrükçe onaylanmış bir işlem veya kullanım sayılır.",
+        "Yolcu eşyasına mahsus gümrük ambarına konulan eşya burada üç ay kalabilir; bu süre, talep hâlinde mücbir sebep belgesi aranmaksızın gümrük müdürlüğünce üç aya kadar uzatılabilir.",
+        "Geçici depolanan eşya, görünüş ve teknik özellikleri değiştirilmemek koşuluyla, aynı durumda muhafazasını sağlamak üzere yönetmelikle belirlenen elleçlemeye tabi tutulabilir."
+      ],
+      "options": [
+        "I ve II",
+        "II ve III",
+        "III ve IV",
+        "I, II ve IV",
+        "I, III ve IV"
+      ],
+      "answer": "E",
+      "gerekce": "Mevzuata göre eşya, gümrüğe sunulmasından sonra gümrükçe onaylanmış bir işlem veya kullanıma tabi tutuluncaya kadar geçici depolanan eşya statüsünde bulunur; yolcu eşyasına mahsus ambarlarda süre üç aydır ve talep hâlinde mücbir sebep belgesi aranmaksızın üç aya kadar uzatılabilir; geçici depolanan eşya görünüş ve teknik özellikleri değiştirilmemek koşuluyla yönetmelikle belirlenen elleçlemeye tabi tutulabilir. Eşyanın gümrükçe onaylanmış bir işlem veya kullanıma tabi tutulması; bir gümrük rejimine tabi tutulmasını, serbest bölgeye girmesini, yeniden ihracını, imhasını veya gümrüğe terk edilmesini ifade eder; geçici depolama yerine konulması bu kapsamda değildir. Bu nedenle doğru cevap E seçeneğidir. (GK MD 3, 47-49; GY MD 79)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · I doğru: GK 47 (s.24905). II yanlış: GK 3/14 (s.1241-1251) geçici depolamayı saymaz. III doğru: GK 48/2 (s.24917), GY 79/2 (s.24971). IV doğru: GK 49 (s.24925). Anlatım: GK 48/1 uygun görülen yer ve 'teminat isteyebilir' (s.24913-24915); GY 79/3 gümrükçe müsaade edilen yerlerde teminat (s.24973); GY 77/1 (s.24941). Esin: 2023/38 (statünün adı), 2023/31 ve 2024/93 (GOİK sayılmayanlar: geçici depolama, teslim), 2023/50, 2025-A/71 ve 2025-A/84 (3 ay), 2021/40 (mücbir sebep aranmaksızın 3 aya kadar), 2023/74-II ('1 yıl' yanlış), 2025-A/73 (gümrüğe terk statüyü sona erdirir).",
+      "read": [
+        {
+          "say": "Ve son soru öncüllü. Geçici depolamayla ilgili hangi ifadeler doğrudur?",
+          "mark": "hangileri doğrudur"
+        },
+        {
+          "say": "Bir: Eşya, gümrüğe sunulduktan sonra gümrükçe onaylanmış işlem veya kullanıma kadar geçici depolanan eşyadır.",
+          "show": "S0"
+        },
+        {
+          "say": "İki: Geçici depolama yerine konmak, gümrükçe onaylanmış bir işlem veya kullanımdır.",
+          "show": "S1"
+        },
+        {
+          "say": "Üç: Yolcu ambarında süre üç ay; mücbir sebep aranmadan üç aya kadar uzatılabilir.",
+          "show": "S2"
+        },
+        {
+          "say": "Dört: Geçici depolanan eşya, görünüşü ve teknik özellikleri değişmeden elleçlenebilir.",
+          "show": "S3"
+        },
+        {
+          "say": "Şıklar ekranda.",
+          "show": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap E: bir, üç ve dört."
+        },
+        {
+          "say": "Geçici depolanan eşya bir statüdür: gümrüğe sunmayla başlar, gümrükçe onaylanmış bir işlem veya kullanımla biter. Birinci öncül doğru.",
+          "show": [
+            "root",
+            "b1"
+          ]
+        },
+        {
+          "say": "Gümrük idaresinin uygun gördüğü yerlerde depolanır; idare teminat isteyebilir.",
+          "show": [
+            "b2"
+          ]
+        },
+        {
+          "say": "Görünüş ve teknik özellikler değişmeden, muhafaza için elleçleme yapılabilir. Dördüncü öncül doğru.",
+          "show": [
+            "b3"
+          ]
+        },
+        {
+          "say": "Yolcu eşyası ambarında süre üç ay; talep hâlinde mücbir sebep aranmadan üç aya kadar uzatılabilir. Üçüncü öncül doğru; 2023 ve 2025'te soruldu.",
+          "show": [
+            "b4"
+          ],
+          "hl": [
+            "b4"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "[cautiously] İkinci öncülün tuzağı: geçici depolamaya konmak, gümrükçe onaylanmış işlem veya kullanım değildir. Kanun beş şey sayar.",
+          "show": [
+            "b5"
+          ],
+          "callout": {
+            "type": "tuzak",
+            "title": "Geçici depolama ≠ GOİK",
+            "text": "Gümrükçe onaylanmış işlem veya kullanım beş şeydir: bir rejime tabi tutma, serbest bölgeye giriş, yeniden ihraç, imha ve gümrüğe terk. Geçici depolama ve teslim bu listede yoktur."
+          }
+        },
+        {
+          "say": "Ve gümrüğe terk bu beş şeyden biri olduğu için geçici depolanan eşya statüsünü bitirir; 2025'te soruldu.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Terk statüyü BİTİRİR",
+            "text": "Eşya, gümrükçe onaylanmış bir işlem veya kullanıma tabi tutulunca geçici depolanan eşya statüsünden çıkar. Gümrüğe terk bu kapsamdadır; numune alınması veya elleçleme statüyü bitirmez."
+          }
+        }
+      ],
+      "board": {
+        "title": "Geçici depolanan eşya",
+        "madde": "GK md. 3/14, 47-50 · GY md. 79",
+        "kind": "branch",
+        "root": {
+          "id": "root",
+          "text": "Geçici depolanan eşya",
+          "sub": "gümrüğe sunma → GOİK arası",
+          "tone": "gold"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "text": "Statü: gümrüğe sunmadan GOİK'e kadar"
+          },
+          {
+            "id": "b2",
+            "text": "Yer: idarenin uygun gördüğü · teminat istenebilir"
+          },
+          {
+            "id": "b3",
+            "text": "Elleçleme: görünüş ve teknik özellik değişmeden"
+          },
+          {
+            "id": "b4",
+            "text": "Yolcu ambarı: 3 AY + talep hâlinde 3 aya kadar"
+          },
+          {
+            "id": "b5",
+            "text": "Depolama yerine konmak → GOİK DEĞİL",
+            "tone": "red"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {
+        "title": "Demiryolu 2 saat · uzun uçuş 4 saat",
+        "text": "Konteyner yüklemeden 24 saat önce; dökme 4 saat; Karadeniz, Akdeniz ve AB limanları 2 saat; kısa uçuş havalanmaya kadar."
+      },
+      {
+        "title": "Deniz 45 · diğer yollar 20 gün",
+        "text": "Özet beyan önceden verildiyse saat sunma gününde başlar; belge beklerken durur; 1 ayı aşan uzatmada gerekçe şart."
+      },
+      {
+        "title": "Yolcu ambarı: 3 ay + 3 ay",
+        "text": "Geçici depolama GOİK değildir; elleçleme görünüşü değiştirmeden; gümrüğe terk statüyü bitirir."
+      }
+    ],
+    "parts": [
+      {
+        "say": "Hafıza kartı zamanı. Üç cümle."
+      },
+      {
+        "say": "Bir: özet beyanda demiryolu iki saat, uzun uçuş dört saat, konteyner yüklemeden yirmi dört saat önce.",
+        "item": 0
+      },
+      {
+        "say": "İki: denizyolunda kırk beş, diğer yollarda yirmi gün; özet beyan önceden verildiyse saat, sunma gününde başlar.",
+        "item": 1
+      },
+      {
+        "say": "Üç: yolcu ambarında üç ay artı üç ay; geçici depolamaya konmak gümrükçe onaylanmış işlem değildir.",
+        "item": 2
+      },
+      {
+        "say": "Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+        "score": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Skorunu yorumlara yaz!",
+    "next": "Video 9 · Gümrük Beyanı ve Muayene",
+    "parts": [
+      {
+        "say": "[excited] Skorunu yorumlara yaz, abone olmayı unutma. Sıradaki videoda gümrük beyanı, düzeltme, iptal ve muayene var. Görüşmek üzere!"
+      }
+    ]
+  },
+  "total": 10
+}

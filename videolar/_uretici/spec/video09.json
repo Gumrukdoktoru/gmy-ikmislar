@@ -1,0 +1,543 @@
+{
+  "no": 9,
+  "title": "Gümrük Beyanı ve Muayene",
+  "short": "BEYAN · MUAYENE",
+  "subtitle": "Düzeltme ve iptalin sınırları, dört renkli kontrol hattı, sözlü beyanın kapsamı",
+  "intro": {
+    "chips": [
+      "3 YENİ SORU",
+      "TUZAK AVI",
+      "HAFIZA KARTI"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Dokuzuncu videomuzun konusu gümrük beyanı ve muayene."
+      },
+      {
+        "say": "Kontrol hatları ve sözlü beyan formu, son beş sınavda birden fazla kez soruldu. Bugün üç yeni soru çözüyoruz,",
+        "chip": 0
+      },
+      {
+        "say": "renk ve süre tuzaklarını avlıyoruz,",
+        "chip": 1
+      },
+      {
+        "say": "ve hafıza kartıyla kapatıyoruz. Başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Doğru hüküm · Düzeltme ve iptal",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre tescil edilmiş gümrük beyannamesinin düzeltilmesi ve iptaline ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+      "options": [
+        "Gümrük idaresince beyan sahibine eşyanın muayene edileceği bildirilmişse, muayenenin sonucu alınmadan beyannamenin iptaline ilişkin talep kabul edilmez.",
+        "Beyan sahibine eşyanın muayene edileceği bildirildikten sonra da, eşya teslim edilinceye kadar beyannamede düzeltme yapılmasına izin verilir.",
+        "Başka bir eşyanın beyanı sonucunu doğursa dahi, beyan sahibinin talebi üzerine beyannamedeki bilgilerin düzeltilmesine izin verilir.",
+        "Eşyanın yanlışlıkla vergilerin ödenmesini gerektiren bir rejime tabi tutulması nedeniyle beyannamenin iptali, tescil tarihinden itibaren bir ay içinde talep edilmelidir.",
+        "Beyannamenin iptali, yürürlükteki cezai hükümlerin uygulanmasına engel oluşturur."
+      ],
+      "answer": "A",
+      "gerekce": "Mevzuata göre gümrük idarelerince beyan sahibine eşyanın muayene edileceğinin bildirilmiş olduğu hâllerde, muayenenin sonucu alınmadan beyannamenin iptaline ilişkin talep kabul edilmez. Düzeltme, başka bir eşyanın beyanı sonucunu doğurmaması kaydıyla mümkündür ve muayene bildiriminden, bilgilerin yanlışlığının tespitinden veya eşyanın tesliminden sonra izin verilmez; yanlış rejim nedeniyle iptal talebi tescil tarihinden itibaren üç ay içinde yapılır; beyannamenin iptali yürürlükteki cezai hükümlerin uygulanmasına engel oluşturmaz. Bu nedenle doğru cevap A seçeneğidir. (GK MD 63-64; GY MD 121, 124)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (A): GK 64/1 ikinci paragraf (s.17713). Çeldiriciler: B → GK 63/a (s.17703), GY 121/2-a kırmızı hat belirlenmesi (s.17971-17973); C → GK 63 giriş cümlesi (s.17701), GY 121/1 'başka eşya' tanımı (s.17969); D → GY 124/2 üç ay (s.18011); E → GK 64/5 (s.17727). Anlatım: GK 73/2 ve GY 121/4 teslimden sonra düzeltme, tescilden itibaren üç yıl (s.17819, 17981); GK 64/4 teslimden sonra iptal (s.17725); GY 124/2 mücbir sebepte süre aşımının kabulü (s.18011). Esin: 2022/77 (md. 63 düzeltme sınırları, 'teslimden sonra düzeltme yok' doğru şık), 2021/50 (yanlış rejimde iptal talebi 3 ay).",
+      "read": [
+        {
+          "say": "Dokuzuncu videonun ilk sorusu. Beyannamenin düzeltilmesi ve iptaliyle ilgili hangisi doğrudur?",
+          "mark": "doğrudur"
+        },
+        {
+          "say": "A: Muayene bildirildiyse, sonucu alınmadan iptal talebi kabul edilmez.",
+          "show": "A"
+        },
+        {
+          "say": "B: Muayene bildirildikten sonra da teslime kadar düzeltme yapılabilir.",
+          "show": "B"
+        },
+        {
+          "say": "C: Başka bir eşyanın beyanı sonucunu doğursa da düzeltmeye izin verilir.",
+          "show": "C"
+        },
+        {
+          "say": "D: Yanlış rejim nedeniyle iptal, tescilden itibaren bir ay içinde istenmeli.",
+          "show": "D"
+        },
+        {
+          "say": "E: Beyannamenin iptali, cezai hükümlerin uygulanmasını engeller.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap A!"
+        },
+        {
+          "say": "İkisi de beyan sahibinin talebiyle olur ama kuralları ayrı. Önce düzeltme: başka bir eşyanın beyanı sonucunu doğurmamalı. Tarife alt pozisyonu ya da vergi oranı değişiyorsa başka eşya sayılır; C yanlış.",
+          "show": [
+            "c1",
+            "d1"
+          ]
+        },
+        {
+          "say": "Düzeltme kapısı üç anda kapanır: muayene bildirilince, yani sistem kırmızı hattı belirleyince; bilgilerin yanlışlığı tespit edilince; eşya teslim edilince. B yanlış.",
+          "show": [
+            "d2"
+          ]
+        },
+        {
+          "say": "Teslimden sonra ise tescilden itibaren üç yıl içinde düzeltme istenebilir.",
+          "show": [
+            "d3"
+          ]
+        },
+        {
+          "say": "İptale geçelim. Muayene bildirildiyse, iptal talebi muayenenin sonucu alınmadan kabul edilmez. A doğru.",
+          "show": [
+            "c2",
+            "i1"
+          ],
+          "hl": [
+            "i1"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "[cautiously] D'nin tuzağı: yanlış rejim nedeniyle iptal talebi tescilden itibaren üç ay içinde yapılır; bir ay değil. 2021 sınavında tam bu soruldu.",
+          "show": [
+            "i2"
+          ],
+          "pose": "saskin",
+          "callout": {
+            "type": "tuzak",
+            "title": "Yanlış rejimde iptal = 3 AY",
+            "text": "Eşya yanlışlıkla vergilerin ödenmesini gerektiren bir rejime tabi tutulduysa iptal talebi, tescilden itibaren üç ay içinde yapılır. Mücbir sebep ve beklenmeyen hâlde süre aşımı kabul edilebilir."
+          }
+        },
+        {
+          "say": "Ve iptal bir af değildir: yürürlükteki cezai hükümlerin uygulanmasına engel olmaz. E yanlış.",
+          "show": [
+            "i3"
+          ],
+          "callout": {
+            "type": "dikkat",
+            "title": "İptal ≠ ceza affı",
+            "text": "Beyannamenin iptali, yürürlükteki cezai hükümlerin uygulanmasına engel oluşturmaz. Yönetmelikle belirlenen hâller dışında, eşyanın tesliminden sonra beyanname iptal edilemez."
+          }
+        }
+      ],
+      "board": {
+        "title": "Düzeltme mi, iptal mi?",
+        "madde": "GK md. 63-64, 73 · GY md. 121, 124",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "DÜZELTME · md. 63",
+            "tone": "navy"
+          },
+          {
+            "id": "c2",
+            "title": "İPTAL · md. 64",
+            "tone": "gold"
+          }
+        ],
+        "items": [
+          {
+            "id": "d1",
+            "col": "c1",
+            "text": "Başka eşya beyanı sonucu → düzeltme YOK"
+          },
+          {
+            "id": "d2",
+            "col": "c1",
+            "text": "Muayene bildirimi · yanlışlık tespiti · teslim → sonra YOK"
+          },
+          {
+            "id": "d3",
+            "col": "c1",
+            "text": "Teslimden sonra: tescilden 3 YIL (md. 73/2)"
+          },
+          {
+            "id": "i1",
+            "col": "c2",
+            "text": "Muayene bildirildiyse → önce SONUÇ",
+            "tone": "gold"
+          },
+          {
+            "id": "i2",
+            "col": "c2",
+            "text": "Yanlış rejim → tescilden 3 AY içinde"
+          },
+          {
+            "id": "i3",
+            "col": "c2",
+            "text": "İptal, cezaya ENGEL DEĞİL"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Öncüllü · Kontrol hatları",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre beyanın kontrolü ve muayeneye ilişkin aşağıdaki ifadelerden hangileri doğrudur?",
+      "statements": [
+        "Kırmızı hat, eşyanın muayenesi ile birlikte belge kontrolünün de yapıldığı; sarı hat ise muayeneye gerek görülmeksizin beyanname ve eklerinin kontrol edildiği hattır.",
+        "Mavi hat, yetkilendirilmiş yükümlü sertifikası sahiplerinin ithalatta yararlandığı ve eşyanın belge kontrolüne veya muayeneye tabi tutulmadığı hattır.",
+        "Tek kalemden oluşan beyanname kapsamı eşya kısmen muayene edildiğinde muayene sonuçları eşyanın tümüne uygulanır; ancak beyan sahibi eşyanın tamamının muayenesini talep edebilir.",
+        "Tahlilden arta kalan numuneler, tahlil sonuçlarının ilgilisine bildirilmesinden sonra üç ay içinde alınmazsa gümrüğe terk edilmiş sayılır."
+      ],
+      "options": [
+        "I ve II",
+        "II ve IV",
+        "I ve III",
+        "III ve IV",
+        "I, III ve IV"
+      ],
+      "answer": "C",
+      "gerekce": "Mevzuata göre kırmızı hat eşyanın muayenesi ile birlikte belge kontrolünün de yapıldığı, sarı hat muayeneye gerek görülmeksizin beyanname ve eklerinin kontrol edildiği hattır; bir beyanname kapsamı eşyanın tek kalemden oluşması ve kısmen muayene edilmesi hâlinde muayene sonuçları tümüne uygulanır ve beyan sahibi tamamının muayenesini talep edebilir. Mavi hat ise onaylanmış kişi statüsüne sahip kişilerin ihracatta yararlandığı hattır; tahlilden arta kalan numuneler, sonuçların bildiriminden sonra bir ay içinde alınmazsa gümrüğe terk edilmiş sayılır. Bu nedenle doğru cevap C seçeneğidir. (GK MD 66-67; GY MD 180)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · I doğru: GY 180/2-a,b (s.18613-18615). II yanlış: GY 180/2-c mavi hat = onaylanmış kişi statüsü + ihracat (s.18617). III doğru: GK 67/1 (s.17755-17757). IV yanlış: GK 66/5 bir ay (s.17751). Anlatım: GY 180/1 kontrol türünü sistem belirler (s.18609); GY 180/2-ç yeşil hat (s.18619); GK 67/2 her kalem ayrı beyan (s.17759); GY 182/1-2 tam ve kısmi muayene (s.18695-18697). Esin: 2021/51 (hat renkleri eşleştirme), 2023/93 ('siyah hat' çeldiricisi), 2022/95 (mavi hat yalnız ihracat), 2022/80 ve 2023/81 (muayene hükümleri).",
+      "read": [
+        {
+          "say": "İkinci soru öncüllü. Beyanın kontrolü ve muayeneyle ilgili hangi ifadeler doğrudur?",
+          "mark": "hangileri doğrudur"
+        },
+        {
+          "say": "Bir: Kırmızı hatta muayene ve belge kontrolü, sarı hatta yalnız belge kontrolü yapılır.",
+          "show": "S0"
+        },
+        {
+          "say": "İki: Mavi hat, yetkilendirilmiş yükümlülerin ithalatta kontrolsüz geçtiği hattır.",
+          "show": "S1"
+        },
+        {
+          "say": "Üç: Tek kalemlik beyannamede kısmi muayene sonucu tümüne uygulanır; beyan sahibi tam muayene isteyebilir.",
+          "show": "S2"
+        },
+        {
+          "say": "Dört: Tahlilden artan numune, sonuç bildiriminden sonra üç ay içinde alınmazsa terk edilmiş sayılır.",
+          "show": "S3"
+        },
+        {
+          "say": "Şıklar ekranda.",
+          "show": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap C: bir ve üç."
+        },
+        {
+          "say": "Beyanın kontrol türünü ve görevli memuru, bilgisayar sistemi risk kriterlerine göre belirler. Dört renk var.",
+          "show": [
+            "root"
+          ]
+        },
+        {
+          "say": "Kırmızı: muayene artı belge kontrolü. Sarı: muayene yok; beyanname ve eklerinin doğruluğu ve uyumu kontrol edilir. Birinci öncül doğru.",
+          "show": [
+            "h1",
+            "h2"
+          ]
+        },
+        {
+          "say": "Yeşil: ne belge kontrolü ne muayene.",
+          "show": [
+            "h4"
+          ]
+        },
+        {
+          "say": "[cautiously] İkinci öncülün tuzağı: mavi hat, onaylanmış kişi statüsü sahiplerinin ihracatta yararlandığı hattır. Kontrol, çıkış işlemleri tamamlandıktan sonra yapılır.",
+          "show": [
+            "h3"
+          ],
+          "hl": [
+            "h3"
+          ],
+          "pose": "saskin",
+          "callout": {
+            "type": "tuzak",
+            "title": "Mavi hat = OKSB + İHRACAT",
+            "text": "Mavi hattan onaylanmış kişi statüsü sahipleri ihracatta yararlanır; eşya çıkıştan önce belge kontrolüne veya muayeneye tabi tutulmaz. Beyanın kontrolü çıkış işlemlerinden sonra yapılır."
+          }
+        },
+        {
+          "say": "Muayenede kural: tek kalemlik beyannamede kısmi muayene sonucu tümüne uygulanır; beyan sahibi tam muayene isteyebilir. Üçüncü öncül doğru.",
+          "show": [
+            "h5"
+          ]
+        },
+        {
+          "say": "Dördüncü öncül: tahlilden artan numune, sonuçların bildiriminden sonra bir ay içinde alınmazsa gümrüğe terk edilmiş sayılır; üç ay değil.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Artan numune: 1 AY",
+            "text": "Tahlilden arta kalan numuneler, tahlil sonuçlarının ilgilisine bildirilmesinden sonra bir ay içinde alınmazsa gümrüğe terk edilmiş sayılır."
+          }
+        },
+        {
+          "say": "Ezber notu: dört renk var; 'siyah hat' diye bir hat yok. 2023'te çeldiriciydi.",
+          "pose": "onemli",
+          "callout": {
+            "type": "onemli",
+            "title": "Kırmızı · Sarı · Mavi · Yeşil",
+            "text": "Gümrük Yönetmeliği dört kontrol türü sayar. 2021'de renkler tanımlarla eşleştirildi; 2023'te 'siyah hat' çeldirici olarak kullanıldı."
+          }
+        }
+      ],
+      "board": {
+        "title": "Dört renk, dört kontrol",
+        "madde": "GK md. 66-67 · GY md. 180, 182",
+        "kind": "branch",
+        "root": {
+          "id": "root",
+          "text": "Beyanın kontrol türü",
+          "sub": "sistem · risk kriterine göre",
+          "tone": "gold"
+        },
+        "branches": [
+          {
+            "id": "h1",
+            "text": "KIRMIZI → muayene + belge kontrolü",
+            "tone": "red"
+          },
+          {
+            "id": "h2",
+            "text": "SARI → yalnız belge kontrolü",
+            "tone": "gold"
+          },
+          {
+            "id": "h3",
+            "text": "MAVİ → OKSB · İHRACAT · kontrol sonra"
+          },
+          {
+            "id": "h4",
+            "text": "YEŞİL → belge kontrolü de muayene de yok",
+            "tone": "green"
+          },
+          {
+            "id": "h5",
+            "text": "Tek kalem · kısmi muayene → sonuç TÜMÜNE"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Somut olay · Sözlü beyan",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre aşağıdaki durumların hangisinde gümrük beyanı sözlü olarak yapılır?",
+      "options": [
+        "(A) firmasının, gümrük kıymeti sevkiyat ve beyan başına 3.000 Avro olan ticari eşyasının serbest dolaşıma girişi",
+        "Türkiye Gümrük Bölgesi dışında yerleşik bir televizyon kuruluşunun temsilcisinin, mesleki teçhizat kapsamında getirdiği yayın teçhizatının geçici ithalatı",
+        "Dahilde işleme izni kapsamında, ihraç ürünlerinin üretiminde kullanılmak üzere ithal edilen elyaf ve iplik gibi temel tekstil hammaddeleri",
+        "Cumhurbaşkanının zat ve ikametgâhına ait eşyanın gümrük işlemleri",
+        "(B) firmasının, düzenli olarak yaptığı benzer sevkiyatların bir parçası olan ve gümrük kıymeti 600 Avro olan ticari eşyasının serbest dolaşıma girişi"
+      ],
+      "answer": "B",
+      "gerekce": "Mevzuata göre geçici ithalata konu olan, Türkiye Gümrük Bölgesi dışında yerleşik radyo ve televizyon kuruluşları temsilcilerinin mesleki teçhizat kapsamında getirdikleri radyo ve televizyon prodüksiyon ve yayın teçhizatı gümrük idarelerine sözlü beyan edilir. Ticari eşyanın sözlü beyan edilebilmesi için gümrük kıymetinin sevkiyat ve beyan başına 1000 Avro'yu geçmemesi ve sevkiyatın düzenli hâldeki benzer sevkiyatların parçası olmaması gerekir; dahilde işlemede sözlü beyan edilebilecek eşya, temel tekstil hammaddeleri dışında kalan yardımcı maddelerdir; Cumhurbaşkanının zat ve ikametgâhına ait eşyada ise Cumhurbaşkanlığından gönderilen resmi yazılar beyanname kabul edilir. Bu nedenle doğru cevap B seçeneğidir. (GK MD 59-60; GY MD 169, 171)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (B): GY 171/1-c (s.18499), 171/2 sözlü beyan formu (s.18513). Çeldiriciler: A ve E → GY 169/6 '1000 Avro'yu geçmeme' ve 'düzenli benzer sevkiyatların parçası olmama' şartları (s.18469); C → GY 171/4-a temel tekstil hammaddeleri hariç (s.18517-18519); D → GK 60/5-a resmi yazı beyanname kabul edilir (s.17683-17685). Anlatım: GK 59 beyan yolları (s.17657-17667); GK 60/5-b diplomatik eşyada karşılıklılık şartıyla misyon şefi yazıları (s.17687); GY 171/1-d yolcunun kişisel ve sportif eşyası (s.18503); GY 170/1-e,f cenaze ve vefat eden yabancının eşyası (s.18485-18487); GY 131/1 beyanname yerine kullanılan belgeler (s.18067). Esin: 2022/45 (vefat eden yabancının eşyası → sözlü beyan formu), 2025-A/48 (cenaze → sözlü beyan formu), 2022/78 ve 2023/40 (beyanname yerine kullanılan belgeler).",
+      "read": [
+        {
+          "say": "Ve son soru bir senaryo. Aşağıdaki durumların hangisinde beyan sözlü olarak yapılır?",
+          "mark": "sözlü olarak"
+        },
+        {
+          "say": "A: Sevkiyat başına üç bin Avro'luk ticari eşyanın serbest dolaşıma girişi.",
+          "show": "A"
+        },
+        {
+          "say": "B: Yabancı bir televizyon kuruluşunun yayın teçhizatının geçici ithalatı.",
+          "show": "B"
+        },
+        {
+          "say": "C: Dahilde işleme kapsamında ithal edilen elyaf ve iplik.",
+          "show": "C"
+        },
+        {
+          "say": "D: Cumhurbaşkanının zat ve ikametgâhına ait eşya.",
+          "show": "D"
+        },
+        {
+          "say": "E: Düzenli sevkiyatların parçası olan altı yüz Avro'luk ticari eşya.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap B!"
+        },
+        {
+          "say": "Kanun dört beyan yolu sayar: yazılı, bilgisayar veri işleme tekniğiyle, sözlü ve rejim isteğini gösteren herhangi bir tasarrufla. Sözlü beyanın kapsamını Yönetmelik tek tek sayar.",
+          "show": [
+            "c1",
+            "c2"
+          ]
+        },
+        {
+          "say": "Geçici ithalatta yolcunun kişisel ve sportif eşyası ile yabancı radyo ve televizyon kuruluşlarının yayın teçhizatı sözlü beyan edilir. B doğru.",
+          "show": [
+            "s2",
+            "s3"
+          ],
+          "hl": [
+            "s3"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "Ticari eşyada eşik bin Avro: sevkiyat ve beyan başına bin Avro'yu geçmemeli ve düzenli sevkiyatların parçası olmamalı. A ve E bu yüzden sözlü beyan edilemez.",
+          "show": [
+            "s1",
+            "y1",
+            "y2"
+          ]
+        },
+        {
+          "say": "[cautiously] C'nin tuzağı: dahilde işlemede sözlü beyan edilebilenler tela, etiket, düğme gibi yardımcı maddeler; elyaf, iplik, kumaş gibi temel tekstil hammaddeleri hariç.",
+          "show": [
+            "s4",
+            "y3"
+          ],
+          "pose": "saskin",
+          "callout": {
+            "type": "tuzak",
+            "title": "DİR: düğme EVET, iplik HAYIR",
+            "text": "Dahilde işlemede tela, etiket, düğme, fermuar gibi yardımcı maddeler sözlü beyan edilebilir. Elyaf, iplik, ham ve mamul mensucat gibi temel tekstil hammaddeleri bu kapsamın dışındadır."
+          }
+        },
+        {
+          "say": "D'de ise Cumhurbaşkanlığının resmi yazısı beyanname kabul edilir; sözlü beyan değil.",
+          "show": [
+            "y4"
+          ],
+          "callout": {
+            "type": "dikkat",
+            "title": "Resmi yazı = beyanname",
+            "text": "Cumhurbaşkanının zat ve ikametgâhına ait eşyada Cumhurbaşkanlığından gönderilen yazılar beyanname kabul edilir; diplomatik eşyada da karşılıklılık şartıyla misyon şeflerinin yazıları."
+          }
+        },
+        {
+          "say": "Sınav notu: Türkiye'de vefat eden yabancının cenazesi ve mirasçılarına giden eşyası da sözlü beyanla çıkar; 2022 ve 2025'te soruldu.",
+          "callout": {
+            "type": "onemli",
+            "title": "Vefat eden yabancı = sözlü beyan",
+            "text": "Ölü, kül veya kemik bulunan tabut ve kaplar ile vefat eden yabancının mirasçılarına intikal eden kişisel ve ev eşyasının ihracında beyan sözlü yapılır."
+          }
+        }
+      ],
+      "board": {
+        "title": "Sözlü beyan mı, değil mi?",
+        "madde": "GK md. 59-60 · GY md. 169-171",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "SÖZLÜ BEYAN",
+            "tone": "green"
+          },
+          {
+            "id": "c2",
+            "title": "SÖZLÜ DEĞİL",
+            "tone": "red"
+          }
+        ],
+        "items": [
+          {
+            "id": "s1",
+            "col": "c1",
+            "text": "Ticari eşya ≤ 1.000 Avro · arızi sevkiyat"
+          },
+          {
+            "id": "s2",
+            "col": "c1",
+            "text": "Yolcunun kişisel · sportif eşyası (GİR)"
+          },
+          {
+            "id": "s3",
+            "col": "c1",
+            "text": "Yabancı TV · radyo yayın teçhizatı (GİR)",
+            "tone": "gold"
+          },
+          {
+            "id": "s4",
+            "col": "c1",
+            "text": "DİR: tela · etiket · düğme (edilebilir)"
+          },
+          {
+            "id": "y1",
+            "col": "c2",
+            "text": "Ticari eşya > 1.000 Avro"
+          },
+          {
+            "id": "y2",
+            "col": "c2",
+            "text": "Düzenli sevkiyatın parçası"
+          },
+          {
+            "id": "y3",
+            "col": "c2",
+            "text": "DİR: elyaf · iplik · mensucat"
+          },
+          {
+            "id": "y4",
+            "col": "c2",
+            "text": "Cumhurbaşkanlığı yazısı = beyanname"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {
+        "title": "Muayene bildirildi: düzeltme yok",
+        "text": "İptal için sonuç beklenir; teslimden sonra düzeltme 3 yıl; yanlış rejimde iptal 3 ay; iptal cezayı engellemez."
+      },
+      {
+        "title": "Mavi hat = OKSB + ihracat",
+        "text": "Kırmızı: muayene + belge; sarı: belge; yeşil: kontrol yok. Tek kalemde kısmi muayene tümüne; artan numune 1 ay."
+      },
+      {
+        "title": "Sözlü beyan: 1.000 Avro sınırı",
+        "text": "Yolcu eşyası ve yabancı TV teçhizatı geçici ithalatta sözlü; DİR'de yalnız yardımcı madde; Cumhurbaşkanlığı yazısı beyannamedir."
+      }
+    ],
+    "parts": [
+      {
+        "say": "Hafıza kartı zamanı. Üç cümle."
+      },
+      {
+        "say": "Bir: muayene bildirildiyse düzeltme yok, iptal için sonuç beklenir; yanlış rejimde iptal süresi üç ay.",
+        "item": 0
+      },
+      {
+        "say": "İki: mavi hat, onaylanmış kişinin ihracat hattı; artan numune bir ayda alınmalı.",
+        "item": 1
+      },
+      {
+        "say": "Üç: ticari eşyada sözlü beyan sınırı bin Avro; yabancı televizyonun yayın teçhizatı sözlü beyan edilir.",
+        "item": 2
+      },
+      {
+        "say": "Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+        "score": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Skorunu yorumlara yaz!",
+    "next": "Video 10 · İhracat Rejimi",
+    "parts": [
+      {
+        "say": "[excited] Skorunu yorumlara yaz, abone olmayı unutma. Sıradaki ve serinin son videosunda ihracat rejimi var. Görüşmek üzere!"
+      }
+    ]
+  },
+  "total": 10
+}

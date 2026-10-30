@@ -1,0 +1,495 @@
+{
+  "no": 10,
+  "title": "İhracat Rejimi",
+  "short": "İHRACAT",
+  "subtitle": "Terk tarihi, geçici depolamada 1 ay + 3 ay, beyanname kapatmada 2 ay + 2 ay, basitleştirilmiş usul",
+  "intro": {
+    "chips": [
+      "3 YENİ SORU",
+      "TUZAK AVI",
+      "HAFIZA KARTI"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Onuncu videomuzun konusu ihracat rejimi; serinin de son durağı."
+      },
+      {
+        "say": "İhracat, son iki sınavda dokuz soruyla yükselişte. Bugün üç yeni soru çözüyoruz,",
+        "chip": 0
+      },
+      {
+        "say": "tarih ve süre tuzaklarını avlıyoruz,",
+        "chip": 1
+      },
+      {
+        "say": "ve hafıza kartıyla seriyi kapatıyoruz. Başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Eşleştirme · Terk tarihi",
+      "src": "Gümrük Yönetmeliği",
+      "stem": "Gümrük Yönetmeliği'ne göre ihracat işlemleri ile eşyanın Türkiye Gümrük Bölgesini terk ettiği kabul edilen tarih eşleştirmelerinden hangisi doğrudur?",
+      "options": [
+        "Mersin Limanından gemiyle ihraç edilen eşya – Eşyanın gemiye yüklendiği tarih",
+        "Kapıkule'den tırla ihraç edilen eşya – Gümrük idaresince çıkış işlemlerinin tamamlandığı tarih",
+        "Demiryoluyla ihraç edilen eşya – Trenin yükleme istasyonundan hareket ettiği tarih",
+        "İstanbul Havalimanından uçakla ihraç edilen eşya – Eşyanın yurt dışındaki alıcıya teslim edildiği tarih",
+        "Dış sefere çıkacak bir uçağa serbest dolaşımdaki kumanyanın verilmesi – Kumanyanın uçağa teslim edildiği tarih"
+      ],
+      "answer": "E",
+      "gerekce": "Mevzuata göre eşyanın Türkiye Gümrük Bölgesini terk ettiği tarih; kara ve demir yoluyla çıkışlarda gümrük idaresince çıkış işlemleri tamamlanıp kara sınırından yabancı bir ülkeye fiilen çıktığı veya serbest bölgeye fiilen girdiği, deniz ve hava yoluyla çıkışlarda eşyanın yüklendiği deniz veya hava taşıtının hareket ettiği, dış seferde bulunan ya da dış sefere çıkacak olan deniz ve hava taşıtlarına yapılan teslimlerde ise eşyanın teslim edildiği tarihtir. Serbest dolaşımdaki kumanyanın dış sefere çıkan hava gemilerine verilmesi ihracat hükmündedir. Bu nedenle doğru cevap E seçeneğidir. (GK MD 151, 176; GY MD 416)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (E): GY 416/1-c (s.30691), GK 176/2 ikinci paragraf (s.36705). Çeldiriciler: A ve D → GY 416/1-b taşıtın hareket ettiği tarih (s.30689); B ve C → GY 416/1-a kara sınırından yabancı ülkeye fiilen çıkış (s.30687). Anlatım: GK 151 fiilî ihracat (s.30665); GY 416/1-a serbest bölgeye fiilen giriş (s.30687); GY 452/1 geri getirilme süresinin başlangıcı = fiilen ihraç tarihi (s.31631). Esin: 2024/55 (terk tarihi öncülleri; demiryolunda 'taşıtın hareket ettiği tarih' ve kumanyada 'hava taşıtının hareket ettiği tarih' kabul edilmedi), 2025-A/49 (havayolunda uçağın hareket ettiği tarih), 2021/68 (fiilî ihracat tanımı).",
+      "read": [
+        {
+          "say": "Onuncu videonun ilk sorusu bir eşleştirme. Eşyanın Türkiye Gümrük Bölgesini terk ettiği tarihle ilgili hangisi doğrudur?",
+          "mark": "doğrudur"
+        },
+        {
+          "say": "A: Gemiyle ihraçta, eşyanın gemiye yüklendiği tarih.",
+          "show": "A"
+        },
+        {
+          "say": "B: Tırla ihraçta, çıkış işlemlerinin tamamlandığı tarih.",
+          "show": "B"
+        },
+        {
+          "say": "C: Demiryolunda, trenin yükleme istasyonundan hareket ettiği tarih.",
+          "show": "C"
+        },
+        {
+          "say": "D: Uçakla ihraçta, eşyanın yurt dışındaki alıcıya teslim edildiği tarih.",
+          "show": "D"
+        },
+        {
+          "say": "E: Dış sefere çıkacak uçağa kumanyada, kumanyanın uçağa teslim edildiği tarih.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap E!"
+        },
+        {
+          "say": "Önce tanım: eşya, tescildeki durum ve niteliğini koruyarak Türkiye Gümrük Bölgesini terk ederse fiilen ihraç edilmiş sayılır. Peki terk hangi gün?",
+          "show": [
+            "root",
+            "b1"
+          ]
+        },
+        {
+          "say": "Kara ve demiryolunda: çıkış işlemleri tamamlanıp eşyanın kara sınırından yabancı ülkeye fiilen çıktığı gün. B ve C bu yüzden yanlış.",
+          "show": [
+            "b2"
+          ]
+        },
+        {
+          "say": "Serbest bölgeye gidişte ise eşyanın serbest bölgeye fiilen girdiği gün.",
+          "show": [
+            "b3"
+          ]
+        },
+        {
+          "say": "Deniz ve havayolunda: eşyanın yüklendiği taşıtın hareket ettiği gün; ne yükleme anı ne alıcıya teslim. A ve D yanlış.",
+          "show": [
+            "b4"
+          ]
+        },
+        {
+          "say": "Dış seferdeki deniz ve hava taşıtlarına yapılan teslimlerde ise teslim günü. E doğru.",
+          "show": [
+            "b5"
+          ],
+          "hl": [
+            "b5"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "[cautiously] Tuzak: 2024 sınavında kumanyada da demiryolunda da 'taşıtın hareket ettiği tarih' yanlış kabul edildi.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Kumanya = TESLİM günü",
+            "text": "Dış seferdeki taşıtlara yapılan teslimlerde terk tarihi, eşyanın teslim edildiği tarihtir. Taşıtın hareketi deniz ve hava yoluyla çıkan yük için esastır; demiryolunda fiilî çıkış aranır."
+          }
+        },
+        {
+          "say": "Neden önemli? Geri gelen eşyada üç yıl, fiilen ihraç tarihinde başlar; havayolunda uçağın hareket ettiği gün. 2025'te soruldu.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Geri gelen eşyada saat buradan",
+            "text": "Geri getirilme süresinin başlangıcı, eşyanın fiilen ihraç edildiği tarihtir. 2025'te İstanbul Havalimanından ihraç edilen eşya için doğru cevap 'uçağın hareket ettiği tarih' idi."
+          }
+        }
+      ],
+      "board": {
+        "title": "Eşya Türkiye'yi ne zaman terk eder?",
+        "madde": "GK md. 151 · GY md. 416, 452",
+        "kind": "branch",
+        "root": {
+          "id": "root",
+          "text": "Terk tarihi",
+          "sub": "fiilen ihraç edildiği gün",
+          "tone": "gold"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "text": "Fiilî ihracat: tescildeki hâliyle çıkış"
+          },
+          {
+            "id": "b2",
+            "text": "Kara · demir → sınırdan FİİLEN çıkış"
+          },
+          {
+            "id": "b3",
+            "text": "Serbest bölgeye → FİİLEN giriş"
+          },
+          {
+            "id": "b4",
+            "text": "Deniz · hava → taşıtın HAREKETİ"
+          },
+          {
+            "id": "b5",
+            "text": "Dış sefer taşıtına teslim → TESLİM günü",
+            "tone": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Öncüllü · Süreler",
+      "src": "Gümrük Yönetmeliği",
+      "stem": "Gümrük Yönetmeliği'ne göre ihracat eşyasının geçici depolanması ve ihracat beyannamesinin kapatılmasına ilişkin aşağıdaki ifadelerden hangileri doğrudur?",
+      "statements": [
+        "İhracat veya yeniden ihracat amacıyla geçici depolama yerlerine konulan eşya buralarda bir ay kalabilir; bu süre içinde talep edilmesi hâlinde gümrük müdürlüklerince en çok üç aya kadar ek süre verilebilir.",
+        "Geçici depolama yerlerine konulmaksızın ihraç edilecek eşyanın beyanname kapatma süresi bir aydır; bu süre gümrük ve dış ticaret bölge müdürlüklerince uzatılabilir.",
+        "Beyanname kapatma süresi ve uzatılan süre içinde işlemleri tamamlanmayan beyannameler iptal edilir.",
+        "Süresi içinde geçici depolama yerinden kaldırılmayan ihracat eşyası, yükümlüye tebligat yapılmaksızın gümrüğe terk edilmiş sayılır."
+      ],
+      "options": [
+        "I ve II",
+        "II ve IV",
+        "III ve IV",
+        "I ve III",
+        "I, III ve IV"
+      ],
+      "answer": "D",
+      "gerekce": "Mevzuata göre ihracat veya yeniden ihracat amacıyla geçici depolama yerlerine konulması talep edilen eşya buralarda bir ay kalabilir ve bu süre içinde talep edilmesi hâlinde gümrük müdürlüklerince en çok üç aya kadar ek süre verilebilir; geçici depolama yerlerine konulmaksızın ihraç edilecek eşyanın beyanname kapatma süresi iki aydır, gümrük müdürlüklerince makul sebeplerle en çok iki ay uzatılabilir ve bu süreler içinde işlemleri tamamlanmayan beyannameler iptal edilir. Süresinde kaldırılmayan eşya için ise yükümlüye tebligat yapılır; tebliğden itibaren otuz gün içinde çıkarılmayan eşya gümrüğe terk edilmiş sayılır. Bu nedenle doğru cevap D seçeneğidir. (GY MD 417)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · I doğru: GY 417/1 (s.30699). II yanlış: GY 417/3 iki ay, gümrük müdürlükleri, en çok iki ay (s.30703). III doğru: GY 417/3 son cümle (s.30703). IV yanlış: GY 417/2 tebligat ve otuz gün (s.30701). Anlatım: GY 417/2 tasfiye ve tescilli beyannamenin iptali (s.30701); GY 77/1 talep hâlinde ihracat eşyasının geçici depolanan eşya kapsamında değerlendirilmesi (s.24941). Esin: 2022/82 (bir ay / üç aya kadar boşluk doldurma), 2024/46 (bir ay), 2024/97 (kapatma süresi iki ay, en çok iki ay uzatma), 2025-A/95 (uzatma yetkisi gümrük müdürlükleri).",
+      "read": [
+        {
+          "say": "İkinci soru öncüllü. Geçici depolama ve beyanname kapatmayla ilgili hangi ifadeler doğrudur?",
+          "mark": "hangileri doğrudur"
+        },
+        {
+          "say": "Bir: Geçici depolamada kalış bir ay; süre içinde istenirse en çok üç ay ek süre verilebilir.",
+          "show": "S0"
+        },
+        {
+          "say": "İki: Depolamasız ihraçta kapatma süresi bir ay; bölge müdürlüğü uzatabilir.",
+          "show": "S1"
+        },
+        {
+          "say": "Üç: Süre ve uzatma içinde tamamlanmayan beyanname iptal edilir.",
+          "show": "S2"
+        },
+        {
+          "say": "Dört: Süresinde kaldırılmayan eşya, tebligatsız gümrüğe terk edilmiş sayılır.",
+          "show": "S3"
+        },
+        {
+          "say": "Şıklar ekranda.",
+          "show": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap D: bir ve üç."
+        },
+        {
+          "say": "İki ayrı saat var. Birincisi, eşya ihraç için geçici depolama yerine konduysa: kalış süresi bir ay.",
+          "show": [
+            "c1",
+            "g1"
+          ]
+        },
+        {
+          "say": "Bu süre içinde istenirse gümrük müdürlüğü en çok üç ay ek süre verir; beyanname tescil edilmiş olsun olmasın. Birinci öncül doğru; 2022 ve 2024'te soruldu.",
+          "show": [
+            "g2"
+          ]
+        },
+        {
+          "say": "Süre bitince eşya kaldırılmadıysa yükümlüye tebligat yapılır; otuz gün içinde çıkarılmazsa gümrüğe terk edilmiş sayılır ve tasfiye edilir. Tebligatsız terk yok; dördüncü öncül yanlış.",
+          "show": [
+            "g3"
+          ]
+        },
+        {
+          "say": "İkinci saat: eşya geçici depolamaya hiç girmeden ihraç ediliyorsa beyanname kapatma süresi iki ay.",
+          "show": [
+            "c2",
+            "k1"
+          ]
+        },
+        {
+          "say": "[cautiously] İkinci öncülde iki hata var: süre bir değil iki ay; uzatan da bölge müdürlüğü değil, gümrük müdürlüğü; makul sebeplerle en çok iki ay. 2025 sınavı tam bunu sordu.",
+          "show": [
+            "k2"
+          ],
+          "hl": [
+            "k2"
+          ],
+          "pose": "saskin",
+          "callout": {
+            "type": "tuzak",
+            "title": "2 ay + en çok 2 ay · gümrük müdürlüğü",
+            "text": "Geçici depolamaya konulmaksızın ihraç edilecek eşyada beyanname kapatma süresi iki aydır; gümrük müdürlüklerince makul sebeplerle en çok iki ay uzatılabilir."
+          }
+        },
+        {
+          "say": "Bu süreler içinde işlemleri tamamlanmayan beyanname iptal edilir. Üçüncü öncül doğru.",
+          "show": [
+            "k3"
+          ],
+          "callout": {
+            "type": "onemli",
+            "title": "1 + 3 ay ↔ 2 + 2 ay",
+            "text": "Geçici depolamada: 1 ay kalış, en çok 3 ay ek süre. Depolamasız ihraçta: 2 ay kapatma süresi, en çok 2 ay uzatma; süre dolarsa beyanname iptal edilir."
+          }
+        }
+      ],
+      "board": {
+        "title": "İhracatta iki saat",
+        "madde": "GY md. 417",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "GEÇİCİ DEPOLAMADA",
+            "tone": "navy"
+          },
+          {
+            "id": "c2",
+            "title": "DEPOLAMASIZ İHRAÇTA",
+            "tone": "gold"
+          }
+        ],
+        "items": [
+          {
+            "id": "g1",
+            "col": "c1",
+            "text": "Kalış: 1 AY"
+          },
+          {
+            "id": "g2",
+            "col": "c1",
+            "text": "Ek süre: en çok 3 AY · gümrük müdürlüğü"
+          },
+          {
+            "id": "g3",
+            "col": "c1",
+            "text": "Kaldırılmazsa: tebligat + 30 GÜN → terk"
+          },
+          {
+            "id": "k1",
+            "col": "c2",
+            "text": "Kapatma süresi: 2 AY"
+          },
+          {
+            "id": "k2",
+            "col": "c2",
+            "text": "Uzatma: en çok 2 AY · gümrük müdürlüğü",
+            "tone": "gold"
+          },
+          {
+            "id": "k3",
+            "col": "c2",
+            "text": "Süre dolarsa → beyanname İPTAL"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Yanlış hüküm · Basitleştirilmiş usul",
+      "src": "Gümrük Yönetmeliği",
+      "stem": "Gümrük Yönetmeliği'ne göre ihracat rejiminde basitleştirilmiş usullere ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+      "options": [
+        "Kural olarak ihracat rejimi beyanını basitleştirilmiş usuller çerçevesinde yapabilmek için onaylanmış kişi statü belgesine veya yetkilendirilmiş yükümlü sertifikasına sahip olmak gerekir.",
+        "Eksik beyanla tescil edilen ihracat beyannamesinin 44 numaralı kutusuna “Basitleştirilmiş İhracat” ifadesi yazılır.",
+        "Aynı gümrük idaresinden sürekli ve periyodik olarak kitap ihraç edenlerin beyanname yerine ticari veya idari belgeyle işlem yapma talepleri, ancak yetkilendirilmiş yükümlü sertifikasına sahip olmaları hâlinde kabul edilir.",
+        "Bir ay içinde gerçekleştirilen basitleştirilmiş işlemlere ilişkin tamamlayıcı beyan, kural olarak izleyen ayın ilk üç günü içinde yapılır.",
+        "Eksik beyan kabul edildiğinde eksik bilgi veya belgelerin tamamlanması için tanınan süre tescil tarihinden itibaren bir ayı geçemez; gerekli görülen durumlarda verilecek ek süre üç ayı geçemez."
+      ],
+      "answer": "C",
+      "gerekce": "Mevzuata göre aynı gümrük idaresinden sürekli ve periyodik olarak kitap ve diğer basılı yayın ihraç edenler ile gemilere kumanya, yağ, yakıt ve diğer malzeme verme şeklinde ihracat gerçekleştirenlerin beyanname yerine ticari veya idari bir belge tescil ettirmek suretiyle işlem yapma talepleri, yetkilendirilmiş yükümlü veya onaylanmış kişi statüsüne ilişkin koşullar aranmaksızın kabul edilir. Diğer ifadeler; basitleştirilmiş usul için kural olarak onaylanmış kişi statü belgesi veya yetkilendirilmiş yükümlü sertifikası aranması, 44 numaralı kutuya “Basitleştirilmiş İhracat” yazılması, tamamlayıcı beyanın izleyen ayın ilk üç günü içinde verilmesi ve eksik beyanın tescilden itibaren bir ay, ek süreyle en çok üç ay içinde tamamlanmasına ilişkin doğru hükümlerdir. Bu nedenle doğru cevap C seçeneğidir. (GY MD 152-158)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru cevap (C yanlış ifade): GY 156/1 (s.18343). Doğru ifadeler: A → GY 152/1 (s.18309; 153/3 ve 156 saklı olduğundan 'kural olarak'); B → GY 154/5 (s.18329); D → GY 158/2 birinci cümle (s.18357); E → GY 155/1 (s.18337). Anlatım: GK 71/1 basitleştirilmiş usul türleri (s.17793-17803); GY 158/1 tamamlayıcı beyan (s.18355); GY 158/2 ikinci cümle, deniz ve hava taşıtlarına teslimlerde izleyen ayın ilk yedi iş günü (s.18357). Esin: 2025-A/52 (ihracatta eksik beyan 'bir/üç' boşluk doldurma), 2022/94 ve 2025-A/89 (onaylanmış kişi statüsünün sağladığı kolaylıklar).",
+      "read": [
+        {
+          "say": "Ve serinin son sorusu. İhracatta basitleştirilmiş usullerle ilgili hangisi yanlıştır?",
+          "mark": "yanlıştır"
+        },
+        {
+          "say": "A: Kural olarak onaylanmış kişi statüsü ya da yetkilendirilmiş yükümlü sertifikası gerekir.",
+          "show": "A"
+        },
+        {
+          "say": "B: Eksik beyanda kırk dört numaralı kutuya 'Basitleştirilmiş İhracat' yazılır.",
+          "show": "B"
+        },
+        {
+          "say": "C: Sürekli kitap ihraç eden, ticari belgeyle işlem için yetkilendirilmiş yükümlü olmalıdır.",
+          "show": "C"
+        },
+        {
+          "say": "D: Tamamlayıcı beyan, kural olarak izleyen ayın ilk üç gününde verilir.",
+          "show": "D"
+        },
+        {
+          "say": "E: Eksik beyanı tamamlama süresi bir ay; ek süre en çok üç ay.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap C!"
+        },
+        {
+          "say": "Basitleştirilmiş usul: beyanname yerine eksik beyan, ticari ya da idari belge veya kayıt yoluyla işlem. İhracatta kural olarak onaylanmış kişi statüsü ya da yetkilendirilmiş yükümlü sertifikası gerekir. A doğru.",
+          "show": [
+            "root"
+          ]
+        },
+        {
+          "say": "Eksik beyanda eksik bilgi ve belgeler tescilden itibaren bir ay içinde tamamlanır; gerekirse en çok üç ay ek süre verilir. E doğru; 2025'te boşluk doldurma olarak soruldu.",
+          "show": [
+            "u1"
+          ]
+        },
+        {
+          "say": "Beyannamenin kırk dört numaralı kutusuna 'Basitleştirilmiş İhracat' yazılır. B doğru.",
+          "show": [
+            "u2"
+          ]
+        },
+        {
+          "say": "[cautiously] C'nin tuzağı: sürekli ve periyodik kitap ve basılı yayın ihraç edenler ile gemilere kumanya, yağ, yakıt verenler, beyanname yerine ticari ya da idari belgeyle işlem yapabilir; üstelik statü şartı aranmaz.",
+          "show": [
+            "u3"
+          ],
+          "hl": [
+            "u3"
+          ],
+          "pose": "saskin",
+          "callout": {
+            "type": "tuzak",
+            "title": "Kitap · kumanya: statü ŞARTI YOK",
+            "text": "Sürekli ve periyodik kitap, basılı yayın ihracatı ile gemilere kumanya, yağ, yakıt verilmesinde ticari veya idari belgeyle işlem talebi, YYS veya onaylanmış kişi koşulları aranmaksızın kabul edilir."
+          }
+        },
+        {
+          "say": "Tamamlayıcı beyan: bir ayda yapılan basitleştirilmiş işlemler için izleyen ayın ilk üç günü; deniz ve hava taşıtlarına yapılan teslimlerde ilk yedi iş günü. D doğru.",
+          "show": [
+            "u4",
+            "u5"
+          ],
+          "callout": {
+            "type": "dikkat",
+            "title": "3 gün · 7 iş günü",
+            "text": "Tamamlayıcı beyan izleyen ayın ilk üç günü içinde verilir. Deniz taşıtları ve hava gemilerine yapılan, ihracat sayılan teslimlerde süre izleyen ayın ilk yedi iş günüdür."
+          }
+        }
+      ],
+      "board": {
+        "title": "Basitleştirilmiş ihracat",
+        "madde": "GK md. 71 · GY md. 152-158",
+        "kind": "branch",
+        "root": {
+          "id": "root",
+          "text": "Basitleştirilmiş usul",
+          "sub": "kural: OKSB veya YYS",
+          "tone": "gold"
+        },
+        "branches": [
+          {
+            "id": "u1",
+            "text": "Eksik beyan: 1 AY + en çok 3 AY ek süre"
+          },
+          {
+            "id": "u2",
+            "text": "44. kutu: “Basitleştirilmiş İhracat”"
+          },
+          {
+            "id": "u3",
+            "text": "Kitap · kumanya: ticari belge, statü ŞARTSIZ",
+            "tone": "green"
+          },
+          {
+            "id": "u4",
+            "text": "Tamamlayıcı beyan: izleyen ayın ilk 3 GÜNÜ"
+          },
+          {
+            "id": "u5",
+            "text": "Taşıtlara teslimde: ilk 7 İŞ GÜNÜ"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {
+        "title": "Deniz-hava: hareket · kara: fiilî çıkış",
+        "text": "Serbest bölgeye fiilen giriş; dış seferdeki taşıta teslimde teslim günü; geri gelen eşyada 3 yıl buradan başlar."
+      },
+      {
+        "title": "1 + 3 ay ↔ 2 + 2 ay",
+        "text": "Geçici depolamada 1 ay + en çok 3 ay; depolamasız ihraçta kapatma 2 ay + en çok 2 ay, gümrük müdürlüğü; süre dolarsa iptal."
+      },
+      {
+        "title": "Eksik beyan: 1 ay + 3 ay",
+        "text": "Kural OKSB veya YYS; kitap ve kumanya ihracatında ticari belgeye statü şartı yok; tamamlayıcı beyan izleyen ayın ilk 3 günü."
+      }
+    ],
+    "parts": [
+      {
+        "say": "Serinin son hafıza kartı. Üç cümle."
+      },
+      {
+        "say": "Bir: deniz ve havada terk tarihi taşıtın hareketi, karada fiilî çıkış, kumanyada teslim günü.",
+        "item": 0
+      },
+      {
+        "say": "İki: geçici depolamada bir artı üç ay; depolamasız ihraçta iki artı iki ay, uzatan gümrük müdürlüğü.",
+        "item": 1
+      },
+      {
+        "say": "Üç: eksik beyanda bir ay artı en çok üç ay; kitap ve kumanya ihracatında ticari belgeye statü şartı yok.",
+        "item": 2
+      },
+      {
+        "say": "Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+        "score": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Seriyi bitirdin, tebrikler!",
+    "next": "Tekrar için: Video 1 · Gümrük Kıymeti",
+    "parts": [
+      {
+        "say": "[excited] On videoda otuz soru ve onlarca tuzak! Skorunu yorumlara yaz, abone ol ve tekrarı ihmal etme. Sınavda başarılar, görüşmek üzere!"
+      }
+    ]
+  },
+  "total": 10
+}
