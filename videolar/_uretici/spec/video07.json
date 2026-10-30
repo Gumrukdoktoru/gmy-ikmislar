@@ -2,7 +2,7 @@
   "no": 7,
   "title": "Gümrük Yükümlülüğü ve Geri Verme",
   "short": "YÜKÜMLÜLÜK · GERİ VERME",
-  "subtitle": "Yükümlülüğün başladığı an, kusurlu eşyada 1 yıl, fazla ödenen vergide 3 yıl",
+  "subtitle": "Yükümlülüğün başladığı an, kusurlu eşyada 1 yıl, yersiz ödenen vergide 3 yıl",
   "intro": {
     "chips": [
       "3 YENİ SORU",
@@ -14,7 +14,7 @@
         "say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Serinin yedinci ve son videosunda gümrük yükümlülüğü ve vergilerin geri verilmesi var."
       },
       {
-        "say": "Vergi alacağı ve geri verme başlıklarından son beş sınavda otuz iki soru geldi. Bugün üç yeni soru çözüyoruz,",
+        "say": "Geri verme, son beş sınavın her birinde soruldu. Bugün üç yeni soru çözüyoruz,",
         "chip": 0
       },
       {
@@ -44,7 +44,7 @@
       "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru cevap (B yanlış eşleştirme): GK 182/1-2 (s.37989-37991). Doğru eşleştirmeler: A → GK 181/1 (s.37971-37977); C → GK 183/2 (s.38009); D → GK 185/2 (s.38057); E → GK 189/2 (s.38109). Anlatım: GK 188/2 ihracat beyannamesi tescil (s.38099); GK 193/1 oranlar (s.38153); GK 181/2 yükümlü ve dolaylı temsil (s.37979); GK 192 müteselsil sorumluluk (s.38147). Esin: 2022/29 (ihracatta yükümlülük tescil tarihinde başlar), 2023/88 (gözetimden çıkarma → yükümlülük doğar), eşleştirme kalıbı 2025-A/37.",
       "read": [
         {
-          "say": "Video yedinin ilk sorusu bir eşleştirme. Yükümlülüğün başladığı tarihle ilgili hangi eşleştirme yanlıştır?",
+          "say": "Yedinci videonun ilk sorusu bir eşleştirme. Yükümlülüğün başladığı tarihle ilgili hangi eşleştirme yanlıştır?",
           "mark": "yanlıştır"
         },
         {
@@ -115,21 +115,21 @@
           "callout": {
             "type": "onemli",
             "title": "Oran = başlangıç günündeki oran",
-            "text": "İthalat veya ihracat vergileri, gümrük yükümlülüğünün başladığı tarihteki vergi oranları ve diğer vergilendirme unsurlarına göre belirlenir."
+            "text": "İthalat veya ihracat vergileri, yükümlülüğün başladığı tarihteki oranlar ve diğer vergilendirme unsurlarına göre belirlenir. Bu tarih kesin tespit edilemezse, idarenin yükümlülüğün başladığı sonucuna vardığı tarih esas alınır."
           }
         },
         {
-          "say": "Ve yükümlü kim? Beyan sahibi. Dolaylı temsilde hesabına beyanda bulunulan kişi de yükümlüdür; birden çok yükümlü müteselsilen sorumludur.",
+          "say": "Serbest dolaşıma girişte yükümlü kim? Beyan sahibi. Dolaylı temsilde hesabına beyanda bulunulan kişi de yükümlüdür; birden çok yükümlü müteselsilen sorumludur.",
           "callout": {
             "type": "dikkat",
             "title": "Dolaylı temsilde İKİ yükümlü",
-            "text": "Yükümlü beyan sahibidir; dolaylı temsilde hesabına beyanda bulunulan kişi de yükümlüdür. Temsilcinin yükümlülüğü, verilerin yanlış olduğunu bildiği veya bilmesi gerektiği hâllerle sınırlıdır."
+            "text": "Serbest dolaşım ve geçici ithalatta yükümlü beyan sahibidir; dolaylı temsilde hesabına beyanda bulunulan kişi de yükümlüdür. Temsilcinin yükümlülüğü, verilerin yanlış olduğunu bildiği veya bilmesi gerektiği hâllerle sınırlıdır."
           }
         }
       ],
       "board": {
         "title": "Yükümlülük saati ne zaman başlar?",
-        "madde": "4458 s. GK md. 181-185, 188-189, 193",
+        "madde": "4458 s. GK md. 181-185, 188-189, 192-193",
         "kind": "split",
         "columns": [
           {
@@ -147,7 +147,7 @@
           {
             "id": "i1",
             "col": "c1",
-            "text": "Serbest dolaşım → TESCİL tarihi"
+            "text": "Serbest dolaşım · kısmi muafiyet → TESCİL"
           },
           {
             "id": "i2",
@@ -235,7 +235,7 @@
           ]
         },
         {
-          "say": "Üç: eşya ihraç edilmeli; ama talep üzerine imha, transit, antrepo ya da serbest bölge de olur. C yanlış.",
+          "say": "Üç: eşya ihraç edilmeli; ama talep üzerine imha edilebilir, yeniden ihraç amacıyla transit ya da antrepo rejimine alınabilir veya serbest bölgeye konabilir. C yanlış.",
           "show": [
             "n3"
           ]
@@ -334,7 +334,7 @@
           "show": "S2"
         },
         {
-          "say": "Dört: Fazla ödenen vergide üç yıllık süre ödeme tarihinde başlar.",
+          "say": "Dört: Yersiz ödenen vergide üç yıllık süre ödeme tarihinde başlar.",
           "show": "S3"
         },
         {
@@ -366,7 +366,7 @@
           ]
         },
         {
-          "say": "Kusurlu eşyada ve uluslararası anlaşma hâllerinde bir yıl. Bu üç sürede saat, vergilerin tebliğiyle başlar.",
+          "say": "Kusurlu eşyada ve uluslararası anlaşma hâllerinde bir yıl. Üç yıllık ve bir yıllık sürelerde saat, vergilerin yükümlüye tebliğiyle başlar.",
           "show": [
             "b3",
             "b4"
@@ -391,7 +391,7 @@
           }
         },
         {
-          "say": "[cautiously] Üçüncü öncülün tuzağı: kasten yapılan tahrifatla ödenen vergide talep hiç kabul edilmez. Ticaret politikası önlemine tabi eşyada kıymeti kendi beyanıyla artırmak da öyle.",
+          "say": "[cautiously] Üçüncü öncülün tuzağı: kasten yapılan tahrifatla ödenen vergide talep hiç kabul edilmez; 2023 sınavında da tam bu ifade yanlıştı. Ticaret politikası önlemine tabi eşyada kıymeti kendi beyanıyla artırmak da aynı sonucu doğurur.",
           "callout": {
             "type": "tuzak",
             "title": "Kasıtlı tahrifat = talep REDDEDİLİR",
@@ -399,7 +399,7 @@
           }
         },
         {
-          "say": "Bir ve iki kanunun cümlesi. 2023 sınavında 'adli para cezaları' diye çarpıtılmıştı; hüküm Gümrük Kanunundaki para cezaları içindir.",
+          "say": "Birinci ve ikinci öncül, kanunun kendi cümleleri. 2023 sınavında 'adli para cezaları' diye çarpıtılmıştı; hüküm Gümrük Kanunu kapsamındaki para cezaları içindir.",
           "callout": {
             "type": "dikkat",
             "title": "Para cezaları da kapsamda",
@@ -451,7 +451,7 @@
       },
       {
         "title": "Kusurlu eşya: 1 yıl",
-        "text": "Kullanılmamış (ilk kullanım hariç) + ihraç ya da imha/transit/antrepo; satılırsa iade yok."
+        "text": "Kullanılmamış (ilk kullanım hariç) + ihraç ya da imha/transit/antrepo/serbest bölge; kusur teyidinden sonra satılırsa iade yok."
       },
       {
         "title": "Md. 211: 3 yıl, tebliğden",
@@ -471,7 +471,7 @@
         "item": 1
       },
       {
-        "say": "Üç: fazla ödenen vergide üç yıl, tebliğden; kasıtlı tahrifatta talep reddedilir.",
+        "say": "Üç: yersiz ödenen vergide üç yıl, tebliğden; kasıtlı tahrifatta talep reddedilir.",
         "item": 2
       },
       {

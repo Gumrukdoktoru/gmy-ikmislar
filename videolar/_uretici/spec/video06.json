@@ -2,7 +2,7 @@
   "no": 6,
   "title": "Gümrük Müşavirliği ve Temsil",
   "short": "MÜŞAVİRLİK · TEMSİL",
-  "subtitle": "Temsil türleri, meslek yolu ve 60 gün, yetkilendirilmiş müşavirin sınırları",
+  "subtitle": "Temsil türleri, meslek yolu ve 60 gün kuralı, yetkilendirilmiş müşavirin sınırları",
   "intro": {
     "chips": [
       "3 YENİ SORU",
@@ -36,7 +36,7 @@
         "Gümrük müşavir yardımcısı – Gümrüklerde tek başına iş takibinde bulunabilir ve fatura düzenleyebilir.",
         "Kara, deniz ve havayolu işletmeleri ile nakliyeci kuruluş temsilcileri – Taşıdıkları eşyanın tüm gümrük işlemlerini doğrudan temsil yoluyla takip edebilir.",
         "Posta idaresi ve hızlı kargo taşımacılığı yapan şirketler – Miktarı ve değeri Cumhurbaşkanınca belirlenen eşyanın işlemlerini dolaylı temsilci olarak sonuçlandırabilir.",
-        "Vekâletnameyle doğrudan temsilci olan gerçek kişi – Ticari miktar ve mahiyetteki eşyanın gümrük işlemlerini takip edebilir.",
+        "Gerçek kişinin vekâletnameyle doğrudan temsil yoluyla iş takibi – Ticari miktar ve mahiyetteki eşyanın gümrük işlemleri için de mümkündür.",
         "Stajyer – Yanında çalıştığı gümrük müşaviri adına gümrük idarelerinde iş takip edebilir."
       ],
       "answer": "C",
@@ -44,7 +44,7 @@
       "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (C): GK 225/1 son cümle (s.1397), GY 561/2 (s.1547). Çeldiriciler: A → GY 561/8 (s.1581); B → GK 225/2 ikinci paragraf (s.1401), GY 561/4-ç (s.1573); D → GK 225/1 ikinci cümle (s.1397); E → GK 226/3 (s.1409). Anlatım: GK 5 (s.1385-1389), GK 225/2 (s.1399), GY 561/3 (s.1549). Esin: 2025-A/99 (taşıyıcı → transit), 2023/89 (dolaylı temsil = gümrük müşaviri), 2022/100 (stajyer), 2025-A/100-III (GMY tek başına iş takibi/fatura), 2021/22 ve 2022/79 (temsil tanımları).",
       "read": [
         {
-          "say": "Video altının ilk sorusu bir eşleştirme. İş takibine ilişkin hangi eşleştirme doğrudur?",
+          "say": "Altıncı videonun ilk sorusu bir eşleştirme. İş takibine ilişkin hangi eşleştirme doğrudur?",
           "mark": "doğrudur",
           "callout": {
             "type": "dikkat",
@@ -61,7 +61,7 @@
           "show": "B"
         },
         {
-          "say": "C: Posta ve hızlı kargo şirketleri, Cumhurbaşkanınca belirlenen eşyada dolaylı temsilcidir.",
+          "say": "C: Posta idaresi ve hızlı kargo şirketleri, Cumhurbaşkanınca belirlenen eşyanın işlemlerini dolaylı temsilci olarak sonuçlandırabilir.",
           "show": "C"
         },
         {
@@ -91,7 +91,7 @@
           ]
         },
         {
-          "say": "Kanunun saydığı diğer dolaylı temsilci: posta idaresi ve hızlı kargo şirketleri. Cumhurbaşkanınca belirlenen eşyada vekâletname ibraz etmeden işlemi sonuçlandırırlar.",
+          "say": "Kanunun saydığı diğer dolaylı temsilci: posta idaresi ve hızlı kargo şirketleri. Miktarı ve değeri Cumhurbaşkanınca belirlenen eşyada, vekâletname ibraz etmeden işlemi sonuçlandırabilirler.",
           "show": [
             "d2"
           ],
@@ -101,7 +101,7 @@
           "pose": "onemli"
         },
         {
-          "say": "Doğrudan temsilde sınırlar var: kamu görevlileri ve şirket yetkilileri tüm işlemleri takip edebilir,",
+          "say": "Doğrudan temsilde kim neyi takip eder? Kamu kurumlarının memurları ve şirketlerin temsile yetkili personeli, kendi kurumlarının tüm işlemlerini takip edebilir,",
           "show": [
             "a1"
           ]
@@ -152,7 +152,7 @@
           {
             "id": "a1",
             "col": "c1",
-            "text": "Kamu görevlileri · şirket yetkilisi → tüm işlemler"
+            "text": "Kamu memuru · şirket yetkilisi → kendi kurumunun tüm işlemleri"
           },
           {
             "id": "a2",
@@ -204,11 +204,11 @@
           "mark": "hangileri doğrudur"
         },
         {
-          "say": "Bir: Bir müşavirin yanında bir yıl staj, yardımcılık koşullarından biridir.",
+          "say": "Bir: Müşavir yanında bir yıl staj, yardımcılık koşullarından biridir.",
           "show": "S0"
         },
         {
-          "say": "İki: İki yıl yardımcılık yapıp müşavirlik sınavını kazanan, müşavirliğe hak kazanır.",
+          "say": "İki: İki yıl yardımcılık yapıp müşavirlik sınavında başarılı olan, müşavirliğe hak kazanır.",
           "show": "S1"
         },
         {
@@ -235,7 +235,7 @@
           "say": "[excited] Doğru cevap A: bir ve iki."
         },
         {
-          "say": "Meslek yolunu çizelim. Başta Kanundaki koşullar: vatandaşlık, medeni ve kamu hakları, sayılan suçlardan hüküm giymemek ve eğitim.",
+          "say": "Meslek yolunu çizelim. Başta Kanundaki koşullar: vatandaşlık, medeni ve kamu hakları, sayılan suçlardan hüküm giymemek, memuriyetten çıkarılmamış olmak ve eğitim.",
           "show": [
             "n1"
           ]
@@ -263,7 +263,7 @@
           "pose": "onemli"
         },
         {
-          "say": "İki yıl yardımcılık yapıp müşavirlik sınavını kazanan, müşavirliğe hak kazanır. İkinci öncül de doğru.",
+          "say": "İki yıl yardımcılık yapıp müşavirlik sınavında başarılı olan, müşavirliğe hak kazanır. İkinci öncül de doğru.",
           "show": [
             "n5",
             "n6"
@@ -274,15 +274,15 @@
           "callout": {
             "type": "tuzak",
             "title": "Görevi kötüye kullanma listede YOK",
-            "text": "Kanun; kaçakçılık, zimmet, irtikap, rüşvet, dolandırıcılık, sahtecilik, iftira gibi suçları sayar. Görevi kötüye kullanma sayılmaz; taksirli suçlar da hariçtir."
+            "text": "Kanun; kaçakçılık, zimmet, irtikap, rüşvet, dolandırıcılık, sahtecilik, iftira gibi suçları sayar. Görevi kötüye kullanma sayılmaz; taksirli suçlar da hariçtir. Güveni kötüye kullanma listede VAR."
           }
         },
         {
-          "say": "Ve unutma: izin belgesini almadan mesleki faaliyette bulunamazsın. Gümrük idaresinde on beş yıl çalışıp ayrılan, stajsız sınava girebilir.",
+          "say": "Ve unutma: izin belgesini almadan mesleki faaliyette bulunamazsın. Gümrük idaresinde en az on beş yıl çalışıp istifa ya da emeklilikle ayrılan memur, staj şartı olmadan yardımcılık sınavına girebilir.",
           "callout": {
             "type": "dikkat",
             "title": "İzin belgesi olmadan faaliyet YOK",
-            "text": "Yardımcılar da müşavirler de ancak izin belgesini aldıktan sonra mesleki faaliyette bulunabilir. Gümrük idaresinde en az 15 yıl çalışıp istifa eden veya emekli olanlar staj koşulu aranmaksızın sınava girebilir."
+            "text": "Yardımcılar da müşavirler de ancak izin belgesini aldıktan sonra mesleki faaliyette bulunabilir. Gümrük idaresinde en az 15 yıl çalışıp istifa eden veya emekli olan memurlar, staj koşulu aranmaksızın yardımcılık sınavına girebilir."
           }
         }
       ],
@@ -294,7 +294,7 @@
           {
             "id": "n1",
             "text": "Koşullar",
-            "sub": "vatandaşlık · ehliyet · kamu hakları · eğitim"
+            "sub": "vatandaşlık · ehliyet · kamu hakları · sicil · eğitim"
           },
           {
             "id": "n2",
@@ -342,7 +342,7 @@
       "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru cevap (E yanlış ifade): GY 576/1-c (s.25971). Doğru ifadeler: A → GY 575/5 (s.25947); B → GY 575/7 (s.25951); C → GY 575/1 (s.25927); D → GY 575/9 (s.25955). Anlatım: tanım GY 574/1 (s.25919); yardımcı/stajyer GY 575/3 ve 575/3-a (s.25931-25933); nitelikler GY 576/1-a yedi yıl (s.25967), 576/1-ğ yetmiş beş yaş (s.25983); yetki belgesi iki yıl GY 576/2-a (s.25989). Esin: 2023/82 (YGM 'hangisi yanlıştır', stajyer şıkkı), 2025-A/97 (%20 hisse), 2023/32 (iki genel / toplam dört antrepo).",
       "read": [
         {
-          "say": "Son soru yetkilendirilmiş gümrük müşaviri. Hangi ifade yanlıştır?",
+          "say": "Son soru yetkilendirilmiş gümrük müşavirleri hakkında. Hangi ifade yanlıştır?",
           "mark": "yanlıştır"
         },
         {
@@ -410,7 +410,7 @@
           }
         },
         {
-          "say": "Yanındakiler: yardımcı sayım tutanaklarını imzalayabilir, stajyer yardımcının işini yapamaz; 2023 sınavında soruldu.",
+          "say": "Yanında çalışanlara gelince: yardımcı antrepo sayım tutanaklarını imzalayabilir, stajyer ise yardımcının işini yapamaz; 2023 sınavında soruldu.",
           "callout": {
             "type": "dikkat",
             "title": "Stajyer, yardımcının işini YAPAMAZ",
@@ -418,11 +418,11 @@
           }
         },
         {
-          "say": "Nitelikler: sınavla müşavir olanlarda en az yedi yıllık izin belgesi, yetmiş beş yaş sınırı; yetki belgesi iki yıllık.",
+          "say": "Nitelikler: iki yıl yardımcılık ve sınavla müşavir olanlarda en az yedi yıllık izin belgesi, yetmiş beş yaş sınırı; yetki belgesi iki yıllık.",
           "callout": {
             "type": "onemli",
             "title": "7 yıl · 75 yaş · 2 yıllık belge",
-            "text": "Sınavla müşavir olanlarda en az 7 yıllık müşavirlik izin belgesi; 75 yaşını doldurmamış olmak. Yetki belgesinin süresi 2 yıldır."
+            "text": "Yardımcılık ve sınav yoluyla (GK 228/1) müşavir olanlarda en az 7 yıllık müşavirlik izin belgesi; 75 yaşını doldurmamış olmak. Yetki belgesinin süresi 2 yıldır."
           }
         }
       ],
@@ -432,7 +432,7 @@
         "kind": "branch",
         "root": {
           "id": "root",
-          "text": "Yetkilendirilmiş gümrük müşaviri",
+          "text": "Yetkilendirilmiş gümrük müşaviri (YGM)",
           "sub": "tespit işlemleri",
           "tone": "gold"
         },
@@ -482,7 +482,7 @@
         "say": "Hafıza kartı zamanı. Üç cümle."
       },
       {
-        "say": "Bir: dolaylı temsili müşavir ile posta ve kargo şirketleri yapar; taşıyıcı yalnız transit.",
+        "say": "Bir: dolaylı temsili müşavir ile posta idaresi ve hızlı kargo şirketleri yapar; taşıyıcı yalnız transit.",
         "item": 0
       },
       {

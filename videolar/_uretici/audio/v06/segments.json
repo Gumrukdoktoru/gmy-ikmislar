@@ -6,8 +6,8 @@
  },
  {
   "id": "q1_read",
-  "text": "Video altının ilk sorusu bir eşleştirme. İş takibine ilişkin hangi eşleştirme doğrudur? A: Müşavir yardımcısı, tek başına iş takip eder ve fatura düzenler. B: Taşıyıcılar, taşıdıkları eşyanın tüm işlemlerini doğrudan temsille takip eder. C: Posta ve hızlı kargo şirketleri, Cumhurbaşkanınca belirlenen eşyada dolaylı temsilcidir. D: Vekâletli gerçek kişi, ticari miktardaki eşyanın işlemlerini takip eder. E: Stajyer, müşaviri adına iş takip eder.",
-  "chars": 447
+  "text": "Altıncı videonun ilk sorusu bir eşleştirme. İş takibine ilişkin hangi eşleştirme doğrudur? A: Müşavir yardımcısı, tek başına iş takip eder ve fatura düzenler. B: Taşıyıcılar, taşıdıkları eşyanın tüm işlemlerini doğrudan temsille takip eder. C: Posta idaresi ve hızlı kargo şirketleri, Cumhurbaşkanınca belirlenen eşyanın işlemlerini dolaylı temsilci olarak sonuçlandırabilir. D: Vekâletli gerçek kişi, ticari miktardaki eşyanın işlemlerini takip eder. E: Stajyer, müşaviri adına iş takip eder.",
+  "chars": 493
  },
  {
   "id": "q1_think",
@@ -16,13 +16,13 @@
  },
  {
   "id": "q1_exp",
-  "text": "[excited] Doğru cevap C! Önce iki temsil türü. Doğrudan temsilde temsilci, başkasının adına ve hesabına hareket eder. Dolaylı temsilde ise kendi adına, başkasının hesabına. Bunu gümrük müşaviri, noter tasdikli vekâletnameyle yapar. Kanunun saydığı diğer dolaylı temsilci: posta idaresi ve hızlı kargo şirketleri. Cumhurbaşkanınca belirlenen eşyada vekâletname ibraz etmeden işlemi sonuçlandırırlar. Doğrudan temsilde sınırlar var: kamu görevlileri ve şirket yetkilileri tüm işlemleri takip edebilir, gerçek kişi vekil ise yalnız ticari olmayan eşya ve özel taşıtlarda. D şıkkı bunu ters çevirmiş. Taşıyıcı temsilcileri de yalnızca transit işlemlerini takip edebilir; 2025 sınavında soruldu. [cautiously] A ve E'nin tuzağı: müşavir yardımcısı tek başına iş takip edemez, fatura düzenleyemez; stajyer hiç iş takip edemez.",
-  "chars": 819
+  "text": "[excited] Doğru cevap C! Önce iki temsil türü. Doğrudan temsilde temsilci, başkasının adına ve hesabına hareket eder. Dolaylı temsilde ise kendi adına, başkasının hesabına. Bunu gümrük müşaviri, noter tasdikli vekâletnameyle yapar. Kanunun saydığı diğer dolaylı temsilci: posta idaresi ve hızlı kargo şirketleri. Miktarı ve değeri Cumhurbaşkanınca belirlenen eşyada, vekâletname ibraz etmeden işlemi sonuçlandırabilirler. Doğrudan temsilde kim neyi takip eder? Kamu kurumlarının memurları ve şirketlerin temsile yetkili personeli, kendi kurumlarının tüm işlemlerini takip edebilir, gerçek kişi vekil ise yalnız ticari olmayan eşya ve özel taşıtlarda. D şıkkı bunu ters çevirmiş. Taşıyıcı temsilcileri de yalnızca transit işlemlerini takip edebilir; 2025 sınavında soruldu. [cautiously] A ve E'nin tuzağı: müşavir yardımcısı tek başına iş takip edemez, fatura düzenleyemez; stajyer hiç iş takip edemez.",
+  "chars": 901
  },
  {
   "id": "q2_read",
-  "text": "İkinci soru öncüllü. Müşavir yardımcılığı ve müşavirliğe ilişkin hangi ifadeler doğrudur? Bir: Bir müşavirin yanında bir yıl staj, yardımcılık koşullarından biridir. İki: İki yıl yardımcılık yapıp müşavirlik sınavını kazanan, müşavirliğe hak kazanır. Üç: Görevi kötüye kullanmaktan hüküm giymek, yardımcılığa engeldir. Dört: İzin belgesi, belgeler tamamlandıktan sonra otuz gün içinde verilir. Şıklar ekranda.",
-  "chars": 409
+  "text": "İkinci soru öncüllü. Müşavir yardımcılığı ve müşavirliğe ilişkin hangi ifadeler doğrudur? Bir: Müşavir yanında bir yıl staj, yardımcılık koşullarından biridir. İki: İki yıl yardımcılık yapıp müşavirlik sınavında başarılı olan, müşavirliğe hak kazanır. Üç: Görevi kötüye kullanmaktan hüküm giymek, yardımcılığa engeldir. Dört: İzin belgesi, belgeler tamamlandıktan sonra otuz gün içinde verilir. Şıklar ekranda.",
+  "chars": 410
  },
  {
   "id": "q2_think",
@@ -31,13 +31,13 @@
  },
  {
   "id": "q2_exp",
-  "text": "[excited] Doğru cevap A: bir ve iki. Meslek yolunu çizelim. Başta Kanundaki koşullar: vatandaşlık, medeni ve kamu hakları, sayılan suçlardan hüküm giymemek ve eğitim. Sonra bir müşavirin yanında bir yıl staj. Birinci öncül doğru. Ardından yardımcılık sınavı; yetmiş ve üzeri puan başarılı. İzin belgesi, müracaat belgeleri tamamlandıktan sonra altmış gün içinde verilir; otuz değil. İki yıl yardımcılık yapıp müşavirlik sınavını kazanan, müşavirliğe hak kazanır. İkinci öncül de doğru. [cautiously] Üçüncü öncülün tuzağı: Kanundaki suç listesinde görevi kötüye kullanma yok. 2022 sınavında da cevap buydu. Ve unutma: izin belgesini almadan mesleki faaliyette bulunamazsın. Gümrük idaresinde on beş yıl çalışıp ayrılan, stajsız sınava girebilir.",
-  "chars": 744
+  "text": "[excited] Doğru cevap A: bir ve iki. Meslek yolunu çizelim. Başta Kanundaki koşullar: vatandaşlık, medeni ve kamu hakları, sayılan suçlardan hüküm giymemek, memuriyetten çıkarılmamış olmak ve eğitim. Sonra bir müşavirin yanında bir yıl staj. Birinci öncül doğru. Ardından yardımcılık sınavı; yetmiş ve üzeri puan başarılı. İzin belgesi, müracaat belgeleri tamamlandıktan sonra altmış gün içinde verilir; otuz değil. İki yıl yardımcılık yapıp müşavirlik sınavında başarılı olan, müşavirliğe hak kazanır. İkinci öncül de doğru. [cautiously] Üçüncü öncülün tuzağı: Kanundaki suç listesinde görevi kötüye kullanma yok. 2022 sınavında da cevap buydu. Ve unutma: izin belgesini almadan mesleki faaliyette bulunamazsın. Gümrük idaresinde en az on beş yıl çalışıp istifa ya da emeklilikle ayrılan memur, staj şartı olmadan yardımcılık sınavına girebilir.",
+  "chars": 846
  },
  {
   "id": "q3_read",
-  "text": "Son soru yetkilendirilmiş gümrük müşaviri. Hangi ifade yanlıştır? A: En çok iki genel, toplam dört antrepo için rapor düzenleyebilirler. B: Şirket ortağıysalar, antrepo tespiti için hisseleri en az yüzde yirmi olmalı. C: Raporları hatalıysa, tespit kapsamıyla sınırlı olarak müteselsilen sorumludurlar. D: Birden fazla yetkilendirilmiş müşavirlik şirketine ortak olamazlar. E: Tespit yapmadıkları firmalar adına dolaylı temsille iş takip edebilirler.",
-  "chars": 450
+  "text": "Son soru yetkilendirilmiş gümrük müşavirleri hakkında. Hangi ifade yanlıştır? A: En çok iki genel, toplam dört antrepo için rapor düzenleyebilirler. B: Şirket ortağıysalar, antrepo tespiti için hisseleri en az yüzde yirmi olmalı. C: Raporları hatalıysa, tespit kapsamıyla sınırlı olarak müteselsilen sorumludurlar. D: Birden fazla yetkilendirilmiş müşavirlik şirketine ortak olamazlar. E: Tespit yapmadıkları firmalar adına dolaylı temsille iş takip edebilirler.",
+  "chars": 462
  },
  {
   "id": "q3_think",
@@ -46,13 +46,13 @@
  },
  {
   "id": "q3_exp",
-  "text": "[excited] Doğru cevap E! Yetkilendirilmiş müşavir, Bakanlıkça belirlenen tespit işlemlerini yapan gümrük müşaviridir. Sınırlarını dizelim. Antrepo tespitinde en çok iki genel, toplam dört antrepo. Şirket ortağıysa hissesi en az yüzde yirmi ve yalnız bir yetkilendirilmiş müşavirlik şirketine ortak olabilir. Raporu hatalıysa, tespit kapsamıyla sınırlı olarak vergi ve cezalardan yükümlüyle birlikte müteselsilen sorumludur. [cautiously] E'nin tuzağı: dolaylı temsil yasağı mutlak. Dolaylı temsille iş takip etmemek, yetkilendirilmenin şartlarından biri. Yanındakiler: yardımcı sayım tutanaklarını imzalayabilir, stajyer yardımcının işini yapamaz; 2023 sınavında soruldu. Nitelikler: sınavla müşavir olanlarda en az yedi yıllık izin belgesi, yetmiş beş yaş sınırı; yetki belgesi iki yıllık.",
-  "chars": 789
+  "text": "[excited] Doğru cevap E! Yetkilendirilmiş müşavir, Bakanlıkça belirlenen tespit işlemlerini yapan gümrük müşaviridir. Sınırlarını dizelim. Antrepo tespitinde en çok iki genel, toplam dört antrepo. Şirket ortağıysa hissesi en az yüzde yirmi ve yalnız bir yetkilendirilmiş müşavirlik şirketine ortak olabilir. Raporu hatalıysa, tespit kapsamıyla sınırlı olarak vergi ve cezalardan yükümlüyle birlikte müteselsilen sorumludur. [cautiously] E'nin tuzağı: dolaylı temsil yasağı mutlak. Dolaylı temsille iş takip etmemek, yetkilendirilmenin şartlarından biri. Yanında çalışanlara gelince: yardımcı antrepo sayım tutanaklarını imzalayabilir, stajyer ise yardımcının işini yapamaz; 2023 sınavında soruldu. Nitelikler: iki yıl yardımcılık ve sınavla müşavir olanlarda en az yedi yıllık izin belgesi, yetmiş beş yaş sınırı; yetki belgesi iki yıllık.",
+  "chars": 839
  },
  {
   "id": "summary",
-  "text": "Hafıza kartı zamanı. Üç cümle. Bir: dolaylı temsili müşavir ile posta ve kargo şirketleri yapar; taşıyıcı yalnız transit. İki: bir yıl staj, altmış günde izin belgesi, iki yıl yardımcılık. Üç: yetkilendirilmiş müşavir en çok iki genel, toplam dört antrepo; dolaylı temsil yasak. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
-  "chars": 331
+  "text": "Hafıza kartı zamanı. Üç cümle. Bir: dolaylı temsili müşavir ile posta idaresi ve hızlı kargo şirketleri yapar; taşıyıcı yalnız transit. İki: bir yıl staj, altmış günde izin belgesi, iki yıl yardımcılık. Üç: yetkilendirilmiş müşavir en çok iki genel, toplam dört antrepo; dolaylı temsil yasak. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+  "chars": 345
  },
  {
   "id": "outro",
