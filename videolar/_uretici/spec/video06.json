@@ -1,0 +1,511 @@
+{
+  "no": 6,
+  "title": "Gümrük Müşavirliği ve Temsil",
+  "short": "MÜŞAVİRLİK · TEMSİL",
+  "subtitle": "Kim hangi temsille iş takip eder, meslek yolu ve 60 gün, yetkilendirilmiş müşavirin sınırları",
+  "intro": {
+    "chips": [
+      "3 YENİ SORU",
+      "TUZAK AVI",
+      "HAFIZA KARTI"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Altıncı videomuzun konusu gümrük müşavirliği ve temsil."
+      },
+      {
+        "say": "Müşavirlik, son beş sınavda otuz beş soruyla en çok sorulan konu. Disiplini ayrı derste anlattık; bugün üç yeni soru çözüyoruz,",
+        "chip": 0
+      },
+      {
+        "say": "yetki tuzaklarını avlıyoruz,",
+        "chip": 1
+      },
+      {
+        "say": "ve hafıza kartıyla kapatıyoruz. Başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Eşleştirme · Temsil",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre gümrük idarelerinde iş takibine ilişkin aşağıdaki eşleştirmelerden hangisi doğrudur?",
+      "options": [
+        "Gümrük müşavir yardımcısı – Gümrüklerde tek başına iş takibinde bulunabilir ve fatura düzenleyebilir.",
+        "Kara, deniz ve havayolu işletmeleri ile nakliyeci kuruluş temsilcileri – Taşıdıkları eşyanın tüm gümrük işlemlerini doğrudan temsil yoluyla takip edebilir.",
+        "Posta idaresi ve hızlı kargo taşımacılığı yapan şirketler – Miktarı ve değeri Cumhurbaşkanınca belirlenen eşyanın işlemlerini dolaylı temsilci olarak sonuçlandırabilir.",
+        "Vekâletnameyle doğrudan temsilci olan gerçek kişi – Ticari miktar ve mahiyetteki eşyanın gümrük işlemlerini takip edebilir.",
+        "Stajyer – Yanında çalıştığı gümrük müşaviri adına gümrük idarelerinde iş takip edebilir."
+      ],
+      "answer": "C",
+      "gerekce": "Mevzuata göre posta yolu ve hızlı kargo taşımacılığı kapsamında gelen ya da gönderilen, miktarı ve değeri Cumhurbaşkanınca belirlenen eşyanın işlemlerinde posta idaresi ya da hızlı kargo taşımacılığı yapan şirketler dolaylı temsilci olarak yetkili kılınabilir ve bu işlemleri vekâletname ibraz etmeksizin sonuçlandırabilir. Gümrük müşavir yardımcıları gümrüklerde tek başlarına iş takibinde bulunamaz ve fatura düzenleyemez; taşıyıcı temsilcileri yalnızca taşıdıkları eşyanın transit işlemlerini doğrudan temsil yoluyla takip edebilir; gerçek kişinin doğrudan temsili ticari miktar ve mahiyet arz etmeyen eşya ile özel kullanıma mahsus taşıtlarla sınırlıdır; stajyerler iş takibi yapamaz. Bu nedenle doğru cevap C seçeneğidir. (GK MD 5, 225-226; GY MD 561)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (C): GK 225/1 son cümle (s.1397), GY 561/2 (s.1547). Çeldiriciler: A → GY 561/8 (s.1581); B → GK 225/2 ikinci paragraf (s.1401), GY 561/4-ç (s.1573); D → GK 225/1 ikinci cümle (s.1397); E → GK 226/3 (s.1409). Anlatım: GK 5 (s.1385-1389), GK 225/2 (s.1399), GY 561/3 (s.1549). Esin: 2025-A/99 (taşıyıcı → transit), 2023/89 (dolaylı temsil = gümrük müşaviri), 2022/100 (stajyer), 2025-A/100-III (GMY tek başına iş takibi/fatura), 2021/22 ve 2022/79 (temsil tanımları).",
+      "read": [
+        {
+          "say": "Video altının ilk sorusu bir eşleştirme. İş takibine ilişkin hangi eşleştirme doğrudur?",
+          "mark": "doğrudur",
+          "callout": {
+            "type": "dikkat",
+            "title": "Bu kez DOĞRUYU arıyoruz",
+            "text": "Eşleştirme sorularında kök çoğu zaman 'yanlış' ister. Burada dört eşleştirme yanlış, yalnızca biri doğru."
+          }
+        },
+        {
+          "say": "A: Müşavir yardımcısı, tek başına iş takip eder ve fatura düzenler.",
+          "show": "A"
+        },
+        {
+          "say": "B: Taşıyıcılar, taşıdıkları eşyanın tüm işlemlerini doğrudan temsille takip eder.",
+          "show": "B"
+        },
+        {
+          "say": "C: Posta ve hızlı kargo şirketleri, Cumhurbaşkanınca belirlenen eşyada dolaylı temsilcidir.",
+          "show": "C"
+        },
+        {
+          "say": "D: Vekâletli gerçek kişi, ticari miktardaki eşyanın işlemlerini takip eder.",
+          "show": "D"
+        },
+        {
+          "say": "E: Stajyer, müşaviri adına iş takip eder.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap C!"
+        },
+        {
+          "say": "Önce iki temsil türü. Doğrudan temsilde temsilci, başkasının adına ve hesabına hareket eder.",
+          "show": [
+            "c1"
+          ]
+        },
+        {
+          "say": "Dolaylı temsilde ise kendi adına, başkasının hesabına. Bunu gümrük müşaviri, noter tasdikli vekâletnameyle yapar.",
+          "show": [
+            "c2",
+            "d1"
+          ]
+        },
+        {
+          "say": "Kanunun saydığı diğer dolaylı temsilci: posta idaresi ve hızlı kargo şirketleri. Cumhurbaşkanınca belirlenen eşyada vekâletname ibraz etmeden işlemi sonuçlandırırlar.",
+          "show": [
+            "d2"
+          ],
+          "hl": [
+            "d2"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "Doğrudan temsilde sınırlar var: kamu görevlileri ve şirket yetkilileri tüm işlemleri takip edebilir,",
+          "show": [
+            "a1"
+          ]
+        },
+        {
+          "say": "gerçek kişi vekil ise yalnız ticari olmayan eşya ve özel taşıtlarda. D şıkkı bunu ters çevirmiş.",
+          "show": [
+            "a2"
+          ]
+        },
+        {
+          "say": "Taşıyıcı temsilcileri de yalnızca transit işlemlerini takip edebilir; 2025 sınavında soruldu.",
+          "show": [
+            "a3"
+          ],
+          "callout": {
+            "type": "dikkat",
+            "title": "Taşıyıcı = SADECE transit",
+            "text": "Kara, deniz ve havayolu işletmeleri ile nakliyeci kuruluş temsilcileri, taşıdıkları eşyanın yalnızca transit işlemlerini doğrudan temsil yoluyla takip edebilir."
+          }
+        },
+        {
+          "say": "[cautiously] A ve E'nin tuzağı: müşavir yardımcısı tek başına iş takip edemez, fatura düzenleyemez; stajyer hiç iş takip edemez.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Yardımcı tek başına YOK · stajyer HİÇ",
+            "text": "Gümrük müşavir yardımcısı tek başına iş takibinde bulunamaz, fatura düzenleyemez. Stajyerler gümrük idarelerinde iş takibi yapamaz; mali sorumluluk müşavirindir."
+          }
+        }
+      ],
+      "board": {
+        "title": "Kim, hangi temsille?",
+        "madde": "4458 s. GK md. 5, 225-226 · GY md. 561",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "DOĞRUDAN: başkası ADINA",
+            "tone": "navy"
+          },
+          {
+            "id": "c2",
+            "title": "DOLAYLI: KENDİ adına",
+            "tone": "gold"
+          }
+        ],
+        "items": [
+          {
+            "id": "a1",
+            "col": "c1",
+            "text": "Kamu görevlileri · şirket yetkilisi → tüm işlemler"
+          },
+          {
+            "id": "a2",
+            "col": "c1",
+            "text": "Gerçek kişi vekil → ticari OLMAYAN eşya + özel taşıt"
+          },
+          {
+            "id": "a3",
+            "col": "c1",
+            "text": "Taşıyıcı temsilcileri → SADECE transit"
+          },
+          {
+            "id": "d1",
+            "col": "c2",
+            "text": "Gümrük müşaviri → noter tasdikli vekâletname"
+          },
+          {
+            "id": "d2",
+            "col": "c2",
+            "text": "Posta · hızlı kargo → Cumhurbaşkanınca belirlenen eşya",
+            "tone": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Öncüllü · Meslek şartları",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "4458 sayılı Gümrük Kanunu'na göre gümrük müşavir yardımcılığı ve gümrük müşavirliğine ilişkin aşağıdaki ifadelerden hangileri doğrudur?",
+      "statements": [
+        "Staj amacıyla bir gümrük müşavirinin yanında bir yıl çalışmış olmak, gümrük müşavir yardımcısı olabilmek için aranan koşullardan biridir.",
+        "Gerekli koşulları taşıyan ve iki yıl süreyle gümrük müşavir yardımcılığı yaparak gümrük müşavirliği sınavında başarılı olan kişiler, gümrük müşavirliği yapmaya hak kazanır.",
+        "Görevi kötüye kullanma suçundan hüküm giymiş olmak, gümrük müşavir yardımcısı olmaya engel teşkil eder.",
+        "Koşulları yerine getirenlere Gümrük Müşavir Yardımcılığı İzin Belgesi, gerekli müracaat belgelerinin tamamlanmasından itibaren otuz gün içinde verilir."
+      ],
+      "options": [
+        "I ve II",
+        "I ve III",
+        "II ve IV",
+        "I, II ve III",
+        "I, III ve IV"
+      ],
+      "answer": "A",
+      "gerekce": "Mevzuata göre gümrük müşavir yardımcısı olabilecek kişilerde aranan koşullar arasında staj amacıyla bir gümrük müşavirinin yanında bir yıl çalışmış olmak yer alır; gerekli koşulları taşıyan ve iki yıl süre ile gümrük müşavir yardımcılığı yaparak sınavda başarılı olan kişiler gümrük müşavirliği yapmaya hak kazanır. Kanunda sayılan suçlar arasında görevi kötüye kullanma bulunmadığından bu suçtan hüküm giymek engel teşkil etmez; izin belgesi ise gerekli müracaat belgelerinin tamamlanmasından itibaren altmış gün içinde verilir. Bu nedenle doğru cevap A seçeneğidir. (GK MD 227-228)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · I doğru: GK 227/1-g (s.1429). II doğru: GK 228/1 (s.1439). III yanlış: GK 227/1-d suç listesi (s.1421) görevi kötüye kullanmayı saymaz. IV yanlış: GK 227/3 (s.1437) ve 228/3 (s.1445) altmış gün. Anlatım: GK 227/1-a…f (s.1415-1427), GK 227/2-a 15 yıl (s.1433), GY 568/3 yetmiş puan (s.1667), izin belgesinden önce faaliyet yok (s.1437, 1445). Esin: 2025-A/98 (GMY koşulları öncüllü), 2021/83 (staj süresi çeldiricisi 'üç yıl'), 2022/63 (görevi kötüye kullanma engel değil), 2024/94 (izin belgesi 60 gün).",
+      "read": [
+        {
+          "say": "İkinci soru öncüllü. Müşavir yardımcılığı ve müşavirliğe ilişkin hangi ifadeler doğrudur?",
+          "mark": "hangileri doğrudur"
+        },
+        {
+          "say": "Bir: Bir müşavirin yanında bir yıl staj, yardımcılık koşullarından biridir.",
+          "show": "S0"
+        },
+        {
+          "say": "İki: İki yıl yardımcılık yapıp müşavirlik sınavını kazanan, müşavirliğe hak kazanır.",
+          "show": "S1"
+        },
+        {
+          "say": "Üç: Görevi kötüye kullanmaktan hüküm giymek, yardımcılığa engeldir.",
+          "show": "S2"
+        },
+        {
+          "say": "Dört: İzin belgesi, belgeler tamamlandıktan sonra otuz gün içinde verilir.",
+          "show": "S3"
+        },
+        {
+          "say": "Şıklar ekranda.",
+          "show": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap A: bir ve iki."
+        },
+        {
+          "say": "Meslek yolunu çizelim. Başta Kanundaki koşullar: vatandaşlık, medeni ve kamu hakları, sayılan suçlardan hüküm giymemek ve eğitim.",
+          "show": [
+            "n1"
+          ]
+        },
+        {
+          "say": "Sonra bir müşavirin yanında bir yıl staj. Birinci öncül doğru.",
+          "show": [
+            "n2"
+          ]
+        },
+        {
+          "say": "Ardından yardımcılık sınavı; yetmiş ve üzeri puan başarılı.",
+          "show": [
+            "n3"
+          ]
+        },
+        {
+          "say": "İzin belgesi, müracaat belgeleri tamamlandıktan sonra altmış gün içinde verilir; otuz değil.",
+          "show": [
+            "n4"
+          ],
+          "hl": [
+            "n4"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "İki yıl yardımcılık yapıp müşavirlik sınavını kazanan, müşavirliğe hak kazanır. İkinci öncül de doğru.",
+          "show": [
+            "n5",
+            "n6"
+          ]
+        },
+        {
+          "say": "[cautiously] Üçüncü öncülün tuzağı: Kanundaki suç listesinde görevi kötüye kullanma yok. 2022 sınavında da cevap buydu.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Görevi kötüye kullanma listede YOK",
+            "text": "Kanun; kaçakçılık, zimmet, irtikap, rüşvet, dolandırıcılık, sahtecilik, iftira gibi suçları sayar. Görevi kötüye kullanma sayılmaz; taksirli suçlar da hariçtir."
+          }
+        },
+        {
+          "say": "Ve unutma: izin belgesini almadan mesleki faaliyette bulunamazsın. Gümrük idaresinde on beş yıl çalışıp ayrılan, stajsız sınava girebilir.",
+          "callout": {
+            "type": "dikkat",
+            "title": "İzin belgesi olmadan faaliyet YOK",
+            "text": "Yardımcılar da müşavirler de ancak izin belgesini aldıktan sonra mesleki faaliyette bulunabilir. Gümrük idaresinde en az 15 yıl çalışıp istifa eden veya emekli olanlar staj koşulu aranmaksızın sınava girebilir."
+          }
+        }
+      ],
+      "board": {
+        "title": "Meslek yolu: stajdan müşavirliğe",
+        "madde": "4458 s. GK md. 227-228 · GY md. 568",
+        "kind": "flow",
+        "nodes": [
+          {
+            "id": "n1",
+            "text": "Koşullar",
+            "sub": "vatandaşlık · ehliyet · kamu hakları · eğitim"
+          },
+          {
+            "id": "n2",
+            "text": "Staj: 1 YIL",
+            "sub": "bir müşavirin yanında"
+          },
+          {
+            "id": "n3",
+            "text": "Yardımcılık sınavı",
+            "sub": "70 ve üzeri puan"
+          },
+          {
+            "id": "n4",
+            "text": "İzin belgesi: 60 GÜN",
+            "sub": "belgeler tamamlanınca",
+            "tone": "gold"
+          },
+          {
+            "id": "n5",
+            "text": "2 YIL yardımcılık",
+            "sub": "+ müşavirlik sınavı"
+          },
+          {
+            "id": "n6",
+            "text": "Gümrük müşaviri",
+            "sub": "izin belgesi: 60 gün",
+            "tone": "green"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Yanlış hüküm · YGM",
+      "src": "Gümrük Yönetmeliği",
+      "stem": "Gümrük Yönetmeliği'ne göre yetkilendirilmiş gümrük müşavirlerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+      "options": [
+        "Antrepo giriş-çıkış ve altışar aylık stok tespiti işlemlerinde, iki genel antrepoyu geçmemek üzere toplam dört antrepo için rapor düzenleyebilirler.",
+        "Şirket ortağı iseler, Bakanlıkça belirlenecek antrepoya ilişkin tespit işlemlerini yapabilmeleri için şirketteki hisselerinin en az %20 olması gerekir.",
+        "Tespit işlemleri ve raporlarının doğru olmaması hâlinde, tespit kapsamıyla sınırlı olmak üzere vergi ve cezalardan yükümlüyle birlikte müştereken ve müteselsilen sorumludurlar.",
+        "Birden fazla yetkilendirilmiş gümrük müşavirliği şirketine ortak olamazlar.",
+        "Tespit işlemi yapmadıkları firmalar adına dolaylı temsil suretiyle gümrük idarelerinde iş takip edebilirler."
+      ],
+      "answer": "E",
+      "gerekce": "Mevzuata göre yetkilendirilmiş gümrük müşavirlerinin sahip olması gereken niteliklerden biri, dolaylı temsil suretiyle gümrük idarelerinde iş takip etmemek ve bu amaçla kurulmuş tüzel kişilere ortak olmamaktır; bu yasak, tespit işlemi yapılmayan firmalar için de geçerlidir. Antrepo tespitlerinde iki genel antrepoyu geçmemek üzere toplam dört antrepo sınırı, şirket ortaklarında en az %20 hisse şartı, tespit kapsamıyla sınırlı müteselsil sorumluluk ve birden fazla yetkilendirilmiş gümrük müşavirliği şirketine ortak olamama hükümleri doğrudur. Bu nedenle doğru cevap E seçeneğidir. (GY MD 575-576)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru cevap (E yanlış ifade): GY 576/1-c (s.25971). Doğru ifadeler: A → GY 575/5 (s.25947); B → GY 575/7 (s.25951); C → GY 575/1 (s.25927); D → GY 575/9 (s.25955). Anlatım: tanım GY 574/1 (s.25919); yardımcı/stajyer GY 575/3 ve 575/3-a (s.25931-25933); nitelikler GY 576/1-a yedi yıl (s.25967), 576/1-ğ yetmiş beş yaş (s.25983); yetki belgesi iki yıl GY 576/2-a (s.25989). Esin: 2023/82 (YGM 'hangisi yanlıştır', stajyer şıkkı), 2025-A/97 (%20 hisse), 2023/32 (iki genel / toplam dört antrepo).",
+      "read": [
+        {
+          "say": "Son soru yetkilendirilmiş gümrük müşaviri. Hangi ifade yanlıştır?",
+          "mark": "yanlıştır"
+        },
+        {
+          "say": "A: En çok iki genel, toplam dört antrepo için rapor düzenleyebilirler.",
+          "show": "A"
+        },
+        {
+          "say": "B: Şirket ortağıysalar, antrepo tespiti için hisseleri en az yüzde yirmi olmalı.",
+          "show": "B"
+        },
+        {
+          "say": "C: Raporları hatalıysa, tespit kapsamıyla sınırlı olarak müteselsilen sorumludurlar.",
+          "show": "C"
+        },
+        {
+          "say": "D: Birden fazla yetkilendirilmiş müşavirlik şirketine ortak olamazlar.",
+          "show": "D"
+        },
+        {
+          "say": "E: Tespit yapmadıkları firmalar adına dolaylı temsille iş takip edebilirler.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap E!"
+        },
+        {
+          "say": "Yetkilendirilmiş müşavir, Bakanlıkça belirlenen tespit işlemlerini yapan gümrük müşaviridir. Sınırlarını dizelim.",
+          "show": [
+            "root"
+          ]
+        },
+        {
+          "say": "Antrepo tespitinde en çok iki genel, toplam dört antrepo.",
+          "show": [
+            "b1"
+          ]
+        },
+        {
+          "say": "Şirket ortağıysa hissesi en az yüzde yirmi ve yalnız bir yetkilendirilmiş müşavirlik şirketine ortak olabilir.",
+          "show": [
+            "b2",
+            "b3"
+          ]
+        },
+        {
+          "say": "Raporu hatalıysa, tespit kapsamıyla sınırlı olarak vergi ve cezalardan yükümlüyle birlikte müteselsilen sorumludur.",
+          "show": [
+            "b4"
+          ]
+        },
+        {
+          "say": "[cautiously] E'nin tuzağı: dolaylı temsil yasağı mutlak. Dolaylı temsille iş takip etmemek, yetkilendirilmenin şartlarından biri.",
+          "show": [
+            "b5"
+          ],
+          "hl": [
+            "b5"
+          ],
+          "callout": {
+            "type": "tuzak",
+            "title": "Dolaylı temsil = YASAK",
+            "text": "Yetkilendirilmiş gümrük müşaviri dolaylı temsil suretiyle iş takip edemez ve bu amaçla kurulmuş tüzel kişilere ortak olamaz. 'Tespit yapmadığı firma' istisnası yoktur."
+          }
+        },
+        {
+          "say": "Yanındakiler: yardımcı sayım tutanaklarını imzalayabilir, stajyer yardımcının işini yapamaz; 2023 sınavında soruldu.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Stajyer, yardımcının işini YAPAMAZ",
+            "text": "Yardımcı; antrepo giriş-çıkış ve elleçleme sayım tutanaklarını imzalayabilir. Stajyer bu işleri yaparsa stajına son verilir."
+          }
+        },
+        {
+          "say": "Nitelikler: sınavla müşavir olanlarda en az yedi yıllık izin belgesi, yetmiş beş yaş sınırı; yetki belgesi iki yıllık.",
+          "callout": {
+            "type": "onemli",
+            "title": "7 yıl · 75 yaş · 2 yıllık belge",
+            "text": "Sınavla müşavir olanlarda en az 7 yıllık müşavirlik izin belgesi; 75 yaşını doldurmamış olmak. Yetki belgesinin süresi 2 yıldır."
+          }
+        }
+      ],
+      "board": {
+        "title": "Yetkilendirilmiş müşavirin sınırları",
+        "madde": "GY md. 574-576",
+        "kind": "branch",
+        "root": {
+          "id": "root",
+          "text": "Yetkilendirilmiş gümrük müşaviri",
+          "sub": "tespit işlemleri",
+          "tone": "gold"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "text": "Antrepo raporu: en çok 2 GENEL · toplam 4 antrepo"
+          },
+          {
+            "id": "b2",
+            "text": "Şirket hissesi: en az %20 (antrepo tespiti)"
+          },
+          {
+            "id": "b3",
+            "text": "Yalnız BİR YGM şirketine ortaklık"
+          },
+          {
+            "id": "b4",
+            "text": "Hatalı rapor → tespit kapsamında MÜTESELSİL sorumluluk"
+          },
+          {
+            "id": "b5",
+            "text": "Dolaylı temsil → YASAK",
+            "tone": "red"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {
+        "title": "Dolaylı temsil: müşavir + posta/kargo",
+        "text": "Taşıyıcı yalnız transit; gerçek kişi vekil ticari olmayan eşya; yardımcı tek başına iş takip edemez."
+      },
+      {
+        "title": "1 yıl staj · 60 gün · 2 yıl",
+        "text": "Yardımcılıkta 1 yıl staj; izin belgesi 60 günde; 2 yıl yardımcılık + sınav = müşavirlik."
+      },
+      {
+        "title": "YGM: 2 genel / toplam 4 antrepo",
+        "text": "Hisse en az %20; tek YGM şirketi; hatalı raporda müteselsil sorumluluk; dolaylı temsil yasak."
+      }
+    ],
+    "parts": [
+      {
+        "say": "Hafıza kartı zamanı. Üç cümle."
+      },
+      {
+        "say": "Bir: dolaylı temsili müşavir ile posta ve kargo şirketleri yapar; taşıyıcı yalnız transit.",
+        "item": 0
+      },
+      {
+        "say": "İki: bir yıl staj, altmış günde izin belgesi, iki yıl yardımcılık.",
+        "item": 1
+      },
+      {
+        "say": "Üç: yetkilendirilmiş müşavir en çok iki genel, toplam dört antrepo; dolaylı temsil yasak.",
+        "item": 2
+      },
+      {
+        "say": "Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+        "score": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Skorunu yorumlara yaz!",
+    "next": "Video 7 · Gümrük Yükümlülüğü ve Geri Verme",
+    "parts": [
+      {
+        "say": "[excited] Skorunu yorumlara yaz, abone olmayı unutma. Sıradaki videoda gümrük yükümlülüğü ve vergilerin geri verilmesi var. Görüşmek üzere!"
+      }
+    ]
+  }
+}
