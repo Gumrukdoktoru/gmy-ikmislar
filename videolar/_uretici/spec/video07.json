@@ -1,0 +1,493 @@
+{
+  "no": 7,
+  "title": "Gümrük Yükümlülüğü ve Geri Verme",
+  "short": "YÜKÜMLÜLÜK · GERİ VERME",
+  "subtitle": "Yükümlülüğün başladığı an, kusurlu eşyada 1 yıl, fazla ödenen vergide 3 yıl",
+  "intro": {
+    "chips": [
+      "3 YENİ SORU",
+      "TUZAK AVI",
+      "HAFIZA KARTI"
+    ],
+    "parts": [
+      {
+        "say": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Serinin yedinci ve son videosunda gümrük yükümlülüğü ve vergilerin geri verilmesi var."
+      },
+      {
+        "say": "Vergi alacağı ve geri verme başlıklarından son beş sınavda otuz iki soru geldi. Bugün üç yeni soru çözüyoruz,",
+        "chip": 0
+      },
+      {
+        "say": "tarih ve süre tuzaklarını avlıyoruz,",
+        "chip": 1
+      },
+      {
+        "say": "ve hafıza kartıyla seriyi kapatıyoruz. Başlayalım!",
+        "chip": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "chip": "Eşleştirme · Tarih",
+      "src": "4458 s. Gümrük Kanunu",
+      "stem": "4458 sayılı Gümrük Kanunu'na göre gümrük yükümlülüğünü doğuran hâller ile yükümlülüğün başladığı tarih eşleştirmelerinden hangisi yanlıştır?",
+      "options": [
+        "İthalat vergilerine tabi eşyanın serbest dolaşıma girişi – Gümrük beyannamesinin tescil tarihi",
+        "İthalat vergilerine tabi eşyanın Türkiye Gümrük Bölgesine kanuna aykırı olarak girmesi – Eşyanın gümrük idaresince yakalandığı tarih",
+        "Gümrük gözetimi altındaki eşyanın kanuna aykırı olarak gümrük gözetimi dışına çıkarılması – Eşyanın gümrük gözetiminden çıkarıldığı tarih",
+        "Serbest bölgedeki eşyanın kanuna aykırı olarak tüketilmesi veya kullanılması – Eşyanın tüketildiği veya ilk kez kullanıldığı tarih",
+        "İhracat vergilerine tabi eşyanın gümrük beyanında bulunulmaksızın Türkiye Gümrük Bölgesi dışına çıkarılması – Eşyanın fiilen Türkiye Gümrük Bölgesi dışına çıktığı tarih"
+      ],
+      "answer": "B",
+      "gerekce": "Mevzuata göre ithalat vergilerine tabi eşyanın Kanuna aykırı şekilde Türkiye Gümrük Bölgesine girmesi hâlinde gümrük yükümlülüğü, eşyanın Türkiye Gümrük Bölgesine Kanuna aykırı olarak girişi tarihinde başlar; eşyanın yakalandığı tarih esas alınmaz. Serbest dolaşıma girişte beyannamenin tescil tarihi, gümrük gözetiminden Kanuna aykırı çıkarmada eşyanın gözetimden çıkarıldığı tarih, serbest bölgede Kanuna aykırı tüketim veya kullanımda eşyanın tüketildiği veya ilk kez kullanıldığı tarih, ihracat vergilerine tabi eşyanın beyansız çıkarılmasında ise fiilen çıktığı tarih esas alınır. Bu nedenle doğru cevap B seçeneğidir. (GK MD 181-183, 185, 189)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru cevap (B yanlış eşleştirme): GK 182/1-2 (s.37989-37991). Doğru eşleştirmeler: A → GK 181/1 (s.37971-37977); C → GK 183/2 (s.38009); D → GK 185/2 (s.38057); E → GK 189/2 (s.38109). Anlatım: GK 188/2 ihracat beyannamesi tescil (s.38099); GK 193/1 oranlar (s.38153); GK 181/2 yükümlü ve dolaylı temsil (s.37979); GK 192 müteselsil sorumluluk (s.38147). Esin: 2022/29 (ihracatta yükümlülük tescil tarihinde başlar), 2023/88 (gözetimden çıkarma → yükümlülük doğar), eşleştirme kalıbı 2025-A/37.",
+      "read": [
+        {
+          "say": "Video yedinin ilk sorusu bir eşleştirme. Yükümlülüğün başladığı tarihle ilgili hangi eşleştirme yanlıştır?",
+          "mark": "yanlıştır"
+        },
+        {
+          "say": "A: Serbest dolaşıma giriş, beyannamenin tescil tarihi.",
+          "show": "A"
+        },
+        {
+          "say": "B: Kanuna aykırı giriş, eşyanın yakalandığı tarih.",
+          "show": "B"
+        },
+        {
+          "say": "C: Gözetimden kanuna aykırı çıkarma, çıkarıldığı tarih.",
+          "show": "C"
+        },
+        {
+          "say": "D: Serbest bölgede kanuna aykırı tüketim, tüketildiği ya da ilk kez kullanıldığı tarih.",
+          "show": "D"
+        },
+        {
+          "say": "E: İhracat vergisine tabi eşyanın beyansız çıkışı, fiilen çıktığı tarih.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap B!"
+        },
+        {
+          "say": "Tabloyu iki sütunda kuralım. İthalatta normal yol: serbest dolaşıma giriş ve kısmi muafiyetli geçici ithalatta yükümlülük, beyannamenin tescil tarihinde başlar.",
+          "show": [
+            "c1",
+            "i1"
+          ]
+        },
+        {
+          "say": "[cautiously] B'nin tuzağı: kanuna aykırı girişte saat, eşyanın Türkiye Gümrük Bölgesine girdiği gün başlar; yakalandığı gün değil.",
+          "show": [
+            "i2"
+          ],
+          "hl": [
+            "i2"
+          ],
+          "pose": "saskin",
+          "callout": {
+            "type": "tuzak",
+            "title": "GİRİŞ günü, yakalanma günü değil",
+            "text": "Kanuna aykırı girişte gümrük yükümlülüğü, eşyanın Türkiye Gümrük Bölgesine kanuna aykırı olarak girişi tarihinde başlar."
+          }
+        },
+        {
+          "say": "Gözetimden kaçırmada çıkarıldığı tarih; serbest bölgede aykırı tüketimde tüketildiği ya da ilk kez kullanıldığı tarih.",
+          "show": [
+            "i3",
+            "i4"
+          ]
+        },
+        {
+          "say": "İhracat sütunu: beyannameyle ihraçta tescil tarihi, beyansız çıkışta eşyanın fiilen çıktığı tarih.",
+          "show": [
+            "c2",
+            "e1",
+            "e2"
+          ]
+        },
+        {
+          "say": "Bu tarih neden önemli? Vergi, yükümlülüğün başladığı tarihteki oranlar ve vergilendirme unsurlarıyla hesaplanır.",
+          "pose": "onemli",
+          "callout": {
+            "type": "onemli",
+            "title": "Oran = başlangıç günündeki oran",
+            "text": "İthalat veya ihracat vergileri, gümrük yükümlülüğünün başladığı tarihteki vergi oranları ve diğer vergilendirme unsurlarına göre belirlenir."
+          }
+        },
+        {
+          "say": "Ve yükümlü kim? Beyan sahibi. Dolaylı temsilde hesabına beyanda bulunulan kişi de yükümlüdür; birden çok yükümlü müteselsilen sorumludur.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Dolaylı temsilde İKİ yükümlü",
+            "text": "Yükümlü beyan sahibidir; dolaylı temsilde hesabına beyanda bulunulan kişi de yükümlüdür. Temsilcinin yükümlülüğü, verilerin yanlış olduğunu bildiği veya bilmesi gerektiği hâllerle sınırlıdır."
+          }
+        }
+      ],
+      "board": {
+        "title": "Yükümlülük saati ne zaman başlar?",
+        "madde": "4458 s. GK md. 181-185, 188-189, 193",
+        "kind": "split",
+        "columns": [
+          {
+            "id": "c1",
+            "title": "İTHALAT",
+            "tone": "navy"
+          },
+          {
+            "id": "c2",
+            "title": "İHRACAT",
+            "tone": "gold"
+          }
+        ],
+        "items": [
+          {
+            "id": "i1",
+            "col": "c1",
+            "text": "Serbest dolaşım → TESCİL tarihi"
+          },
+          {
+            "id": "i2",
+            "col": "c1",
+            "text": "Kanuna aykırı giriş → GİRİŞ tarihi",
+            "tone": "gold"
+          },
+          {
+            "id": "i3",
+            "col": "c1",
+            "text": "Gözetimden kaçırma → ÇIKARILDIĞI tarih"
+          },
+          {
+            "id": "i4",
+            "col": "c1",
+            "text": "Serbest bölge → tüketim / İLK kullanım"
+          },
+          {
+            "id": "e1",
+            "col": "c2",
+            "text": "Beyannameyle ihraç → TESCİL tarihi"
+          },
+          {
+            "id": "e2",
+            "col": "c2",
+            "text": "Beyansız çıkış → FİİLEN çıktığı tarih"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Somut olay · Kusurlu eşya",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "(K) firması, İtalya'dan ithal ettiği tekstil makinelerini serbest dolaşıma sokmuş; ithalat vergileri 3 Mart 2026 tarihinde firmaya tebliğ edilerek ödenmiştir. Makinelerin beyannamenin tescili tarihi itibarıyla kusurlu olduğu, kusurun tespiti için gerekli ilk kullanım sırasında anlaşılmış ve firma makineleri kabul etmemiştir. Gümrük mevzuatına göre ödenen vergilerin geri verilmesine ilişkin aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "Firma, vergilerin tebliğinden itibaren üç yıl içinde gümrük idaresine başvurabilir.",
+        "Makineler kusurun tespiti için bir kez kullanıldığından vergiler geri verilmez.",
+        "Geri verme için makinelerin ihracı zorunludur; ihraç yerine imhalarına veya antrepoya konulmalarına izin verilmez.",
+        "Firma, vergilerin tebliğ edildiği 3 Mart 2026 tarihinden itibaren bir yıl içinde gümrük idaresine başvurmalıdır.",
+        "Makineler kusurlu olduğu teyit edildikten sonra Türkiye'de satılsa dahi ithalat vergileri geri verilir."
+      ],
+      "answer": "D",
+      "gerekce": "Mevzuata göre beyannamenin tescili tarihi itibarıyla kusurlu olduğundan ithalatçı tarafından kabul edilmeyen eşyanın ithalat vergileri; kusurun tespiti için gerekli ilk kullanım dışında eşyanın kullanılmamış olması ve Türkiye Gümrük Bölgesi dışına ihraç edilmesi koşuluyla geri verilir; gümrük idareleri talep üzerine ihraç yerine imhaya, yeniden ihraç amacıyla transit veya gümrük antrepo rejimine tabi tutmaya ya da serbest bölgeye koymaya izin verir. Bunun için vergilerin yükümlüye tebliği tarihinden itibaren bir yıl içinde gümrük idaresine başvurulması gerekir. Eşya kusurlu olduğu teyit edildikten sonra ithalatçı tarafından satılırsa vergiler geri verilmez. Bu nedenle doğru cevap D seçeneğidir. (GK MD 213; GY MD 501)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · Doğru (D): GK 213/4 (s.39039); GGT Tahsilat Seri No:2 md. 30/5 'bir yıllık başvuru süresi' (s.39215). Çeldiriciler: A → üç yıl GK 211/2 ve GY 502/5'teki genel süredir (s.39007, 39123); B → GK 213/2 ilk kullanım istisnası (s.39033); C → GK 213/2 ikinci paragraf imha/transit/antrepo/serbest bölge (s.39035); E → GY 501/1-b (s.39105). Anlatım: GK 213/1 kusurlu eşya tanımı (s.39031). Esin: 2025-A/93 (kusurlu eşya, '3 yıl' yanlış şık), 2024/84-C/D, 2022/91 ve 2024/83 (bir yıllık başvuru süresi kalıbı).",
+      "read": [
+        {
+          "say": "İkinci soru bir senaryo. K firmasının ithal ettiği makinelerin vergileri üç mart iki bin yirmi altıda tebliğ edilip ödeniyor. Makinelerin tescilde zaten kusurlu olduğu ilk kullanımda anlaşılıyor; firma kabul etmiyor. Hangisi doğrudur?",
+          "mark": "doğrudur"
+        },
+        {
+          "say": "A: Başvuru, tebliğden itibaren üç yıl içinde yapılabilir.",
+          "show": "A"
+        },
+        {
+          "say": "B: Makineler kullanıldığı için vergiler geri verilmez.",
+          "show": "B"
+        },
+        {
+          "say": "C: Makineler mutlaka ihraç edilmeli; imhaya izin verilmez.",
+          "show": "C"
+        },
+        {
+          "say": "D: Başvuru, tebliğden itibaren bir yıl içinde yapılmalı.",
+          "show": "D"
+        },
+        {
+          "say": "E: Kusur teyit edildikten sonra satılsa da vergi geri verilir.",
+          "show": "E"
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap D!"
+        },
+        {
+          "say": "Kusurlu eşyada geri vermenin dört halkası var. Bir: eşya tescil tarihinde kusurlu olmalı ve ithalatçı kabul etmemeli.",
+          "show": [
+            "n1"
+          ]
+        },
+        {
+          "say": "İki: kusuru tespit için gereken ilk kullanım dışında kullanılmamış olmalı. B şıkkı bu istisnayı atlıyor.",
+          "show": [
+            "n2"
+          ]
+        },
+        {
+          "say": "Üç: eşya ihraç edilmeli; ama talep üzerine imha, transit, antrepo ya da serbest bölge de olur. C yanlış.",
+          "show": [
+            "n3"
+          ]
+        },
+        {
+          "say": "Dört: başvuru, vergilerin tebliğinden itibaren bir yıl içinde.",
+          "show": [
+            "n4"
+          ],
+          "hl": [
+            "n4"
+          ],
+          "pose": "onemli"
+        },
+        {
+          "say": "[cautiously] A'nın tuzağı: üç yıl, genel geri verme süresi. Kusurlu eşyada süre bir yıl; 2025 sınavında tam bu şık yanlıştı.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Kusurlu eşya = 1 YIL",
+            "text": "Başvuru, vergilerin yükümlüye tebliğinden itibaren 1 yıl içinde yapılır. 3 yıl, kanunen ödenmemesi gereken vergilerdeki genel süredir. 2025'te 'kusurlu eşyada 3 yıl' yanlış şıktı."
+          }
+        },
+        {
+          "say": "E de yanlış: eşya kusuru teyit edildikten sonra satılırsa vergiler geri verilmez.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Satış = geri verme YOK",
+            "text": "Fiyat belirlenirken kusur dikkate alınmışsa ya da eşya kusuru teyit edildikten sonra ithalatçı tarafından satılmışsa vergiler geri verilmez ve kaldırılmaz."
+          }
+        }
+      ],
+      "board": {
+        "title": "Kusurlu eşyada geri verme",
+        "madde": "4458 s. GK md. 213 · GY md. 501",
+        "kind": "flow",
+        "nodes": [
+          {
+            "id": "n1",
+            "text": "Tescilde KUSURLU",
+            "sub": "ithalatçı kabul etmez"
+          },
+          {
+            "id": "n2",
+            "text": "Kullanılmamış",
+            "sub": "tespit için ilk kullanım hariç"
+          },
+          {
+            "id": "n3",
+            "text": "İhraç",
+            "sub": "veya imha, transit, antrepo, serbest bölge"
+          },
+          {
+            "id": "n4",
+            "text": "Başvuru: 1 YIL",
+            "sub": "vergilerin tebliğinden",
+            "tone": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "chip": "Öncüllü · Geri verme",
+      "src": "GK · Gümrük Yönetmeliği",
+      "stem": "4458 sayılı Gümrük Kanunu ve Gümrük Yönetmeliği'ne göre gümrük vergilerinin geri verilmesi veya kaldırılmasına ilişkin aşağıdaki ifadelerden hangileri yanlıştır?",
+      "statements": [
+        "“Geri verme” ödenmiş olan gümrük vergilerinin tamamen veya kısmen geri ödenmesini, “kaldırma” ise henüz ödenmemiş olan gümrük vergilerinin tamamen veya kısmen alınmamasına karar verilmesini ifade eder.",
+        "Gümrük vergilerinin geri verilmesi veya kaldırılmasına ilişkin hükümler, Gümrük Kanunu kapsamında tatbik edilen para cezaları için de uygulanır.",
+        "Kanunen ödenmemesi gereken gümrük vergileri ilgili kişinin kasten yaptığı bir tahrifat sonucunda ödenmişse, başvurunun süresi içinde yapılması şartıyla bu vergiler geri verilir.",
+        "Kanunen ödenmemesi gerektiği hâlde ödenen gümrük vergilerinin geri verilmesinde üç yıllık başvuru süresi, vergilerin ödendiği tarihte başlar."
+      ],
+      "options": [
+        "III ve IV",
+        "I ve III",
+        "II ve IV",
+        "I, II ve III",
+        "II, III ve IV"
+      ],
+      "answer": "A",
+      "gerekce": "Mevzuata göre geri verme, ödenmiş olan gümrük vergilerinin tamamen veya kısmen geri ödenmesi; kaldırma, henüz ödenmemiş olan gümrük vergilerinin tamamen veya kısmen alınmamasına karar verilmesidir ve bu hükümler Gümrük Kanunu kapsamında tatbik edilen para cezaları için de uygulanır. Kanunen ödenmemesi gereken vergiler ilgili kişinin kasten yaptığı bir tahrifat sonucunda ödenmişse geri verme talebi kabul edilmez; Kanunun 211 inci maddesi uyarınca üç yıllık başvuru süresi ödeme tarihinde değil, vergilerin yükümlüye tebliğ edildiği tarihte başlar. Bu nedenle doğru cevap A seçeneğidir. (GK MD 210-211; GY MD 502)",
+      "kaynak": "GUMRUK_MEVZUATI_TUMU.md · I doğru: GK 210/a-b (s.38991-38993). II doğru: GK 210 son paragraf (s.38997). III yanlış: GK 211/1 ikinci paragraf (s.39005). IV yanlış: GK 211/2 (s.39007), GY 502/5 (s.39123). Anlatım: GK 212 (s.39023); GK 213/4 (s.39039); GK 214 (s.39047-39049; metinde 'tebliği' sözcüğü düşmüş, 2024/83 resmî cevabı 'tebliğ tarihinden itibaren 1 yıl'); GY 504/2 otuz gün (s.39135). Esin: 2023/69 (I-III öncül, tanımlar + 'adli para cezaları'), 2021/80 ('6183 kapsamındaki para cezaları'), 2022/89 (md. 211'de 'bir yıl' çeldiricisi).",
+      "read": [
+        {
+          "say": "Ve son soru öncüllü. Geri verme ve kaldırmaya ilişkin hangi ifadeler yanlıştır?",
+          "mark": "hangileri yanlıştır"
+        },
+        {
+          "say": "Bir: Geri verme ödenmiş vergiyi geri ödemek, kaldırma ödenmemiş vergiyi almamaya karar vermektir.",
+          "show": "S0"
+        },
+        {
+          "say": "İki: Bu hükümler Gümrük Kanunu kapsamındaki para cezalarına da uygulanır.",
+          "show": "S1"
+        },
+        {
+          "say": "Üç: Kasten yapılan tahrifatla ödenen vergi, süresinde başvurulursa geri verilir.",
+          "show": "S2"
+        },
+        {
+          "say": "Dört: Fazla ödenen vergide üç yıllık süre ödeme tarihinde başlar.",
+          "show": "S3"
+        },
+        {
+          "say": "Şıklar ekranda.",
+          "show": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ],
+      "explain": [
+        {
+          "say": "[excited] Doğru cevap A: üç ve dört."
+        },
+        {
+          "say": "Önce süre haritası. Kanunen ödenmemesi gerektiği hâlde ödenen ya da tahakkuk ettirilen vergide başvuru süresi üç yıl.",
+          "show": [
+            "root",
+            "b1"
+          ]
+        },
+        {
+          "say": "Beyanname iptalinde, iptal başvurusu için öngörülen süre.",
+          "show": [
+            "b2"
+          ]
+        },
+        {
+          "say": "Kusurlu eşyada ve uluslararası anlaşma hâllerinde bir yıl. Bu üç sürede saat, vergilerin tebliğiyle başlar.",
+          "show": [
+            "b3",
+            "b4"
+          ]
+        },
+        {
+          "say": "Talep, otuz gün içinde karara bağlanır.",
+          "show": [
+            "b5"
+          ]
+        },
+        {
+          "say": "Dördüncü öncül bu yüzden yanlış: üç yıl ödeme tarihinden değil, tebliğ tarihinden başlar.",
+          "hl": [
+            "b1"
+          ],
+          "pose": "onemli",
+          "callout": {
+            "type": "uyari",
+            "title": "Saat TEBLİĞDE başlar",
+            "text": "Kanunen ödenmemesi gereken vergilerde 3 yıllık başvuru süresi, vergilerin yükümlüye tebliğ edildiği tarihte başlar; ödeme tarihi esas alınmaz."
+          }
+        },
+        {
+          "say": "[cautiously] Üçüncü öncülün tuzağı: kasten yapılan tahrifatla ödenen vergide talep hiç kabul edilmez. Ticaret politikası önlemine tabi eşyada kıymeti kendi beyanıyla artırmak da öyle.",
+          "callout": {
+            "type": "tuzak",
+            "title": "Kasıtlı tahrifat = talep REDDEDİLİR",
+            "text": "Vergiler kasten yapılan tahrifat ya da ticaret politikası önlemine tabi eşyada kıymetin kendi beyanıyla artırılması sonucu ödenmişse geri verme veya kaldırma talebi kabul edilmez."
+          }
+        },
+        {
+          "say": "Bir ve iki kanunun cümlesi. 2023 sınavında 'adli para cezaları' diye çarpıtılmıştı; hüküm Gümrük Kanunundaki para cezaları içindir.",
+          "callout": {
+            "type": "dikkat",
+            "title": "Para cezaları da kapsamda",
+            "text": "Hükümler Gümrük Kanunu kapsamında tatbik edilen para cezalarına da uygulanır. 'Adli para cezası' (2023) ve '6183 kapsamındaki para cezası' (2021) çeldiriciydi."
+          }
+        }
+      ],
+      "board": {
+        "title": "Geri verme: süre haritası",
+        "madde": "4458 s. GK md. 210-214 · GY md. 502, 504",
+        "kind": "branch",
+        "root": {
+          "id": "root",
+          "text": "Geri verme / kaldırma",
+          "sub": "başvuru süreleri",
+          "tone": "gold"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "text": "Md. 211 · fazla / yersiz ödeme → 3 YIL (tebliğden)"
+          },
+          {
+            "id": "b2",
+            "text": "Md. 212 · beyanname iptali → iptal süresi içinde"
+          },
+          {
+            "id": "b3",
+            "text": "Md. 213 · kusurlu eşya → 1 YIL (tebliğden)"
+          },
+          {
+            "id": "b4",
+            "text": "Md. 214 · uluslararası anlaşma → 1 YIL (tebliğden)"
+          },
+          {
+            "id": "b5",
+            "text": "Karar: 30 GÜN içinde",
+            "tone": "green"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "items": [
+      {
+        "title": "Kanuna aykırı giriş → GİRİŞ tarihi",
+        "text": "Serbest dolaşımda tescil; gözetimden kaçırmada çıkarıldığı an; vergi o tarihteki oranlarla."
+      },
+      {
+        "title": "Kusurlu eşya: 1 yıl",
+        "text": "Kullanılmamış (ilk kullanım hariç) + ihraç ya da imha/transit/antrepo; satılırsa iade yok."
+      },
+      {
+        "title": "Md. 211: 3 yıl, tebliğden",
+        "text": "Kasıtlı tahrifatta talep reddedilir; hükümler para cezalarına da uygulanır; karar 30 gün."
+      }
+    ],
+    "parts": [
+      {
+        "say": "Serinin son hafıza kartı. Üç cümle."
+      },
+      {
+        "say": "Bir: kanuna aykırı girişte yükümlülük giriş tarihinde başlar; yakalandığı gün değil.",
+        "item": 0
+      },
+      {
+        "say": "İki: kusurlu eşyada başvuru bir yıl; ilk kullanım hariç kullanılmamış olmalı ve ihraç edilmeli.",
+        "item": 1
+      },
+      {
+        "say": "Üç: fazla ödenen vergide üç yıl, tebliğden; kasıtlı tahrifatta talep reddedilir.",
+        "item": 2
+      },
+      {
+        "say": "Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+        "score": true
+      }
+    ]
+  },
+  "outro": {
+    "title": "Seriyi bitirdin, tebrikler!",
+    "next": "Tekrar için: Video 1 · Gümrük Kıymeti",
+    "parts": [
+      {
+        "say": "[excited] Yedi videoda yirmi bir soru ve onlarca tuzak! Skorunu yorumlara yaz, abone ol ve tekrarı ihmal etme. Sınavda başarılar, görüşmek üzere!"
+      }
+    ]
+  },
+  "total": 7
+}

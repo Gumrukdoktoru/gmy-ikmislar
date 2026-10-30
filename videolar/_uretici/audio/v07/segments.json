@@ -1,0 +1,62 @@
+[
+ {
+  "id": "intro",
+  "text": "[excited] Merhaba arkadaşlar, ben Gümrük Koçu! Serinin yedinci ve son videosunda gümrük yükümlülüğü ve vergilerin geri verilmesi var. Vergi alacağı ve geri verme başlıklarından son beş sınavda otuz iki soru geldi. Bugün üç yeni soru çözüyoruz, tarih ve süre tuzaklarını avlıyoruz, ve hafıza kartıyla seriyi kapatıyoruz. Başlayalım!",
+  "chars": 331
+ },
+ {
+  "id": "q1_read",
+  "text": "Video yedinin ilk sorusu bir eşleştirme. Yükümlülüğün başladığı tarihle ilgili hangi eşleştirme yanlıştır? A: Serbest dolaşıma giriş, beyannamenin tescil tarihi. B: Kanuna aykırı giriş, eşyanın yakalandığı tarih. C: Gözetimden kanuna aykırı çıkarma, çıkarıldığı tarih. D: Serbest bölgede kanuna aykırı tüketim, tüketildiği ya da ilk kez kullanıldığı tarih. E: İhracat vergisine tabi eşyanın beyansız çıkışı, fiilen çıktığı tarih.",
+  "chars": 429
+ },
+ {
+  "id": "q1_think",
+  "text": "Videoyu durdurabilirsin. Süren başladı… beş saniye!",
+  "chars": 51
+ },
+ {
+  "id": "q1_exp",
+  "text": "[excited] Doğru cevap B! Tabloyu iki sütunda kuralım. İthalatta normal yol: serbest dolaşıma giriş ve kısmi muafiyetli geçici ithalatta yükümlülük, beyannamenin tescil tarihinde başlar. [cautiously] B'nin tuzağı: kanuna aykırı girişte saat, eşyanın Türkiye Gümrük Bölgesine girdiği gün başlar; yakalandığı gün değil. Gözetimden kaçırmada çıkarıldığı tarih; serbest bölgede aykırı tüketimde tüketildiği ya da ilk kez kullanıldığı tarih. İhracat sütunu: beyannameyle ihraçta tescil tarihi, beyansız çıkışta eşyanın fiilen çıktığı tarih. Bu tarih neden önemli? Vergi, yükümlülüğün başladığı tarihteki oranlar ve vergilendirme unsurlarıyla hesaplanır. Ve yükümlü kim? Beyan sahibi. Dolaylı temsilde hesabına beyanda bulunulan kişi de yükümlüdür; birden çok yükümlü müteselsilen sorumludur.",
+  "chars": 785
+ },
+ {
+  "id": "q2_read",
+  "text": "İkinci soru bir senaryo. K firmasının ithal ettiği makinelerin vergileri üç mart iki bin yirmi altıda tebliğ edilip ödeniyor. Makinelerin tescilde zaten kusurlu olduğu ilk kullanımda anlaşılıyor; firma kabul etmiyor. Hangisi doğrudur? A: Başvuru, tebliğden itibaren üç yıl içinde yapılabilir. B: Makineler kullanıldığı için vergiler geri verilmez. C: Makineler mutlaka ihraç edilmeli; imhaya izin verilmez. D: Başvuru, tebliğden itibaren bir yıl içinde yapılmalı. E: Kusur teyit edildikten sonra satılsa da vergi geri verilir.",
+  "chars": 526
+ },
+ {
+  "id": "q2_think",
+  "text": "Şimdi sıra sende. Beş saniye düşün!",
+  "chars": 35
+ },
+ {
+  "id": "q2_exp",
+  "text": "[excited] Doğru cevap D! Kusurlu eşyada geri vermenin dört halkası var. Bir: eşya tescil tarihinde kusurlu olmalı ve ithalatçı kabul etmemeli. İki: kusuru tespit için gereken ilk kullanım dışında kullanılmamış olmalı. B şıkkı bu istisnayı atlıyor. Üç: eşya ihraç edilmeli; ama talep üzerine imha, transit, antrepo ya da serbest bölge de olur. C yanlış. Dört: başvuru, vergilerin tebliğinden itibaren bir yıl içinde. [cautiously] A'nın tuzağı: üç yıl, genel geri verme süresi. Kusurlu eşyada süre bir yıl; 2025 sınavında tam bu şık yanlıştı. E de yanlış: eşya kusuru teyit edildikten sonra satılırsa vergiler geri verilmez.",
+  "chars": 622
+ },
+ {
+  "id": "q3_read",
+  "text": "Ve son soru öncüllü. Geri verme ve kaldırmaya ilişkin hangi ifadeler yanlıştır? Bir: Geri verme ödenmiş vergiyi geri ödemek, kaldırma ödenmemiş vergiyi almamaya karar vermektir. İki: Bu hükümler Gümrük Kanunu kapsamındaki para cezalarına da uygulanır. Üç: Kasten yapılan tahrifatla ödenen vergi, süresinde başvurulursa geri verilir. Dört: Fazla ödenen vergide üç yıllık süre ödeme tarihinde başlar. Şıklar ekranda.",
+  "chars": 414
+ },
+ {
+  "id": "q3_think",
+  "text": "Kalemi al, işaretle. Beş saniye!",
+  "chars": 32
+ },
+ {
+  "id": "q3_exp",
+  "text": "[excited] Doğru cevap A: üç ve dört. Önce süre haritası. Kanunen ödenmemesi gerektiği hâlde ödenen ya da tahakkuk ettirilen vergide başvuru süresi üç yıl. Beyanname iptalinde, iptal başvurusu için öngörülen süre. Kusurlu eşyada ve uluslararası anlaşma hâllerinde bir yıl. Bu üç sürede saat, vergilerin tebliğiyle başlar. Talep, otuz gün içinde karara bağlanır. Dördüncü öncül bu yüzden yanlış: üç yıl ödeme tarihinden değil, tebliğ tarihinden başlar. [cautiously] Üçüncü öncülün tuzağı: kasten yapılan tahrifatla ödenen vergide talep hiç kabul edilmez. Ticaret politikası önlemine tabi eşyada kıymeti kendi beyanıyla artırmak da öyle. Bir ve iki kanunun cümlesi. 2023 sınavında 'adli para cezaları' diye çarpıtılmıştı; hüküm Gümrük Kanunundaki para cezaları içindir.",
+  "chars": 766
+ },
+ {
+  "id": "summary",
+  "text": "Serinin son hafıza kartı. Üç cümle. Bir: kanuna aykırı girişte yükümlülük giriş tarihinde başlar; yakalandığı gün değil. İki: kusurlu eşyada başvuru bir yıl; ilk kullanım hariç kullanılmamış olmalı ve ihraç edilmeli. Üç: fazla ödenen vergide üç yıl, tebliğden; kasıtlı tahrifatta talep reddedilir. Skorun kaç? Üçte üç yaptıysan müşavirlik yolundasın!",
+  "chars": 350
+ },
+ {
+  "id": "outro",
+  "text": "[excited] Yedi videoda yirmi bir soru ve onlarca tuzak! Skorunu yorumlara yaz, abone ol ve tekrarı ihmal etme. Sınavda başarılar, görüşmek üzere!",
+  "chars": 145
+ }
+]

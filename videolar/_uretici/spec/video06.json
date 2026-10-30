@@ -2,7 +2,7 @@
   "no": 6,
   "title": "Gümrük Müşavirliği ve Temsil",
   "short": "MÜŞAVİRLİK · TEMSİL",
-  "subtitle": "Kim hangi temsille iş takip eder, meslek yolu ve 60 gün, yetkilendirilmiş müşavirin sınırları",
+  "subtitle": "Temsil türleri, meslek yolu ve 60 gün, yetkilendirilmiş müşavirin sınırları",
   "intro": {
     "chips": [
       "3 YENİ SORU",
@@ -439,7 +439,7 @@
         "branches": [
           {
             "id": "b1",
-            "text": "Antrepo raporu: en çok 2 GENEL · toplam 4 antrepo"
+            "text": "Antrepo raporu: en çok 2 GENEL · toplam 4"
           },
           {
             "id": "b2",
@@ -451,7 +451,7 @@
           },
           {
             "id": "b4",
-            "text": "Hatalı rapor → tespit kapsamında MÜTESELSİL sorumluluk"
+            "text": "Hatalı rapor → tespit kapsamında MÜTESELSİL"
           },
           {
             "id": "b5",
@@ -466,7 +466,7 @@
     "items": [
       {
         "title": "Dolaylı temsil: müşavir + posta/kargo",
-        "text": "Taşıyıcı yalnız transit; gerçek kişi vekil ticari olmayan eşya; yardımcı tek başına iş takip edemez."
+        "text": "Taşıyıcı yalnız transit; gerçek kişi ticari olmayan eşyada; yardımcı tek başına iş takip edemez."
       },
       {
         "title": "1 yıl staj · 60 gün · 2 yıl",
@@ -507,5 +507,6 @@
         "say": "[excited] Skorunu yorumlara yaz, abone olmayı unutma. Sıradaki videoda gümrük yükümlülüğü ve vergilerin geri verilmesi var. Görüşmek üzere!"
       }
     ]
-  }
+  },
+  "total": 7
 }

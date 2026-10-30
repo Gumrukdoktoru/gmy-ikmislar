@@ -590,7 +590,7 @@ def build_video(vid):
         f'<div class="chip" id="ic{k}" style="background:rgba(255,255,255,.08);border:3px solid {chip_colors[k%3]};color:#fff"><span class="dot" style="background:{chip_colors[k%3]}"></span>{esc(c)}</div>'
         for k, c in enumerate(chips))
     intro_inner = (
-        f'<div class="intro-kicker" id="ik">GMY SORU KAMPI · VİDEO {vnum}/5</div>'
+        f'<div class="intro-kicker" id="ik">GMY SORU KAMPI · VİDEO {vnum}/{spec.get("total", 5)}</div>'
         f'<div class="intro-num" id="inum">{int(vnum):02d}</div>'
         f'<div class="intro-block"><div class="intro-title" id="ititle" style="font-size:{intro_title_px(spec["title"])}px">{tw_html}</div>'
         f'<div class="intro-sub" id="isub">{esc(spec["subtitle"])}</div>'
@@ -882,7 +882,7 @@ def build_video(vid):
     pills = "".join(f'<div class="pill" id="pl{k}"><div class="pf" id="pl{k}-f"></div><div class="pd" id="pl{k}-d"></div><span>S{k+1}</span></div>' for k in range(nq))
     topbar = (f'<div id="topbar" class="clip" data-start="{r3(Q[0]["start"])}" data-duration="{r3(T["out"] + XF - Q[0]["start"])}" data-track-index="5">'
               f'<div class="bar" id="tb-in"><div class="brand"><div class="badge">GK</div><b>GÜMRÜK KOÇU</b><i>GMY SORU KAMPI</i></div>'
-              f'<div class="vinfo"><div class="vt">VİDEO {vnum}/5 · {esc(spec["short"])}</div>{pills}</div></div></div>')
+              f'<div class="vinfo"><div class="vt">VİDEO {vnum}/{spec.get("total", 5)} · {esc(spec["short"])}</div>{pills}</div></div></div>')
     C.fromto("#tb-in", {"y": -100, "opacity": 0}, {"y": 0, "opacity": 1, "duration": 0.5, "ease": "power3.out"}, Q[0]["start"] + 0.1)
     C.to("#tb-in", {"opacity": 0, "duration": XF}, T["out"])
     for k, q in enumerate(Q):
@@ -1020,7 +1020,7 @@ def write_brief(proj, spec):
 workflow: general-video
 flow: automation
 storyboard: no
-message: "GMY Soru Kampı {spec['no']}/5 — {spec['title']}: 3 özgün soru, tuzaklar ve hafıza kartı"
+message: "GMY Soru Kampı {spec["no"]}/{spec.get("total", 5)} — {spec['title']}: 3 özgün soru, tuzaklar ve hafıza kartı"
 destination: youtube
 aspect: 1920x1080
 language: tr
