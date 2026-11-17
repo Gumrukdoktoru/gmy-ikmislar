@@ -17,7 +17,7 @@
 - Decision: ortak-kök regex Türkçe sıra sayı ekine izin verir ("40 ncı soruları") — Reason: 39 ve 40 soruları ayrışsın
 - Decision: labels_gm.py YEARS=2021..2026, B_KITAPCIK={2022,2026} — Reason: B kitapçık sıra farkı
 - Decision: trend = ilk yarı yıllar ortalaması vs son yarı (2021-23 → 2024-26) — Reason: 6 yıl için dengeli karşılaştırma
-- Decision: GM-GMY karşılaştırması ortak yıllar 2021-2025 ile sınırlı — Reason: GMY 2026 verisi yok
+- Decision: GM-GMY karşılaştırması GMY verisi olan ortak yıllarla sınırlı (şu an 2021-2026; GMY 2026 eklendi) — Reason: yalnız ortak yıllar adil karşılaştırılır
 - Decision: build_gm.py DATA.meta (n,y0,y1,b,early,late,cmp) geçirir; gm_app.js yıl sabiti içermez — Reason: hardcode yıl hataları önlenir
 - Decision: insights_gm_src.py tüm sayıları veriden hesaplar; poss() yardımcı fonksiyonu Türkçe iyelik ekleri (39'u, 13'ü) için — Reason: sayılar elle girilmesin
 - Decision: tekrar_gm.py 38 tekrarlayan kalıp — Reason: yıllar arası tekrar analizi

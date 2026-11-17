@@ -2,7 +2,8 @@ import json, re, os
 OUT=os.path.dirname(os.path.abspath(__file__))
 SKIP=re.compile(r"(Diğer [Ss]ayfaya [Gg]eçiniz|GÜMRÜK MÜŞAVİR YARDIMCILIĞI|A Kitapçığı|TİCARET BAKANLIĞI|^\s*A\s*$|^\s*\d+\s*$|TEST BİTTİ|Test bitti)")
 res={}
-for year in range(2021,2026):
+YEARS=sorted(int(f[6:10]) for f in os.listdir(OUT) if re.fullmatch(r"lines_20\d\d\.json",f))
+for year in YEARS:
     L=json.load(open(f"{OUT}/lines_{year}.json"))
     qs={}; cur=None; expected=1
     stop=False

@@ -118,4 +118,4 @@ MEVZUAT = {
 MEVZUAT_ORDER = list(MEVZUAT)
 
 ZORLUK = {"KOLAY": "Kolay", "ORTA": "Orta", "ZOR": "Zor"}
-YEARS = [2021, 2022, 2023, 2024, 2025]
+YEARS = list(range(2021, 2027))

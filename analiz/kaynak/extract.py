@@ -3,8 +3,8 @@ import pymupdf as fitz
 from collections import Counter
 
 # PDF'lerden satırları renk bilgisiyle çıkarır; doğru cevaplar kırmızı (#ff0000) işaretlidir.
-REPO=os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
-FILES={2021:"2021-gmy-sinavi-cevapli.pdf",2022:"2022-gmy-sinavi-cevapli.pdf",2023:"2023-gmy-sinavi-cevapli.pdf",2024:"2024-gmy-sinavi-cevapli.pdf",2025:"Gümrük_Müşavir_Yardımcılığı_A_Kitapçığı_Yanıt_Anahtarlı.pdf"}
+REPO=os.environ.get("GMY_PDF_DIR") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+FILES={2021:"2021-gmy-sinavi-cevapli.pdf",2022:"2022-gmy-sinavi-cevapli.pdf",2023:"2023-gmy-sinavi-cevapli.pdf",2024:"2024-gmy-sinavi-cevapli.pdf",2025:"Gümrük_Müşavir_Yardımcılığı_A_Kitapçığı_Yanıt_Anahtarlı.pdf",2026:"2026-gmy-sinavi-cevapli.pdf"}
 OUT=os.path.dirname(os.path.abspath(__file__))
 
 def is_red(c):

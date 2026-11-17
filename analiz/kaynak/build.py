@@ -21,6 +21,10 @@ from labels import (BOLUM, BOLUM_ORDER, GRUP, KOK, KOK_ORDER, KONU, KONU2GRUP,  
 
 WORK = sys.argv[1]
 OUT = sys.argv[2]
+Y0, Y1 = YEARS[0], YEARS[-1]
+_H = len(YEARS) // 2
+E_LBL = f"{YEARS[0]}–{str(YEARS[_H - 1])[2:]}"
+L_LBL = f"{YEARS[-_H]}–{str(YEARS[-1])[2:]}"
 IMG = os.path.join(OUT, "grafikler")
 os.makedirs(IMG, exist_ok=True)
 
@@ -102,7 +106,7 @@ for k in [k for k in KONU if k.startswith("G_")]:
     if not tot:
         continue
     konu_stat.append(dict(k=k, l=KONU[k], m=m, tot=tot, avg=tot / len(YEARS), yrs=sum(1 for v in m.values() if v),
-                          early=(m[2021] + m[2022]) / 2, late=(m[2024] + m[2025]) / 2, g=KONU2GRUP[k]))
+                          early=sum(m[y] for y in YEARS[:_H]) / _H, late=sum(m[y] for y in YEARS[-_H:]) / _H, g=KONU2GRUP[k]))
 konu_stat.sort(key=lambda r: (-r["tot"], r["l"]))
 
 
@@ -231,10 +235,10 @@ for y in YEARS:
 # Karşılaştırma grafikleri
 imgs["hm_konu"] = heat_png(konu_stat, YEARS, "10_karsilastirma_konu_isi_haritasi.png",
                            "Gümrük konuları × yıl (soru sayısı)",
-                           extra=lambda r: f"Σ{r['tot']}  ort.{r['avg']:.1f}  {r['yrs']}/5 yıl", figw=9.4)
+                           extra=lambda r: f"Σ{r['tot']}  ort.{r['avg']:.1f}  {r['yrs']}/{len(YEARS)} yıl", figw=9.4)
 top = konu_stat[:12]
 fig, ax = plt.subplots(figsize=(8.6, 4.6))
-hbar(ax, [r["l"] for r in top], [r["tot"] for r in top], title="En çok soru gelen 12 gümrük konusu (2021–2025 toplam)")
+hbar(ax, [r["l"] for r in top], [r["tot"] for r in top], title=f"En çok soru gelen 12 gümrük konusu ({Y0}–{Y1} toplam)")
 imgs["top12"] = save(fig, "11_en_cok_soru_gelen_konular.png")
 
 grows = []
@@ -269,7 +273,7 @@ if dd:
     ax.xaxis.grid(True, color=GRID)
     ax.set_axisbelow(True)
     ax.set_xlabel("yıllık ortalama soru sayısı")
-    ax.set_title("Yükselen (yeşil) ve düşen (kırmızı) konular: 2021–22 ort. ○ → 2024–25 ort. ●", loc="left",
+    ax.set_title(f"Yükselen (yeşil) ve düşen (kırmızı) konular: {E_LBL} ort. ○ → {L_LBL} ort. ●", loc="left",
                  fontsize=11, color=INK, fontweight="bold")
     imgs["dumb"] = save(fig, "16_yukselen_dusen_konular.png")
 
@@ -293,9 +297,9 @@ def md_table(head, rows):
 
 
 md = []
-md.append("# GMY Soru Atlası 2021–2025\n")
-md.append("Gümrük Müşavir Yardımcılığı sınavının 2021, 2022, 2023, 2024 ve 2025 yıllarına ait A kitapçıklarındaki "
-          "**500 sorunun** konu, soru kalıbı, soru tipi ve dayandığı mevzuata göre analizi. Etkileşimli sürüm: "
+md.append(f"# GMY Soru Atlası {Y0}–{Y1}\n")
+md.append("Gümrük Müşavir Yardımcılığı sınavının " + ", ".join(map(str, YEARS[:-1])) + f" ve {Y1} yıllarına ait A kitapçıklarındaki "
+          f"**{len(Q)} sorunun** konu, soru kalıbı, soru tipi ve dayandığı mevzuata göre analizi. Etkileşimli sürüm: "
           "`GMY_Soru_Atlasi.html` (tarayıcıda açın).\n")
 md.append("## İçindekiler\n\n1. [Sınavın yapısı](#1-sınavın-yapısı)\n2. [Yıl yıl analiz](#2-yıl-yıl-analiz)\n"
           "3. [Yılların karşılaştırması](#3-yılların-karşılaştırması)\n4. [Sonuç: en çok neyden, nasıl soruluyor?](#4-sonuç-en-çok-neyden-nasıl-soruluyor)\n"
@@ -325,8 +329,8 @@ for y in YEARS:
 
 md.append("## 3. Yılların karşılaştırması\n")
 md.append(f"![Konu ısı haritası]({imgs['hm_konu']})\n")
-md.append(md_table(["#", "Konu", *map(str, YEARS), "Toplam", "Ort./yıl", "Çıktığı yıl", "Eğilim (24–25 vs 21–22)"],
-                   [[i + 1, r["l"], *[r["m"][y] for y in YEARS], r["tot"], f"{r['avg']:.1f}", f"{r['yrs']}/5",
+md.append(md_table(["#", "Konu", *map(str, YEARS), "Toplam", "Ort./yıl", "Çıktığı yıl", f"Eğilim ({L_LBL} vs {E_LBL})"],
+                   [[i + 1, r["l"], *[r["m"][y] for y in YEARS], r["tot"], f"{r['avg']:.1f}", f"{r['yrs']}/{len(YEARS)}",
                      f"{'▲' if r['late'] - r['early'] >= 1 else '▼' if r['late'] - r['early'] <= -1 else '■'} "
                      f"{r['late'] - r['early']:+.1f}"] for i, r in enumerate(konu_stat)]))
 md.append(f"\n![En çok soru gelen konular]({imgs['top12']})\n")
@@ -363,8 +367,8 @@ md.append("## 5. Yöntem ve dosyalar\n")
 md.append(re.sub(r"<[^>]+>", "", ins["yontem"]) + "\n")
 md.append(md_table(["Dosya", "İçerik"], [
     ["`GMY_Soru_Atlasi.html`", "Etkileşimli rapor: optik form şeması, yıl sekmeleri, ısı haritaları, tekrar eden soru kalıpları"],
-    ["`GMY_Soru_Atlasi.pdf`", "Raporun yazdırılabilir A4 sürümü: beş yılın analizi art arda, ardından karşılaştırma ve sonuç"],
-    ["`gmy_soru_siniflandirma.csv`", "500 sorunun tamamı: konu, alt konu, kalıp, tip, mevzuat, zorluk, özet, öğrenilecek bilgi (Excel'de açılır)"],
+    ["`GMY_Soru_Atlasi.pdf`", "Raporun yazdırılabilir A4 sürümü: yılların analizi art arda, ardından karşılaştırma ve sonuç"],
+    ["`gmy_soru_siniflandirma.csv`", f"{len(Q)} sorunun tamamı: konu, alt konu, kalıp, tip, mevzuat, zorluk, özet, öğrenilecek bilgi (Excel'de açılır)"],
     ["`gmy_soru_siniflandirma.json`", "Aynı veri, JSON"],
     ["`grafikler/`", "Bu rapordaki PNG grafikler"],
     ["`kaynak/`", "PDF'ten soru/cevap çıkarma ve rapor üretme betikleri, taksonomi"],
@@ -375,7 +379,8 @@ open(os.path.join(OUT, "README.md"), "w", encoding="utf-8").write("\n".join(md))
 labels = dict(bolum=BOLUM, bolum_order=BOLUM_ORDER, konu=KONU, grup=GRUP, konu2grup=KONU2GRUP, kok=KOK,
               kok_order=KOK_ORDER, tip=TIP, tip_order=TIP_ORDER, mevzuat=MEVZUAT, mevzuat_order=MEVZUAT_ORDER,
               zorluk=ZORLUK)
-data = dict(labels=labels, years=YEARS, questions=[{k: q[k] for k in FIELDS} for q in Q],
+meta = dict(n=len(Q), y0=Y0, y1=Y1, n_years=len(YEARS), gk=sum(1 for q in Q if q["bolum"] == "GUMRUK"), early=E_LBL, late=L_LBL)
+data = dict(labels=labels, years=YEARS, questions=[{k: q[k] for k in FIELDS} for q in Q], meta=meta,
             insights={k: v for k, v in ins.items() if k != "yontem"})
 tpl = open(os.path.join(WORK, "template.html"), encoding="utf-8").read()
 payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")

@@ -459,23 +459,23 @@ Hesap sorularında neler öne çıkıyor?6 yılda 70 hesap sorusu var (yılda 9�
 
 ### GM ve GMY karşılaştırması
 
-Ortak yıllar (2021–2025): GM'nin 500 sorusu ile GMY'nin gümrük bölümündeki 400 sorusu.
+Ortak yıllar (2021–2026): GM'nin 600 sorusu ile GMY'nin gümrük bölümündeki 480 sorusu.
 
 ![GM-GMY](grafikler/19_gm_gmy_karsilastirma.png)
 
 | Alan | GM % | GM soru | GMY % | GMY soru |
 |---|---|---|---|---|
-| Tarife & sınıflandırma | 15.8 | 79 | 2.0 | 8 |
-| Gümrük kıymeti | 9.0 | 45 | 7.2 | 29 |
-| Menşe & tercihli ticaret | 6.6 | 33 | 5.2 | 21 |
-| Gümrük rejimleri | 16.6 | 83 | 23.5 | 94 |
-| Genel hükümler, beyan & özel işlemler | 10.0 | 50 | 17.5 | 70 |
-| Muafiyetler | 4.8 | 24 | 6.5 | 26 |
-| Vergi alacağı, ceza & uzlaşma | 5.6 | 28 | 14.2 | 57 |
-| Kaçakçılık (5607) | 4.4 | 22 | 6.5 | 26 |
-| Meslek, YGM & kolaylaştırma | 3.4 | 17 | 11.8 | 47 |
-| İç vergiler, kambiyo & fonlar | 10.6 | 53 | 0.0 | 0 |
-| Dış ticaret politikası & uluslararası ticaret | 13.2 | 66 | 5.5 | 22 |
+| Tarife & sınıflandırma | 16.3 | 98 | 2.3 | 11 |
+| Gümrük kıymeti | 8.3 | 50 | 7.7 | 37 |
+| Menşe & tercihli ticaret | 6.8 | 41 | 4.8 | 23 |
+| Gümrük rejimleri | 17.8 | 107 | 24.6 | 118 |
+| Genel hükümler, beyan & özel işlemler | 9.3 | 56 | 16.5 | 79 |
+| Muafiyetler | 4.7 | 28 | 6.7 | 32 |
+| Vergi alacağı, ceza & uzlaşma | 5.7 | 34 | 14.4 | 69 |
+| Kaçakçılık (5607) | 4.2 | 25 | 6.2 | 30 |
+| Meslek, YGM & kolaylaştırma | 3.5 | 21 | 11.2 | 54 |
+| İç vergiler, kambiyo & fonlar | 10.8 | 65 | 0.0 | 0 |
+| Dış ticaret politikası & uluslararası ticaret | 12.5 | 75 | 5.6 | 27 |
 
 
 ### Sınavda sorulan süre, oran ve tutarlar
