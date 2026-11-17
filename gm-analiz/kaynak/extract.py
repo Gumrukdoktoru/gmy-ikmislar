@@ -1,5 +1,5 @@
 """GM sınavı PDF'lerinden satırları renk bilgisiyle çıkarır; doğru cevaplar kırmızı (#ff0000) işaretlidir."""
-import json, os, sys
+import json, os, re, sys
 import pymupdf
 PDF = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "pdf")
 OUT = os.path.dirname(os.path.abspath(__file__))
@@ -8,7 +8,8 @@ def is_red(c):
     r, g, b = (c >> 16) & 255, (c >> 8) & 255, c & 255
     return r > 150 and g < 100 and b < 100
 
-for year in range(2021, 2026):
+YEARS = sorted(int(f[:4]) for f in os.listdir(PDF) if re.fullmatch(r"20\d\d\.pdf", f))
+for year in YEARS:
     doc = pymupdf.open(os.path.join(PDF, f"{year}.pdf"))
     lines = []
     for pno, page in enumerate(doc):

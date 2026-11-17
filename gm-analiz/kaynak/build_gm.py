@@ -17,10 +17,15 @@ import matplotlib.pyplot as plt  # noqa: E402
 from matplotlib.colors import LinearSegmentedColormap  # noqa: E402
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from labels_gm import (BOLUMLER, GRUP, HESAP, KOK, KONU, KONU2GRUP, MEVZUAT, TIP, YEARS,  # noqa: E402
+from labels_gm import (B_KITAPCIK, BOLUMLER, GRUP, HESAP, KOK, KONU, KONU2GRUP, MEVZUAT, TIP, YEARS,  # noqa: E402
                        ZORLUK, fasil_bolum)
 
 WORK, OUT = sys.argv[1], sys.argv[2]
+Y0, Y1 = YEARS[0], YEARS[-1]
+_H = len(YEARS) // 2
+E_LBL = f"{YEARS[0]}–{str(YEARS[_H - 1])[2:]}"
+L_LBL = f"{YEARS[-_H]}–{str(YEARS[-1])[2:]}"
+B_TXT = " ve ".join(str(y) for y in sorted(B_KITAPCIK))
 GMY_DIR = sys.argv[3] if len(sys.argv) > 3 else None
 IMG = os.path.join(OUT, "grafikler")
 os.makedirs(IMG, exist_ok=True)
@@ -113,10 +118,14 @@ CMP = [
     ("Dış ticaret politikası & uluslararası ticaret", GRUP["Dış Ticaret Politikası & Uluslararası Ticaret"],
      ["G_DIS_TICARET_POL", "G_DIS_TIC_BELGE"]),
 ]
-gmy_cmp = []
-if GMY_DIR and all(os.path.exists(os.path.join(GMY_DIR, f"cls_{y}.json")) for y in YEARS):
-    G = [r for y in YEARS for r in json.load(open(os.path.join(GMY_DIR, f"cls_{y}.json"), encoding="utf-8"))
+gmy_cmp, cmp_meta = [], {}
+GMY_YEARS = [y for y in YEARS if GMY_DIR and os.path.exists(os.path.join(GMY_DIR, f"cls_{y}.json"))]
+if GMY_YEARS:
+    G = [r for y in GMY_YEARS for r in json.load(open(os.path.join(GMY_DIR, f"cls_{y}.json"), encoding="utf-8"))
          if r["bolum"] == "GUMRUK"]
+    QC = [q for q in Q if q["yil"] in GMY_YEARS]
+    _kcc = Counter(q["konu"] for q in QC)
+    cmp_meta = dict(years=f"{GMY_YEARS[0]}–{GMY_YEARS[-1]}", n_years=len(GMY_YEARS), gm_n=len(QC), gmy_n=len(G))
     gk = Counter(r["konu"] for r in G)
     covered = set(k for _, _, ks in CMP for k in ks)
     missing = set(gk) - covered
@@ -124,8 +133,8 @@ if GMY_DIR and all(os.path.exists(os.path.join(GMY_DIR, f"cls_{y}.json")) for y 
     covered_gm = set(k for _, ks, _ in CMP for k in ks)
     assert covered_gm == set(KONU), set(KONU) ^ covered_gm
     for alan, gm_k, gmy_k in CMP:
-        a, b = sum(_kc[k] for k in gm_k), sum(gk[k] for k in gmy_k)
-        gmy_cmp.append(dict(alan=alan, gm=a * 100 / len(Q), gmy=b * 100 / len(G), gm_n=a, gmy_n=b))
+        a, b = sum(_kcc[k] for k in gm_k), sum(gk[k] for k in gmy_k)
+        gmy_cmp.append(dict(alan=alan, gm=a * 100 / len(QC), gmy=b * 100 / len(G), gm_n=a, gmy_n=b))
 
 # ------------------------------------------------------------------ CSV / JSON
 with open(os.path.join(OUT, "gm_soru_siniflandirma.csv"), "w", newline="", encoding="utf-8-sig") as f:
@@ -147,8 +156,8 @@ for k in KONU:
     tot = sum(m.values())
     if tot:
         konu_stat.append(dict(k=k, l=KONU[k], m=m, tot=tot, avg=tot / len(YEARS),
-                              yrs=sum(1 for v in m.values() if v), early=(m[2021] + m[2022]) / 2,
-                              late=(m[2024] + m[2025]) / 2, g=KONU2GRUP[k]))
+                              yrs=sum(1 for v in m.values() if v), early=sum(m[y] for y in YEARS[:_H]) / _H,
+                              late=sum(m[y] for y in YEARS[-_H:]) / _H, g=KONU2GRUP[k]))
 konu_stat.sort(key=lambda r: (-r["tot"], r["l"]))
 
 
@@ -258,7 +267,7 @@ ax.set_xlim(0, 101)
 ax.set_ylim(-(len(YEARS) - 1) * 1.35 - 0.8, 0.8)
 ax.set_aspect("equal")
 ax.set_yticks([-i * 1.35 for i in range(len(YEARS))])
-ax.set_yticklabels([f"{y}{' (B)' if y == 2022 else ''}" for y in YEARS])
+ax.set_yticklabels([f"{y}{' (B)' if y in B_KITAPCIK else ''}" for y in YEARS])
 ax.set_xticks([1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
 ax.tick_params(length=0)
 for s in ax.spines.values():
@@ -285,11 +294,11 @@ for y in YEARS:
     imgs[f"{y}_kok_tip"] = save(fig, f"{y}_2_soru_kalibi_ve_tipi.png")
 
 imgs["hm_konu"] = heat_png(konu_stat, YEARS, "10_konu_isi_haritasi.png", "Konular × yıl (soru sayısı)",
-                           extra=lambda r: f"Σ{r['tot']}  ort.{r['avg']:.1f}  {r['yrs']}/5", figw=9.6)
+                           extra=lambda r: f"Σ{r['tot']}  ort.{r['avg']:.1f}  {r['yrs']}/{len(YEARS)}", figw=9.6)
 top = konu_stat[:15]
 fig, ax = plt.subplots(figsize=(8.6, 5.4))
 hbar(ax, [r["l"] for r in top], [r["tot"] for r in top], color=[SER[GRUPLAR.index(r["g"])] for r in top],
-     title="En çok soru gelen 15 konu (2021–2025 toplam)")
+     title=f"En çok soru gelen 15 konu ({Y0}–{Y1} toplam)")
 imgs["top"] = save(fig, "11_en_cok_soru_gelen_konular.png")
 imgs["grup"] = stack_png([{"l": y, "m": Counter(KONU2GRUP[q["konu"]] for q in by_year(y))} for y in YEARS],
                          GRUPLAR, {g: g for g in GRUPLAR}, SER, "12_konu_grubu_paylari.png",
@@ -333,15 +342,15 @@ if dd:
     ax.xaxis.grid(True, color=GRID)
     ax.set_axisbelow(True)
     ax.set_xlabel("yıllık ortalama soru sayısı")
-    ax.set_title("Yükselen (yeşil) ve düşen (kırmızı) konular: 2021–22 ort. ○ → 2024–25 ort. ●", loc="left",
+    ax.set_title(f"Yükselen (yeşil) ve düşen (kırmızı) konular: {E_LBL} ort. ○ → {L_LBL} ort. ●", loc="left",
                  fontsize=11, color=INK, fontweight="bold")
     imgs["dumb"] = save(fig, "18_yukselen_dusen_konular.png")
 if gmy_cmp:
     import numpy as np
     fig, ax = plt.subplots(figsize=(8.6, 0.55 * len(gmy_cmp) + 1.2))
     ys = np.arange(len(gmy_cmp))[::-1]
-    ax.barh(ys + 0.18, [r["gm"] for r in gmy_cmp], height=0.34, color=SER[0], label="GM (500 soru)")
-    ax.barh(ys - 0.18, [r["gmy"] for r in gmy_cmp], height=0.34, color=SER[1], label="GMY gümrük bölümü (400 soru)")
+    ax.barh(ys + 0.18, [r["gm"] for r in gmy_cmp], height=0.34, color=SER[0], label=f"GM {cmp_meta['years']} ({cmp_meta['gm_n']} soru)")
+    ax.barh(ys - 0.18, [r["gmy"] for r in gmy_cmp], height=0.34, color=SER[1], label=f"GMY gümrük bölümü ({cmp_meta['gmy_n']} soru)")
     ax.set_yticks(ys)
     ax.set_yticklabels([r["alan"] for r in gmy_cmp], fontsize=9)
     for yv, r in zip(ys, gmy_cmp):
@@ -367,8 +376,8 @@ def strip(s):
     return re.sub(r"<[^>]+>", "", s)
 
 
-md = ["# GM Soru Atlası 2021–2025\n",
-      "Gümrük Müşavirliği sınavının 2021–2025 yıllarına ait **500 sorusunun** konu, soru kalıbı, soru tipi, mevzuat, "
+md = [f"# GM Soru Atlası {Y0}–{Y1}\n",
+      f"Gümrük Müşavirliği sınavının {Y0}–{Y1} yıllarına ait **{len(Q)} sorusunun** konu, soru kalıbı, soru tipi, mevzuat, "
       "tarife faslı ve hesap türüne göre analizi. Etkileşimli sürüm: `GM_Soru_Atlasi.html`, yazdırılabilir sürüm: "
       "`GM_Soru_Atlasi.pdf`.\n",
       "## İçindekiler\n\n1. [Sınavın yapısı](#1-sınavın-yapısı)\n2. [Yıl yıl analiz](#2-yıl-yıl-analiz)\n"
@@ -376,15 +385,15 @@ md = ["# GM Soru Atlası 2021–2025\n",
       "4. [Derinlemesine: tarife, hesap ve sayısal bilgiler](#4-derinlemesine-tarife-hesap-ve-sayısal-bilgiler)\n"
       "5. [Sonuç](#5-sonuç-en-çok-neyden-nasıl-soruluyor)\n",
       "## 1. Sınavın yapısı\n",
-      "Her yıl 100 soru / 150 dakika; genel yetenek ve genel kültür bölümü yok, soruların tamamı mesleki. 2022 dosyası "
-      "B kitapçığıdır (soru sırası A'dan farklı).\n",
+      "Her yıl 100 soru / 150 dakika; genel yetenek ve genel kültür bölümü yok, soruların tamamı mesleki. "
+      f"{B_TXT} dosyaları B kitapçığıdır (soru sırası A'dan farklı).\n",
       md_table(["Konu grubu", *map(str, YEARS), "Ort./yıl"],
                [[g, *[sum(1 for q in by_year(y) if KONU2GRUP[q["konu"]] == g) for y in YEARS],
                  f"{sum(1 for q in Q if KONU2GRUP[q['konu']] == g) / len(YEARS):.1f}"] for g in GRUPLAR]),
       "\n```mermaid\n" + ins["mermaid"] + "\n```\n", f"![Optik form şeması]({imgs['optik']})\n",
       "## 2. Yıl yıl analiz\n"]
 for y in YEARS:
-    md.append(f"### {y}{' (B kitapçığı)' if y == 2022 else ''}\n")
+    md.append(f"### {y}{' (B kitapçığı)' if y in B_KITAPCIK else ''}\n")
     md += [f"- {strip(t)}" for t in ins["years"][str(y)]]
     md += ["", f"![{y} konular]({imgs[f'{y}_konu']})\n", f"![{y} kalıp ve tip]({imgs[f'{y}_kok_tip']})\n"]
     g = by_year(y)
@@ -396,7 +405,7 @@ for y in YEARS:
 md.append("## 3. Yılların karşılaştırması\n")
 md.append(f"![Konu ısı haritası]({imgs['hm_konu']})\n")
 md.append(md_table(["#", "Konu", *map(str, YEARS), "Toplam", "Ort./yıl", "Çıktığı yıl", "Eğilim"],
-                   [[i + 1, r["l"], *[r["m"][y] for y in YEARS], r["tot"], f"{r['avg']:.1f}", f"{r['yrs']}/5",
+                   [[i + 1, r["l"], *[r["m"][y] for y in YEARS], r["tot"], f"{r['avg']:.1f}", f"{r['yrs']}/{len(YEARS)}",
                      f"{'▲' if r['late'] - r['early'] >= 1 else '▼' if r['late'] - r['early'] <= -1 else '■'} "
                      f"{r['late'] - r['early']:+.1f}"] for i, r in enumerate(konu_stat)]))
 for k in ("top", "grup", "kok", "hm_tip", "hm_mev", "dumb"):
@@ -412,6 +421,8 @@ md.append(f"![Hesap türleri]({imgs['hm_hesap']})\n")
 md.append(strip(ins.get("hesap_not", "")).strip() + "\n")
 if gmy_cmp:
     md.append("### GM ve GMY karşılaştırması\n")
+    md.append(f"Ortak yıllar ({cmp_meta['years']}): GM'nin {cmp_meta['gm_n']} sorusu ile GMY'nin gümrük bölümündeki "
+              f"{cmp_meta['gmy_n']} sorusu.\n")
     md.append(f"![GM-GMY]({imgs['gmy']})\n")
     md.append(md_table(["Alan", "GM %", "GM soru", "GMY %", "GMY soru"],
                        [[r["alan"], f"{r['gm']:.1f}", r["gm_n"], f"{r['gmy']:.1f}", r["gmy_n"]] for r in gmy_cmp]))
@@ -440,7 +451,7 @@ md.append("## Dosyalar\n")
 md.append(md_table(["Dosya", "İçerik"], [
     ["`GM_Soru_Atlasi.html`", "Etkileşimli rapor: optik form şeması, yıl sekmeleri, ısı haritaları, fasıl ve hesap analizi"],
     ["`GM_Soru_Atlasi.pdf`", "Raporun yazdırılabilir A4 sürümü"],
-    ["`gm_soru_siniflandirma.csv`", "500 sorunun tam sınıflandırması (Excel'de açılır)"],
+    ["`gm_soru_siniflandirma.csv`", f"{len(Q)} sorunun tam sınıflandırması (Excel'de açılır)"],
     ["`gm_soru_siniflandirma.json`", "Aynı veri, JSON"],
     ["`grafikler/`", "Bu rapordaki PNG grafikler"],
     ["`kaynak/`", "Soru/cevap çıkarma ve rapor üretme betikleri, taksonomi"],
@@ -451,7 +462,8 @@ open(os.path.join(OUT, "README.md"), "w", encoding="utf-8").write("\n".join(md))
 labels = dict(konu=KONU, grup=GRUP, konu2grup=KONU2GRUP, kok=KOK, kok_order=KOK_ORDER, tip=TIP, tip_order=TIP_ORDER,
               mevzuat=MEVZUAT, mevzuat_order=MEVZUAT_ORDER, hesap=HESAP, zorluk=ZORLUK,
               bolumler=[list(b) for b in BOLUMLER])
-data = dict(labels=labels, years=YEARS, questions=[{k: q[k] for k in FIELDS} for q in Q], gmy_cmp=gmy_cmp,
+meta = dict(n=len(Q), y0=Y0, y1=Y1, n_years=len(YEARS), b=sorted(B_KITAPCIK), early=E_LBL, late=L_LBL, cmp=cmp_meta)
+data = dict(labels=labels, years=YEARS, questions=[{k: q[k] for k in FIELDS} for q in Q], gmy_cmp=gmy_cmp, meta=meta,
             insights={k: v for k, v in ins.items() if k not in ("yontem", "mermaid")})
 tpl = open(os.path.join(WORK, "template_gm.html"), encoding="utf-8").read()
 payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")

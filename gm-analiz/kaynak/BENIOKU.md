@@ -4,7 +4,7 @@ Analizi yeniden üretmek için bu klasörde, sırasıyla:
 
 ```bash
 pip install pymupdf matplotlib
-# GM sınav PDF'lerini (gumrukdoktoru/gmcikmislar) 2021.pdf … 2025.pdf adlarıyla bir klasöre koyun
+# GM sınav PDF'lerini 2021.pdf … 2026.pdf adlarıyla bir klasöre koyun (betikler klasördeki yılları kendisi bulur)
 python3 extract.py <pdf_klasörü>        # satırları ve kırmızı işaretli cevapları çıkarır (lines_<yıl>.json)
 python3 parse.py                        # 5 × 100 soruyu ve doğru cevapları ayrıştırır (questions.json)
 python3 kokcheck_gm.py 2021 2022 2023 2024 2025   # soru kalıbı sınıflandırmasını metin kalıbıyla çapraz kontrol eder
@@ -20,4 +20,4 @@ node pdf.js ../GM_Soru_Atlasi.html ../GM_Soru_Atlasi.pdf   # A4 PDF (Playwright 
 - `tekrar_gm.py`: yıllar arasında tekrar eden soru kalıpları.
 - `apply_rev.py`: bağımsız ikinci kontrolde önerilen düzeltmeleri, eski değer eşleşmesini doğrulayarak uygular.
 - `template_gm.html`, `gm_body.html`, `gm_app.js`: etkileşimli raporun şablonu.
-- 2022 dosyası B kitapçığıdır; soru numaraları o kitapçığa göredir.
+- 2022 ve 2026 dosyaları B kitapçığıdır; soru numaraları o kitapçığa göredir.

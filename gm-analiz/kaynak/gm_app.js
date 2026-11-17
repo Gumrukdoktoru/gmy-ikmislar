@@ -1,4 +1,5 @@
 /* KPIs */
+const M=DATA.meta;
 const GRUPLAR=Object.keys(L.grup);
 const GCOL=g=>SER[GRUPLAR.indexOf(g)];
 (function(){
@@ -6,7 +7,7 @@ const GCOL=g=>SER[GRUPLAR.indexOf(g)];
   const kok=count(Q,"kok"), tc=count(Q,"tip"), mv=count(Q,"mevzuat");
   const tar=Q.filter(q=>q.konu==="GM_TARIFE_SINIF").length, hes=Q.filter(q=>q.tip==="HESAPLAMA").length;
   const k=[
-    {v:"500",l:"soru, 5 sınav (2021–2025), tamamı mesleki"},
+    {v:String(M.n),l:`soru, ${M.n_years} sınav (${M.y0}–${M.y1}), tamamı mesleki`},
     {v:`${top[1]}<small> soru</small>`,l:`en çok soru gelen konu: ${L.konu[top[0]]}`},
     {v:`%${pct(tar,Q.length)}`,l:`tarife sınıflandırma sorusu (${tar} soru)`},
     {v:`%${pct(hes,Q.length)}`,l:`hesap sorusu: kıymet, KDV, ÖTV, ceza (${hes} soru)`},
@@ -21,13 +22,13 @@ const GCOL=g=>SER[GRUPLAR.indexOf(g)];
   let h=`<div class="oaxis"><span></span>${Array.from({length:100},(_,i)=>`<span${i===99?' style="text-align:right;direction:rtl"':""}>${(i+1)%10===1&&i<91||i===99?i+1:""}</span>`).join("")}</div>`;
   Y.forEach(y=>{
     const qs=byYear(y).sort((a,b)=>a.n-b.n);
-    h+=`<div class="orow"><span class="yl">${y}${y===2022?"<sup>B</sup>":""}</span>${qs.map(q=>{const g=L.konu2grup[q.konu];
+    h+=`<div class="orow"><span class="yl">${y}${M.b.includes(y)?"<sup>B</sup>":""}</span>${qs.map(q=>{const g=L.konu2grup[q.konu];
       return `<span class="ob" tabindex="0" style="background:${GCOL(g)}" data-tip="<b>${y} · Soru ${q.n}</b> (cevap ${q.cevap})<br>${esc(g)} › ${esc(L.konu[q.konu])}<br><span style='opacity:.8'>${esc(q.alt_konu)}</span>"></span>`}).join("")}</div>`;
   });
   $("#optik").innerHTML=h;
   $("#optik-legend").innerHTML=GRUPLAR.map((g,i)=>`<span><i style="background:${SER[i]}"></i>${esc(g)}</span>`).join("");
   const gc={};Q.forEach(q=>{const g=L.konu2grup[q.konu];gc[g]=(gc[g]||0)+1});
-  hbars($("#grp-avg"),GRUPLAR.map(g=>({l:g,v:gc[g]/Y.length,vl:fmt(gc[g]/Y.length),c:GCOL(g),tip:`<b>${esc(g)}</b><br>5 yılda ${gc[g]} soru · yılda ort. ${fmt(gc[g]/Y.length)}<br>${L.grup[g].map(k=>esc(L.konu[k])).join(", ")}`})).sort((a,b)=>b.v-a.v),{lw:"58%"});
+  hbars($("#grp-avg"),GRUPLAR.map(g=>({l:g,v:gc[g]/Y.length,vl:fmt(gc[g]/Y.length),c:GCOL(g),tip:`<b>${esc(g)}</b><br>${M.n_years} yılda ${gc[g]} soru · yılda ort. ${fmt(gc[g]/Y.length)}<br>${L.grup[g].map(k=>esc(L.konu[k])).join(", ")}`})).sort((a,b)=>b.v-a.v),{lw:"58%"});
   const blok=[
     {l:"Tarife sınıflandırma",f:q=>q.konu==="GM_TARIFE_SINIF"},
     {l:"Hesap soruları",f:q=>q.tip==="HESAPLAMA"},
@@ -46,7 +47,7 @@ function renderYear(y,p=$("#ypanel"),pr=false){
   const fas={};qs.forEach(q=>(q.fasil||[]).forEach(f=>fas[f]=(fas[f]||0)+1));
   const hc=count(hes,"hesap");
   const ins=(INS.years&&INS.years[y])||[];
-  p.innerHTML=`${pr?`<h2 class="pyh">${y} sınavı${y===2022?" (B kitapçığı)":""}</h2>`:""}
+  p.innerHTML=`${pr?`<h2 class="pyh">${y} sınavı${M.b.includes(y)?" (B kitapçığı)":""}</h2>`:""}
   <div class="kpis k4">
     <div class="kpi"><span class="v">${topK[0][1]}<small> soru</small></span><span class="l">en çok: ${esc(L.konu[topK[0][0]])}</span></div>
     <div class="kpi"><span class="v">${tar.length}<small> soru</small></span><span class="l">tarife sınıflandırma · ${Object.keys(fas).length} farklı fasıl</span></div>
@@ -86,10 +87,10 @@ function renderYear(y,p=$("#ypanel"),pr=false){
 
 /* karşılaştırma */
 (function(){
-  const stat=Object.keys(L.konu).map(k=>{const m={};Y.forEach(y=>m[y]=Q.filter(q=>q.yil===y&&q.konu===k).length);const tot=Y.reduce((s,y)=>s+m[y],0);const early=(m[Y[0]]+m[Y[1]])/2,late=(m[Y[3]]+m[Y[4]])/2;return {k,l:L.konu[k],m,tot,avg:tot/Y.length,yrs:Y.filter(y=>m[y]>0).length,early,late,g:L.konu2grup[k]}}).filter(r=>r.tot>0).sort((a,b)=>b.tot-a.tot||a.l.localeCompare(b.l,"tr"));
+  const stat=Object.keys(L.konu).map(k=>{const m={};Y.forEach(y=>m[y]=Q.filter(q=>q.yil===y&&q.konu===k).length);const tot=Y.reduce((s,y)=>s+m[y],0);const h=Math.floor(Y.length/2),early=Y.slice(0,h).reduce((s,y)=>s+m[y],0)/h,late=Y.slice(-h).reduce((s,y)=>s+m[y],0)/h;return {k,l:L.konu[k],m,tot,avg:tot/Y.length,yrs:Y.filter(y=>m[y]>0).length,early,late,g:L.konu2grup[k]}}).filter(r=>r.tot>0).sort((a,b)=>b.tot-a.tot||a.l.localeCompare(b.l,"tr"));
   DATA._stat=stat;
-  heat($("#hm-konu"),stat,{extra:{n:4,head:`<th class="c">Toplam</th><th class="c">Ort./yıl</th><th class="c">Yıl</th><th class="c">Eğilim</th>`,row:r=>{const d=r.late-r.early;const cls=d>=1?"up":d<=-1?"dn":"eq";const sym=d>=1?"▲":d<=-1?"▼":"■";return `<td class="tot">${r.tot}</td><td class="tot">${fmt(r.avg)}</td><td class="tot">${r.yrs}/5</td><td class="c"><span class="trend ${cls}" data-tip="2021–22 ort. ${fmt(r.early)} → 2024–25 ort. ${fmt(r.late)}">${sym} ${d>0?"+":""}${fmt(d)}</span></td>`}}});
-  hbars($("#top-konu"),stat.slice(0,15).map(r=>({l:r.l,v:r.tot,c:GCOL(r.g),tip:`<b>${esc(r.l)}</b><br>5 yılda ${r.tot} soru · yılda ort. ${fmt(r.avg)}<br>${Y.map(y=>y+": "+r.m[y]).join(" · ")}`})),{lw:"56%"});
+  heat($("#hm-konu"),stat,{extra:{n:4,head:`<th class="c">Toplam</th><th class="c">Ort./yıl</th><th class="c">Yıl</th><th class="c">Eğilim</th>`,row:r=>{const d=r.late-r.early;const cls=d>=1?"up":d<=-1?"dn":"eq";const sym=d>=1?"▲":d<=-1?"▼":"■";return `<td class="tot">${r.tot}</td><td class="tot">${fmt(r.avg)}</td><td class="tot">${r.yrs}/${Y.length}</td><td class="c"><span class="trend ${cls}" data-tip="2021–22 ort. ${fmt(r.early)} → 2024–25 ort. ${fmt(r.late)}">${sym} ${d>0?"+":""}${fmt(d)}</span></td>`}}});
+  hbars($("#top-konu"),stat.slice(0,15).map(r=>({l:r.l,v:r.tot,c:GCOL(r.g),tip:`<b>${esc(r.l)}</b><br>${M.n_years} yılda ${r.tot} soru · yılda ort. ${fmt(r.avg)}<br>${Y.map(y=>y+": "+r.m[y]).join(" · ")}`})),{lw:"56%"});
   const grows=Y.map(y=>{const m={};byYear(y).forEach(q=>{const g=L.konu2grup[q.konu];m[g]=(m[g]||0)+1});return {l:y,m}});
   stack100($("#stk-grup"),grows,GRUPLAR,Object.fromEntries(GRUPLAR.map(g=>[g,g])),$("#lg-grup"));
   stack100($("#stk-kok"),Y.map(y=>({l:y,m:count(byYear(y),"kok")})),L.kok_order,L.kok,$("#lg-kok"));
@@ -105,7 +106,7 @@ function renderYear(y,p=$("#ypanel"),pr=false){
   let svg=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Yükselen ve düşen konular">`;
   for(let t=0;t<=Math.ceil(mx);t+=Math.ceil(mx)>12?2:1){svg+=`<line x1="${x(t)}" x2="${x(t)}" y1="${top-6}" y2="${H-6}" stroke="var(--line)" stroke-width="1"/><text x="${x(t)}" y="${top-12}" fill="var(--muted)" font-size="11" font-family="IBM Plex Mono,monospace" text-anchor="middle">${t}</text>`}
   dd.forEach((r,i)=>{const yy=top+i*rowH+rowH/2;const col=r.late>r.early?"var(--rise)":"var(--fall)";
-    svg+=`<g data-tip="<b>${esc(r.l)}</b><br>2021–22 ort. ${fmt(r.early)} → 2024–25 ort. ${fmt(r.late)}"><rect x="0" y="${yy-rowH/2}" width="${W}" height="${rowH}" fill="transparent"/><text x="${left-10}" y="${yy+4}" fill="var(--ink)" font-size="12" text-anchor="end" font-family="IBM Plex Sans,system-ui,sans-serif">${esc(r.l.length>36?r.l.slice(0,35)+"…":r.l)}</text><line x1="${x(r.early)}" x2="${x(r.late)}" y1="${yy}" y2="${yy}" stroke="${col}" stroke-width="2"/><circle cx="${x(r.early)}" cy="${yy}" r="5" fill="var(--surface)" stroke="${col}" stroke-width="2"/><circle cx="${x(r.late)}" cy="${yy}" r="5.5" fill="${col}" stroke="var(--surface)" stroke-width="2"/></g>`});
+    svg+=`<g data-tip="<b>${esc(r.l)}</b><br>${M.early} ort. ${fmt(r.early)} → ${M.late} ort. ${fmt(r.late)}"><rect x="0" y="${yy-rowH/2}" width="${W}" height="${rowH}" fill="transparent"/><text x="${left-10}" y="${yy+4}" fill="var(--ink)" font-size="12" text-anchor="end" font-family="IBM Plex Sans,system-ui,sans-serif">${esc(r.l.length>36?r.l.slice(0,35)+"…":r.l)}</text><line x1="${x(r.early)}" x2="${x(r.late)}" y1="${yy}" y2="${yy}" stroke="${col}" stroke-width="2"/><circle cx="${x(r.early)}" cy="${yy}" r="5" fill="var(--surface)" stroke="${col}" stroke-width="2"/><circle cx="${x(r.late)}" cy="${yy}" r="5.5" fill="${col}" stroke="var(--surface)" stroke-width="2"/></g>`});
   $("#dumb").innerHTML=svg+"</svg>";
 })();
 
@@ -124,7 +125,7 @@ function renderYear(y,p=$("#ypanel"),pr=false){
   heat($("#hm-hesap"),Object.keys(L.hesap).filter(k=>hes.some(q=>q.hesap===k)).map(k=>({l:L.hesap[k],m:Object.fromEntries(Y.map(y=>[y,hes.filter(q=>q.yil===y&&q.hesap===k).length]))})).sort((a,b)=>Y.reduce((s,y)=>s+b.m[y],0)-Y.reduce((s,y)=>s+a.m[y],0)),{rowHead:"Hesaplanan",extra:{n:1,head:`<th class="c">Toplam</th>`,row:r=>`<td class="tot">${Y.reduce((s,y)=>s+r.m[y],0)}</td>`}});
   $("#hesap-not").innerHTML=INS.hesap_not||"";
   const C=DATA.gmy_cmp||[];const cm=Math.max(...C.flatMap(r=>[r.gm,r.gmy]),1);
-  $("#gmy-cmp").innerHTML=`<div class="legend sq" style="margin-bottom:8px"><span><i style="background:var(--s1)"></i>GM (500 soru)</span><span><i style="background:var(--s2)"></i>GMY gümrük bölümü (400 soru)</span></div><div class="cmp">${C.map(r=>`<div class="cr" data-tip="<b>${esc(r.alan)}</b><br>GM: %${fmt(r.gm)} (${r.gm_n} soru)<br>GMY: %${fmt(r.gmy)} (${r.gmy_n} soru)"><span class="lab">${esc(r.alan)}</span><span class="bars"><span class="b1" style="width:${r.gm/cm*100}%"></span><span class="b2" style="width:${r.gmy/cm*100}%"></span></span><span class="val">%${fmt(r.gm)} · %${fmt(r.gmy)}</span></div>`).join("")}</div>`;
+  $("#gmy-cmp").innerHTML=`<div class="legend sq" style="margin-bottom:8px"><span><i style="background:var(--s1)"></i>GM ${M.cmp.years} (${M.cmp.gm_n} soru)</span><span><i style="background:var(--s2)"></i>GMY gümrük bölümü (${M.cmp.gmy_n} soru)</span></div><div class="cmp">${C.map(r=>`<div class="cr" data-tip="<b>${esc(r.alan)}</b><br>GM: %${fmt(r.gm)} (${r.gm_n} soru)<br>GMY: %${fmt(r.gmy)} (${r.gmy_n} soru)"><span class="lab">${esc(r.alan)}</span><span class="bars"><span class="b1" style="width:${r.gm/cm*100}%"></span><span class="b2" style="width:${r.gmy/cm*100}%"></span></span><span class="val">%${fmt(r.gm)} · %${fmt(r.gmy)}</span></div>`).join("")}</div>`;
   const S=Q.filter(q=>q.tip==="SAYISAL"&&q.sayisal).sort((a,b)=>GRUPLAR.indexOf(L.konu2grup[a.konu])-GRUPLAR.indexOf(L.konu2grup[b.konu])||L.konu[a.konu].localeCompare(L.konu[b.konu],"tr")||a.yil-b.yil);
   let last=null;
   $("#sayisal").innerHTML=`<div class="tblwrap"><table class="st"><thead><tr><th>Değer</th><th>Bilgi</th><th class="c">Yıl/Soru</th></tr></thead><tbody>${S.map(q=>{let h="";if(q.konu!==last){last=q.konu;h=`<tr class="grp"><td colspan="3">${esc(L.konu[q.konu])}</td></tr>`}return h+`<tr><td class="sv">${esc(q.sayisal)}</td><td><b>${esc(q.alt_konu)}</b> · <span class="kb">${esc(q.anahtar_bilgi)}</span></td><td class="c mono">${q.yil}/${q.n}</td></tr>`}).join("")}</tbody></table></div>`;

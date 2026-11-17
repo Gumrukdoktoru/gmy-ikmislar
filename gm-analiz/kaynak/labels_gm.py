@@ -111,7 +111,8 @@ HESAP = {
     "DIGER": "Diğer",
 }
 ZORLUK = {"KOLAY": "Kolay", "ORTA": "Orta", "ZOR": "Zor"}
-YEARS = [2021, 2022, 2023, 2024, 2025]
+YEARS = list(range(2021, 2027))
+B_KITAPCIK = {2022, 2026}  # elimizdeki dosya B kitapçığı olan yıllar
 
 # TGTC bölümleri (fasıl → bölüm), fasıl ısı haritası için
 BOLUMLER = [

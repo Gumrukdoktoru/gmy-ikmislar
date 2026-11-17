@@ -8,9 +8,10 @@
 import json, os, re
 OUT = os.path.dirname(os.path.abspath(__file__))
 SKIP = re.compile(r"(Diğer [Ss]ayfaya [Gg]eçiniz|GÜMRÜK MÜŞAVİRLİĞİ|[AB] Kitapçığı|TİCARET BAKANLIĞI|YAŞAM BOYU|OGRENME MERKEZ|ÖĞRENME MERKEZ|^\s*[AB]\s*$|^\s*\d+\s*$|TEST BİTTİ|Test bitti|rıh trsltt|^-{2,}\(.*\)-*$)")
-SHARED = re.compile(r"^(\d{1,3})\.?\s*(?:ve|-|–)\s*(\d{1,3})\.?\s*(?:numaralı\s*)?soru", re.I)
+SHARED = re.compile(r"^(\d{1,3})\.?\s*(?:ve|-|–)\s*(\d{1,3})\.?\s*(?:['’]?\s*(?:ıncı|inci|uncu|üncü|ncı|nci|ncu|ncü)\s*)?(?:numaralı\s*)?soru", re.I)
 res, shared_all = {}, {}
-for year in range(2021, 2026):
+YEARS = sorted(int(f[6:10]) for f in os.listdir(OUT) if re.fullmatch(r"lines_20\d\d\.json", f))
+for year in YEARS:
     L = json.load(open(f"{OUT}/lines_{year}.json"))
     qs = {}; cur = None; expected = 1; stop = False; shared = []; sbuf = None
     for ln in L:
